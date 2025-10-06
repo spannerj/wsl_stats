@@ -1,6 +1,7 @@
 {
   "data": [
     { "Player": "Alessia Russo", "Goals": 4, "Assists": 1, "Points": 27 },
-    { "Player": "Stina Blackstenius", "Goals": 1, "Assists": 2, "Points": 15 }
+    { "Player": "Stina Blackstenius", "Goals": 1, "Assists": 2, "Points": 15 },
+    { "Player": "Mary Rust", "Goals": 0, "Assists": 0, "Points": 0 },
   ]
 }
