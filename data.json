@@ -1,6 +1,6 @@
 {
   "data": [
-    { "Player": "Alessia Russo", "Goals": 4 },
-    { "Player": "Stina Blackstenius", "Goals": 1 }
+    { "Player": "Alessia Russo", "Goals": 4, "Assists": 1, "Points": 27 },
+    { "Player": "Stina Blackstenius", "Goals": 1, "Assists": 2, "Points": 15 }
   ]
 }
