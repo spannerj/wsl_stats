@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sortable Data Table</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+</head>
+<body>
+
+    <table id="myTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('#myTable').DataTable({
+            // The critical step: load data from your JSON file
+            ajax: 'data.json',
+            // Define which JSON field maps to which column in the HTML
+            columns: [
+                { data: 'Player' },
+                { data: 'Goals' },
+                { data: 'Assists' },
+                { data: 'Points' }
+            ]
+        });
+    });
+    </script>
+
+</body>
+</html>
