@@ -9,10 +9,11 @@
     <table id="myTable" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>Player</th>
-                <th>Goals</th>
-                <th>Assists</th>
-                <th>Points</th>
+                <th>Name</th>
+                <th>Team</th>
+                <th>Position</th>
+                <th>Selected %</th>
+                <th>Total</th>
             </tr>
         </thead>
     </table>
@@ -27,10 +28,11 @@
             ajax: 'data.json',
             // Define which JSON field maps to which column in the HTML
             columns: [
-                { data: 'Player' },
-                { data: 'Goals' },
-                { data: 'Assists' },
-                { data: 'Points' }
+                { data: 'Name' },
+                { data: 'Team' },
+                { data: 'Position' },
+                { data: 'Selected %' }
+                { data: 'Total' }
             ]
         });
     });
