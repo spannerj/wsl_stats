@@ -1,39 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Sortable Data Table</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortable Player Data Table</title>
+    <!-- Load Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.8/css/dataTables.tailwindcss.css">
+    
+    <style>
+        /* Custom styling for better presentation */
+        body { background-color: #f3f4f6; font-family: 'Inter', sans-serif; padding: 20px; }
+        .dt-container {
+            max-width: 100%; 
+            overflow-x: auto; 
+            background: white; 
+            padding: 1.5rem; 
+            border-radius: 0.75rem; 
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
 </head>
 <body>
 
-    <table id="myTable" class="display" style="width:100%">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Team</th>
-                <th>Position</th>
-                <th>Selected %</th>
-                <th>Total</th>
-            </tr>
-        </thead>
-    </table>
+    <div class="container mx-auto">
+        <h1 class="text-3xl font-extrabold text-gray-900 mb-6 text-center">
+            Fantasy Player Statistics
+        </h1>
+        
+        <div class="dt-container">
+            <!-- Ensure the class 'display' is kept for DataTables basic styling -->
+            <table id="myTable" class="display w-full text-sm text-left text-gray-700 dataTables_wrapper">
+                <thead>
+                    <tr>
+                        <th class="px-4 py-2">Name</th>
+                        <th class="px-4 py-2">Team</th>
+                        <th class="px-4 py-2">Position</th>
+                        <th class="px-4 py-2">Selected (%)</th>
+                        <th class="px-4 py-2">Total Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be inserted here by DataTables -->
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
 
+    <!-- Load jQuery (required by DataTables) -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Load DataTables JS and the Tailwind integration script -->
     <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.tailwindcss.min.js"></script>
 
     <script>
     $(document).ready(function() {
         $('#myTable').DataTable({
             // The critical step: load data from your JSON file
-            ajax: 'data.json',
+            ajax: {
+                url: 'data.json',
+                // DataTables expects an array at the root, which your JSON provides.
+                dataSrc: '' 
+            },
             // Define which JSON field maps to which column in the HTML
             columns: [
                 { data: 'Name' },
                 { data: 'Team' },
                 { data: 'Position' },
-                { data: 'Selected_Percentage' },
-                { data: 'Total_Points' }
-            ]
+                { data: 'Selected_Percentage' }, 
+                { data: 'Total_Points' } 
+            ],
+            // Add some responsive options
+            paging: true,
+            searching: true,
+            responsive: true,
         });
     });
     </script>
