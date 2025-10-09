@@ -81,21 +81,21 @@
             { data: 'Club', title: createHeader('Club', 'Club'), className: 'whitespace-nowrap' },
             { data: 'Position', title: createHeader('Pos', 'Position') },
             // Value is now a number (10.0), let's render it as a currency string
-            { data: 'Value', title: createHeader('Value', 'Player Value (M)'), render: (data) => `${data.toFixed(1)}M`, className: 'text-right' },
+            { data: 'Value', title: createHeader('Val', 'Player Value (M)'), render: (data) => `${data.toFixed(1)}M`, className: 'text-right' },
             
             // Core Performance Metrics
-            { data: 'Total Points', title: createHeader('Total Pts', 'Total Points'), className: 'text-center font-bold' },
+            { data: 'Total Points', title: createHeader('Pts', 'Total Points'), className: 'text-center font-bold' },
             { data: 'Total Games Played', title: createHeader('GP', 'Total Games Played'), className: 'text-center' },
             { data: 'Points Per Game', title: createHeader('PPG', 'Points Per Game'), render: (data) => data.toFixed(2), className: 'text-right font-semibold' },
             
             // Recent Performance Metrics
-            { data: `Total Over ${RECENT_GAMES_COUNT} Games`, title: createHeader(`Pts (L${RECENT_GAMES_COUNT})`, `Total Points Over Last ${RECENT_GAMES_COUNT} Games`), className: 'text-center' },
-            { data: 'Games Played Over 6 Games', title: createHeader(`GP (L${RECENT_GAMES_COUNT})`, `Games Played Over Last ${RECENT_GAMES_COUNT} Games`), className: 'text-center' },
-            { data: 'Points Per Game Over 6 Games', title: createHeader(`PPG (L${RECENT_GAMES_COUNT})`, `Points Per Game Over Last ${RECENT_GAMES_COUNT} Games`), render: (data) => data.toFixed(2), className: 'text-right' },
+            { data: `Total Over ${RECENT_GAMES_COUNT} Games`, title: createHeader(`Pts4 (L${RECENT_GAMES_COUNT})`, `Total Points Over Last ${RECENT_GAMES_COUNT} Games`), className: 'text-center' },
+            { data: 'Games Played Over 4 Games', title: createHeader(`GP4 (L${RECENT_GAMES_COUNT})`, `Games Played Over Last ${RECENT_GAMES_COUNT} Games`), className: 'text-center' },
+            { data: 'Points Per Game Over 4 Games', title: createHeader(`PPG4 (L${RECENT_GAMES_COUNT})`, `Points Per Game Over Last ${RECENT_GAMES_COUNT} Games`), render: (data) => data.toFixed(2), className: 'text-right' },
             
             // Efficiency Metrics
-            { data: 'Points Per Million', title: createHeader('Pts/M', 'Points Per Million'), render: (data) => data.toFixed(2), className: 'text-right' },
-            { data: 'Points Per Million Over 6 Games', title: createHeader(`Pts/M (L${RECENT_GAMES_COUNT})`, `Points Per Million Over Last ${RECENT_GAMES_COUNT} Games`), render: (data) => data.toFixed(2), className: 'text-right' },
+            { data: 'Points Per Million', title: createHeader('PPM', 'Points Per Million'), render: (data) => data.toFixed(2), className: 'text-right' },
+            { data: 'Points Per Million Over 6 Games', title: createHeader(`PPM4 (L${RECENT_GAMES_COUNT})`, `Points Per Million Over Last ${RECENT_GAMES_COUNT} Games`), render: (data) => data.toFixed(2), className: 'text-right' },
             
             // Contribution Stats (Abbreviated headers)
             { data: 'Total Goals', title: createHeader('G', 'Total Goals'), className: 'text-center' },
@@ -105,10 +105,10 @@
             { data: 'Total Yellow Cards', title: createHeader('YC', 'Total Yellow Cards'), className: 'text-center' },
             { data: 'Total Red Cards', title: createHeader('RC', 'Total Red Cards'), className: 'text-center' },
             { data: 'Total Missed Penalties', title: createHeader('MP', 'Total Missed Penalties'), className: 'text-center' },
-            { data: 'Total Clearances', title: createHeader('CL', 'Total Clearances'), className: 'text-center' },
-            { data: 'Total Conceeded', title: createHeader('GC', 'Total Goals Conceded'), className: 'text-center' },
-            { data: 'Total 1 min Appearances', title: createHeader('1m App', 'Total 1 min Appearances'), className: 'text-center' },
-            { data: 'Total 60 min Appearances', title: createHeader('60m App', 'Total 60 min Appearances'), className: 'text-center' },
+            { data: 'Total Clearances', title: createHeader('CL', 'Total Goal Line Clearance Points'), className: 'text-center' },
+            { data: 'Total Conceeded', title: createHeader('GC', 'Total Goals Conceded Points'), className: 'text-center' },
+            { data: 'Total 1 min Appearances', title: createHeader('1m', 'Total 1 min Appearances'), className: 'text-center' },
+            { data: 'Total 60 min Appearances', title: createHeader('60m', 'Total 60 min Appearances'), className: 'text-center' },
         ];
 
         // 2. Fetch the data to determine the dynamic Gameweek columns
