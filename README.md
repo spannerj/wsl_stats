@@ -1,5 +1,5 @@
 # WSL stats
-A collection of wsl stats for fantasy football
+A collection of wsl stats for fantasy football collected from [Aerial Fantasy Football](https://www.aerialfantasy.co/)
 
 ## Process
 There is a 3 stage process.
