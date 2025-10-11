@@ -132,13 +132,15 @@ def transform_player_data(
     )
     # Get the key names for the X most recent gameweeks
     recent_gameweek_keys = final_gameweeks[:recent_games_count]
-    
 
     # --- PASS 2: Process players for transformation ---
     for player in raw_players:
         # --- 1. Basic Fields ---
         name = player.get("Name", "Unknown Player")
-        
+        if name is None or name.strip() == "":
+            print("Warning: Skipping player with missing or empty name.")
+            continue
+
         total_points_str = player.get("Total_Points", "0pts").replace("pts", "")
         selected_pct_str = player.get("Selected_Percentage", "0.0%").replace("%", "")
         player_value_millions_str = player.get("Value", "0.0m").replace("m", "")
@@ -243,6 +245,7 @@ def transform_player_data(
             "Position": get_position_code(player.get("Position", "N/A")),
             "Value": player_value_million,  # Stored as number (M)
             "Total Points": int(total_points),  # Stored as integer
+            "Selected Percentage": round(selected_pct, 1),  # Stored as float
             "Total Games Played": total_games_played,
             # Updated Keys
             recent_games_key: int(recent_points),  # Stored as integer

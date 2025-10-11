@@ -97,7 +97,7 @@
         }
         
         /* 8. Show custom UP arrow only on ASC sorted column */
-        table.dataTable head th.dt-ordering-asc::after {
+        table.dataTable thead th.dt-ordering-asc::after { 
             content: "▲" !important;
             position: absolute;
             right: 0.3rem; 
@@ -180,6 +180,31 @@
         .abbrev-header {
             cursor: help;
         }
+        
+        /* Modal Backdrop */
+        .modal-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.75);
+            z-index: 50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* Modal Content */
+        .modal-content {
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            max-width: 90%;
+            max-height: 90%;
+            overflow-y: auto;
+            position: relative;
+        }
+
     </style>
 </head>
 <body>
@@ -190,67 +215,79 @@
         </h2>
 
         <!-- FILTER CONTROLS WRAPPER -->
-        <div class="flex flex-col md:flex-row justify-end items-end md:items-center mb-4 space-y-2 md:space-y-0 md:space-x-4">
+        <div class="flex flex-col md:flex-row justify-between items-end md:items-center mb-4 space-y-2 md:space-y-0 md:space-x-4">
             
-            <!-- Club Filter (Multi-Select Dropdown) -->
-            <div class="relative w-full sm:w-auto">
-                <button 
-                    id="club-dropdown-toggle" 
-                    class="w-full sm:w-36 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 flex justify-between items-center"
-                    aria-expanded="false"
-                    aria-haspopup="true"
-                >
-                    <span id="club-display-text">Clubs (All)</span>
-                    <!-- Chevron Down Icon -->
-                    <svg class="h-5 w-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                    </svg>
-                </button>
+            <!-- Key Button -->
+            <button 
+                id="show-key-button" 
+                class="w-full md:w-auto px-3 py-2 bg-indigo-600 text-white border border-indigo-700 rounded-md shadow-lg text-sm font-medium hover:bg-indigo-700 transition duration-150"
+            >
+                <i class="fa-solid fa-circle-question mr-2"></i> Show Key / Glossary
+            </button>
+            
+            <!-- Filters (Moved into a sub-wrapper for better layout control) -->
+            <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 w-full md:w-auto md:justify-end items-end md:items-center">
 
-                <!-- Dropdown Menu -->
-                <div id="club-dropdown-menu" class="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10 hidden transform origin-top-right">
-                    <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="club-dropdown-toggle">
-                        <div class="flex justify-between p-2 border-b border-gray-200">
-                            <button id="select-all-clubs" class="text-xs font-semibold text-indigo-600 hover:text-indigo-800 focus:outline-none">Select All</button>
-                            <button id="unselect-all-clubs" class="text-xs font-semibold text-red-600 hover:text-red-800 focus:outline-none">Unselect All</button>
-                        </div>
-                        <div id="club-filter-list" class="p-2 space-y-1">
-                            <!-- Checkboxes will be dynamically inserted here -->
-                            <p class="text-center text-xs text-gray-500">No clubs loaded...</p>
+                <!-- Club Filter (Multi-Select Dropdown) -->
+                <div class="relative w-full sm:w-auto">
+                    <button 
+                        id="club-dropdown-toggle" 
+                        class="w-full sm:w-36 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 flex justify-between items-center"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                    >
+                        <span id="club-display-text">Clubs (All)</span>
+                        <!-- Chevron Down Icon -->
+                        <svg class="h-5 w-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+
+                    <!-- Dropdown Menu -->
+                    <div id="club-dropdown-menu" class="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10 hidden transform origin-top-right">
+                        <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="club-dropdown-toggle">
+                            <div class="flex justify-between p-2 border-b border-gray-200">
+                                <button id="select-all-clubs" class="text-xs font-semibold text-indigo-600 hover:text-indigo-800 focus:outline-none">Select All</button>
+                                <button id="unselect-all-clubs" class="text-xs font-semibold text-red-600 hover:text-red-800 focus:outline-none">Unselect All</button>
+                            </div>
+                            <div id="club-filter-list" class="p-2 space-y-1">
+                                <!-- Checkboxes will be dynamically inserted here -->
+                                <p class="text-center text-xs text-gray-500">No clubs loaded...</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Position Filter -->
-            <div class="flex items-center space-x-2 w-full sm:w-auto">
-                <label for="position-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
-                    Position:
-                </label>
-                <select 
-                    id="position-filter" 
-                    class="w-full sm:w-36 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm"
-                >
-                    <option value="">All</option>
-                    <option value="GK">Goalkeepers</option>
-                    <option value="DEF">Defenders</option>
-                    <option value="MID">Midfielders</option>
-                    <option value="POS">Forwards</option>
-                </select>
-            </div>
+                
+                <!-- Position Filter -->
+                <div class="flex items-center space-x-2 w-full sm:w-auto">
+                    <label for="position-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
+                        Pos:
+                    </label>
+                    <select 
+                        id="position-filter" 
+                        class="w-full sm:w-36 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm"
+                    >
+                        <option value="">All</option>
+                        <option value="GK">Goalkeepers</option>
+                        <option value="DEF">Defenders</option>
+                        <option value="MID">Midfielders</option>
+                        <option value="POS">Forwards</option>
+                    </select>
+                </div>
 
-            <!-- Max Value Filter -->
-            <div class="flex items-center space-x-2 w-full sm:w-auto">
-                <label for="max-value-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
-                    Max Player Value (M):
-                </label>
-                <input 
-                    type="number" 
-                    step="0.1" 
-                    id="max-value-filter" 
-                    class="w-full sm:w-32 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm" 
-                    placeholder="e.g. 7.5"
-                >
+                <!-- Max Value Filter -->
+                <div class="flex items-center space-x-2 w-full sm:w-auto">
+                    <label for="max-value-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
+                        Max Val (M):
+                    </label>
+                    <input 
+                        type="number" 
+                        step="0.1" 
+                        id="max-value-filter" 
+                        class="w-full sm:w-24 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm" 
+                        placeholder="e.g. 7.5"
+                    >
+                </div>
             </div>
         </div>
         <!-- END FILTER CONTROLS WRAPPER -->
@@ -265,6 +302,28 @@
         </div>
         
     </div>
+    
+    <!-- GLOSSARY MODAL -->
+    <div id="glossary-modal" class="modal-backdrop hidden" onclick="closeModal()">
+        <div class="modal-content p-6 w-full max-w-lg" onclick="event.stopPropagation()">
+            <div class="flex justify-between items-center border-b pb-3 mb-4">
+                <h3 class="text-xl font-bold text-gray-900">Table Key / Glossary</h3>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600 transition">
+                    <i class="fa-solid fa-xmark text-2xl"></i>
+                </button>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3" id="glossary-content">
+                <!-- Content generated by JavaScript -->
+                <p class="col-span-2 text-center text-gray-500">Loading key...</p>
+            </div>
+            
+            <p class="text-xs text-gray-500 mt-4 pt-2 border-t text-center">
+                Click outside or press the 'X' to close this window.
+            </p>
+        </div>
+    </div>
+    <!-- END GLOSSARY MODAL -->
 
     <!-- Load jQuery (required by DataTables) -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -281,6 +340,21 @@
         let dataTableInstance = null;
         let uniqueClubs = [];
 
+        // --- GLOBAL MODAL FUNCTIONS ---
+        window.showModal = function() {
+            // Generate content every time in case the dynamic columns change (though unlikely here)
+            generateGlossaryContent(dataTableInstance ? dataTableInstance.settings()[0].aoColumns : []);
+            $('#glossary-modal').removeClass('hidden');
+        };
+
+        window.closeModal = function() {
+            $('#glossary-modal').addClass('hidden');
+        };
+        
+        $('#show-key-button').on('click', showModal);
+        // --- END GLOBAL MODAL FUNCTIONS ---
+
+
         // Helper function to create the abbreviated header with a tooltip
         function createHeader(abbr, fullTitle) {
             // abbr contains the Font Awesome icon or text
@@ -296,7 +370,6 @@
         }
 
         // --- Mapped column definitions for STATIC data with custom SVGs/Abbreviations ---
-        // CRITICAL UPDATE: Keys for 4-Gameweek metrics updated to match JSON output
         const STATIC_COLUMN_MAP = {
             "Name": { abbr: 'Name', full: 'Player Name', type: 'string', className: 'font-bold text-gray-800 player-name-content' }, 
             "Club": { abbr: 'Club', full: 'Player\'s Club', type: 'string', className: 'whitespace-nowrap dt-center' },
@@ -304,6 +377,14 @@
             "Value": { 
                 abbr: 'Val', 
                 full: 'Player Value (millions)', 
+                type: 'num', 
+                render: (data) => safeToFixed(data, 1), 
+                className: 'dt-center' 
+            },
+
+            "Selected Percentage": { 
+                abbr: 'S%', 
+                full: 'Percentage of people selecting this player', 
                 type: 'num', 
                 render: (data) => safeToFixed(data, 1), 
                 className: 'dt-center' 
@@ -468,6 +549,49 @@
 
         const STATIC_KEYS_SET = new Set(Object.keys(STATIC_COLUMN_MAP));
 
+        /**
+         * Generates the HTML content for the glossary modal.
+         * @param {Array} columns The DataTables column settings array (optional, for dynamic GW columns).
+         */
+        function generateGlossaryContent(columns) {
+            let html = '';
+            
+            // 1. Static Columns
+            Object.keys(STATIC_COLUMN_MAP).forEach(key => {
+                const config = STATIC_COLUMN_MAP[key];
+                // Use innerText for abbr to strip potential HTML/Icons before display
+                const abbrText = $('<div>').html(config.abbr).text().trim() || config.abbr; 
+                
+                html += `
+                    <div class="flex items-center space-x-2">
+                        <span class="font-bold text-sm text-indigo-600 w-12 flex-shrink-0">${abbrText}:</span>
+                        <span class="text-xs text-gray-700">${config.full}</span>
+                    </div>
+                `;
+            });
+            
+            // 2. Dynamic Gameweek Columns (if table is initialized)
+            if (columns.length > 0) {
+                // Find the first Gameweek column to represent the dynamic group
+                const gwColumn = columns.find(col => col.data && /^\d+$/.test(col.data));
+                
+                if (gwColumn) {
+                     html += `
+                        <div class="flex items-center space-x-2">
+                            <span class="font-bold text-sm text-indigo-600 w-12 flex-shrink-0">GW:</span>
+                            <span class="text-xs text-gray-700">Gameweek Points (Dynamic columns are labeled with their Gameweek number)</span>
+                        </div>
+                    `;
+                }
+            }
+
+            if (html === '') {
+                 html = '<p class="col-span-2 text-center text-gray-500">No column definitions available.</p>';
+            }
+
+            $('#glossary-content').html(html);
+        }
+
         // --- Club Filter UI Helper Functions ---
         function updateClubDisplayText() {
             const selectedCount = $('#club-filter-list input[type="checkbox"]:checked').length;
@@ -625,7 +749,7 @@
                 paging: true,
                 searching: true,
                 scrollX: true,
-                order: [[4, 'desc']], 
+                order: [[5, 'desc']], 
                 responsive: false, 
                 info: true,
                 
