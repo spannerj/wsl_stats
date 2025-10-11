@@ -4,32 +4,178 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detailed Player Statistics</title>
+    
     <!-- Load Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <!-- Load DataTables CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.8/css/dataTables.tailwindcss.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.4/css/dataTables.dataTables.min.css">
+    
+    <!-- Load Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJdZ-Atu5QfK4xV/JdFv2k1K/H2v4Q5h+E5nB2R8oD+6Z6XqU/G1wGk+Q6QzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <style>
         /* Custom styling for better presentation */
-        body { background-color: #f3f4f6; font-family: 'Inter', sans-serif; padding: 20px; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body { background-color: #f3f4f6; font-family: 'Inter', sans-serif; padding: 0px; }
         .dt-container {
             max-width: 100%; 
             overflow-x: auto; /* CRITICAL for many columns */
             background: white; 
-            padding: 1.5rem; 
-            border-radius: 0.75rem; 
+            padding: 0.3rem; 
+            border-radius: 0.3rem; 
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
-        /* Style for Gameweek columns */
-        #myTable th.gw-col, #myTable td.gw-col {
-            text-align: center;
-            width: 50px; /* Narrower width for GW columns */
-            white-space: nowrap;
+        
+        /* 1. MAX SQUEEZE: Drastically reduced overall padding on all cells */
+        table.dataTable th,
+        table.dataTable td {
+            padding: 0.1rem 0.1rem !important; 
         }
+
+        /* NEW RULE: Increase right padding on ALL headers to leave space for the sort arrow */
+        table.dataTable thead th {
+            padding-right: 0.75rem !important; 
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* --- NAME COLUMN ALIGNMENT FIXES --- */
+        /* ------------------------------------------------------------------ */
+        
+        table.dataTable thead th.player-name-header {
+            text-align: left !important; 
+            padding-left: 0.2rem !important; 
+            min-width: 1px !important; 
+            width: 1% !important; 
+        }
+
+        table.dataTable td.player-name-content { 
+            text-align: left !important;
+            white-space: nowrap; 
+            padding-left: 0.2rem !important; 
+            min-width: 1px !important; 
+            width: 1% !important; 
+        }
+
+        /* 4. Ensure centered data columns are actually centered */
+        table.dataTable td.dt-center {
+            text-align: center !important;
+        }
+
+
+        /* ------------------------------------------------------------------ */
+        /* --- HEADER ALIGNMENT AND ARROW FIXES --- */
+        /* ------------------------------------------------------------------ */
+
+        /* 5. FORCE HEADER CENTERING (for all non-name headers) */
+        table.dataTable thead th {
+            position: relative !important; 
+            background-image: none !important;
+            background: none !important;
+            
+            &:not(.player-name-header) {
+                text-align: center !important; 
+            }
+            display: table-cell; 
+            vertical-align: middle;
+        }
+        
+        table.dataTable thead th .abbrev-header {
+            display: inline-block;
+            width: 100%;
+        }
+
+
+        /* 6. Remove built-in DataTables sort indicators */
+        table.dataTable thead th .dt-column-order {
+            display: none !important; 
+        }
+
+        /* 7. Hide all custom pseudo-elements by default */
+        table.dataTable thead th::after {
+            content: none !important;
+        }
+        
+        /* 8. Show custom UP arrow only on ASC sorted column */
+        table.dataTable head th.dt-ordering-asc::after {
+            content: "▲" !important;
+            position: absolute;
+            right: 0.3rem; 
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.65rem;
+            color: #4b5563; 
+        }
+
+        /* 9. Show custom DOWN arrow only on DESC sorted column */
+        table.dataTable thead th.dt-ordering-desc::after {
+            content: "▼" !important;
+            position: absolute;
+            right: 0.3rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.65rem;
+            color: #4b5563;
+        }
+        
+        /* ------------------------------------------------------------------ */
+        /* --- ICON STYLING (For Font Awesome) --- */
+        /* ------------------------------------------------------------------ */
+        
+        /* Common style for all FA icons used in the header */
+        .fa-header-icon {
+            vertical-align: middle;
+            display: inline-block;
+            line-height: 1; 
+            padding-bottom: 2px; /* Slight bottom padding to align with text */
+        }
+
+        /* Specific icon colors using Tailwind classes */
+        .icon-green { color: #10B981; } /* Goals (Volleyball) */
+        .icon-yellow { color: #F59E0B; } /* Bonus (Star), Yellow Card (Square) */
+        .icon-red { color: #EF4444; } /* Red Card (Square) */
+        
+        /* ------------------------------------------------------------------ */
+        /* --- FONT SIZE ADJUSTMENT --- */
+        /* ------------------------------------------------------------------ */
+        
+        table.dataTable th {
+            font-size: 0.80em; 
+            font-weight: 600; 
+        }
+        table.dataTable td {
+            font-size: 0.9em;
+        }
+        #club-filter-list {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        
         /* Ensure the DataTables search/info bars look good */
-        .dt-search, .dt-info {
+        div.dt-container div.dt-layout-row {
             padding: 0.5rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
         }
+        .dt-search, .dt-info, .dt-paging {
+            padding: 0.5rem 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        @media (min-width: 640px) {
+            .dt-search, .dt-info, .dt-paging {
+                width: auto;
+                justify-content: flex-start;
+            }
+            .dt-search { order: 1; }
+            .dt-info { order: 2; }
+            .dt-paging { order: 3; }
+        }
+
         /* Abbreviated header style for better tooltips */
         .abbrev-header {
             cursor: help;
@@ -38,129 +184,541 @@
 </head>
 <body>
 
-    <div class="container mx-auto">
-        <h1 class="text-3xl font-extrabold text-gray-900 mb-6 text-center">
-            Fantasy Player Statistics Detail
-        </h1>
-        <p class="text-gray-600 mb-6 text-center text-sm">
-            <span class="font-bold text-red-500">Note:</span> Player Value is mocked as 10.0M in the Python script. Hover over column headers for full names.
-        </p>
+    <div class="container mx-auto p-4">
+        <h2 class="text-2xl font-extrabold text-gray-900 mb-6 text-center">
+            WSL Aerial Fantasy Player Statistics Detail
+        </h2>
+
+        <!-- FILTER CONTROLS WRAPPER -->
+        <div class="flex flex-col md:flex-row justify-end items-end md:items-center mb-4 space-y-2 md:space-y-0 md:space-x-4">
+            
+            <!-- Club Filter (Multi-Select Dropdown) -->
+            <div class="relative w-full sm:w-auto">
+                <button 
+                    id="club-dropdown-toggle" 
+                    class="w-full sm:w-36 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 flex justify-between items-center"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                >
+                    <span id="club-display-text">Clubs (All)</span>
+                    <!-- Chevron Down Icon -->
+                    <svg class="h-5 w-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div id="club-dropdown-menu" class="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10 hidden transform origin-top-right">
+                    <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="club-dropdown-toggle">
+                        <div class="flex justify-between p-2 border-b border-gray-200">
+                            <button id="select-all-clubs" class="text-xs font-semibold text-indigo-600 hover:text-indigo-800 focus:outline-none">Select All</button>
+                            <button id="unselect-all-clubs" class="text-xs font-semibold text-red-600 hover:text-red-800 focus:outline-none">Unselect All</button>
+                        </div>
+                        <div id="club-filter-list" class="p-2 space-y-1">
+                            <!-- Checkboxes will be dynamically inserted here -->
+                            <p class="text-center text-xs text-gray-500">No clubs loaded...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Position Filter -->
+            <div class="flex items-center space-x-2 w-full sm:w-auto">
+                <label for="position-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
+                    Position:
+                </label>
+                <select 
+                    id="position-filter" 
+                    class="w-full sm:w-36 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm"
+                >
+                    <option value="">All</option>
+                    <option value="GK">Goalkeepers</option>
+                    <option value="DEF">Defenders</option>
+                    <option value="MID">Midfielders</option>
+                    <option value="POS">Forwards</option>
+                </select>
+            </div>
+
+            <!-- Max Value Filter -->
+            <div class="flex items-center space-x-2 w-full sm:w-auto">
+                <label for="max-value-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
+                    Max Player Value (M):
+                </label>
+                <input 
+                    type="number" 
+                    step="0.1" 
+                    id="max-value-filter" 
+                    class="w-full sm:w-32 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm" 
+                    placeholder="e.g. 7.5"
+                >
+            </div>
+        </div>
+        <!-- END FILTER CONTROLS WRAPPER -->
         
-        <!-- <div class="dt-container"> -->
-            <table id="myTable" class="display w-full text-sm text-left dataTables_wrapper stripe hover" cellspacing="0" style="width:100%;">
-                <thead>
-                    <!-- Header content will be generated by DataTables using column definitions -->
-                </thead>
-                <tbody>
-                    <!-- Data will be inserted here by DataTables -->
-                </tbody>
-            </table>
-        <!-- </div> -->
+        <!-- The DataTables rendering container. -->
+        <div class="dt-container">
+            <!-- Initial message before data loads -->
+            <p id="loading-message" class="text-center text-xl p-8 text-gray-600">
+                Loading data...
+            </p>
+            <table id="myTable" class="display compact nowrap hidden" cellspacing="0" style="width:100%;"></table>
+        </div>
         
     </div>
 
     <!-- Load jQuery (required by DataTables) -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <!-- Load DataTables JS and the Tailwind integration script -->
-    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.tailwindcss.min.js"></script>
+    <!-- Load DataTables JS (Standard version, using 2.3.4 for all JS) -->
+    <script src="https://cdn.datatables.net/2.3.4/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/3.0.7/js/dataTables.responsive.js"></script>
+    <script src="https://cdn.datatables.net/responsive/3.0.7/js/responsive.dataTables.js"></script>
+    
 
     <script>
     $(document).ready(function() {
-        const AJAX_URL = 'transformed_data.json';
-        const RECENT_GAMES_COUNT = 6;
         
+        const RECENT_GAMES_COUNT = 4;
+        let dataTableInstance = null;
+        let uniqueClubs = [];
+
         // Helper function to create the abbreviated header with a tooltip
         function createHeader(abbr, fullTitle) {
+            // abbr contains the Font Awesome icon or text
             return `<span class="abbrev-header" title="${fullTitle}">${abbr}</span>`;
         }
+        
+        // Helper function to safely format data, returning '-' for missing values
+        function safeToFixed(data, decimals) {
+            if (data === null || data === undefined || isNaN(data) || !isFinite(data) || data === '-') {
+                return '-';
+            }
+            return parseFloat(data).toFixed(decimals);
+        }
 
-        // 1. Define the static columns
-        let columns = [
-            { data: 'Name', title: 'Name', className: 'font-bold text-gray-800' },
-            { data: 'Club', title: createHeader('Club', 'Club'), className: 'whitespace-nowrap' },
-            { data: 'Position', title: createHeader('Pos', 'Position') },
-            // Value is now a number (10.0), let's render it as a currency string
-            { data: 'Value', title: createHeader('Value', 'Player Value (M)'), render: (data) => `${data.toFixed(1)}M`, className: 'text-right' },
+        // --- Mapped column definitions for STATIC data with custom SVGs/Abbreviations ---
+        // CRITICAL UPDATE: Keys for 4-Gameweek metrics updated to match JSON output
+        const STATIC_COLUMN_MAP = {
+            "Name": { abbr: 'Name', full: 'Player Name', type: 'string', className: 'font-bold text-gray-800 player-name-content' }, 
+            "Club": { abbr: 'Club', full: 'Player\'s Club', type: 'string', className: 'whitespace-nowrap dt-center' },
+            "Position": { abbr: 'Pos', full: 'Player\'s Position', type: 'string', className: 'dt-center' },
+            "Value": { 
+                abbr: 'Val', 
+                full: 'Player Value (millions)', 
+                type: 'num', 
+                render: (data) => safeToFixed(data, 1), 
+                className: 'dt-center' 
+            },
             
-            // Core Performance Metrics
-            { data: 'Total Points', title: createHeader('Total Pts', 'Total Points'), className: 'text-center font-bold' },
-            { data: 'Total Games Played', title: createHeader('GP', 'Total Games Played'), className: 'text-center' },
-            { data: 'Points Per Game', title: createHeader('PPG', 'Points Per Game'), render: (data) => data.toFixed(2), className: 'text-right font-semibold' },
+            // P for Total Points (Text Only)
+            "Total Points": { 
+                abbr: `P`, 
+                full: 'Points for the season', 
+                type: 'num', 
+                className: 'font-bold dt-center' 
+            },
             
-            // Recent Performance Metrics
-            { data: `Total Over ${RECENT_GAMES_COUNT} Games`, title: createHeader(`Pts (L${RECENT_GAMES_COUNT})`, `Total Points Over Last ${RECENT_GAMES_COUNT} Games`), className: 'text-center' },
-            { data: 'Games Played Over 6 Games', title: createHeader(`GP (L${RECENT_GAMES_COUNT})`, `Games Played Over Last ${RECENT_GAMES_COUNT} Games`), className: 'text-center' },
-            { data: 'Points Per Game Over 6 Games', title: createHeader(`PPG (L${RECENT_GAMES_COUNT})`, `Points Per Game Over Last ${RECENT_GAMES_COUNT} Games`), render: (data) => data.toFixed(2), className: 'text-right' },
+            "Total Games Played": { abbr: 'G', full: 'Games played this season (Total appearances)', type: 'num', className: 'dt-center' },
             
-            // Efficiency Metrics
-            { data: 'Points Per Million', title: createHeader('Pts/M', 'Points Per Million'), render: (data) => data.toFixed(2), className: 'text-right' },
-            { data: 'Points Per Million Over 6 Games', title: createHeader(`Pts/M (L${RECENT_GAMES_COUNT})`, `Points Per Million Over Last ${RECENT_GAMES_COUNT} Games`), render: (data) => data.toFixed(2), className: 'text-right' },
-            
-            // Contribution Stats (Abbreviated headers)
-            { data: 'Total Goals', title: createHeader('G', 'Total Goals'), className: 'text-center' },
-            { data: 'Total Assists', title: createHeader('A', 'Total Assists'), className: 'text-center' },
-            { data: 'Total Clean Sheet', title: createHeader('CS', 'Total Clean Sheet'), className: 'text-center' },
-            { data: 'Total Bonus Points', title: createHeader('BP', 'Total Bonus Points'), className: 'text-center' },
-            { data: 'Total Yellow Cards', title: createHeader('YC', 'Total Yellow Cards'), className: 'text-center' },
-            { data: 'Total Red Cards', title: createHeader('RC', 'Total Red Cards'), className: 'text-center' },
-            { data: 'Total Missed Penalties', title: createHeader('MP', 'Total Missed Penalties'), className: 'text-center' },
-            { data: 'Total Clearances', title: createHeader('CL', 'Total Clearances'), className: 'text-center' },
-            { data: 'Total Conceeded', title: createHeader('GC', 'Total Goals Conceded'), className: 'text-center' },
-            { data: 'Total 1 min Appearances', title: createHeader('1m App', 'Total 1 min Appearances'), className: 'text-center' },
-            { data: 'Total 60 min Appearances', title: createHeader('60m App', 'Total 60 min Appearances'), className: 'text-center' },
-        ];
+            // FIX: Calculate Points Per Game (PG) on the fly, as the key is missing from JSON
+            "Points Per Game": { 
+                abbr: 'PG', 
+                full: 'Points per game over the season (Points / Appearances)', 
+                type: 'num', 
+                render: (data, type, row) => {
+                    const totalPoints = row["Total Points"];
+                    const gamesPlayed = row["Total Games Played"];
+                    
+                    if (type === 'sort' || type === 'type') {
+                        // Return numeric value for sorting/filtering (return 0 if divisor is 0)
+                        return gamesPlayed > 0 ? (totalPoints / gamesPlayed) : 0;
+                    }
+                    // Return formatted string for display
+                    return gamesPlayed > 0 ? safeToFixed(totalPoints / gamesPlayed, 1) : '-';
+                },
+                className: 'dt-center' 
+            },
 
-        // 2. Fetch the data to determine the dynamic Gameweek columns
-        $.ajax({
-            url: AJAX_URL,
-            method: 'GET',
-            dataType: 'json',
-            success: function(data) {
-                if (!data || data.length === 0) {
-                    console.error("No data received from JSON file.");
-                    $('#myTable').html('<p class="text-center text-xl p-8">No player data available to display. Ensure transformed_data.json is generated.</p>');
-                    return;
+            // FIX: Calculate Points Per Million (PM) on the fly, as the key might be missing
+            "Points Per Million": { 
+                abbr: 'PM', 
+                full: 'Points scored per million pounds spent (Total season)', 
+                type: 'num', 
+                render: (data, type, row) => {
+                    const totalPoints = row["Total Points"];
+                    const value = row["Value"];
+
+                    if (type === 'sort' || type === 'type') {
+                        // Return numeric value for sorting/filtering (return 0 if divisor is 0)
+                        return value > 0 ? (totalPoints / value) : 0;
+                    }
+                    // Return formatted string for display
+                    return value > 0 ? safeToFixed(totalPoints / value, 1) : '-';
+                },
+                className: 'dt-center' 
+            },
+            
+            // --- UPDATED 4 GW METRICS ---
+            "Total Over 4 Gameweeks": { 
+                abbr: `P${RECENT_GAMES_COUNT}`, 
+                full: `Total points over last ${RECENT_GAMES_COUNT} gameweeks`, 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            
+            "Games Played Over 4 Gameweeks": { 
+                abbr: `G${RECENT_GAMES_COUNT}`, 
+                full: `Games participated in (appeared) over last ${RECENT_GAMES_COUNT} gameweeks`, 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            
+            "Points Per Game Over 4 Gameweeks": { 
+                abbr: `PG${RECENT_GAMES_COUNT}`, 
+                full: `Points per available gameweek (PPG over ${RECENT_GAMES_COUNT} weeks - uses 4 as divisor)`, 
+                type: 'num', 
+                render: (data) => safeToFixed(data, 1), // Show two decimals (e.g., 0.75)
+                className: 'dt-center' 
+            },
+            
+            "Points Per Million Over 4 Gameweeks": { 
+                abbr: `PM${RECENT_GAMES_COUNT}`, 
+                full: `Points per million over last ${RECENT_GAMES_COUNT} gameweeks`, 
+                type: 'num', 
+                render: (data) => safeToFixed(data, 1), // Show two decimals
+                className: 'dt-center' 
+            },
+            // --- END UPDATED 4 GW METRICS ---
+
+            // GOALS (Font Awesome Volleyball Icon - Green)
+            "Total Goals": { 
+                abbr: `<i class="fa-solid fa-volleyball icon-green text-base fa-header-icon"></i>`, 
+                full: 'Goals scored this season', 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            
+            // ASSISTS (Text Only)
+            "Total Assists": { 
+                abbr: `A`, 
+                full: 'Assists this season', 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            
+            // CLEAN SHEET (Text Only)
+            "Total Clean Sheet": { 
+                abbr: `CS`, 
+                full: 'Clean sheets this season', 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            
+            // BONUS POINTS (Font Awesome Star Icon - Yellow)
+            "Total Bonus Points": { 
+                abbr: `<i class="fa-solid fa-star icon-yellow text-base fa-header-icon"></i>`, 
+                full: 'Bonus points won this season', 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            
+            // YELLOW CARD (Font Awesome Square Icon - Yellow)
+            "Total Yellow Cards": { 
+                abbr: `<i class="fa-solid fa-square icon-yellow text-base fa-header-icon"></i>`, 
+                full: 'Yellow cards this season', 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            
+            // RED CARD (Font Awesome Square Icon - Red)
+            "Total Red Cards": { 
+                abbr: `<i class="fa-solid fa-square icon-red text-base fa-header-icon"></i>`, 
+                full: 'Red cards this season', 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            
+            // MISSED PENALTY (Text Only)
+            "Total Missed Penalties": { 
+                abbr: `MP`, 
+                full: 'Missed penalties this season', 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            "Total Clearances": { abbr: 'CL', full: 'Goal line clearances this season', type: 'num', className: 'dt-center' },
+            "Total Conceeded": { abbr: 'GC', full: 'Points lost from goals conceded (-1 for every 2 goals whilst on the pitch)', type: 'num', className: 'dt-center' },
+            
+            // SAVES (Text Only)
+            "Total Saves": { 
+                abbr: `S`, 
+                full: 'Save points awarded (Goalkeepers, 1 pt per 3 saves)', 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            
+            // OWN GOALS (Text Only)
+            "Total Own Goals": { 
+                abbr: `OG`, 
+                full: 'Own goals scored this season (-2 points each)', 
+                type: 'num', 
+                className: 'dt-center' 
+            },
+            "Total 1 min Appearances": { abbr: 'P1', full: 'Appearances where at least 1 minute was played (1pt)', type: 'num', className: 'dt-center' },
+            "Total 60 min Appearances": { abbr: '60', full: 'Appearances where at least 60 minutes were played (1pt)', type: 'num', className: 'dt-center' }
+        };
+
+        const STATIC_KEYS_SET = new Set(Object.keys(STATIC_COLUMN_MAP));
+
+        // --- Club Filter UI Helper Functions ---
+        function updateClubDisplayText() {
+            const selectedCount = $('#club-filter-list input[type="checkbox"]:checked').length;
+            const totalCount = uniqueClubs.length;
+            
+            let text = "Clubs (None)";
+            if (selectedCount === totalCount) {
+                text = "Clubs (All)";
+            } else if (selectedCount > 0) {
+                text = `Clubs (${selectedCount}/${totalCount})`;
+            }
+            $('#club-display-text').text(text);
+        }
+
+        function toggleClubDropdown() {
+            $('#club-dropdown-menu').toggleClass('hidden');
+            $('#club-dropdown-toggle').attr('aria-expanded', function(_, attr) {
+                return attr === 'true' ? 'false' : 'true';
+            });
+        }
+        
+        function populateClubFilters(data) {
+            const clubs = new Set();
+            data.forEach(player => clubs.add(player.Club));
+            uniqueClubs = Array.from(clubs).sort();
+
+            const $clubList = $('#club-filter-list');
+            $clubList.empty();
+
+            if (uniqueClubs.length === 0) {
+                $clubList.append('<p class="text-center text-xs text-gray-500">No clubs found in data.</p>');
+                return;
+            }
+
+            uniqueClubs.forEach(club => {
+                const checkboxHtml = `
+                    <div class="flex items-center">
+                        <input id="club-${club}" name="club-filter" type="checkbox" value="${club}" checked 
+                               class="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 club-checkbox">
+                        <label for="club-${club}" class="ml-3 text-sm text-gray-700">${club}</label>
+                    </div>
+                `;
+                $clubList.append(checkboxHtml);
+            });
+
+            updateClubDisplayText();
+        }
+
+        // --- DataTables Custom Filter ---
+        $.fn.dataTable.ext.search.push(
+            function(settings, data, dataIndex, rowData) {
+                // Ensure the filter only applies to the current table instance
+                if (dataTableInstance && settings.nTable.id !== dataTableInstance.table().node().id) {
+                    return true; 
                 }
 
-                // Identify all unique Gameweek keys from the first player's data 
-                const firstPlayer = data[0];
-                const gameweekKeys = Object.keys(firstPlayer).filter(key => key.startsWith('GW')).sort((a, b) => {
-                    // Sort descending (GW5, GW4, GW3...)
-                    return parseInt(b.replace('GW', '')) - parseInt(a.replace('GW', ''));
+                // 1. Max Value Filter
+                const maxValueInput = parseFloat($('#max-value-filter').val());
+                const playerValue = parseFloat(rowData["Value"]);
+                const isValueValid = isNaN(maxValueInput) || isNaN(playerValue) || playerValue <= maxValueInput;
+                if (!isValueValid) { return false; }
+
+                // 2. Position Filter
+                const selectedPosition = $('#position-filter').val();
+                const playerPosition = rowData["Position"];
+                const isPositionValid = selectedPosition === "" || playerPosition === selectedPosition;
+                if (!isPositionValid) { return false; }
+                
+                // 3. Club Filter
+                const selectedClubs = $('#club-filter-list input[type="checkbox"]:checked').map(function() {
+                    return this.value;
+                }).get();
+                
+                const playerClub = rowData["Club"];
+                // Only filter if clubs were successfully populated and selected
+                const isClubValid = selectedClubs.length === 0 ? false : selectedClubs.includes(playerClub);
+                if (!isClubValid) { return false; }
+
+                return true;
+            }
+        );
+        // --- End Custom Filter ---
+
+
+        /**
+         * Initializes and renders the DataTables table with player data.
+         * @param {Array<Object>} data The array of player objects.
+         */
+        function initializeTable(data) {
+            // Hide the loading message and show the table container if data is present
+            if (!data || data.length === 0) {
+                $('#loading-message').text('No player data available to display. Please ensure your data is loaded correctly.');
+                return;
+            }
+
+            // Hide the loading message and make the table visible
+            $('#loading-message').addClass('hidden');
+            $('#myTable').removeClass('hidden');
+            
+            // Populate club filters BEFORE table initialization
+            populateClubFilters(data);
+
+            let columns = [];
+            let headerRow = '<tr>';
+
+            // 2. Define Static Columns and build header HTML
+            Object.keys(STATIC_COLUMN_MAP).forEach(key => {
+                const config = STATIC_COLUMN_MAP[key];
+                
+                columns.push({
+                    data: key,
+                    title: createHeader(config.abbr, config.full),
+                    className: config.className || 'dt-center', 
+                    type: config.type === 'num' ? 'num-fmt' : 'string',
+                    render: config.render
                 });
                 
-                // Add the dynamic Gameweek columns to the array
-                gameweekKeys.forEach(gwKey => {
-                    columns.push({
-                        data: gwKey, 
-                        title: createHeader(gwKey.replace('GW', 'GW'), `Gameweek ${gwKey.replace('GW', '')} Points`),
-                        className: 'gw-col' // Use custom style for centering/sizing
-                    });
-                });
+                const headerClass = key === "Name" ? 'player-name-header' : '';
+                headerRow += `<th class="dt-head-center ${headerClass}">${createHeader(config.abbr, config.full)}</th>`;
+            });
 
-                // 3. Initialize DataTables with the complete column definition
-                $('#myTable').DataTable({
-                    data: data, // Use the already fetched data
-                    columns: columns,
-                    // Configuration for the wide table
-                    paging: true,
-                    searching: true,
-                    scrollX: true, // Allows horizontal scrolling for many columns
-                    order: [[4, 'desc']], // Sort by Total Points initially (index 4)
-                    responsive: false, // Turn off default responsiveness 
-                    info: true,
-                    language: {
-                        search: "Filter All Columns:",
-                        info: "Showing _START_ to _END_ of _TOTAL_ entries",
-                    }
+
+            // 3. Identify and Define Dynamic Gameweek Columns
+            const firstPlayer = data[0];
+            
+            const gameweekKeys = Object.keys(firstPlayer).filter(key => {
+                return !STATIC_KEYS_SET.has(key) && /^\d+$/.test(key);
+            }).sort((a, b) => {
+                // Sort by key value descending (most recent gameweek first)
+                return parseInt(b) - parseInt(a); 
+            });
+            
+            gameweekKeys.forEach(gwKey => {
+                columns.push({
+                    data: gwKey, 
+                    title: createHeader(gwKey, `Gameweek ${gwKey} points`),
+                    className: 'gw-col dt-center', 
+                    type: 'num-fmt',
+                    render: (data) => data === null || data === undefined ? '-' : data 
                 });
-            },
-            error: function(xhr, status, error) {
-                console.error("AJAX Error:", status, error);
-                $('#myTable').html('<p class="text-center text-xl p-8 text-red-600">Failed to load data. Ensure transformed_data.json exists and is valid.</p>');
-            }
-        });
+                headerRow += `<th class="dt-head-center gw-col">${createHeader(gwKey, `Gameweek ${gwKey} Points`)}</th>`;
+            });
+            
+            headerRow += '</tr>';
+
+
+            // 4. Finalize Setup and Initialize DataTables
+            
+            $('#myTable').empty(); 
+            $('#myTable').append(`<thead>${headerRow}</thead>`);
+
+            dataTableInstance = $('#myTable').DataTable({
+                data: data,
+                columns: columns, 
+                paging: true,
+                searching: true,
+                scrollX: true,
+                order: [[4, 'desc']], 
+                responsive: false, 
+                info: true,
+                
+                lengthMenu: [
+                    [10, 15, 25, 50, 100, -1], 
+                    ['10', '15', '25', '50', '100', 'All'] 
+                ],
+                pageLength: 15, 
+                
+                columnDefs: [
+                    { orderSequence: ['asc', 'desc'], targets: '_all' }
+                ],
+                
+                language: {
+                    search: "Search:",
+                    info: "Showing _START_ to _END_ of _TOTAL_ entries",
+                }
+            });
+
+            // FIX: Force column width recalculation
+            setTimeout(() => {
+                if(dataTableInstance) {
+                    dataTableInstance.columns.adjust().draw();
+                }
+            }, 50);
+
+            // 5. Attach Filter Event Listeners
+            
+            $('#max-value-filter, #position-filter').on('keyup change', function() {
+                if(dataTableInstance) {
+                    dataTableInstance.draw(); 
+                }
+            });
+
+            // Club Filter Dropdown Toggle
+            $('#club-dropdown-toggle').on('click', function(e) {
+                e.stopPropagation(); 
+                toggleClubDropdown();
+            });
+            
+            // Close dropdown when clicking outside
+            $(document).on('click', function(e) {
+                if (!$('#club-dropdown-menu').hasClass('hidden') && !$(e.target).closest('#club-dropdown-menu').length && !$(e.target).is('#club-dropdown-toggle')) {
+                    $('#club-dropdown-menu').addClass('hidden');
+                    $('#club-dropdown-toggle').attr('aria-expanded', 'false');
+                }
+            });
+
+            // Club Checkbox changes
+            $('#club-filter-list').on('change', '.club-checkbox', function() {
+                updateClubDisplayText();
+                if(dataTableInstance) {
+                    dataTableInstance.draw();
+                }
+            });
+
+            // Select All / Unselect All
+            $('#select-all-clubs, #unselect-all-clubs').on('click', function() {
+                const isSelectAll = this.id === 'select-all-clubs';
+                $('#club-filter-list input[type="checkbox"]').prop('checked', isSelectAll).trigger('change');
+            });
+
+        }
+        
+        // --- 6. USER INSTRUCTION: PLACE YOUR DATA LOADING LOGIC HERE ---
+        
+        // This is the core instruction area. Replace this placeholder logic with 
+        // your actual data fetching mechanism (e.g., an AJAX call, or loading 
+        // a local JSON file).
+        
+        // Your data array MUST be an array of objects, where each object has 
+        // keys like "Name", "Club", "Position", "Total Points", and keys for 
+        // each Gameweek (e.g., "1", "2", "3", etc.).
+        
+        
+        // Example Data Fetching (Uncomment and modify as needed):
+
+        fetch('transformed_data.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(playerData => {
+                // Once data is loaded, initialize the table
+                initializeTable(playerData);
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                $('#loading-message').text('Failed to load player data. Check console for error details.');
+            });
+
     });
     </script>
 
