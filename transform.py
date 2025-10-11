@@ -138,7 +138,7 @@ def transform_player_data(
         # --- 1. Basic Fields ---
         name = player.get("Name", "Unknown Player")
         if name is None or name.strip() == "":
-            print("Warning: Skipping player with missing or empty name.")
+            print(f"Warning: Skipping url slug {player.get("URL_Slug", "Unknown")} with missing or empty name.")
             continue
 
         total_points_str = player.get("Total_Points", "0pts").replace("pts", "")

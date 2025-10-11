@@ -27,6 +27,15 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
         
+        /* DataTables Row Clickability Styling */
+        #myTable tbody tr {
+            cursor: pointer;
+            transition: background-color 0.15s;
+        }
+        #myTable tbody tr:hover {
+            background-color: #fef3c7; /* Light yellow hover for feedback */
+        }
+        
         /* 1. MAX SQUEEZE: Drastically reduced overall padding on all cells */
         table.dataTable th,
         table.dataTable td {
@@ -197,12 +206,19 @@
         /* Modal Content */
         .modal-content {
             background-color: white;
-            border-radius: 0.5rem;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            border-radius: 0.75rem; /* Slightly larger radius */
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4); /* Stronger shadow */
             max-width: 90%;
+            width: 500px; /* Fixed max width for card feel */
             max-height: 90%;
             overflow-y: auto;
             position: relative;
+            animation: fadeInScale 0.2s ease-out;
+        }
+
+        @keyframes fadeInScale {
+            from { opacity: 0; transform: scale(0.95) translateY(10px); }
+            to { opacity: 1; transform: scale(1) translateY(0); }
         }
 
     </style>
@@ -318,11 +334,11 @@
     </div>
     
     <!-- GLOSSARY MODAL -->
-    <div id="glossary-modal" class="modal-backdrop hidden" onclick="closeModal()">
+    <div id="glossary-modal" class="modal-backdrop hidden" onclick="closeModal('glossary')">
         <div class="modal-content p-6 w-full max-w-lg" onclick="event.stopPropagation()">
             <div class="flex justify-between items-center border-b pb-3 mb-4">
                 <h3 class="text-xl font-bold text-gray-900">Table Key / Glossary</h3>
-                <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600 transition">
+                <button onclick="closeModal('glossary')" class="text-gray-400 hover:text-gray-600 transition">
                     <i class="fa-solid fa-xmark text-2xl"></i>
                 </button>
             </div>
@@ -338,6 +354,41 @@
         </div>
     </div>
     <!-- END GLOSSARY MODAL -->
+
+    <!-- PLAYER DETAILS MODAL (NEW) -->
+    <div id="player-details-modal" class="modal-backdrop hidden" onclick="closeModal('player')">
+        <div class="modal-content p-6 w-full max-w-lg" onclick="event.stopPropagation()">
+            
+            <!-- Close Button -->
+            <button onclick="closeModal('player')" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 transition z-20">
+                <i class="fa-solid fa-xmark text-2xl"></i>
+            </button>
+
+            <div class="text-center border-b pb-4 mb-4">
+                <h3 id="modal-player-name" class="text-3xl font-bold text-gray-900"></h3>
+                <p id="modal-player-info" class="text-sm text-gray-500 mt-1">
+                    <span id="modal-player-pos"></span> &bull; <span id="modal-player-club"></span> &bull; <span id="modal-player-value" class="font-semibold text-gray-700"></span>
+                </p>
+            </div>
+            
+            <div id="modal-stats-grid" class="grid grid-cols-2 gap-4">
+                <!-- Dynamic stats will be injected here -->
+            </div>
+
+            <!-- Future Area for Upcoming Matches / Advanced Info -->
+            <div class="mt-6 pt-4 border-t">
+                <h4 class="text-xl font-semibold text-indigo-700 mb-3 flex items-center">
+                    <i class="fa-solid fa-calendar-alt mr-2"></i> Upcoming Matches
+                </h4>
+                <p class="text-gray-500 text-sm italic">
+                    Coming soon.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- END PLAYER DETAILS MODAL -->
+
 
     <!-- Load jQuery (required by DataTables) -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -355,18 +406,87 @@
         let uniqueClubs = [];
 
         // --- GLOBAL MODAL FUNCTIONS ---
-        window.showModal = function() {
-            // Generate content every time in case the dynamic columns change (though unlikely here)
-            generateGlossaryContent(dataTableInstance ? dataTableInstance.settings()[0].aoColumns : []);
-            $('#glossary-modal').removeClass('hidden');
+        // Unified function to handle both modals
+        window.showModal = function(type, data = null) {
+            if (type === 'glossary') {
+                // Generate content every time in case the dynamic columns change 
+                generateGlossaryContent(dataTableInstance ? dataTableInstance.settings()[0].aoColumns : []);
+                $('#glossary-modal').removeClass('hidden');
+            } else if (type === 'player' && data) {
+                populatePlayerDetails(data);
+                $('#player-details-modal').removeClass('hidden');
+            }
         };
 
-        window.closeModal = function() {
-            $('#glossary-modal').addClass('hidden');
+        window.closeModal = function(type) {
+            if (type === 'glossary') {
+                $('#glossary-modal').addClass('hidden');
+            } else if (type === 'player') {
+                $('#player-details-modal').addClass('hidden');
+            }
         };
         
-        $('#show-key-button').on('click', showModal);
+        $('#show-key-button').on('click', () => showModal('glossary'));
         // --- END GLOBAL MODAL FUNCTIONS ---
+
+        // --- NEW PLAYER DETAILS FUNCTION ---
+        function populatePlayerDetails(player) {
+            const nameEl = $('#modal-player-name');
+            const posEl = $('#modal-player-pos');
+            const clubEl = $('#modal-player-club');
+            const valueEl = $('#modal-player-value');
+            const statsGrid = $('#modal-stats-grid');
+            
+            // 1. Set Header Info
+            nameEl.text(player.Name);
+            posEl.text(player.Position);
+            clubEl.text(player.Club);
+            valueEl.html(`&pound;${safeToFixed(player.Value, 1)}M`);
+            
+            // 2. Define Stats to Display in the Modal Card
+            const statKeys = [
+                {"label": "Total Points (P)", "key": "Total Points", "unit": ""},
+                {"label": "Points Per Game (PG)", "key": "Points Per Game", "unit": "", "calc": true}, // Needs calculation
+                {"label": "Selection Rate (S%)", "key": "Selected Percentage", "unit": "%", "raw_unit": true}, // Has % in data
+                {"label": "Goals Scored", "key": "Total Goals", "unit": ""},
+                {"label": "Assists", "key": "Total Assists", "unit": ""},
+                {"label": "Clean Sheets (CS)", "key": "Total Clean Sheet", "unit": ""},
+                {"label": "Points Last 4 GWs (P4)", "key": "Total Over 4 Gameweeks", "unit": ""},
+                {"label": "Points/M Last 4 GWs (PM4)", "key": "Points Per Million Over 4 Gameweeks", "unit": "", "raw_unit": true}, // Show as number
+            ];
+            
+            let detailsHTML = '';
+            
+            statKeys.forEach(stat => {
+                let displayValue = '-';
+
+                // Handle calculated fields (like PPG)
+                if (stat.calc) {
+                     const totalPoints = player["Total Points"];
+                     const gamesPlayed = player["Total Games Played"];
+                     displayValue = gamesPlayed > 0 ? safeToFixed(totalPoints / gamesPlayed, 2) : '-';
+                } else if (player[stat.key] !== undefined && player[stat.key] !== null) {
+                    displayValue = player[stat.key];
+                }
+                
+                // Format the display value
+                if (typeof displayValue === 'number' && !stat.raw_unit) {
+                    displayValue = safeToFixed(displayValue, 0); // Default to integer if not specified
+                }
+                
+                detailsHTML += `
+                    <div class="flex flex-col p-3 bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                        <span class="text-xs font-medium text-gray-500 uppercase tracking-wider">${stat.label}</span>
+                        <span class="text-xl font-extrabold text-indigo-600 mt-1">
+                            ${displayValue}${stat.raw_unit ? '' : stat.unit}
+                        </span>
+                    </div>
+                `;
+            });
+            
+            statsGrid.html(detailsHTML);
+        }
+        // --- END NEW PLAYER DETAILS FUNCTION ---
 
 
         // Helper function to create the abbreviated header with a tooltip
@@ -400,7 +520,7 @@
                 abbr: 'S%', 
                 full: 'Percentage of people selecting this player', 
                 type: 'num', 
-                render: (data) => safeToFixed(data, 1), 
+                render: (data) => safeToFixed(data, 1) + '%', 
                 className: 'dt-center' 
             },
             
@@ -471,7 +591,7 @@
                 abbr: `PG${RECENT_GAMES_COUNT}`, 
                 full: `Points per available gameweek (PPG over ${RECENT_GAMES_COUNT} weeks - uses 4 as divisor)`, 
                 type: 'num', 
-                render: (data) => safeToFixed(data, 1), // Show two decimals (e.g., 0.75)
+                render: (data) => safeToFixed(data, 1), // Show one decimal
                 className: 'dt-center' 
             },
             
@@ -479,7 +599,7 @@
                 abbr: `PM${RECENT_GAMES_COUNT}`, 
                 full: `Points per million over last ${RECENT_GAMES_COUNT} gameweeks`, 
                 type: 'num', 
-                render: (data) => safeToFixed(data, 1), // Show two decimals
+                render: (data) => safeToFixed(data, 1), // Show one decimal
                 className: 'dt-center' 
             },
             // --- END UPDATED 4 GW METRICS ---
@@ -689,7 +809,6 @@
         );
         // --- End Custom Filter ---
 
-
         /**
          * Initializes and renders the DataTables table with player data.
          * @param {Array<Object>} data The array of player objects.
@@ -727,10 +846,8 @@
                 headerRow += `<th class="dt-head-center ${headerClass}">${createHeader(config.abbr, config.full)}</th>`;
             });
 
-
             // 3. Identify and Define Dynamic Gameweek Columns
             const firstPlayer = data[0];
-            
             const gameweekKeys = Object.keys(firstPlayer).filter(key => {
                 return !STATIC_KEYS_SET.has(key) && /^\d+$/.test(key);
             }).sort((a, b) => {
@@ -751,9 +868,7 @@
             
             headerRow += '</tr>';
 
-
-            // 4. Finalize Setup and Initialize DataTables
-            
+            // 4. Finalize Setup and Initialize DataTables    
             $('#myTable').empty(); 
             $('#myTable').append(`<thead>${headerRow}</thead>`);
 
@@ -783,15 +898,26 @@
                 }
             });
 
-            // FIX: Force column width recalculation
+            // Force column width recalculation
             setTimeout(() => {
                 if(dataTableInstance) {
                     dataTableInstance.columns.adjust().draw();
                 }
             }, 50);
 
-            // 5. Attach Filter Event Listeners
-            
+            // --- Attach Click Handler for Player Details Modal ---
+            $('#myTable tbody').on('click', 'tr', function () {
+                if (dataTableInstance) {
+                    // Get the row data object for the clicked row
+                    const rowData = dataTableInstance.row(this).data();
+                    if (rowData) {
+                        showModal('player', rowData);
+                    }
+                }
+            });
+            // --- End Click Handler ---
+
+            // 5. Attach Filter Event Listeners  
             $('#max-value-filter, #position-filter').on('keyup change', function() {
                 if(dataTableInstance) {
                     dataTableInstance.draw(); 
@@ -827,17 +953,6 @@
             });
 
         }
-        
-        // --- 6. USER INSTRUCTION: PLACE YOUR DATA LOADING LOGIC HERE ---
-        
-        // This is the core instruction area. Replace this placeholder logic with 
-        // your actual data fetching mechanism (e.g., an AJAX call, or loading 
-        // a local JSON file).
-        
-        // Your data array MUST be an array of objects, where each object has 
-        // keys like "Name", "Club", "Position", "Total Points", and keys for 
-        // each Gameweek (e.g., "1", "2", "3", etc.).
-        
         
         // Example Data Fetching (Uncomment and modify as needed):
 
