@@ -344,9 +344,88 @@
             display: block; /* Important for the title attribute to apply to a block element */
         }
         
-        /* This is a bit advanced but ensures the browser renders the \n in the title attribute */
-        /* Not directly controllable via CSS, but some browsers (like Firefox) support pre-wrap on titles */
-        /* For maximum compatibility, the HTML structure in the JS is the most reliable change. */
+        <style>
+    /* ... existing styles ... */
+
+    /* Custom styles for team badge (pill style) */
+    .team-badge {
+        display: inline-block;
+        padding: 0.2rem 0.6rem;
+        border-radius: 9999px; /* Tailwind's rounded-full */
+        font-weight: 600; /* Tailwind's font-semibold */
+        font-size: 0.85rem;
+        line-height: 1;
+        text-align: center;
+        min-width: 40px; /* Ensure badges are consistent width */
+    }
+
+    /* ... existing styles ... */
+    
+    /* Custom styles for team badge (pill style) */
+    .team-badge {
+        display: inline-block;
+        padding: 0.2rem 0.0rem;
+        border-radius: 9999px; /* Tailwind's rounded-full */
+        font-weight: 600; /* Tailwind's font-semibold */
+        font-size: 0.85rem;
+        line-height: 1;
+        text-align: center;
+        width: 45px;
+    }
+
+    /* Team Color Definitions (WSL 2024/2025 typical colors) */
+    .badge-ARS { background-color: #db0007; color: #ffffff; } /* Arsenal Red */
+    .badge-AVL { background-color: #a3c5e9; color: #7b003a; } /* Aston Villa Blue/Claret Text */
+    .badge-BHA { background-color: #2986cc; color: #ffffff; } /* Brighton Blue */
+    .badge-CHE { background-color: #034694; color: #ffffff; } /* Chelsea Blue */
+    .badge-EVE { background-color: #003399; color: #ffffff; } /* Everton Blue */
+    .badge-LEI { background-color: #003090; color: #ffffff; } /* Leicester Blue */
+    .badge-LIV { background-color: #d00027; color: #ffffff; } /* Liverpool Red */
+    .badge-LCL { background-color: #88D1AA; color: #FFFFFF; } /* London City Lionesses (Light Aqua/Green Tinge) */
+    .badge-MCI { background-color: #6cabdd; color: #ffffff; } /* Man City Blue */
+    .badge-MUN { background-color: #DA020E; color: #ffffff; } /* Man United Red */
+    .badge-TOT { background-color: #0A1C56; color: #ffffff; } /* Tottenham Navy */
+    .badge-WHU { background-color: #7c2c3b; color: #1bb1e7; } /* West Ham Claret/Light Blue Text */
+
+    /* Custom styles for position badge - RECTANGULAR STYLE */
+    .pos-badge {
+        display: inline-block;
+        padding: 0.3rem 0.2rem;
+        border-radius: 0.2rem; /* Small radius for a rectangular look */
+        font-weight: 600; /* Slightly bolder font for impact */
+        font-size: 0.7rem;
+        line-height: 1;
+        text-align: center;
+        min-width: 35px; /* Slightly wider for better text fit */
+        /* Optional: Add a light shadow or border to lift it off the row */
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+    }
+
+    /* Position Color Definitions (Colors are unchanged from last suggestion) */
+    .badge-GK { background-color: #4CAF50; color: #FFFFFF; } /* Goalkeeper: Green */
+    .badge-DEF { background-color: #9C27B0; color: #FFFFFF; } /* Defender: Deep Purple */
+    .badge-MID { background-color: #FFC107; color: #000000; } /* Midfielder: Amber */
+    .badge-FOR { background-color: #FF715b; color: #FFFFFF; } /* Forward: Deep Orange */
+
+    /* Style for the currently sorted column (Header) */
+    table.dataTable thead .sorting_asc, 
+    table.dataTable thead .sorting_desc {
+        background-color: #f0f0f0; /* Very light grey for a subtle highlight */
+        /* Optionally add a slight shadow or border for depth */
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    
+    /* Style for the currently sorted column (Data Cells) */
+    table.dataTable tbody tr > .sorting_1 {
+        background-color: #f7f7f7 !important; /* Slightly lighter than the header, uses !important to override row-specific styling */
+    }
+
+    /* Tidy up the background of the data cell when the row is hovered (optional but recommended) */
+    table.dataTable tbody tr:hover > .sorting_1 {
+        background-color: #eaeaea !important; /* Keep a subtle background even on hover */
+    }
+
+</style>
 
     </style>
 </head>
@@ -606,8 +685,32 @@
         // --- Mapped column definitions for STATIC data with custom SVGs/Abbreviations ---
         const STATIC_COLUMN_MAP = {
             "Name": { abbr: 'Name', full: 'Player Name', type: 'string', className: 'font-bold text-gray-800 player-name-content' }, 
-            "Club": { abbr: 'Club', full: 'Player\'s Club', type: 'string', className: 'whitespace-nowrap dt-center' },
-            "Position": { abbr: 'Pos', full: 'Player\'s Position', type: 'string', className: 'dt-center' },
+            "Club": { 
+                abbr: 'Club', 
+                full: 'Player\'s Club', 
+                type: 'string', 
+                className: 'whitespace-nowrap dt-center',
+                render: function(data, type, row) {
+                    if (type === 'display') {
+                        const teamCode = data; // e.g., "ARS", "MUN"
+                        // Wrap the team code in a span with the base style and color class
+                        return `<span class="team-badge badge-${teamCode}">${teamCode}</span>`;
+                    }
+                    return data;
+                }
+            },
+            "Position": { 
+                abbr: 'POS', 
+                full: 'Player Position', 
+                type: 'string', 
+                className: 'dt-center', 
+                render: function(data, type, row) { 
+                    if (type === 'display') { 
+                        const posCode = data; 
+                        return `<span class="pos-badge badge-${posCode}">${posCode}</span>`; 
+                    } 
+                    return data; } 
+            },
             "Value": { 
                 abbr: 'Val', 
                 full: 'Player Value (millions)', 
