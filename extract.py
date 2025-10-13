@@ -66,7 +66,7 @@ def fetch_and_parse_player_details(slug):
     Fetches the individual player page using the slug and extracts ALL
     data (Name, Team, Position, Selected %, Value, Matches).
     """
-    DETAIL_URL = f"{BASE_URL}/{slug}"
+    DETAIL_URL = f"{BASE_URL}/{slug}/performance"
     time.sleep(POLITE_SLEEP_SECONDS)
 
     player_data = {
@@ -80,96 +80,6 @@ def fetch_and_parse_player_details(slug):
         "Match_Results": [],
     }
 
-    # # helper: find Xm near an anchor index and reject app-store contexts
-    # def _find_number_with_m_near(text, anchor_idx, radius=350):
-    #     if anchor_idx is None or anchor_idx < 0:
-    #         return None
-    #     start = max(0, anchor_idx - radius)
-    #     end = min(len(text), anchor_idx + radius)
-    #     window = text[start:end]
-    #     for mm in re.finditer(r'([0-9]{1,2}(?:\.[0-9]+)?)\s*[mM]\b', window):
-    #         candidate = mm.group(1)
-    #         ctx_start = max(0, start + mm.start() - 60)
-    #         ctx_end = min(len(text), start + mm.end() + 60)
-    #         ctx = text[ctx_start:ctx_end].lower()
-    #         if any(x in ctx for x in ("app store", "download", "downloads", "itunes", "google play")):
-    #             continue
-    #         try:
-    #             return f"{float(candidate):g}m"
-    #         except Exception:
-    #             return f"{candidate}m"
-    #     return None
-
-    # # helper: robust value extraction with safer rules
-    # def _extract_value(text, name=None, selected_pct=None):
-    #     # 1) explicit escaped React block: \"children\":\"Value\" ... \"children\":\"9.5m\"
-    #     m = re.search(r'\\"children\\":\\"Value\\".*?\\"children\\":\\"([0-9]+(?:\.[0-9]+)?\s*[mM])\\"',
-    #                   text, re.DOTALL | re.IGNORECASE)
-    #     if m:
-    #         return f"{float(m.group(1).lower().replace('m','')):g}m"
-
-    #     # 2) explicit unescaped block: "children":"Value" ... "children":"9.5m"
-    #     m = re.search(r'"children"\s*:\s*"Value".*?"children"\s*:\s*"([0-9]+(?:\.[0-9]+)?\s*[mM])"',
-    #                   text, re.DOTALL | re.IGNORECASE)
-    #     if m:
-    #         return f"{float(m.group(1).lower().replace('m','')):g}m"
-
-    #     # 3) numeric "value": 9.5  — accept only if it looks like a realistic market value (>= 1.0)
-    #     # check escaped then unescaped
-    #     for p in (r'\\"value\\":\s*([0-9]+(?:\.[0-9]+)?)', r'"value"\s*:\s*([0-9]+(?:\.[0-9]+)?)'):
-    #         m = re.search(p, text)
-    #         if m:
-    #             try:
-    #                 v = float(m.group(1))
-    #                 # accept numeric only if >= 1.0 (most market values are >= ~1.0)
-    #                 if v >= 1.0:
-    #                     return f"{v:g}m"
-    #             except Exception:
-    #                 pass
-
-    #     # 4) Look near Selected (%) for an Xm string
-    #     if selected_pct:
-    #         idx = text.find(selected_pct)
-    #         if idx != -1:
-    #             found = _find_number_with_m_near(text, idx, radius=400)
-    #             if found:
-    #                 return found
-
-    #     # 5) Look near player's name
-    #     if name:
-    #         idx = text.find(name)
-    #         if idx != -1:
-    #             found = _find_number_with_m_near(text, idx, radius=450)
-    #             if found:
-    #                 return found
-
-    #     # 6) Try explicit props/player blocks (escaped/unescaped) that sometimes include value
-    #     m = re.search(r'\\"props\\":\{.*?\\"value\\":\s*([0-9]+(?:\.[0-9]+)?)', text, re.DOTALL)
-    #     if m:
-    #         v = float(m.group(1))
-    #         if v >= 1.0:
-    #             return f"{v:g}m"
-    #     m = re.search(r'"props"\s*:\s*\{.*?"value"\s*:\s*([0-9]+(?:\.[0-9]+)?)', text, re.DOTALL)
-    #     if m:
-    #         v = float(m.group(1))
-    #         if v >= 1.0:
-    #             return f"{v:g}m"
-
-    #     # 7) Safe top-of-page scan ignoring app-store contexts
-    #     top_slice = text[:5000]
-    #     for mm in re.finditer(r'([0-9]{1,2}(?:\.[0-9]+)?)\s*[mM]\b', top_slice):
-    #         ctx_start = max(0, mm.start() - 80)
-    #         ctx_end = min(len(top_slice), mm.end() + 80)
-    #         ctx = top_slice[ctx_start:ctx_end].lower()
-    #         if any(x in ctx for x in ("app store", "download", "downloads", "itunes", "google play")):
-    #             continue
-    #         try:
-    #             return f"{float(mm.group(1)):g}m"
-    #         except Exception:
-    #             return f"{mm.group(1)}m"
-
-    #     return None
-
     try:
         response = requests.get(DETAIL_URL, headers=HEADERS, timeout=10)
         response.raise_for_status()
@@ -180,7 +90,6 @@ def fetch_and_parse_player_details(slug):
         if name_match:
             raw_name = html.unescape(name_match.group(1))
             player_data["Name"] = re.sub(r"<!--.*?-->", "", raw_name).strip()
-        name = player_data["Name"]
 
         # --- Team ---
         team = None
