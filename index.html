@@ -553,7 +553,10 @@
             <div class="text-center border-b pb-4 mb-4">
                 <h3 id="modal-player-name" class="text-3xl font-bold text-gray-900"></h3>
                 <p id="modal-player-info" class="text-sm text-gray-500 mt-1">
-                    <span id="modal-player-pos"></span> &bull; <span id="modal-player-club"></span> &bull; <span id="modal-player-value" class="font-semibold text-gray-700"></span>
+                    <span id="modal-player-pos"></span> &bull; <span id="modal-player-club"></span> &bull; <span id="modal-player-value" class="font-semibold text-gray-700"></span>  
+                </p>
+                <p>
+                    <span id="modal-player-nat"></span>
                 </p>
             </div>
             
@@ -564,9 +567,9 @@
                 <h4 class="text-xl font-semibold text-indigo-700 mb-3 flex items-center">
                     <i class="fa-solid fa-calendar-alt mr-2"></i> Upcoming Matches
                 </h4>
-                <p class="text-gray-500 text-sm italic">
-                    Coming soon.
-                </p>
+                <div id="modal-fixtures-list" class="space-y-3">
+                    <p class="text-gray-500 text-sm italic">Loading fixtures...</p> 
+                </div>
             </div>
             
         </div>
@@ -614,14 +617,17 @@
             const posEl = $('#modal-player-pos');
             const clubEl = $('#modal-player-club');
             const valueEl = $('#modal-player-value');
+            const natEl = $('#modal-player-nat');
             const statsGrid = $('#modal-stats-grid');
-            
+            const fixturesListEl = $('#modal-fixtures-list'); // NEW TARGET ELEMENT
+
             // 1. Set Header Info
             nameEl.text(player.Name);
             posEl.text(player.Position);
             clubEl.text(player.Club);
+            natEl.text(player.Nationality);
             valueEl.html(`&pound;${safeToFixed(player.Value, 1)}M`);
-            
+
             // 2. Define Stats to Display in the Modal Card
             const statKeys = [
                 {"label": "Total Points (P)", "key": "Total Points", "unit": ""},
@@ -641,9 +647,9 @@
 
                 // Handle calculated fields (like PPG)
                 if (stat.calc) {
-                     const totalPoints = player["Total Points"];
-                     const gamesPlayed = player["Total Games Played"];
-                     displayValue = gamesPlayed > 0 ? safeToFixed(totalPoints / gamesPlayed, 1) : '-';
+                    const totalPoints = player["Total Points"];
+                    const gamesPlayed = player["Total Games Played"];
+                    displayValue = gamesPlayed > 0 ? safeToFixed(totalPoints / gamesPlayed, 1) : '-';
                 } else if (player[stat.key] !== undefined && player[stat.key] !== null) {
                     displayValue = player[stat.key];
                 }
@@ -664,8 +670,52 @@
             });
             
             statsGrid.html(detailsHTML);
+
+            // Populate Upcoming Fixtures
+            const fixtures = player.upcoming_fixtures || [];
+            const playerClubCode = player.Club; // Player's club code (e.g., 'MUN')
+            let fixturesHTML = '';
+
+            if (fixtures.length === 0) {
+                fixturesHTML = '<p class="text-gray-500 text-sm italic">No upcoming fixtures found.</p>';
+            } else {
+                let listHTML = '';
+                
+                fixtures.forEach(fixture => {
+                    const homeTeamCode = fixture.home_id;
+                    const awayTeamCode = fixture.away_id;
+                    const isHome = homeTeamCode === playerClubCode;
+                    
+                    const opponentCode = isHome ? fixture.away_short_name : fixture.home_short_name;
+                    const location = isHome ? ' (Home)' : ' (Away)';
+                    
+                    // Fallback in case shortName is missing (e.g., opponentCode is null/undefined)
+                    const displayOpponentCode = opponentCode || '???';
+
+                    const opponentClass = isHome 
+                        ? 'font-bold text-gray-900'       // Apply bold and darker color for home games
+                        : 'font-medium text-gray-600';  // Keep medium weight and lighter color for away games
+                    
+                    listHTML += `
+                        <div class="flex justify-between items-center text-sm border-b border-gray-100 pb-2">
+                            <div class="flex items-center space-x-2">
+                                <span class="text-xs font-bold text-gray-600 w-[130px] flex-shrink-0">Game Week ${fixture.game_week}</span>
+                                <span class="${opponentClass}">${displayOpponentCode}${location}</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="font-medium text-gray-900">${fixture.game_date} @ ${fixture.kick_off_time}</span>
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                fixturesHTML = `<div class="space-y-3">${listHTML}</div>`;
+            }
+
+            fixturesListEl.html(fixturesHTML);
         }
         // --- END NEW PLAYER DETAILS FUNCTION ---
+
 
 
         // Helper function to create the abbreviated header with a tooltip
@@ -700,7 +750,7 @@
                 }
             },
             "Position": { 
-                abbr: 'POS', 
+                abbr: 'Pos', 
                 full: 'Player Position', 
                 type: 'string', 
                 className: 'dt-center', 

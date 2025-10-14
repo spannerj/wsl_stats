@@ -4,7 +4,92 @@ from collections import defaultdict
 from datetime import datetime
 
 
-def get_api_data() -> list[dict[str, int | str | float]]:
+def get_fixture_data() -> list[dict[str, str | int]]:
+    """Fetches fixture data from the API and returns a list of dictionaries."""
+    base_url = "https://api.aerialfantasy.co/graphql"
+    query = """
+        {
+            clubs {
+                id
+                name
+                games {
+                    id
+                    scheduledAt
+                    hasStarted
+                    stage { id }
+                    home { party { __typename
+                        ... on Club { name, shortName, id}
+                    }
+                    }
+                    away { party { __typename
+                        ... on Club { name, shortName, id}
+                    }
+                    }
+                }
+            }
+        }
+    """
+    print("Fetching fixture data from API...")
+    res = requests.post(base_url, json={"query": query})
+    res.raise_for_status()
+    data = res.json()
+    return data["data"]
+
+
+def process_game(game):
+    """
+    Transforms a complex game object into the simplified fixture format
+    """
+    home_name = game.get('home', {}).get('party', {}).get('name')
+    home_short_name = game.get('home', {}).get('party', {}).get('shortName')
+    home_id = game.get('home', {}).get('party', {}).get('id')
+    away_name = game.get('away', {}).get('party', {}).get('name')
+    away_short_name = game.get('away', {}).get('party', {}).get('shortName')
+    away_id = game.get('away', {}).get('party', {}).get('id')
+    stage_id = game.get('stage', {}).get('id')
+
+    # --- Date/Time Transformation ---
+    scheduled_at_str = game.get('scheduledAt')
+    date_obj = datetime.fromisoformat(scheduled_at_str.replace('Z', '+00:00'))
+
+    game_date = date_obj.strftime("%-d %b")
+    kick_off_time = date_obj.strftime("%H:%M")
+
+    return {
+        "game_date": game_date,     
+        "kick_off_time": kick_off_time,
+        "game_week": stage_id,
+        "home_id": home_id.upper(),
+        "home_name": home_name,
+        "home_short_name": home_short_name,
+        "away_id": away_id.upper(),
+        "away_name": away_name,
+        "away_short_name": away_short_name,
+    }
+
+
+def filter_fixtures(fixtures_data):
+    # Filter Fixtures into a map (Club ID -> [Upcoming Fixtures])
+    club_fixtures_map = {}
+
+    for club in fixtures_data.get('clubs', []):
+        club_id = club.get('id').upper()
+
+        upcoming_games = []
+        for game in club.get('games', []):
+
+            # Filter: Keep only games that haven't started
+            if game.get('hasStarted') is False:
+                # Transform the game object into the desired, simplified format
+                simplified_fixture = process_game(game)
+                upcoming_games.append(simplified_fixture)
+
+        club_fixtures_map[club_id] = upcoming_games
+
+    return club_fixtures_map
+
+
+def get_player_data() -> list[dict[str, int | str | float]]:
     """Fetches the player details from the API and returns a list of dictionaries."""
     base_url = "https://api.aerialfantasy.co/graphql"
     query = """
@@ -13,8 +98,9 @@ def get_api_data() -> list[dict[str, int | str | float]]:
                 slug
                 firstName
                 lastName
-                club {id}
+                club {id, shortName}
                 position
+                nationality
                 price
                 totalPoints
                 selected
@@ -46,8 +132,6 @@ def get_api_data() -> list[dict[str, int | str | float]]:
 
 
 # --- TEAM NAME EXTRACTION ---
-
-
 def extract_teams_from_game_id(game_id):
     """
     Extracts home and away team codes from game ID.
@@ -104,8 +188,6 @@ def get_position_code(position):
 
 
 # --- TOOLTIP FUNCTION ---
-
-
 def create_gw_tooltip(game_data, player_team_code):
     """
     Creates a detailed, multi-line tooltip string for Gameweek match.
@@ -214,18 +296,49 @@ def create_gw_tooltip(game_data, player_team_code):
     return "\n".join(tooltip_parts)
 
 
+def combine_player_and_fixture_data(final_player_list, fixtures_map):
+    """
+    Filters upcoming fixtures and joins them to the player data.
+
+    Args:
+        final_player_list (list): The list of fully processed player dictionaries.
+        fixtures_map (dict): The map of {club_id: [upcoming_fixtures]}.
+    """
+    print("Combine player data and fixture data.")
+
+    # Initialize the final output list
+    all_players_with_fixtures = []
+
+    # Iterate directly over the list of players (which is the input 'final_player_list')
+    # Use 'player' here as the loop variable.
+    for player in final_player_list:
+        # NOTE: The player dicts inside final_output still have the 'Club' key
+        # since it was transformed but not removed yet.
+        club_id = player.get('Club', '').upper()
+
+        # Retrieve the upcoming fixtures list for this player's club
+        upcoming_fixtures = fixtures_map.get(club_id, [])
+
+        # Attach the fixtures data
+        player['upcoming_fixtures'] = upcoming_fixtures
+
+        all_players_with_fixtures.append(player)
+
+    print(f"{len(all_players_with_fixtures)} players combined with fixtures.")
+
+    return all_players_with_fixtures
+
+
 # --- MAIN TRANSFORMATION FUNCTION ---
-
-
 def transform_data(output_file="transformed_data.json", recent_games_count=4):
     """
     Fetches data from API, transforms it directly, and saves to output file.
     """
 
     # 1. Fetch data from API
-    print("Fetching data from API...")
+    print("Fetching player data from API...")
     try:
-        api_players = get_api_data()
+        api_players = get_player_data()
     except Exception as e:
         print(f"Error fetching API data: {e}")
         return
@@ -276,6 +389,7 @@ def transform_data(output_file="transformed_data.json", recent_games_count=4):
             continue
 
         club = player.get("club", {}).get("id", "").upper()
+        nationality = player.get("nationality", "")
         position = get_position_code(player.get("position", ""))
         value = player.get("price", 0) / 10.0  # API returns in tenths
         selected_percentage = player.get("selected", 0) * 100  # Convert to percentage
@@ -355,6 +469,7 @@ def transform_data(output_file="transformed_data.json", recent_games_count=4):
             "Club": club,
             "Position": position,
             "Value": round(value, 1),
+            "Nationality": nationality,
             "Total Points": total_points,
             "Selected Percentage": round(selected_percentage, 1),
             "Total Games Played": overall_games_played,
@@ -386,9 +501,16 @@ def transform_data(output_file="transformed_data.json", recent_games_count=4):
 
     print(f"{len(final_output)} players processed.")
 
-    # 5. Save output
+    # Get fixtrure data for teams
+    fixtures = get_fixture_data()
+    print("Loaded fixtures from API.")
+
+    filtered_fixtures = filter_fixtures(fixtures)
+    combined_data = combine_player_and_fixture_data(final_output, filtered_fixtures)
+
+    # Save output
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(final_output, f, indent=4, ensure_ascii=False)
+        json.dump(combined_data, f, indent=4, ensure_ascii=False)
     print(f"Data saved to {output_file}")
 
 
