@@ -101,6 +101,7 @@ def get_player_data() -> list[dict[str, int | str | float]]:
                 club {id, shortName}
                 position
                 nationality
+                visionaryNextStage
                 price
                 totalPoints
                 selected
@@ -390,6 +391,7 @@ def transform_data(output_file="transformed_data.json", recent_games_count=4):
 
         club = player.get("club", {}).get("id", "").upper()
         nationality = player.get("nationality", "")
+        visionary = player.get("visionaryNextStage", "")
         position = get_position_code(player.get("position", ""))
         value = player.get("price", 0) / 10.0  # API returns in tenths
         selected_percentage = player.get("selected", 0) * 100  # Convert to percentage
@@ -470,6 +472,7 @@ def transform_data(output_file="transformed_data.json", recent_games_count=4):
             "Position": position,
             "Value": round(value, 1),
             "Nationality": nationality,
+            "Visionary": visionary,
             "Total Points": total_points,
             "Selected Percentage": round(selected_percentage, 1),
             "Total Games Played": overall_games_played,

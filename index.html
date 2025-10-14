@@ -183,7 +183,22 @@
             width: 1% !important; 
         }
 
-        /* 4. Ensure centered data columns are actually centered */
+        /* Custom color for players with Visionary: true */
+        .visionary-text {
+            /* color: #0d996d; */
+            font-weight: bold;
+        }
+
+        /* Icon size and alignment container */
+        .visionary-icon {
+            display: inline-block;
+            width: 14px; /* Adjust size as needed */
+            height: 14px;
+            margin-right: 4px;
+            vertical-align: middle;
+        }
+
+        /* Ensure centered data columns are actually centered */
         table.dataTable td.dt-center {
             text-align: center !important;
         }
@@ -343,7 +358,6 @@
         .dt-container table.dataTable td.gw-col span {
             display: block; /* Important for the title attribute to apply to a block element */
         }
-        
         <style>
     /* ... existing styles ... */
 
@@ -446,7 +460,7 @@
             </button>
 
             <a href="https://buymeacoffee.com/spannerj" target="_blank" rel="noopener noreferrer"
-            class="inline-flex items-center justify-center px-5 py-1 border border-transparent text-base font-medium rounded-full shadow-lg text-white bg-yellow-500 hover:bg-yellow-600 transition duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-yellow-300">
+            class="inline-flex items-center justify-center px-4 py-1 border border-transparent text-base font-medium rounded-full shadow-lg text-white bg-yellow-500 hover:bg-yellow-600 transition duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-yellow-300">
                 
                 <svg class="w-5 h-5 mr-3 -ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 2v2a6 6 0 0 0 4 0V2" />
@@ -514,6 +528,18 @@
                         placeholder="e.g. 7.5"
                     >
                 </div>
+
+                <div class="flex items-center space-x-2 w-full sm:w-auto">
+                    <input 
+                        type="checkbox" 
+                        id="visionary-filter" 
+                        class="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500"
+                    >
+                    <label for="visionary-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
+                        Visionaries Only
+                    </label>
+                </div>
+
             </div>
         </div>
         <div class="dt-container">
@@ -581,6 +607,21 @@
     
 
     <script>
+
+    const VISIONARY_SVG_LARGE = `
+        <svg class="visionary-icon w-6 h-6 align-top relative -top-1" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#0d996d"
+                d="M62.0583 23.8654C62.5588 21.8379 65.4412 21.8379 65.9417 23.8654L70.0291 40.4225C72.1656 49.0771 78.923 55.8344 87.5775 57.9709L104.135 62.0583C106.162 62.5588 106.162 65.4412 104.135 65.9417L87.5775 70.0291C78.9229 72.1656 72.1656 78.923 70.0291 87.5775L65.9417 104.135C65.4412 106.162 62.5588 106.162 62.0583 104.135L57.9709 87.5775C55.8344 78.9229 49.077 72.1656 40.4225 70.0291L23.8654 65.9417C21.8379 65.4412 21.8379 62.5588 23.8654 62.0583L40.4225 57.9709C49.0771 55.8344 55.8344 49.077 57.9709 40.4225L62.0583 23.8654ZM31.0291 19.9327C31.2794 18.9189 32.7206 18.9189 32.9709 19.9327L33.2859 21.2088C34.4432 25.8966 38.1034 29.5568 42.7912 30.7141L44.0673 31.0291C45.0811 31.2794 45.0811 32.7206 44.0673 32.9709L42.7912 33.2859C38.1034 34.4432 34.4432 38.1034 33.2859 42.7912L32.9709 44.0673C32.7206 45.0811 31.2794 45.0811 31.0291 44.0673L30.7141 42.7912C29.5568 38.1034 25.8966 34.4432 21.2088 33.2859L19.9327 32.9709C18.9189 32.7206 18.9189 31.2794 19.9327 31.0291L21.2088 30.7141C25.8966 29.5568 29.5568 25.8966 30.7141 21.2088L31.0291 19.9327Z"
+            />
+        </svg>
+    `;
+    const VISIONARY_SVG_SMALL = `
+        <svg class="visionary-icon" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#0d996d"
+                d="M62.0583 23.8654C62.5588 21.8379 65.4412 21.8379 65.9417 23.8654L70.0291 40.4225C72.1656 49.0771 78.923 55.8344 87.5775 57.9709L104.135 62.0583C106.162 62.5588 106.162 65.4412 104.135 65.9417L87.5775 70.0291C78.9229 72.1656 72.1656 78.923 70.0291 87.5775L65.9417 104.135C65.4412 106.162 62.5588 106.162 62.0583 104.135L57.9709 87.5775C55.8344 78.9229 49.077 72.1656 40.4225 70.0291L23.8654 65.9417C21.8379 65.4412 21.8379 62.5588 23.8654 62.0583L40.4225 57.9709C49.0771 55.8344 55.8344 49.077 57.9709 40.4225L62.0583 23.8654ZM31.0291 19.9327C31.2794 18.9189 32.7206 18.9189 32.9709 19.9327L33.2859 21.2088C34.4432 25.8966 38.1034 29.5568 42.7912 30.7141L44.0673 31.0291C45.0811 31.2794 45.0811 32.7206 44.0673 32.9709L42.7912 33.2859C38.1034 34.4432 34.4432 38.1034 33.2859 42.7912L32.9709 44.0673C32.7206 45.0811 31.2794 45.0811 31.0291 44.0673L30.7141 42.7912C29.5568 38.1034 25.8966 34.4432 21.2088 33.2859L19.9327 32.9709C18.9189 32.7206 18.9189 31.2794 19.9327 31.0291L21.2088 30.7141C25.8966 29.5568 29.5568 25.8966 30.7141 21.2088L31.0291 19.9327Z"
+            />
+        </svg>
+    `;
     $(document).ready(function() {
         
         const RECENT_GAMES_COUNT = 4;
@@ -622,7 +663,11 @@
             const fixturesListEl = $('#modal-fixtures-list'); // NEW TARGET ELEMENT
 
             // 1. Set Header Info
-            nameEl.text(player.Name);
+            if (player.Visionary) {
+                nameEl.html(`${player.Name} ${VISIONARY_SVG_LARGE}`);
+            } else {
+                nameEl.text(player.Name);
+            }
             posEl.text(player.Position);
             clubEl.text(player.Club);
             natEl.text(player.Nationality);
@@ -734,7 +779,34 @@
 
         // --- Mapped column definitions for STATIC data with custom SVGs/Abbreviations ---
         const STATIC_COLUMN_MAP = {
-            "Name": { abbr: 'Name', full: 'Player Name', type: 'string', className: 'font-bold text-gray-800 player-name-content' }, 
+            "Name": {
+                abbr: 'Name',
+                full: 'Player Name',
+                type: 'string',
+                className: 'font-bold text-gray-800 player-name-content',
+                render: function(data, type, row) {
+                    if (type === 'display') {
+                        // Check the boolean field
+                        const isVisionary = row.Visionary === true;
+                        let nameHtml = data;
+                        if (isVisionary) {
+                            // Apply the special color/bold class
+                            // Note: 'visionary-text' must be defined in your <style> block
+                            nameHtml = `<span class="visionary-text">${data}</span>`;
+                            
+                            // Prepend the SVG icon inside a flex container for alignment
+                            return `<div class="flex items-center">
+                                        ${nameHtml}
+                                        ${VISIONARY_SVG_SMALL}   
+                                    </div>`;
+                        }
+
+                        // If not visionary, just return the raw data
+                        return data;
+                    }
+                    return data; // For sorting/filtering, return raw data
+                }
+            }, 
             "Club": { 
                 abbr: 'Club', 
                 full: 'Player\'s Club', 
@@ -1057,9 +1129,54 @@
                 const isClubValid = selectedClubs.length === 0 ? false : selectedClubs.includes(playerClub);
                 if (!isClubValid) { return false; }
 
+                // Visionary Filter
+                const visionaryChecked = $('#visionary-filter').is(':checked');
+                const isVisionary = rowData.Visionary === true;
+
+                // If checkbox is checked, only show visionary players
+                if (visionaryChecked && !isVisionary) {
+                    return false;
+                }
+
                 return true;
             }
         );
+
+        // --- Custom DataTables Filter ---
+        $.fn.dataTable.ext.search.push(
+            function( settings, data, dataIndex ) {
+                // Only apply this filter to YOUR specific DataTable instance
+                // Assuming your table's DOM ID is 'player-stats-table'
+                if ( settings.nTable.id !== 'player-stats-table' ) {
+                    return true;
+                }
+
+                // 1. Get the player's full data object (DataTables stores it in 'row')
+                const rowData = settings.aoData[dataIndex]._aData;
+                
+                // 2. Get the state of the checkbox
+                const showVisionariesOnly = $('#visionary-filter').prop('checked');
+                
+                // 3. Get the player's 'Visionarye' status
+                const isVisionary = rowData.Visionary === true;
+
+                // Filtering logic:
+                if (showVisionariesOnly) {
+                    // If the box is checked, ONLY allow visionary players to pass.
+                    return isVisionary;
+                } else {
+                    // If the box is NOT checked, allow ALL players to pass.
+                    return true;
+                }
+            }
+        );
+
+        $('#visionary-filter').on('change', function() {
+            if (dataTableInstance) {
+                dataTableInstance.draw();
+            }
+        });
+
         // --- End Custom Filter ---
 
         /**
@@ -1145,7 +1262,7 @@
             
             headerRow += '</tr>';
 
-            // 4. Finalize Setup and Initialize DataTables    
+            // Finalize Setup and Initialize DataTables    
             $('#myTable').empty(); 
             $('#myTable').append(`<thead>${headerRow}</thead>`);
 
@@ -1193,6 +1310,14 @@
                 }
             });
             // --- End Click Handler ---
+
+            // Visionary Checkbox Event Listener
+            $('#visionary-filter').on('change', function() {
+                // Redraw the table to re-apply all active filters (including the new custom one)
+                if (dataTableInstance) {
+                    dataTableInstance.draw();
+                }
+            });
 
             // 5. Attach Filter Event Listeners  
             $('#max-value-filter, #position-filter').on('keyup change', function() {
