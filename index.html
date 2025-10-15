@@ -59,7 +59,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body { background-color: #f3f4f6; font-family: 'Inter', sans-serif; padding: 0px; }
         .dt-container {
-            max-width: 100%; 
+            width: 100%; 
             overflow-x: auto; /* CRITICAL for many columns */
             background: white; 
             padding: 0.3rem; 
@@ -361,6 +361,17 @@
         .abbrev-header {
             cursor: help;
         }
+
+        table.dataTable td.player-name-content span.news-text {
+            /* Use !important to guarantee this color wins */
+            color: #DC2626 !important; 
+        }
+
+        /* Keep your other color definitions simple */
+        .visionary-text {
+            color: #4F46E5; /* Purple */
+            font-weight: bold;
+        }
         
         /* Modal Backdrop */
         .modal-backdrop {
@@ -483,7 +494,7 @@
 </head>
 <body>
 
-    <div class="container mx-auto pt-2 px-4 pb-4">
+    <div class="max-w-full mx-auto pt-2 px-4 pb-4">
         <h2 class="text-2xl font-extrabold text-gray-900 mb-6 text-center">
             WSL Aerial Fantasy Player Statistics
         </h2>
@@ -614,17 +625,16 @@
                 <i class="fa-solid fa-xmark text-2xl"></i>
             </button>
 
-            <div class="text-center border-b pb-4 mb-4">
-                <h3 id="modal-player-name" class="text-3xl font-bold text-gray-900"></h3>
-                <p id="modal-player-info" class="text-sm text-gray-500 mt-1">
+            <div class="text-center border-b pb-2 mb-4">
+                <h3 id="modal-player-name" class="text-2xl font-bold text-gray-900"></h3>
+                <div id="modal-player-info" class="text-sm text-gray-500 mt-1">
                     <span id="modal-player-pos"></span> &bull; <span id="modal-player-club"></span> &bull; <span id="modal-player-value" class="font-semibold text-gray-700"></span>  
-                </p>
-                <p>
-                    <span id="modal-player-nat"></span>
-                </p>
+                </div>
+                    <span id="modal-player-nat" class="text-sm text-gray-500 mt-1"></span>
+                     <div id="modal-news-container"></div>
             </div>
             
-            <div id="modal-stats-grid" class="grid grid-cols-2 gap-4">
+            <div id="modal-stats-grid" class="grid grid-cols-2 gap-2">
                 </div>
 
             <div class="mt-6 pt-4 border-t">
@@ -711,6 +721,26 @@
             natEl.text(player.Nationality);
             valueEl.html(`&pound;${safeToFixed(player.Value, 1)}M`);
 
+            const newsContainerEl = $('#modal-news-container'); 
+
+            // --- Null/Empty Check and Display ---
+            // 1. Clear the container first (important for subsequent modal opens)
+            newsContainerEl.html('');
+            
+            // 2. Check for existence and non-empty string in JavaScript
+            // The player object likely uses 'news' (lowercase) since it comes from GraphQL.
+            // If your JSON keys were capitalized, use player.News
+            const playerNews = player.News; 
+
+            if (playerNews) {
+                // We use .trim() to ensure we don't display anything if it's just whitespace
+                if (playerNews.trim() !== "") {
+                    // Apply a Tailwind class for red highlight and bold text
+                    const newsHtml = `<div class="text-sm font-semibold text-red-600 mb-1">${playerNews}</div>`;
+                    newsContainerEl.html(newsHtml);
+                }
+            }
+
             // 2. Define Stats to Display in the Modal Card
             const statKeys = [
                 {"label": "Total Points (P)", "key": "Total Points", "unit": ""},
@@ -743,7 +773,7 @@
                 }
                 
                 detailsHTML += `
-                    <div class="flex flex-col p-3 bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                    <div class="flex flex-col p-1 bg-gray-50 rounded-lg shadow-sm border border-gray-200">
                         <span class="text-xs font-medium text-gray-500 uppercase tracking-wider">${stat.label}</span>
                         <span class="text-xl font-extrabold text-indigo-600 mt-1">
                             ${displayValue}${stat.raw_unit ? '' : stat.unit}
@@ -818,30 +848,54 @@
                 abbr: 'Name',
                 full: 'Player Name',
                 type: 'string',
-                className: 'font-bold text-gray-800 player-name-content',
+                className: 'font-bold player-name-content', 
+                
                 render: function(data, type, row) {
                     if (type === 'display') {
-                        // Check the boolean field
                         const isVisionary = row.Visionary === true;
-                        let nameHtml = data;
-                        if (isVisionary) {
-                            // Apply the special color/bold class
-                            // Note: 'visionary-text' must be defined in your <style> block
-                            nameHtml = `<span class="visionary-text">${data}</span>`;
-                            
-                            // Prepend the SVG icon inside a flex container for alignment
-                            return `<div class="flex items-center">
-                                        ${nameHtml}
-                                        ${VISIONARY_SVG_SMALL}   
-                                    </div>`;
+                        const playerNews = row.news || row.News; 
+                        const hasNews = playerNews && playerNews.trim() !== "";          
+                        let classString = 'font-bold'; 
+                        let finalContent;
+                        
+                        // 1. Determine Color Class (Red/News wins priority)
+                        if (hasNews) {
+                            classString += ' news-text'; // RED
+                        } else if (isVisionary) {
+                            classString += ' visionary-text'; // PURPLE
+                        } else {
+                            classString += ' text-gray-800'; 
                         }
 
-                        // If not visionary, just return the raw data
-                        return data;
+                        // Create the styled name element
+                        const nameSpan = `<span class="${classString}">${data}</span>`;
+                        
+                        // 2. Handle icon structure (if visionary)
+                        if (isVisionary) {
+                            finalContent = `<div class="flex items-center">
+                                                ${nameSpan}
+                                                ${VISIONARY_SVG_SMALL}   
+                                            </div>`;
+                        } else {
+                            finalContent = nameSpan;
+                        }
+
+                        // 3. 🚨 NEW: Wrap content in Tooltip if news is available
+                        if (hasNews) {
+                            // Prepare the news string: convert \n to <br> for HTML display
+                            const tooltipHtml = playerNews.replace(/\n/g, '<br>');
+                            
+                            // Wrap the entire visual content in the tooltip structure
+                            return `<div class="custom-tooltip-container">${finalContent}<span class="custom-tooltip-content">${tooltipHtml}</span></div>`;
+                        }
+
+                        // 4. Return the content without a tooltip
+                        return finalContent;
                     }
-                    return data; // For sorting/filtering, return raw data
+                    return data;
                 }
-            }, 
+            },
+
             "Club": { 
                 abbr: 'Club', 
                 full: 'Player\'s Club', 
@@ -873,14 +927,23 @@
                 full: 'Player Value (millions)', 
                 type: 'num', 
                 render: (data) => safeToFixed(data, 1), 
-                className: 'dt-center' 
+                className: 'font-bold dt-right' 
             },
 
             "Selected Percentage": { 
                 abbr: 'S%', 
                 full: 'Percentage of people selecting this player', 
                 type: 'num', 
-                render: (data) => safeToFixed(data, 1) + '%', 
+                render: function(data, type, row) {
+                    if (type === 'display') {
+                        const formattedData = safeToFixed(data, 1);
+                        // Wrap the content in a div with inline padding
+                        return `<div style="padding-left: 8px; padding-right: 8px;">${formattedData}</div>`;
+                    }
+                    return data;
+                }, 
+                
+                // Keep dt-center for column alignment
                 className: 'dt-center' 
             },
             
@@ -1342,63 +1405,63 @@
             });
 
             // --- CUSTOM TOOLTIP POSITIONING LOGIC (Place after the player details click handler) ---
-$('#myTable').on('mouseenter', '.custom-tooltip-container', function() {
-    const $container = $(this);
-    const $tooltip = $container.find('.custom-tooltip-content');
-    
-    // Get the container's position relative to the viewport
-    const containerRect = $container[0].getBoundingClientRect();
-    const tooltipWidth = $tooltip.outerWidth();
-    const tooltipHeight = $tooltip.outerHeight();
-    
-    let top, left;
+            $('#myTable').on('mouseenter', '.custom-tooltip-container', function() {
+                const $container = $(this);
+                const $tooltip = $container.find('.custom-tooltip-content');
+                
+                // Get the container's position relative to the viewport
+                const containerRect = $container[0].getBoundingClientRect();
+                const tooltipWidth = $tooltip.outerWidth();
+                const tooltipHeight = $tooltip.outerHeight();
+                
+                let top, left;
 
-    // 1. Vertical Positioning (Fixes bottom row clipping)
-    const spaceBelow = $(window).height() - containerRect.bottom;
-    const spaceAbove = containerRect.top;
+                // 1. Vertical Positioning (Fixes bottom row clipping)
+                const spaceBelow = $(window).height() - containerRect.bottom;
+                const spaceAbove = containerRect.top;
 
-    // Flip to ABOVE if not enough space below AND enough space above (10px buffer)
-    if (spaceBelow < tooltipHeight + 10 && spaceAbove > tooltipHeight) {
-        top = containerRect.top - tooltipHeight - 5; // 5px margin
-    } else {
-        // Default position BELOW
-        top = containerRect.bottom + 5; // 5px margin
-    }
+                // Flip to ABOVE if not enough space below AND enough space above (10px buffer)
+                if (spaceBelow < tooltipHeight + 10 && spaceAbove > tooltipHeight) {
+                    top = containerRect.top - tooltipHeight - 5; // 5px margin
+                } else {
+                    // Default position BELOW
+                    top = containerRect.bottom + 5; // 5px margin
+                }
 
-    // 2. Horizontal Positioning (Forces left-side display to stay inside the screen)
-    const spaceRight = $(window).width() - containerRect.right;
-    
-    if (spaceRight < tooltipWidth) {
-        // If it clips on the right, position to the left of the container's right edge
-        left = containerRect.right - tooltipWidth - 5; 
-    } else {
-        // Default position slightly to the right of the container's left edge
-        // Note: Using containerRect.right - tooltipWidth for consistent left alignment
-        left = containerRect.right - tooltipWidth - 5; 
-    }
-    
-    // Apply fixed positions
-    $tooltip.css({
-        top: top + 'px',
-        left: left + 'px',
-        right: 'auto',
-        bottom: 'auto'
-    });
-});
+                // 2. Horizontal Positioning (Forces left-side display to stay inside the screen)
+                const spaceRight = $(window).width() - containerRect.right;
+                
+                if (spaceRight < tooltipWidth) {
+                    // If it clips on the right, position to the left of the container's right edge
+                    left = containerRect.right - tooltipWidth - 5; 
+                } else {
+                    // Default position slightly to the right of the container's left edge
+                    // Note: Using containerRect.right - tooltipWidth for consistent left alignment
+                    left = containerRect.right - tooltipWidth - 5; 
+                }
+                
+                // Apply fixed positions
+                $tooltip.css({
+                    top: top + 'px',
+                    left: left + 'px',
+                    right: 'auto',
+                    bottom: 'auto'
+                });
+            });
 
-// Hide the tooltip on mouseleave (Clear dynamic positioning)
-$('#myTable').on('mouseleave', '.custom-tooltip-container', function() {
-    const $tooltip = $(this).find('.custom-tooltip-content');
-    
-    // Clear dynamic positioning to prevent lingering issues
-    $tooltip.css({
-        top: '',
-        left: '',
-        right: '',
-        bottom: ''
-    });
-});
-// --- END CUSTOM TOOLTIP POSITIONING LOGIC ---
+            // Hide the tooltip on mouseleave (Clear dynamic positioning)
+            $('#myTable').on('mouseleave', '.custom-tooltip-container', function() {
+                const $tooltip = $(this).find('.custom-tooltip-content');
+                
+                // Clear dynamic positioning to prevent lingering issues
+                $tooltip.css({
+                    top: '',
+                    left: '',
+                    right: '',
+                    bottom: ''
+                });
+            });
+            // --- END CUSTOM TOOLTIP POSITIONING LOGIC ---
             // --- End Click Handler ---
 
             // Visionary Checkbox Event Listener
