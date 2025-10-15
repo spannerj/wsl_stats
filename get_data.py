@@ -293,7 +293,8 @@ def create_gw_tooltip(game_data, player_team_code):
             contribution_lines.append(line)
 
     # Combine: Header line, separator, Contribution lines
-    tooltip_parts = [header_line, "—" * 20] + contribution_lines
+    # tooltip_parts = [header_line, "—" * 20] + contribution_lines
+    tooltip_parts = contribution_lines
     return "\n".join(tooltip_parts)
 
 
