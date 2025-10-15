@@ -100,6 +100,7 @@ def get_player_data() -> list[dict[str, int | str | float]]:
                 lastName
                 club {id, shortName}
                 position
+                news
                 nationality
                 visionaryNextStage
                 price
@@ -218,12 +219,12 @@ def create_gw_tooltip(game_data, player_team_code):
         opponent_team = "Unknown"
         location = ""
 
-    fixture_line = f"{opponent_team} {location}"
+    fixture_line = f"{location} {opponent_team}"
 
     # 4. Score and Result (W/D/L) - use already-separated scores
     home_score = game.get("home", {}).get("score", 0)
     away_score = game.get("away", {}).get("score", 0)
-    score = f"{home_score} - {away_score}"
+    score = f"{home_score}-{away_score}"
 
     # Determine result
     result_abbr = "D"
@@ -240,7 +241,7 @@ def create_gw_tooltip(game_data, player_team_code):
         result_abbr = "L"
 
     score_line = f"{result_abbr} {score}"
-    header_line = f"{date_str}\n{fixture_line}\n{score_line}"
+    header_line = f"{date_str} {fixture_line} {score_line}"
 
     # 5. Process contributions
     contribution_lines = []
@@ -293,8 +294,7 @@ def create_gw_tooltip(game_data, player_team_code):
             contribution_lines.append(line)
 
     # Combine: Header line, separator, Contribution lines
-    # tooltip_parts = [header_line, "—" * 20] + contribution_lines
-    tooltip_parts = contribution_lines
+    tooltip_parts = [header_line] + contribution_lines
     return "\n".join(tooltip_parts)
 
 
@@ -392,6 +392,7 @@ def transform_data(output_file="transformed_data.json", recent_games_count=4):
 
         club = player.get("club", {}).get("id", "").upper()
         nationality = player.get("nationality", "")
+        news = player.get("news", "")
         visionary = player.get("visionaryNextStage", "")
         position = get_position_code(player.get("position", ""))
         value = player.get("price", 0) / 10.0  # API returns in tenths
@@ -473,6 +474,7 @@ def transform_data(output_file="transformed_data.json", recent_games_count=4):
             "Position": position,
             "Value": round(value, 1),
             "Nationality": nationality,
+            "News": news,
             "Visionary": visionary,
             "Total Points": total_points,
             "Selected Percentage": round(selected_percentage, 1),
