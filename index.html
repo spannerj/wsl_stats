@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WSL Fantasy Player Statistics</title>
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.4/css/dataTables.dataTables.min.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJdZ-Atu5QfK4xV/JdFv2k1K/H2v4Q5h+E5nB2R8oD+6Z6XqU/G1wGk+Q6QzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <script async defer data-domain="https://spannerj.github.io/wsl_stats" src="https://plausible.io/js/script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJdZ-Atu5QfK4xV/JdFv2k1K/H2v4Q5h+E5nB2R8oD+6Z6XqU/G1wGk+Q6QzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script async defer data-domain="https://spannerj.github.io/wsl_stats"
+        src="https://plausible.io/js/script.js"></script>
     <script data-goatcounter="https://spannerj.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
     <style>
@@ -19,33 +23,38 @@
         /* --- CUSTOM TOOLTIP STYLES --- */
         /* ------------------------------------------------------------------ */
         .custom-tooltip-container {
-            position: relative; /* Essential for positioning the tooltip content */
-            display: inline-block; 
-            cursor: help; 
+            position: relative;
+            /* Essential for positioning the tooltip content */
+            display: inline-block;
+            cursor: help;
         }
 
         .custom-tooltip-content {
             visibility: hidden;
             opacity: 0;
             /* Basic style */
-            background-color: #1f2937; /* Dark background */
+            background-color: #1f2937;
+            /* Dark background */
             color: #fff;
             padding: 0.5rem 0.75rem;
             border-radius: 0.375rem;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-            
+
             /* CRITICAL FIX: Use fixed position to stop affecting table layout/scrollbars */
-            position: fixed; 
-            z-index: 100; /* Ensure it's above other elements */
+            position: fixed;
+            z-index: 100;
+            /* Ensure it's above other elements */
             width: max-content;
-            white-space: pre-wrap; /* Better line break handling, helps fix the blank line */
-            
+            white-space: pre-wrap;
+            /* Better line break handling, helps fix the blank line */
+
             /* Animation */
             transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
-            pointer-events: none; /* Allows clicks to go through to elements behind */
-            
+            pointer-events: none;
+            /* Allows clicks to go through to elements behind */
+
             /* Initial state for transition */
-            transform: translateY(-5px); 
+            transform: translateY(-5px);
         }
 
         /* Show the tooltip on hover */
@@ -57,58 +66,66 @@
 
         /* Custom styling for better presentation */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-        body { background-color: #f3f4f6; font-family: 'Inter', sans-serif; padding: 0px; }
+
+        body {
+            background-color: #f3f4f6;
+            font-family: 'Inter', sans-serif;
+            padding: 0px;
+        }
+
         .dt-container {
-            width: 100%; 
-            overflow-x: auto; /* CRITICAL for many columns */
-            background: white; 
-            padding: 0.3rem; 
-            border-radius: 0.3rem; 
+            width: 100%;
+            overflow-x: auto;
+            /* CRITICAL for many columns */
+            background: white;
+            padding: 0.3rem;
+            border-radius: 0.3rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
 
-        .dataTables_wrapper .dataTables_filter, 
+        .dataTables_wrapper .dataTables_filter,
         .dataTables_wrapper .dataTables_length,
         .dataTables_wrapper .dataTables_info,
         .dataTables_wrapper .dataTables_paginate {
             /* Set margin to a very small amount, overriding defaults */
-            margin-top: 0.25rem !important; 
-            margin-bottom: 0.25rem !important; 
+            margin-top: 0.25rem !important;
+            margin-bottom: 0.25rem !important;
         }
 
         /* Ensure the wrapper around the table itself is also tight */
-        .dataTables_scrollBody, 
+        .dataTables_scrollBody,
         .dataTables_scrollHead {
             margin-top: 0 !important;
             margin-bottom: 0 !important;
         }
 
         /* Custom styling for DataTables controls */
-        .dataTables_wrapper .dataTables_filter, 
+        .dataTables_wrapper .dataTables_filter,
         .dataTables_wrapper .dataTables_length {
             /* Reduce space below the search and length dropdown */
-            margin-bottom: 0.5rem !important; 
+            margin-bottom: 0.5rem !important;
         }
 
         .dataTables_wrapper .dataTables_info,
         .dataTables_wrapper .dataTables_paginate {
             /* Reduce space above the pagination and info */
-            margin-top: 0.5rem !important; 
+            margin-top: 0.5rem !important;
         }
 
         /* ADD/REPLACE THESE RULES in your existing <style> block */
-        .dataTables_wrapper .dataTables_filter, 
+        .dataTables_wrapper .dataTables_filter,
         .dataTables_wrapper .dataTables_length,
         .dataTables_wrapper .dataTables_info,
         .dataTables_wrapper .dataTables_paginate {
             /* Set margin to a minimum, overriding all defaults */
-            margin-top: 0.25rem !important; 
-            margin-bottom: 0.25rem !important; 
-            padding: 0 !important; /* Ensure no padding is added either */
+            margin-top: 0.25rem !important;
+            margin-bottom: 0.25rem !important;
+            padding: 0 !important;
+            /* Ensure no padding is added either */
         }
 
         /* Eliminate the space below the main heading */
-        .dataTables_wrapper > h1 {
+        .dataTables_wrapper>h1 {
             margin-bottom: 0 !important;
             padding-bottom: 0 !important;
         }
@@ -136,7 +153,7 @@
         .dt-layout-cell {
             /* Set margin to a very small amount to keep a slight visual break, 
             but you can use '0 !important' if you want it completely flush */
-            margin-top: 0.25rem !important; 
+            margin-top: 0.25rem !important;
             margin-bottom: 0.25rem !important;
             padding: 0 !important;
         }
@@ -155,17 +172,19 @@
         }
 
         /* Ensure the elements inside the wrapper are also tight */
-        .dataTables_wrapper .dataTables_filter, 
+        .dataTables_wrapper .dataTables_filter,
         .dataTables_wrapper .dataTables_length,
         .dataTables_wrapper .dataTables_info,
         .dataTables_wrapper .dataTables_paginate {
-            margin: 0.25rem 0 !important; /* Minimal top/bottom margin */
+            margin: 0.25rem 0 !important;
+            /* Minimal top/bottom margin */
             padding: 0 !important;
         }
 
         /* Eliminate the margin below the H1 heading to close the gap at the very top */
         h1.text-3xl {
-            margin-bottom: 0.5rem !important; /* Adjust this number (e.g., to 0) if 0.5rem is still too much */
+            margin-bottom: 0.5rem !important;
+            /* Adjust this number (e.g., to 0) if 0.5rem is still too much */
         }
 
         /* TIGHTEN the scrollable headers/body */
@@ -183,44 +202,46 @@
             padding-top: 0.5rem !important;
             padding-bottom: 0.5rem !important;
         }
-        
+
         /* DataTables Row Clickability Styling */
         #myTable tbody tr {
             cursor: pointer;
             transition: background-color 0.15s;
         }
+
         #myTable tbody tr:hover {
-            background-color: #fef3c7; /* Light yellow hover for feedback */
+            background-color: #fef3c7;
+            /* Light yellow hover for feedback */
         }
-        
+
         /* 1. MAX SQUEEZE: Drastically reduced overall padding on all cells */
         table.dataTable th,
         table.dataTable td {
-            padding: 0.1rem 0.1rem !important; 
+            padding: 0.1rem 0.1rem !important;
         }
 
         /* NEW RULE: Increase right padding on ALL headers to leave space for the sort arrow */
         table.dataTable thead th {
-            padding-right: 0.75rem !important; 
+            padding-right: 0.75rem !important;
         }
 
         /* ------------------------------------------------------------------ */
         /* --- NAME COLUMN ALIGNMENT FIXES --- */
         /* ------------------------------------------------------------------ */
-        
+
         table.dataTable thead th.player-name-header {
-            text-align: left !important; 
-            padding-left: 0.2rem !important; 
-            min-width: 1px !important; 
-            width: 1% !important; 
+            text-align: left !important;
+            padding-left: 0.2rem !important;
+            min-width: 1px !important;
+            width: 1% !important;
         }
 
-        table.dataTable td.player-name-content { 
+        table.dataTable td.player-name-content {
             text-align: left !important;
-            white-space: nowrap; 
-            padding-left: 0.2rem !important; 
-            min-width: 1px !important; 
-            width: 1% !important; 
+            white-space: nowrap;
+            padding-left: 0.2rem !important;
+            min-width: 1px !important;
+            width: 1% !important;
         }
 
         /* Custom color for players with Visionary: true */
@@ -232,7 +253,8 @@
         /* Icon size and alignment container */
         .visionary-icon {
             display: inline-block;
-            width: 14px; /* Adjust size as needed */
+            width: 14px;
+            /* Adjust size as needed */
             height: 14px;
             margin-right: 4px;
             vertical-align: middle;
@@ -250,17 +272,18 @@
 
         /* 5. FORCE HEADER CENTERING (for all non-name headers) */
         table.dataTable thead th {
-            position: relative !important; 
+            position: relative !important;
             background-image: none !important;
             background: none !important;
-            
+
             &:not(.player-name-header) {
-                text-align: center !important; 
+                text-align: center !important;
             }
-            display: table-cell; 
+
+            display: table-cell;
             vertical-align: middle;
         }
-        
+
         table.dataTable thead th .abbrev-header {
             display: inline-block;
             width: 100%;
@@ -269,23 +292,23 @@
 
         /* 6. Remove built-in DataTables sort indicators */
         table.dataTable thead th .dt-column-order {
-            display: none !important; 
+            display: none !important;
         }
 
         /* 7. Hide all custom pseudo-elements by default */
         table.dataTable thead th::after {
             content: none !important;
         }
-        
+
         /* 8. Show custom UP arrow only on ASC sorted column */
-        table.dataTable thead th.dt-ordering-asc::after { 
+        table.dataTable thead th.dt-ordering-asc::after {
             content: "▲" !important;
             position: absolute;
-            right: 0.3rem; 
+            right: 0.3rem;
             top: 50%;
             transform: translateY(-50%);
             font-size: 0.65rem;
-            color: #4b5563; 
+            color: #4b5563;
         }
 
         /* 9. Show custom DOWN arrow only on DESC sorted column */
@@ -298,40 +321,55 @@
             font-size: 0.65rem;
             color: #4b5563;
         }
-        
+
         /* ------------------------------------------------------------------ */
         /* --- ICON STYLING (For Font Awesome) --- */
         /* ------------------------------------------------------------------ */
-        
+
         /* Common style for all FA icons used in the header */
         .fa-header-icon {
             vertical-align: middle;
             display: inline-block;
-            line-height: 1; 
-            padding-bottom: 2px; /* Slight bottom padding to align with text */
+            line-height: 1;
+            padding-bottom: 2px;
+            /* Slight bottom padding to align with text */
         }
 
         /* Specific icon colors using Tailwind classes */
-        .icon-green { color: #10B981; } /* Goals (Volleyball) */
-        .icon-yellow { color: #F59E0B; } /* Bonus (Star), Yellow Card (Square) */
-        .icon-red { color: #EF4444; } /* Red Card (Square) */
-        
+        .icon-green {
+            color: #10B981;
+        }
+
+        /* Goals (Volleyball) */
+        .icon-yellow {
+            color: #F59E0B;
+        }
+
+        /* Bonus (Star), Yellow Card (Square) */
+        .icon-red {
+            color: #EF4444;
+        }
+
+        /* Red Card (Square) */
+
         /* ------------------------------------------------------------------ */
         /* --- FONT SIZE ADJUSTMENT --- */
         /* ------------------------------------------------------------------ */
-        
+
         table.dataTable th {
-            font-size: 0.80em; 
-            font-weight: 600; 
+            font-size: 0.80em;
+            font-weight: 600;
         }
+
         table.dataTable td {
             font-size: 0.9em;
         }
+
         #club-filter-list {
             max-height: 200px;
             overflow-y: auto;
         }
-        
+
         /* Ensure the DataTables search/info bars look good */
         div.dt-container div.dt-layout-row {
             padding: 0.5rem 0;
@@ -340,21 +378,36 @@
             justify-content: space-between;
             align-items: center;
         }
-        .dt-search, .dt-info, .dt-paging {
+
+        .dt-search,
+        .dt-info,
+        .dt-paging {
             padding: 0.5rem 0;
             width: 100%;
             display: flex;
             justify-content: center;
         }
-        
+
         @media (min-width: 640px) {
-            .dt-search, .dt-info, .dt-paging {
+
+            .dt-search,
+            .dt-info,
+            .dt-paging {
                 width: auto;
                 justify-content: flex-start;
             }
-            .dt-search { order: 1; }
-            .dt-info { order: 2; }
-            .dt-paging { order: 3; }
+
+            .dt-search {
+                order: 1;
+            }
+
+            .dt-info {
+                order: 2;
+            }
+
+            .dt-paging {
+                order: 3;
+            }
         }
 
         /* Abbreviated header style for better tooltips */
@@ -364,15 +417,16 @@
 
         table.dataTable td.player-name-content span.news-text {
             /* Use !important to guarantee this color wins */
-            color: #DC2626 !important; 
+            color: #DC2626 !important;
         }
 
         /* Keep your other color definitions simple */
         .visionary-text {
-            color: #4F46E5; /* Purple */
+            color: #4F46E5;
+            /* Purple */
             font-weight: bold;
         }
-        
+
         /* Modal Backdrop */
         .modal-backdrop {
             position: fixed;
@@ -386,13 +440,17 @@
             justify-content: center;
             align-items: center;
         }
+
         /* Modal Content */
         .modal-content {
             background-color: white;
-            border-radius: 0.75rem; /* Slightly larger radius */
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+            border-radius: 0.75rem;
+            /* Slightly larger radius */
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+            /* Stronger shadow */
             max-width: 90%;
-            width: 500px; /* Fixed max width for card feel */
+            width: 500px;
+            /* Fixed max width for card feel */
             max-height: 90%;
             overflow-y: auto;
             position: relative;
@@ -400,98 +458,225 @@
         }
 
         @keyframes fadeInScale {
-            from { opacity: 0; transform: scale(0.95) translateY(10px); }
-            to { opacity: 1; transform: scale(1) translateY(0); }
+            from {
+                opacity: 0;
+                transform: scale(0.95) translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
         }
 
         /* Tooltip specific styling - helps ensure \n are rendered as line breaks */
         /* Applied to the span inside the GW column cells */
         .dt-container table.dataTable td.gw-col span {
-            display: block; /* Important for the title attribute to apply to a block element */
+            display: block;
+            /* Important for the title attribute to apply to a block element */
         }
 
-    /* Custom styles for team badge (pill style) */
-    .team-badge {
-        display: inline-block;
-        padding: 0.2rem 0.6rem;
-        border-radius: 9999px; /* Tailwind's rounded-full */
-        font-weight: 600; /* Tailwind's font-semibold */
-        font-size: 0.85rem;
-        line-height: 1;
-        text-align: center;
-        min-width: 40px; /* Ensure badges are consistent width */
-    }
+        /* Custom styles for team badge (pill style) */
+        .team-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 9999px;
+            /* Tailwind's rounded-full */
+            font-weight: 600;
+            /* Tailwind's font-semibold */
+            font-size: 0.85rem;
+            line-height: 1;
+            text-align: center;
+            min-width: 40px;
+            /* Ensure badges are consistent width */
+        }
 
-    /* ... existing styles ... */
-    
-    /* Custom styles for team badge (pill style) */
-    .team-badge {
-        display: inline-block;
-        padding: 0.2rem 0.0rem;
-        border-radius: 9999px; /* Tailwind's rounded-full */
-        font-weight: 600; /* Tailwind's font-semibold */
-        font-size: 0.85rem;
-        line-height: 1;
-        text-align: center;
-        width: 45px;
-    }
+        /* ... existing styles ... */
 
-    /* Team Color Definitions (WSL 2024/2025 typical colors) */
-    .badge-ARS { background-color: #db0007; color: #ffffff; } /* Arsenal Red */
-    .badge-AVL { background-color: #a3c5e9; color: #7b003a; } /* Aston Villa Blue/Claret Text */
-    .badge-BHA { background-color: #2986cc; color: #ffffff; } /* Brighton Blue */
-    .badge-CHE { background-color: #034694; color: #ffffff; } /* Chelsea Blue */
-    .badge-EVE { background-color: #003399; color: #ffffff; } /* Everton Blue */
-    .badge-LEI { background-color: #003090; color: #ffffff; } /* Leicester Blue */
-    .badge-LIV { background-color: #d00027; color: #ffffff; } /* Liverpool Red */
-    .badge-LCL { background-color: #88D1AA; color: #FFFFFF; } /* London City Lionesses (Light Aqua/Green Tinge) */
-    .badge-MCI { background-color: #6cabdd; color: #ffffff; } /* Man City Blue */
-    .badge-MUN { background-color: #DA020E; color: #ffffff; } /* Man United Red */
-    .badge-TOT { background-color: #0A1C56; color: #ffffff; } /* Tottenham Navy */
-    .badge-WHU { background-color: #7c2c3b; color: #1bb1e7; } /* West Ham Claret/Light Blue Text */
+        /* Custom styles for team badge (pill style) */
+        .team-badge {
+            display: inline-block;
+            padding: 0.2rem 0.0rem;
+            border-radius: 9999px;
+            /* Tailwind's rounded-full */
+            font-weight: 600;
+            /* Tailwind's font-semibold */
+            font-size: 0.85rem;
+            line-height: 1;
+            text-align: center;
+            width: 45px;
+        }
 
-    /* Custom styles for position badge - RECTANGULAR STYLE */
-    .pos-badge {
-        display: inline-block;
-        padding: 0.3rem 0.2rem;
-        border-radius: 0.2rem; /* Small radius for a rectangular look */
-        font-weight: 600; /* Slightly bolder font for impact */
-        font-size: 0.7rem;
-        line-height: 1;
-        text-align: center;
-        min-width: 35px; /* Slightly wider for better text fit */
-        /* Optional: Add a light shadow or border to lift it off the row */
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
-    }
+        /* Team Color Definitions (WSL 2024/2025 typical colors) */
+        .badge-ARS {
+            background-color: #db0007;
+            color: #ffffff;
+        }
 
-    /* Position Color Definitions (Colors are unchanged from last suggestion) */
-    .badge-GK { background-color: #4CAF50; color: #FFFFFF; } /* Goalkeeper: Green */
-    .badge-DEF { background-color: #9C27B0; color: #FFFFFF; } /* Defender: Deep Purple */
-    .badge-MID { background-color: #FFC107; color: #000000; } /* Midfielder: Amber */
-    .badge-FOR { background-color: #FF715b; color: #FFFFFF; } /* Forward: Deep Orange */
+        /* Arsenal Red */
+        .badge-AVL {
+            background-color: #a3c5e9;
+            color: #7b003a;
+        }
 
-    /* Style for the currently sorted column (Header) */
-    table.dataTable thead .sorting_asc, 
-    table.dataTable thead .sorting_desc {
-        background-color: #f0f0f0; /* Very light grey for a subtle highlight */
-        /* Optionally add a slight shadow or border for depth */
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    }
-    
-    /* Style for the currently sorted column (Data Cells) */
-    table.dataTable tbody tr > .sorting_1 {
-        background-color: #f7f7f7 !important; /* Slightly lighter than the header, uses !important to override row-specific styling */
-    }
+        /* Aston Villa Blue/Claret Text */
+        .badge-BHA {
+            background-color: #2986cc;
+            color: #ffffff;
+        }
 
-    /* Tidy up the background of the data cell when the row is hovered (optional but recommended) */
-    table.dataTable tbody tr:hover > .sorting_1 {
-        background-color: #eaeaea !important; /* Keep a subtle background even on hover */
-    }
+        /* Brighton Blue */
+        .badge-CHE {
+            background-color: #034694;
+            color: #ffffff;
+        }
 
-</style>
+        /* Chelsea Blue */
+        .badge-EVE {
+            background-color: #003399;
+            color: #ffffff;
+        }
+
+        /* Everton Blue */
+        .badge-LEI {
+            background-color: #003090;
+            color: #ffffff;
+        }
+
+        /* Leicester Blue */
+        .badge-LIV {
+            background-color: #d00027;
+            color: #ffffff;
+        }
+
+        /* Liverpool Red */
+        .badge-LCL {
+            background-color: #88D1AA;
+            color: #FFFFFF;
+        }
+
+        /* London City Lionesses (Light Aqua/Green Tinge) */
+        .badge-MCI {
+            background-color: #6cabdd;
+            color: #ffffff;
+        }
+
+        /* Man City Blue */
+        .badge-MUN {
+            background-color: #DA020E;
+            color: #ffffff;
+        }
+
+        /* Man United Red */
+        .badge-TOT {
+            background-color: #0A1C56;
+            color: #ffffff;
+        }
+
+        /* Tottenham Navy */
+        .badge-WHU {
+            background-color: #7c2c3b;
+            color: #1bb1e7;
+        }
+
+        /* West Ham Claret/Light Blue Text */
+
+        /* Custom styles for position badge - RECTANGULAR STYLE */
+        .pos-badge {
+            display: inline-block;
+            padding: 0.3rem 0.2rem;
+            border-radius: 0.2rem;
+            /* Small radius for a rectangular look */
+            font-weight: 600;
+            /* Slightly bolder font for impact */
+            font-size: 0.7rem;
+            line-height: 1;
+            text-align: center;
+            min-width: 35px;
+            /* Slightly wider for better text fit */
+            /* Optional: Add a light shadow or border to lift it off the row */
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Position Color Definitions (Colors are unchanged from last suggestion) */
+        .badge-GK {
+            background-color: #4CAF50;
+            color: #FFFFFF;
+        }
+
+        /* Goalkeeper: Green */
+        .badge-DEF {
+            background-color: #9C27B0;
+            color: #FFFFFF;
+        }
+
+        /* Defender: Deep Purple */
+        .badge-MID {
+            background-color: #FFC107;
+            color: #000000;
+        }
+
+        /* Midfielder: Amber */
+        .badge-FOR {
+            background-color: #FF715b;
+            color: #FFFFFF;
+        }
+
+        /* Forward: Deep Orange */
+
+        /* Style for the currently sorted column (Header) */
+        table.dataTable thead .sorting_asc,
+        table.dataTable thead .sorting_desc {
+            background-color: #f0f0f0;
+            /* Very light grey for a subtle highlight */
+            /* Optionally add a slight shadow or border for depth */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Style for the currently sorted column (Data Cells) */
+        table.dataTable tbody tr>.sorting_1 {
+            background-color: #f7f7f7 !important;
+            /* Slightly lighter than the header, uses !important to override row-specific styling */
+        }
+
+        /* Tidy up the background of the data cell when the row is hovered (optional but recommended) */
+        table.dataTable tbody tr:hover>.sorting_1 {
+            background-color: #eaeaea !important;
+            /* Keep a subtle background even on hover */
+        }
+
+        /* FIX: Prevents horizontal scrollbar from appearing due to minor overflow, 
+        which resolves the right column clipping issue. */
+        body {
+            overflow-x: hidden;
+        }
+
+        /* Optional: Ensure the main container maxes out at 100% */
+        .dt-container {
+            max-width: 100%;
+        }
+
+        /* Ensure no horizontal scrollbar appears due to dynamic content */
+        body {
+            overflow-x: hidden !important; /* Use !important for maximum enforcement */
+        }
+
+        /* Ensure no horizontal scrollbar appears due to dynamic content */
+        body {
+            overflow-x: hidden !important; 
+        }
+
+        /* Check your CSS for the tooltip */
+        .custom-tooltip-content {
+            /* Ensure this is set correctly for viewport calculation */
+            position: fixed; 
+            z-index: 9999;
+        }
+    </style>
 
     </style>
 </head>
+
 <body>
 
     <div class="max-w-full mx-auto pt-2 px-4 pb-4">
@@ -499,48 +684,58 @@
             WSL Aerial Fantasy Player Statistics
         </h2>
 
-        <div class="flex flex-col md:flex-row justify-between items-end md:items-center mb-4 space-y-2 md:space-y-0 md:space-x-4">
-            
-            <button 
-                id="show-key-button" 
-                class="w-full md:w-auto px-3 py-2 bg-indigo-600 text-white border border-indigo-700 rounded-md shadow-lg text-sm font-medium hover:bg-indigo-700 transition duration-150"
-            >
+        <div
+            class="flex flex-col md:flex-row justify-between items-end md:items-center mb-4 space-y-2 md:space-y-0 md:space-x-4">
+
+            <button id="show-key-button"
+                class="w-full md:w-auto px-3 py-2 bg-indigo-600 text-white border border-indigo-700 rounded-md shadow-lg text-sm font-medium hover:bg-indigo-700 transition duration-150">
                 <i class="fa-solid fa-circle-question mr-2"></i> Show Key / Glossary
             </button>
 
             <a href="https://buymeacoffee.com/spannerj" target="_blank" rel="noopener noreferrer"
-            class="inline-flex items-center justify-center px-4 py-1 border border-transparent text-base font-medium rounded-full shadow-lg text-white bg-yellow-500 hover:bg-yellow-600 transition duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-yellow-300">
-                
-                <svg class="w-5 h-5 mr-3 -ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                class="inline-flex items-center justify-center px-4 py-1 border border-transparent text-base font-medium rounded-full shadow-lg text-white bg-yellow-500 hover:bg-yellow-600 transition duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-yellow-300">
+
+                <svg class="w-5 h-5 mr-3 -ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 2v2a6 6 0 0 0 4 0V2" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 4h1c1.3 0 2.2 1.4 2 2L17.5 7h-11L6 6c-.2-1.6.7-3 2-3h1" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15 4h1c1.3 0 2.2 1.4 2 2L17.5 7h-11L6 6c-.2-1.6.7-3 2-3h1" />
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h8" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 10h1a3 3 0 0 1 0 6h-1" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 10h12v4a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3v-4z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M18 10h1a3 3 0 0 1 0 6h-1" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M6 10h12v4a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3v-4z" />
                 </svg>
                 Buy Me a Coffee!
             </a>
-            
-            <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 w-full md:w-auto md:justify-end items-end md:items-center">
+
+            <div
+                class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 w-full md:w-auto md:justify-end items-end md:items-center">
 
                 <div class="relative w-full sm:w-auto">
-                    <button 
-                        id="club-dropdown-toggle" 
+                    <button id="club-dropdown-toggle"
                         class="w-full sm:w-36 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 flex justify-between items-center"
-                        aria-expanded="false"
-                        aria-haspopup="true"
-                    >
+                        aria-expanded="false" aria-haspopup="true">
                         <span id="club-display-text">Clubs (All)</span>
-                        <svg class="h-5 w-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        <svg class="h-5 w-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
                         </svg>
                     </button>
 
-                    <div id="club-dropdown-menu" class="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10 hidden transform origin-top-right">
-                        <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="club-dropdown-toggle">
+                    <div id="club-dropdown-menu"
+                        class="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10 hidden transform origin-top-right">
+                        <div class="py-1" role="menu" aria-orientation="vertical"
+                            aria-labelledby="club-dropdown-toggle">
                             <div class="flex justify-between p-2 border-b border-gray-200">
-                                <button id="select-all-clubs" class="text-xs font-semibold text-indigo-600 hover:text-indigo-800 focus:outline-none">Select All</button>
-                                <button id="unselect-all-clubs" class="text-xs font-semibold text-red-600 hover:text-red-800 focus:outline-none">Unselect All</button>
+                                <button id="select-all-clubs"
+                                    class="text-xs font-semibold text-indigo-600 hover:text-indigo-800 focus:outline-none">Select
+                                    All</button>
+                                <button id="unselect-all-clubs"
+                                    class="text-xs font-semibold text-red-600 hover:text-red-800 focus:outline-none">Unselect
+                                    All</button>
                             </div>
                             <div id="club-filter-list" class="p-2 space-y-1">
                                 <p class="text-center text-xs text-gray-500">No clubs loaded...</p>
@@ -548,15 +743,13 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="flex items-center space-x-2 w-full sm:w-auto">
                     <label for="position-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
                         Positon Filter:
                     </label>
-                    <select 
-                        id="position-filter" 
-                        class="w-full sm:w-36 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm"
-                    >
+                    <select id="position-filter"
+                        class="w-full sm:w-36 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm">
                         <option value="">All</option>
                         <option value="GK">Goalkeepers</option>
                         <option value="DEF">Defenders</option>
@@ -569,21 +762,14 @@
                     <label for="max-value-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
                         Max Value:
                     </label>
-                    <input 
-                        type="number" 
-                        step="0.1" 
-                        id="max-value-filter" 
-                        class="w-full sm:w-24 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm" 
-                        placeholder="e.g. 7.5"
-                    >
+                    <input type="number" step="0.1" id="max-value-filter"
+                        class="w-full sm:w-24 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm"
+                        placeholder="e.g. 7.5">
                 </div>
 
                 <div class="flex items-center space-x-2 w-full sm:w-auto">
-                    <input 
-                        type="checkbox" 
-                        id="visionary-filter" 
-                        class="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500"
-                    >
+                    <input type="checkbox" id="visionary-filter"
+                        class="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500">
                     <label for="visionary-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">
                         Visionaries Only
                     </label>
@@ -597,9 +783,9 @@
             </p>
             <table id="myTable" class="display compact nowrap hidden" cellspacing="0" style="width:100%;"></table>
         </div>
-        
+
     </div>
-    
+
     <div id="glossary-modal" class="modal-backdrop hidden" onclick="closeModal('glossary')">
         <div class="modal-content p-6 w-full max-w-lg" onclick="event.stopPropagation()">
             <div class="flex justify-between items-center border-b pb-3 mb-4">
@@ -608,11 +794,11 @@
                     <i class="fa-solid fa-xmark text-2xl"></i>
                 </button>
             </div>
-            
+
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3" id="glossary-content">
                 <p class="col-span-2 text-center text-gray-500">Loading key...</p>
             </div>
-            
+
             <p class="text-xs text-gray-500 mt-4 pt-2 border-t text-center">
                 Click outside or press the 'X' to close this window.
             </p>
@@ -620,159 +806,161 @@
     </div>
     <div id="player-details-modal" class="modal-backdrop hidden" onclick="closeModal('player')">
         <div class="modal-content p-6 w-full max-w-lg" onclick="event.stopPropagation()">
-            
-            <button onclick="closeModal('player')" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 transition z-20">
+
+            <button onclick="closeModal('player')"
+                class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 transition z-20">
                 <i class="fa-solid fa-xmark text-2xl"></i>
             </button>
 
             <div class="text-center border-b pb-2 mb-4">
                 <h3 id="modal-player-name" class="text-2xl font-bold text-gray-900"></h3>
                 <div id="modal-player-info" class="text-sm text-gray-500 mt-1">
-                    <span id="modal-player-pos"></span> &bull; <span id="modal-player-club"></span> &bull; <span id="modal-player-value" class="font-semibold text-gray-700"></span>  
+                    <span id="modal-player-pos"></span> &bull; <span id="modal-player-club"></span> &bull; <span
+                        id="modal-player-value" class="font-semibold text-gray-700"></span>
                 </div>
-                    <span id="modal-player-nat" class="text-sm text-gray-500 mt-1"></span>
-                     <div id="modal-news-container"></div>
+                <span id="modal-player-nat" class="text-sm text-gray-500 mt-1"></span>
+                <div id="modal-news-container"></div>
             </div>
-            
+
             <div id="modal-stats-grid" class="grid grid-cols-2 gap-2">
-                </div>
+            </div>
 
             <div class="mt-6 pt-4 border-t">
                 <h4 class="text-xl font-semibold text-indigo-700 mb-3 flex items-center">
                     <i class="fa-solid fa-calendar-alt mr-2"></i> Upcoming Matches
                 </h4>
                 <div id="modal-fixtures-list" class="space-y-3">
-                    <p class="text-gray-500 text-sm italic">Loading fixtures...</p> 
+                    <p class="text-gray-500 text-sm italic">Loading fixtures...</p>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.datatables.net/2.3.4/js/dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/3.0.7/js/dataTables.responsive.js"></script>
     <script src="https://cdn.datatables.net/responsive/3.0.7/js/responsive.dataTables.js"></script>
-    
+
 
     <script>
 
-    const VISIONARY_SVG_LARGE = `
+        const VISIONARY_SVG_LARGE = `
         <svg class="visionary-icon w-6 h-6 align-top relative -top-1" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill="#0d996d"
                 d="M62.0583 23.8654C62.5588 21.8379 65.4412 21.8379 65.9417 23.8654L70.0291 40.4225C72.1656 49.0771 78.923 55.8344 87.5775 57.9709L104.135 62.0583C106.162 62.5588 106.162 65.4412 104.135 65.9417L87.5775 70.0291C78.9229 72.1656 72.1656 78.923 70.0291 87.5775L65.9417 104.135C65.4412 106.162 62.5588 106.162 62.0583 104.135L57.9709 87.5775C55.8344 78.9229 49.077 72.1656 40.4225 70.0291L23.8654 65.9417C21.8379 65.4412 21.8379 62.5588 23.8654 62.0583L40.4225 57.9709C49.0771 55.8344 55.8344 49.077 57.9709 40.4225L62.0583 23.8654ZM31.0291 19.9327C31.2794 18.9189 32.7206 18.9189 32.9709 19.9327L33.2859 21.2088C34.4432 25.8966 38.1034 29.5568 42.7912 30.7141L44.0673 31.0291C45.0811 31.2794 45.0811 32.7206 44.0673 32.9709L42.7912 33.2859C38.1034 34.4432 34.4432 38.1034 33.2859 42.7912L32.9709 44.0673C32.7206 45.0811 31.2794 45.0811 31.0291 44.0673L30.7141 42.7912C29.5568 38.1034 25.8966 34.4432 21.2088 33.2859L19.9327 32.9709C18.9189 32.7206 18.9189 31.2794 19.9327 31.0291L21.2088 30.7141C25.8966 29.5568 29.5568 25.8966 30.7141 21.2088L31.0291 19.9327Z"
             />
         </svg>
     `;
-    const VISIONARY_SVG_SMALL = `
+        const VISIONARY_SVG_SMALL = `
         <svg class="visionary-icon" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill="#0d996d"
                 d="M62.0583 23.8654C62.5588 21.8379 65.4412 21.8379 65.9417 23.8654L70.0291 40.4225C72.1656 49.0771 78.923 55.8344 87.5775 57.9709L104.135 62.0583C106.162 62.5588 106.162 65.4412 104.135 65.9417L87.5775 70.0291C78.9229 72.1656 72.1656 78.923 70.0291 87.5775L65.9417 104.135C65.4412 106.162 62.5588 106.162 62.0583 104.135L57.9709 87.5775C55.8344 78.9229 49.077 72.1656 40.4225 70.0291L23.8654 65.9417C21.8379 65.4412 21.8379 62.5588 23.8654 62.0583L40.4225 57.9709C49.0771 55.8344 55.8344 49.077 57.9709 40.4225L62.0583 23.8654ZM31.0291 19.9327C31.2794 18.9189 32.7206 18.9189 32.9709 19.9327L33.2859 21.2088C34.4432 25.8966 38.1034 29.5568 42.7912 30.7141L44.0673 31.0291C45.0811 31.2794 45.0811 32.7206 44.0673 32.9709L42.7912 33.2859C38.1034 34.4432 34.4432 38.1034 33.2859 42.7912L32.9709 44.0673C32.7206 45.0811 31.2794 45.0811 31.0291 44.0673L30.7141 42.7912C29.5568 38.1034 25.8966 34.4432 21.2088 33.2859L19.9327 32.9709C18.9189 32.7206 18.9189 31.2794 19.9327 31.0291L21.2088 30.7141C25.8966 29.5568 29.5568 25.8966 30.7141 21.2088L31.0291 19.9327Z"
             />
         </svg>
     `;
-    $(document).ready(function() {
-        
-        const RECENT_GAMES_COUNT = 4;
-        let dataTableInstance = null;
-        let uniqueClubs = [];
+        $(document).ready(function () {
 
-        // --- GLOBAL MODAL FUNCTIONS ---
-        // Unified function to handle both modals
-        window.showModal = function(type, data = null) {
-            if (type === 'glossary') {
-                // Generate content every time in case the dynamic columns change 
-                generateGlossaryContent(dataTableInstance ? dataTableInstance.settings()[0].aoColumns : []);
-                $('#glossary-modal').removeClass('hidden');
-            } else if (type === 'player' && data) {
-                populatePlayerDetails(data);
-                $('#player-details-modal').removeClass('hidden');
-            }
-        };
+            const RECENT_GAMES_COUNT = 4;
+            let dataTableInstance = null;
+            let uniqueClubs = [];
 
-        window.closeModal = function(type) {
-            if (type === 'glossary') {
-                $('#glossary-modal').addClass('hidden');
-            } else if (type === 'player') {
-                $('#player-details-modal').addClass('hidden');
-            }
-        };
-        
-        $('#show-key-button').on('click', () => showModal('glossary'));
-        // --- END GLOBAL MODAL FUNCTIONS ---
-
-        // --- NEW PLAYER DETAILS FUNCTION ---
-        function populatePlayerDetails(player) {
-            const nameEl = $('#modal-player-name');
-            const posEl = $('#modal-player-pos');
-            const clubEl = $('#modal-player-club');
-            const valueEl = $('#modal-player-value');
-            const natEl = $('#modal-player-nat');
-            const statsGrid = $('#modal-stats-grid');
-            const fixturesListEl = $('#modal-fixtures-list'); // NEW TARGET ELEMENT
-
-            // 1. Set Header Info
-            if (player.Visionary) {
-                nameEl.html(`${player.Name} ${VISIONARY_SVG_LARGE}`);
-            } else {
-                nameEl.text(player.Name);
-            }
-            posEl.text(player.Position);
-            clubEl.text(player.Club);
-            natEl.text(player.Nationality);
-            valueEl.html(`&pound;${safeToFixed(player.Value, 1)}M`);
-
-            const newsContainerEl = $('#modal-news-container'); 
-
-            // --- Null/Empty Check and Display ---
-            // 1. Clear the container first (important for subsequent modal opens)
-            newsContainerEl.html('');
-            
-            // 2. Check for existence and non-empty string in JavaScript
-            // The player object likely uses 'news' (lowercase) since it comes from GraphQL.
-            // If your JSON keys were capitalized, use player.News
-            const playerNews = player.News; 
-
-            if (playerNews) {
-                // We use .trim() to ensure we don't display anything if it's just whitespace
-                if (playerNews.trim() !== "") {
-                    // Apply a Tailwind class for red highlight and bold text
-                    const newsHtml = `<div class="text-sm font-semibold text-red-600 mb-1">${playerNews}</div>`;
-                    newsContainerEl.html(newsHtml);
+            // --- GLOBAL MODAL FUNCTIONS ---
+            // Unified function to handle both modals
+            window.showModal = function (type, data = null) {
+                if (type === 'glossary') {
+                    // Generate content every time in case the dynamic columns change 
+                    generateGlossaryContent(dataTableInstance ? dataTableInstance.settings()[0].aoColumns : []);
+                    $('#glossary-modal').removeClass('hidden');
+                } else if (type === 'player' && data) {
+                    populatePlayerDetails(data);
+                    $('#player-details-modal').removeClass('hidden');
                 }
-            }
+            };
 
-            // 2. Define Stats to Display in the Modal Card
-            const statKeys = [
-                {"label": "Total Points (P)", "key": "Total Points", "unit": ""},
-                {"label": "Points Per Game (PG)", "key": "Points Per Game", "unit": "", "calc": true}, // Needs calculation
-                {"label": "Selection Rate (S%)", "key": "Selected Percentage", "unit": "%", "raw_unit": true}, // Has % in data
-                {"label": "Goals Scored", "key": "Total Goals", "unit": ""},
-                {"label": "Assists", "key": "Total Assists", "unit": ""},
-                {"label": "Clean Sheets (CS)", "key": "Total Clean Sheet", "unit": ""},
-                {"label": "Points Last 4 GWs (P4)", "key": "Total Over 4 Gameweeks", "unit": ""},
-                {"label": "Points/M Last 4 GWs (PM4)", "key": "Points Per Million Over 4 Gameweeks", "unit": "", "raw_unit": true}, // Show as number
-            ];
-            
-            let detailsHTML = '';
-            
-            statKeys.forEach(stat => {
-                let displayValue = '-';
+            window.closeModal = function (type) {
+                if (type === 'glossary') {
+                    $('#glossary-modal').addClass('hidden');
+                } else if (type === 'player') {
+                    $('#player-details-modal').addClass('hidden');
+                }
+            };
 
-                // Handle calculated fields (like PPG)
-                if (stat.calc) {
-                    const totalPoints = player["Total Points"];
-                    const gamesPlayed = player["Total Games Played"];
-                    displayValue = gamesPlayed > 0 ? safeToFixed(totalPoints / gamesPlayed, 1) : '-';
-                } else if (player[stat.key] !== undefined && player[stat.key] !== null) {
-                    displayValue = player[stat.key];
+            $('#show-key-button').on('click', () => showModal('glossary'));
+            // --- END GLOBAL MODAL FUNCTIONS ---
+
+            // --- NEW PLAYER DETAILS FUNCTION ---
+            function populatePlayerDetails(player) {
+                const nameEl = $('#modal-player-name');
+                const posEl = $('#modal-player-pos');
+                const clubEl = $('#modal-player-club');
+                const valueEl = $('#modal-player-value');
+                const natEl = $('#modal-player-nat');
+                const statsGrid = $('#modal-stats-grid');
+                const fixturesListEl = $('#modal-fixtures-list'); // NEW TARGET ELEMENT
+
+                // 1. Set Header Info
+                if (player.Visionary) {
+                    nameEl.html(`${player.Name} ${VISIONARY_SVG_LARGE}`);
+                } else {
+                    nameEl.text(player.Name);
                 }
-                
-                // Format the display value
-                if (typeof displayValue === 'number' && !stat.raw_unit) {
-                    displayValue = safeToFixed(displayValue, 0); // Default to integer if not specified
+                posEl.text(player.Position);
+                clubEl.text(player.Club);
+                natEl.text(player.Nationality);
+                valueEl.html(`&pound;${safeToFixed(player.Value, 1)}M`);
+
+                const newsContainerEl = $('#modal-news-container');
+
+                // --- Null/Empty Check and Display ---
+                // 1. Clear the container first (important for subsequent modal opens)
+                newsContainerEl.html('');
+
+                // 2. Check for existence and non-empty string in JavaScript
+                // The player object likely uses 'news' (lowercase) since it comes from GraphQL.
+                // If your JSON keys were capitalized, use player.News
+                const playerNews = player.News;
+
+                if (playerNews) {
+                    // We use .trim() to ensure we don't display anything if it's just whitespace
+                    if (playerNews.trim() !== "") {
+                        // Apply a Tailwind class for red highlight and bold text
+                        const newsHtml = `<div class="text-sm font-semibold text-red-600 mb-1">${playerNews}</div>`;
+                        newsContainerEl.html(newsHtml);
+                    }
                 }
-                
-                detailsHTML += `
+
+                // 2. Define Stats to Display in the Modal Card
+                const statKeys = [
+                    { "label": "Total Points (P)", "key": "Total Points", "unit": "" },
+                    { "label": "Points Per Game (PG)", "key": "Points Per Game", "unit": "", "calc": true }, // Needs calculation
+                    { "label": "Selection Rate (S%)", "key": "Selected Percentage", "unit": "%", "raw_unit": true }, // Has % in data
+                    { "label": "Goals Scored", "key": "Total Goals", "unit": "" },
+                    { "label": "Assists", "key": "Total Assists", "unit": "" },
+                    { "label": "Clean Sheets (CS)", "key": "Total Clean Sheet", "unit": "" },
+                    { "label": "Points Last 4 GWs (P4)", "key": "Total Over 4 Gameweeks", "unit": "" },
+                    { "label": "Points/M Last 4 GWs (PM4)", "key": "Points Per Million Over 4 Gameweeks", "unit": "", "raw_unit": true }, // Show as number
+                ];
+
+                let detailsHTML = '';
+
+                statKeys.forEach(stat => {
+                    let displayValue = '-';
+
+                    // Handle calculated fields (like PPG)
+                    if (stat.calc) {
+                        const totalPoints = player["Total Points"];
+                        const gamesPlayed = player["Total Games Played"];
+                        displayValue = gamesPlayed > 0 ? safeToFixed(totalPoints / gamesPlayed, 1) : '-';
+                    } else if (player[stat.key] !== undefined && player[stat.key] !== null) {
+                        displayValue = player[stat.key];
+                    }
+
+                    // Format the display value
+                    if (typeof displayValue === 'number' && !stat.raw_unit) {
+                        displayValue = safeToFixed(displayValue, 0); // Default to integer if not specified
+                    }
+
+                    detailsHTML += `
                     <div class="flex flex-col p-1 bg-gray-50 rounded-lg shadow-sm border border-gray-200">
                         <span class="text-xs font-medium text-gray-500 uppercase tracking-wider">${stat.label}</span>
                         <span class="text-xl font-extrabold text-indigo-600 mt-1">
@@ -780,36 +968,36 @@
                         </span>
                     </div>
                 `;
-            });
-            
-            statsGrid.html(detailsHTML);
+                });
 
-            // Populate Upcoming Fixtures
-            const fixtures = player.upcoming_fixtures || [];
-            const playerClubCode = player.Club; // Player's club code (e.g., 'MUN')
-            let fixturesHTML = '';
+                statsGrid.html(detailsHTML);
 
-            if (fixtures.length === 0) {
-                fixturesHTML = '<p class="text-gray-500 text-sm italic">No upcoming fixtures found.</p>';
-            } else {
-                let listHTML = '';
-                
-                fixtures.forEach(fixture => {
-                    const homeTeamCode = fixture.home_id;
-                    const awayTeamCode = fixture.away_id;
-                    const isHome = homeTeamCode === playerClubCode;
-                    
-                    const opponentCode = isHome ? fixture.away_short_name : fixture.home_short_name;
-                    const location = isHome ? ' (Home)' : ' (Away)';
-                    
-                    // Fallback in case shortName is missing (e.g., opponentCode is null/undefined)
-                    const displayOpponentCode = opponentCode || '???';
+                // Populate Upcoming Fixtures
+                const fixtures = player.upcoming_fixtures || [];
+                const playerClubCode = player.Club; // Player's club code (e.g., 'MUN')
+                let fixturesHTML = '';
 
-                    const opponentClass = isHome 
-                        ? 'font-bold text-gray-900'       // Apply bold and darker color for home games
-                        : 'font-medium text-gray-600';  // Keep medium weight and lighter color for away games
-                    
-                    listHTML += `
+                if (fixtures.length === 0) {
+                    fixturesHTML = '<p class="text-gray-500 text-sm italic">No upcoming fixtures found.</p>';
+                } else {
+                    let listHTML = '';
+
+                    fixtures.forEach(fixture => {
+                        const homeTeamCode = fixture.home_id;
+                        const awayTeamCode = fixture.away_id;
+                        const isHome = homeTeamCode === playerClubCode;
+
+                        const opponentCode = isHome ? fixture.away_short_name : fixture.home_short_name;
+                        const location = isHome ? ' (Home)' : ' (Away)';
+
+                        // Fallback in case shortName is missing (e.g., opponentCode is null/undefined)
+                        const displayOpponentCode = opponentCode || '???';
+
+                        const opponentClass = isHome
+                            ? 'font-bold text-gray-900'       // Apply bold and darker color for home games
+                            : 'font-medium text-gray-600';  // Keep medium weight and lighter color for away games
+
+                        listHTML += `
                         <div class="flex justify-between items-center text-sm border-b border-gray-100 pb-2">
                             <div class="flex items-center space-x-2">
                                 <span class="text-xs font-bold text-gray-600 w-[130px] flex-shrink-0">Game Week ${fixture.game_week}</span>
@@ -820,713 +1008,721 @@
                             </div>
                         </div>
                     `;
-                });
-                
-                fixturesHTML = `<div class="space-y-3">${listHTML}</div>`;
+                    });
+
+                    fixturesHTML = `<div class="space-y-3">${listHTML}</div>`;
+                }
+
+                fixturesListEl.html(fixturesHTML);
+            }
+            // --- END NEW PLAYER DETAILS FUNCTION ---
+
+            // Helper function to create the abbreviated header with a tooltip
+            function createHeader(abbr, fullTitle) {
+                return `<div class="custom-tooltip-container"><span class="custom-tooltip-points">${abbr}</span><div class="custom-tooltip-content">${fullTitle.replace(/\n/g, '<br>')}</div></div>`;
             }
 
-            fixturesListEl.html(fixturesHTML);
-        }
-        // --- END NEW PLAYER DETAILS FUNCTION ---
-
-        // Helper function to create the abbreviated header with a tooltip
-        function createHeader(abbr, fullTitle) {
-            return `<div class="custom-tooltip-container"><span class="custom-tooltip-points">${abbr}</span><div class="custom-tooltip-content">${fullTitle.replace(/\n/g, '<br>')}</div></div>`;
-        }
-        
-        // Helper function to safely format data, returning '-' for missing values
-        function safeToFixed(data, decimals) {
-            if (data === null || data === undefined || isNaN(data) || !isFinite(data) || data === '-') {
-                return '-';
+            // Helper function to safely format data, returning '-' for missing values
+            function safeToFixed(data, decimals) {
+                if (data === null || data === undefined || isNaN(data) || !isFinite(data) || data === '-') {
+                    return '-';
+                }
+                return parseFloat(data).toFixed(decimals);
             }
-            return parseFloat(data).toFixed(decimals);
-        }
 
-        // --- Mapped column definitions for STATIC data with custom SVGs/Abbreviations ---
-        const STATIC_COLUMN_MAP = {
-            "Name": {
-                abbr: 'Name',
-                full: 'Player Name',
-                type: 'string',
-                className: 'font-bold player-name-content', 
-                
-                render: function(data, type, row) {
-                    if (type === 'display') {
-                        const isVisionary = row.Visionary === true;
-                        const playerNews = row.news || row.News; 
-                        const hasNews = playerNews && playerNews.trim() !== "";          
-                        let classString = 'font-bold'; 
-                        let finalContent;
-                        
-                        // 1. Determine Color Class (Red/News wins priority)
-                        if (hasNews) {
-                            classString += ' news-text'; // RED
-                        } else if (isVisionary) {
-                            classString += ' visionary-text'; // PURPLE
-                        } else {
-                            classString += ' text-gray-800'; 
-                        }
+            // --- Mapped column definitions for STATIC data with custom SVGs/Abbreviations ---
+            const STATIC_COLUMN_MAP = {
+                "Name": {
+                    abbr: 'Name',
+                    full: 'Player Name',
+                    type: 'string',
+                    className: 'font-bold player-name-content',
 
-                        // Create the styled name element
-                        const nameSpan = `<span class="${classString}">${data}</span>`;
-                        
-                        // 2. Handle icon structure (if visionary)
-                        if (isVisionary) {
-                            finalContent = `<div class="flex items-center">
+                    render: function (data, type, row) {
+                        if (type === 'display') {
+                            const isVisionary = row.Visionary === true;
+                            const playerNews = row.news || row.News;
+                            const hasNews = playerNews && playerNews.trim() !== "";
+                            let classString = 'font-bold';
+                            let finalContent;
+
+                            // 1. Determine Color Class (Red/News wins priority)
+                            if (hasNews) {
+                                classString += ' news-text'; // RED
+                            } else if (isVisionary) {
+                                classString += ' visionary-text'; // PURPLE
+                            } else {
+                                classString += ' text-gray-800';
+                            }
+
+                            // Create the styled name element
+                            const nameSpan = `<span class="${classString}">${data}</span>`;
+
+                            // 2. Handle icon structure (if visionary)
+                            if (isVisionary) {
+                                finalContent = `<div class="flex items-center">
                                                 ${nameSpan}
                                                 ${VISIONARY_SVG_SMALL}   
                                             </div>`;
-                        } else {
-                            finalContent = nameSpan;
+                            } else {
+                                finalContent = nameSpan;
+                            }
+
+                            // 3. 🚨 NEW: Wrap content in Tooltip if news is available
+                            if (hasNews) {
+                                // Prepare the news string: convert \n to <br> for HTML display
+                                const tooltipHtml = playerNews.replace(/\n/g, '<br>');
+
+                                // Wrap the entire visual content in the tooltip structure
+                                return `<div class="custom-tooltip-container">${finalContent}<span class="custom-tooltip-content">${tooltipHtml}</span></div>`;
+                            }
+
+                            // 4. Return the content without a tooltip
+                            return finalContent;
                         }
+                        return data;
+                    }
+                },
 
-                        // 3. 🚨 NEW: Wrap content in Tooltip if news is available
-                        if (hasNews) {
-                            // Prepare the news string: convert \n to <br> for HTML display
-                            const tooltipHtml = playerNews.replace(/\n/g, '<br>');
-                            
-                            // Wrap the entire visual content in the tooltip structure
-                            return `<div class="custom-tooltip-container">${finalContent}<span class="custom-tooltip-content">${tooltipHtml}</span></div>`;
+                "Club": {
+                    abbr: 'Club',
+                    full: 'Player\'s Club',
+                    type: 'string',
+                    className: 'whitespace-nowrap dt-center',
+                    render: function (data, type, row) {
+                        if (type === 'display') {
+                            const teamCode = data; // e.g., "ARS", "MUN"
+                            // Wrap the team code in a span with the base style and color class
+                            return `<span class="team-badge badge-${teamCode}">${teamCode}</span>`;
                         }
-
-                        // 4. Return the content without a tooltip
-                        return finalContent;
+                        return data;
                     }
-                    return data;
-                }
-            },
-
-            "Club": { 
-                abbr: 'Club', 
-                full: 'Player\'s Club', 
-                type: 'string', 
-                className: 'whitespace-nowrap dt-center',
-                render: function(data, type, row) {
-                    if (type === 'display') {
-                        const teamCode = data; // e.g., "ARS", "MUN"
-                        // Wrap the team code in a span with the base style and color class
-                        return `<span class="team-badge badge-${teamCode}">${teamCode}</span>`;
-                    }
-                    return data;
-                }
-            },
-            "Position": { 
-                abbr: 'Pos', 
-                full: 'Player Position', 
-                type: 'string', 
-                className: 'dt-center', 
-                render: function(data, type, row) { 
-                    if (type === 'display') { 
-                        const posCode = data; 
-                        return `<span class="pos-badge badge-${posCode}">${posCode}</span>`; 
-                    } 
-                    return data; } 
-            },
-            "Value": { 
-                abbr: 'Val', 
-                full: 'Player Value (millions)', 
-                type: 'num', 
-                render: (data) => safeToFixed(data, 1), 
-                className: 'font-bold dt-right' 
-            },
-
-            "Selected Percentage": { 
-                abbr: 'S%', 
-                full: 'Percentage of people selecting this player', 
-                type: 'num', 
-                render: function(data, type, row) {
-                    if (type === 'display') {
-                        const formattedData = safeToFixed(data, 1);
-                        // Wrap the content in a div with inline padding
-                        return `<div style="padding-left: 8px; padding-right: 8px;">${formattedData}</div>`;
-                    }
-                    return data;
-                }, 
-                
-                // Keep dt-center for column alignment
-                className: 'dt-center' 
-            },
-            
-            // P for Total Points (Text Only)
-            "Total Points": { 
-                abbr: `P`, 
-                full: 'Points for the season', 
-                type: 'num', 
-                className: 'font-bold dt-center' 
-            },
-            
-            "Total Games Played": { abbr: 'G', full: 'Games played this season (Total appearances)', type: 'num', className: 'dt-center' },
-            
-            // FIX: Calculate Points Per Game (PG) on the fly, as the key is missing from JSON
-            "Points Per Game": { 
-                abbr: 'PG', 
-                full: 'Points per game over the season (Points / Appearances)', 
-                type: 'num', 
-                render: (data, type, row) => {
-                    const totalPoints = row["Total Points"];
-                    const gamesPlayed = row["Total Games Played"];
-                    
-                    if (type === 'sort' || type === 'type') {
-                        // Return numeric value for sorting/filtering (return 0 if divisor is 0)
-                        return gamesPlayed > 0 ? (totalPoints / gamesPlayed) : 0;
-                    }
-                    // Return formatted string for display
-                    return gamesPlayed > 0 ? safeToFixed(totalPoints / gamesPlayed, 1) : '-';
                 },
-                className: 'dt-center' 
-            },
-
-            // FIX: Calculate Points Per Million (PM) on the fly, as the key might be missing
-            "Points Per Million": { 
-                abbr: 'PM', 
-                full: 'Points scored per million pounds spent (Total season)', 
-                type: 'num', 
-                render: (data, type, row) => {
-                    const totalPoints = row["Total Points"];
-                    const value = row["Value"];
-
-                    if (type === 'sort' || type === 'type') {
-                        // Return numeric value for sorting/filtering (return 0 if divisor is 0)
-                        return value > 0 ? (totalPoints / value) : 0;
+                "Position": {
+                    abbr: 'Pos',
+                    full: 'Player Position',
+                    type: 'string',
+                    className: 'dt-center',
+                    render: function (data, type, row) {
+                        if (type === 'display') {
+                            const posCode = data;
+                            return `<span class="pos-badge badge-${posCode}">${posCode}</span>`;
+                        }
+                        return data;
                     }
-                    // Return formatted string for display
-                    return value > 0 ? safeToFixed(totalPoints / value, 1) : '-';
                 },
-                className: 'dt-center' 
-            },
-            
-            // --- UPDATED 4 GW METRICS ---
-            "Total Over 4 Gameweeks": { 
-                abbr: `P${RECENT_GAMES_COUNT}`, 
-                full: `Total points over last ${RECENT_GAMES_COUNT} gameweeks`, 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            
-            "Games Played Over 4 Gameweeks": { 
-                abbr: `G${RECENT_GAMES_COUNT}`, 
-                full: `Games participated in (appeared) over last ${RECENT_GAMES_COUNT} gameweeks`, 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            
-            "Points Per Game Over 4 Gameweeks": { 
-                abbr: `PG${RECENT_GAMES_COUNT}`, 
-                full: `Points per available gameweek (PPG over ${RECENT_GAMES_COUNT} weeks - uses 4 as divisor)`, 
-                type: 'num', 
-                render: (data) => safeToFixed(data, 1), // Show one decimal
-                className: 'dt-center' 
-            },
-            
-            "Points Per Million Over 4 Gameweeks": { 
-                abbr: `PM${RECENT_GAMES_COUNT}`, 
-                full: `Points per million over last ${RECENT_GAMES_COUNT} gameweeks`, 
-                type: 'num', 
-                render: (data) => safeToFixed(data, 1), // Show one decimal
-                className: 'dt-center' 
-            },
-            // --- END UPDATED 4 GW METRICS ---
+                "Value": {
+                    abbr: 'Val',
+                    full: 'Player Value (millions)',
+                    type: 'num',
+                    render: (data) => safeToFixed(data, 1),
+                    className: 'font-bold dt-right'
+                },
 
-            // GOALS (Font Awesome Volleyball Icon - Green)
-            "Total Goals": { 
-                abbr: `<i class="fa-solid fa-volleyball icon-green text-base fa-header-icon"></i>`, 
-                full: 'Goals scored this season', 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            
-            // ASSISTS (Text Only)
-            "Total Assists": { 
-                abbr: `A`, 
-                full: 'Assists this season', 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            
-            // CLEAN SHEET (Text Only)
-            "Total Clean Sheet": { 
-                abbr: `CS`, 
-                full: 'Clean sheets this season', 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            
-            // BONUS POINTS (Font Awesome Star Icon - Yellow)
-            "Total Bonus Points": { 
-                abbr: `<i class="fa-solid fa-star icon-yellow text-base fa-header-icon"></i>`, 
-                full: 'Bonus points won this season', 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            
-            // YELLOW CARD (Font Awesome Square Icon - Yellow)
-            "Total Yellow Cards": { 
-                abbr: `<i class="fa-solid fa-square icon-yellow text-base fa-header-icon"></i>`, 
-                full: 'Yellow cards this season', 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            
-            // RED CARD (Font Awesome Square Icon - Red)
-            "Total Red Cards": { 
-                abbr: `<i class="fa-solid fa-square icon-red text-base fa-header-icon"></i>`, 
-                full: 'Red cards this season', 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            
-            // MISSED PENALTY (Text Only)
-            "Total Missed Penalties": { 
-                abbr: `MP`, 
-                full: 'Missed penalties this season', 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            "Total Clearances": { abbr: 'CL', full: 'Goal line clearances this season', type: 'num', className: 'dt-center' },
-            "Total Conceeded": { abbr: 'GC', full: 'Points lost from goals conceded (-1 for every 2 goals whilst on the pitch)', type: 'num', className: 'dt-center' },
-            
-            // SAVES (Text Only)
-            "Total Saves": { 
-                abbr: `S`, 
-                full: 'Save points awarded (Goalkeepers, 1 pt per 3 saves)', 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            
-            // OWN GOALS (Text Only)
-            "Total Own Goals": { 
-                abbr: `OG`, 
-                full: 'Own goals scored this season (-2 points each)', 
-                type: 'num', 
-                className: 'dt-center' 
-            },
-            "Total 1 min Appearances": { abbr: 'P1', full: 'Appearances where at least 1 minute was played (1pt)', type: 'num', className: 'dt-center' },
-            "Total 60 min Appearances": { abbr: '60', full: 'Appearances where at least 60 minutes were played (1pt)', type: 'num', className: 'dt-center' }
-        };
+                "Selected Percentage": {
+                    abbr: 'S%',
+                    full: 'Percentage of people selecting this player',
+                    type: 'num',
+                    render: function (data, type, row) {
+                        if (type === 'display') {
+                            const formattedData = safeToFixed(data, 1);
+                            // Wrap the content in a div with inline padding
+                            return `<div style="padding-left: 8px; padding-right: 8px;">${formattedData}</div>`;
+                        }
+                        return data;
+                    },
 
-        const STATIC_KEYS_SET = new Set(Object.keys(STATIC_COLUMN_MAP));
+                    // Keep dt-center for column alignment
+                    className: 'dt-center'
+                },
 
-        /**
-         * Generates the HTML content for the glossary modal.
-         * @param {Array} columns The DataTables column settings array (optional, for dynamic GW columns).
-         */
-        function generateGlossaryContent(columns) {
-            let html = '';
-            
-            // 1. Static Columns
-            Object.keys(STATIC_COLUMN_MAP).forEach(key => {
-                const config = STATIC_COLUMN_MAP[key];
-                // Use innerText for abbr to strip potential HTML/Icons before display
-                const abbrText = $('<div>').html(config.abbr).text().trim() || config.abbr; 
-                
-                html += `
+                // P for Total Points (Text Only)
+                "Total Points": {
+                    abbr: `P`,
+                    full: 'Points for the season',
+                    type: 'num',
+                    className: 'font-bold dt-center'
+                },
+
+                "Total Games Played": { abbr: 'G', full: 'Games played this season (Total appearances)', type: 'num', className: 'dt-center' },
+
+                // FIX: Calculate Points Per Game (PG) on the fly, as the key is missing from JSON
+                "Points Per Game": {
+                    abbr: 'PG',
+                    full: 'Points per game over the season (Points / Appearances)',
+                    type: 'num',
+                    render: (data, type, row) => {
+                        const totalPoints = row["Total Points"];
+                        const gamesPlayed = row["Total Games Played"];
+
+                        if (type === 'sort' || type === 'type') {
+                            // Return numeric value for sorting/filtering (return 0 if divisor is 0)
+                            return gamesPlayed > 0 ? (totalPoints / gamesPlayed) : 0;
+                        }
+                        // Return formatted string for display
+                        return gamesPlayed > 0 ? safeToFixed(totalPoints / gamesPlayed, 1) : '-';
+                    },
+                    className: 'dt-center'
+                },
+
+                // FIX: Calculate Points Per Million (PM) on the fly, as the key might be missing
+                "Points Per Million": {
+                    abbr: 'PM',
+                    full: 'Points scored per million pounds spent (Total season)',
+                    type: 'num',
+                    render: (data, type, row) => {
+                        const totalPoints = row["Total Points"];
+                        const value = row["Value"];
+
+                        if (type === 'sort' || type === 'type') {
+                            // Return numeric value for sorting/filtering (return 0 if divisor is 0)
+                            return value > 0 ? (totalPoints / value) : 0;
+                        }
+                        // Return formatted string for display
+                        return value > 0 ? safeToFixed(totalPoints / value, 1) : '-';
+                    },
+                    className: 'dt-center'
+                },
+
+                // --- UPDATED 4 GW METRICS ---
+                "Total Over 4 Gameweeks": {
+                    abbr: `P${RECENT_GAMES_COUNT}`,
+                    full: `Total points over last ${RECENT_GAMES_COUNT} gameweeks`,
+                    type: 'num',
+                    className: 'dt-center'
+                },
+
+                "Games Played Over 4 Gameweeks": {
+                    abbr: `G${RECENT_GAMES_COUNT}`,
+                    full: `Games participated in (appeared) over last ${RECENT_GAMES_COUNT} gameweeks`,
+                    type: 'num',
+                    className: 'dt-center'
+                },
+
+                "Points Per Game Over 4 Gameweeks": {
+                    abbr: `PG${RECENT_GAMES_COUNT}`,
+                    full: `Points per available gameweek (PPG over ${RECENT_GAMES_COUNT} weeks - uses 4 as divisor)`,
+                    type: 'num',
+                    render: (data) => safeToFixed(data, 1), // Show one decimal
+                    className: 'dt-center'
+                },
+
+                "Points Per Million Over 4 Gameweeks": {
+                    abbr: `PM${RECENT_GAMES_COUNT}`,
+                    full: `Points per million over last ${RECENT_GAMES_COUNT} gameweeks`,
+                    type: 'num',
+                    render: (data) => safeToFixed(data, 1), // Show one decimal
+                    className: 'dt-center'
+                },
+                // --- END UPDATED 4 GW METRICS ---
+
+                // GOALS (Font Awesome Volleyball Icon - Green)
+                "Total Goals": {
+                    abbr: `<i class="fa-solid fa-volleyball icon-green text-base fa-header-icon"></i>`,
+                    full: 'Goals scored this season',
+                    type: 'num',
+                    className: 'dt-center'
+                },
+
+                // ASSISTS (Text Only)
+                "Total Assists": {
+                    abbr: `A`,
+                    full: 'Assists this season',
+                    type: 'num',
+                    className: 'dt-center'
+                },
+
+                // CLEAN SHEET (Text Only)
+                "Total Clean Sheet": {
+                    abbr: `CS`,
+                    full: 'Clean sheets this season',
+                    type: 'num',
+                    className: 'dt-center'
+                },
+
+                // BONUS POINTS (Font Awesome Star Icon - Yellow)
+                "Total Bonus Points": {
+                    abbr: `<i class="fa-solid fa-star icon-yellow text-base fa-header-icon"></i>`,
+                    full: 'Bonus points won this season',
+                    type: 'num',
+                    className: 'dt-center'
+                },
+
+                // YELLOW CARD (Font Awesome Square Icon - Yellow)
+                "Total Yellow Cards": {
+                    abbr: `<i class="fa-solid fa-square icon-yellow text-base fa-header-icon"></i>`,
+                    full: 'Yellow cards this season',
+                    type: 'num',
+                    className: 'dt-center'
+                },
+
+                // RED CARD (Font Awesome Square Icon - Red)
+                "Total Red Cards": {
+                    abbr: `<i class="fa-solid fa-square icon-red text-base fa-header-icon"></i>`,
+                    full: 'Red cards this season',
+                    type: 'num',
+                    className: 'dt-center'
+                },
+
+                // MISSED PENALTY (Text Only)
+                "Total Missed Penalties": {
+                    abbr: `MP`,
+                    full: 'Missed penalties this season',
+                    type: 'num',
+                    className: 'dt-center'
+                },
+                "Total Clearances": { abbr: 'CL', full: 'Goal line clearances this season', type: 'num', className: 'dt-center' },
+                "Total Conceeded": { abbr: 'GC', full: 'Points lost from goals conceded (-1 for every 2 goals whilst on the pitch)', type: 'num', className: 'dt-center' },
+
+                // SAVES (Text Only)
+                "Total Saves": {
+                    abbr: `S`,
+                    full: 'Save points awarded (Goalkeepers, 1 pt per 3 saves)',
+                    type: 'num',
+                    className: 'dt-center'
+                },
+
+                // OWN GOALS (Text Only)
+                "Total Own Goals": {
+                    abbr: `OG`,
+                    full: 'Own goals scored this season (-2 points each)',
+                    type: 'num',
+                    className: 'dt-center'
+                },
+                "Total 1 min Appearances": { abbr: 'P1', full: 'Appearances where at least 1 minute was played (1pt)', type: 'num', className: 'dt-center' },
+                "Total 60 min Appearances": { abbr: '60', full: 'Appearances where at least 60 minutes were played (1pt)', type: 'num', className: 'dt-center' }
+            };
+
+            const STATIC_KEYS_SET = new Set(Object.keys(STATIC_COLUMN_MAP));
+
+            /**
+             * Generates the HTML content for the glossary modal.
+             * @param {Array} columns The DataTables column settings array (optional, for dynamic GW columns).
+             */
+            function generateGlossaryContent(columns) {
+                let html = '';
+
+                // 1. Static Columns
+                Object.keys(STATIC_COLUMN_MAP).forEach(key => {
+                    const config = STATIC_COLUMN_MAP[key];
+                    // Use innerText for abbr to strip potential HTML/Icons before display
+                    const abbrText = $('<div>').html(config.abbr).text().trim() || config.abbr;
+
+                    html += `
                     <div class="flex items-center space-x-2">
                         <span class="font-bold text-sm text-indigo-600 w-12 flex-shrink-0">${abbrText}:</span>
                         <span class="text-xs text-gray-700">${config.full}</span>
                     </div>
                 `;
-            });
-            
-            // 2. Dynamic Gameweek Columns (if table is initialized)
-            if (columns.length > 0) {
-                // Find the first Gameweek column to represent the dynamic group
-                const gwColumn = columns.find(col => col.data && /^\d+$/.test(col.data));
-                
-                if (gwColumn) {
-                     html += `
+                });
+
+                // 2. Dynamic Gameweek Columns (if table is initialized)
+                if (columns.length > 0) {
+                    // Find the first Gameweek column to represent the dynamic group
+                    const gwColumn = columns.find(col => col.data && /^\d+$/.test(col.data));
+
+                    if (gwColumn) {
+                        html += `
                         <div class="flex items-center space-x-2">
                             <span class="font-bold text-sm text-indigo-600 w-12 flex-shrink-0">GW:</span>
                             <span class="text-xs text-gray-700">Gameweek Points (Dynamic columns are labeled with their Gameweek number, hover for fixture detail)</span>
                         </div>
                     `;
+                    }
                 }
+
+                if (html === '') {
+                    html = '<p class="col-span-2 text-center text-gray-500">No column definitions available.</p>';
+                }
+
+                $('#glossary-content').html(html);
             }
 
-            if (html === '') {
-                 html = '<p class="col-span-2 text-center text-gray-500">No column definitions available.</p>';
+            // --- Club Filter UI Helper Functions ---
+            function updateClubDisplayText() {
+                const selectedCount = $('#club-filter-list input[type="checkbox"]:checked').length;
+                const totalCount = uniqueClubs.length;
+
+                let text = "Clubs (None)";
+                if (selectedCount === totalCount) {
+                    text = "Clubs (All)";
+                } else if (selectedCount > 0) {
+                    text = `Clubs (${selectedCount}/${totalCount})`;
+                }
+                $('#club-display-text').text(text);
             }
 
-            $('#glossary-content').html(html);
-        }
-
-        // --- Club Filter UI Helper Functions ---
-        function updateClubDisplayText() {
-            const selectedCount = $('#club-filter-list input[type="checkbox"]:checked').length;
-            const totalCount = uniqueClubs.length;
-            
-            let text = "Clubs (None)";
-            if (selectedCount === totalCount) {
-                text = "Clubs (All)";
-            } else if (selectedCount > 0) {
-                text = `Clubs (${selectedCount}/${totalCount})`;
-            }
-            $('#club-display-text').text(text);
-        }
-
-        function toggleClubDropdown() {
-            $('#club-dropdown-menu').toggleClass('hidden');
-            $('#club-dropdown-toggle').attr('aria-expanded', function(_, attr) {
-                return attr === 'true' ? 'false' : 'true';
-            });
-        }
-        
-        function populateClubFilters(data) {
-            const clubs = new Set();
-            data.forEach(player => clubs.add(player.Club));
-            uniqueClubs = Array.from(clubs).sort();
-
-            const $clubList = $('#club-filter-list');
-            $clubList.empty();
-
-            if (uniqueClubs.length === 0) {
-                $clubList.append('<p class="text-center text-xs text-gray-500">No clubs found in data.</p>');
-                return;
+            function toggleClubDropdown() {
+                $('#club-dropdown-menu').toggleClass('hidden');
+                $('#club-dropdown-toggle').attr('aria-expanded', function (_, attr) {
+                    return attr === 'true' ? 'false' : 'true';
+                });
             }
 
-            uniqueClubs.forEach(club => {
-                const checkboxHtml = `
+            function populateClubFilters(data) {
+                const clubs = new Set();
+                data.forEach(player => clubs.add(player.Club));
+                uniqueClubs = Array.from(clubs).sort();
+
+                const $clubList = $('#club-filter-list');
+                $clubList.empty();
+
+                if (uniqueClubs.length === 0) {
+                    $clubList.append('<p class="text-center text-xs text-gray-500">No clubs found in data.</p>');
+                    return;
+                }
+
+                uniqueClubs.forEach(club => {
+                    const checkboxHtml = `
                     <div class="flex items-center">
                         <input id="club-${club}" name="club-filter" type="checkbox" value="${club}" checked 
                                class="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 club-checkbox">
                         <label for="club-${club}" class="ml-3 text-sm text-gray-700">${club}</label>
                     </div>
                 `;
-                $clubList.append(checkboxHtml);
-            });
-
-            updateClubDisplayText();
-        }
-
-        // --- DataTables Custom Filter ---
-        $.fn.dataTable.ext.search.push(
-            function(settings, data, dataIndex, rowData) {
-                // Ensure the filter only applies to the current table instance
-                if (dataTableInstance && settings.nTable.id !== dataTableInstance.table().node().id) {
-                    return true; 
-                }
-
-                // 1. Max Value Filter
-                const maxValueInput = parseFloat($('#max-value-filter').val());
-                const playerValue = parseFloat(rowData["Value"]);
-                const isValueValid = isNaN(maxValueInput) || isNaN(playerValue) || playerValue <= maxValueInput;
-                if (!isValueValid) { return false; }
-
-                // 2. Position Filter
-                const selectedPosition = $('#position-filter').val();
-                const playerPosition = rowData["Position"];
-                const isPositionValid = selectedPosition === "" || playerPosition === selectedPosition;
-                if (!isPositionValid) { return false; }
-                
-                // 3. Club Filter
-                const selectedClubs = $('#club-filter-list input[type="checkbox"]:checked').map(function() {
-                    return this.value;
-                }).get();
-                
-                const playerClub = rowData["Club"];
-                // Only filter if clubs were successfully populated and selected
-                const isClubValid = selectedClubs.length === 0 ? false : selectedClubs.includes(playerClub);
-                if (!isClubValid) { return false; }
-
-                // Visionary Filter
-                const visionaryChecked = $('#visionary-filter').is(':checked');
-                const isVisionary = rowData.Visionary === true;
-
-                // If checkbox is checked, only show visionary players
-                if (visionaryChecked && !isVisionary) {
-                    return false;
-                }
-
-                return true;
-            }
-        );
-
-        // --- Custom DataTables Filter ---
-        $.fn.dataTable.ext.search.push(
-            function( settings, data, dataIndex ) {
-                // Only apply this filter to YOUR specific DataTable instance
-                // Assuming your table's DOM ID is 'player-stats-table'
-                if ( settings.nTable.id !== 'player-stats-table' ) {
-                    return true;
-                }
-
-                // 1. Get the player's full data object (DataTables stores it in 'row')
-                const rowData = settings.aoData[dataIndex]._aData;
-                
-                // 2. Get the state of the checkbox
-                const showVisionariesOnly = $('#visionary-filter').prop('checked');
-                
-                // 3. Get the player's 'Visionarye' status
-                const isVisionary = rowData.Visionary === true;
-
-                // Filtering logic:
-                if (showVisionariesOnly) {
-                    // If the box is checked, ONLY allow visionary players to pass.
-                    return isVisionary;
-                } else {
-                    // If the box is NOT checked, allow ALL players to pass.
-                    return true;
-                }
-            }
-        );
-
-        $('#visionary-filter').on('change', function() {
-            if (dataTableInstance) {
-                dataTableInstance.draw();
-            }
-        });
-
-        // --- End Custom Filter ---
-
-        /**
-         * Initializes and renders the DataTables table with player data.
-         * @param {Array<Object>} data The array of player objects.
-         */
-        function initializeTable(data) {
-            // Hide the loading message and show the table container if data is present
-            if (!data || data.length === 0) {
-                $('#loading-message').text('No player data available to display. Please ensure your data is loaded correctly.');
-                return;
-            }
-
-            // Hide the loading message and make the table visible
-            $('#loading-message').addClass('hidden');
-            $('#myTable').removeClass('hidden');
-            
-            // Populate club filters BEFORE table initialization
-            populateClubFilters(data);
-
-            let columns = [];
-            let headerRow = '<tr>';
-
-            // 2. Define Static Columns and build header HTML
-            const STATIC_KEYS_ORDERED = Object.keys(STATIC_COLUMN_MAP);
-            
-            STATIC_KEYS_ORDERED.forEach(key => {
-                const config = STATIC_COLUMN_MAP[key];
-                
-                columns.push({
-                    data: key,
-                    title: createHeader(config.abbr, config.full),
-                    className: config.className || 'dt-center', 
-                    type: config.type === 'num' ? 'num-fmt' : 'string',
-                    render: config.render
+                    $clubList.append(checkboxHtml);
                 });
-                
-                const headerClass = key === "Name" ? 'player-name-header' : '';
-                headerRow += `<th class="dt-head-center ${headerClass}">${createHeader(config.abbr, config.full)}</th>`;
+
+                updateClubDisplayText();
+            }
+
+            // --- DataTables Custom Filter ---
+            $.fn.dataTable.ext.search.push(
+                function (settings, data, dataIndex, rowData) {
+                    // Ensure the filter only applies to the current table instance
+                    if (dataTableInstance && settings.nTable.id !== dataTableInstance.table().node().id) {
+                        return true;
+                    }
+
+                    // 1. Max Value Filter
+                    const maxValueInput = parseFloat($('#max-value-filter').val());
+                    const playerValue = parseFloat(rowData["Value"]);
+                    const isValueValid = isNaN(maxValueInput) || isNaN(playerValue) || playerValue <= maxValueInput;
+                    if (!isValueValid) { return false; }
+
+                    // 2. Position Filter
+                    const selectedPosition = $('#position-filter').val();
+                    const playerPosition = rowData["Position"];
+                    const isPositionValid = selectedPosition === "" || playerPosition === selectedPosition;
+                    if (!isPositionValid) { return false; }
+
+                    // 3. Club Filter
+                    const selectedClubs = $('#club-filter-list input[type="checkbox"]:checked').map(function () {
+                        return this.value;
+                    }).get();
+
+                    const playerClub = rowData["Club"];
+                    // Only filter if clubs were successfully populated and selected
+                    const isClubValid = selectedClubs.length === 0 ? false : selectedClubs.includes(playerClub);
+                    if (!isClubValid) { return false; }
+
+                    // Visionary Filter
+                    const visionaryChecked = $('#visionary-filter').is(':checked');
+                    const isVisionary = rowData.Visionary === true;
+
+                    // If checkbox is checked, only show visionary players
+                    if (visionaryChecked && !isVisionary) {
+                        return false;
+                    }
+
+                    return true;
+                }
+            );
+
+
+            // --- Custom DataTables Filter ---
+            $.fn.dataTable.ext.search.push(
+                function (settings, data, dataIndex) {
+                    // Only apply this filter to YOUR specific DataTable instance
+                    // Assuming your table's DOM ID is 'player-stats-table'
+                    if (settings.nTable.id !== 'player-stats-table') {
+                        return true;
+                    }
+
+                    // 1. Get the player's full data object (DataTables stores it in 'row')
+                    const rowData = settings.aoData[dataIndex]._aData;
+
+                    // 2. Get the state of the checkbox
+                    const showVisionariesOnly = $('#visionary-filter').prop('checked');
+
+                    // 3. Get the player's 'Visionarye' status
+                    const isVisionary = rowData.Visionary === true;
+
+                    // Filtering logic:
+                    if (showVisionariesOnly) {
+                        // If the box is checked, ONLY allow visionary players to pass.
+                        return isVisionary;
+                    } else {
+                        // If the box is NOT checked, allow ALL players to pass.
+                        return true;
+                    }
+                }
+            );
+
+            $('#visionary-filter').on('change', function () {
+                if (dataTableInstance) {
+                    dataTableInstance.draw();
+                }
             });
 
-            // 3. Identify and Define Dynamic Gameweek Columns
-            const firstPlayer = data[0];
-            const gameweekKeys = Object.keys(firstPlayer).filter(key => {
-                return !STATIC_KEYS_SET.has(key) && /^\d+$/.test(key);
-            }).sort((a, b) => {
-                // Sort by key value descending (most recent gameweek first)
-                return parseInt(b) - parseInt(a); 
-            });
-            
-            gameweekKeys.forEach(gwKey => {
-                columns.push({
-                    data: gwKey, 
-                    title: createHeader(gwKey, `Gameweek ${gwKey} points`),
-                    className: 'gw-col dt-center', 
-                    type: 'num-fmt',
-                    render: function(data, type, row) {
-                        // Check if data is the special object { points: X, tooltip: Y }
-                        if (typeof data === 'object' && data !== null && data.hasOwnProperty('points')) {
-                            const points = data.points === null || data.points === undefined ? '-' : data.points;
-                            
-                            // Use .trim() to ensure no leading/trailing whitespace/newlines in the data itself
-                            const tooltip = data.tooltip ? data.tooltip.trim() : ''; 
-                            
-                            // For sorting/filtering, return the points number
-                            if (type === 'sort' || type === 'type') {
-                                return data.points;
+            // --- End Custom Filter ---
+
+            /**
+             * Initializes and renders the DataTables table with player data.
+             * @param {Array<Object>} data The array of player objects.
+             */
+            function initializeTable(data) {
+                // Hide the loading message and show the table container if data is present
+                if (!data || data.length === 0) {
+                    $('#loading-message').text('No player data available to display. Please ensure your data is loaded correctly.');
+                    return;
+                }
+
+                // Hide the loading message and make the table visible
+                $('#loading-message').addClass('hidden');
+                $('#myTable').removeClass('hidden');
+
+                // Populate club filters BEFORE table initialization
+                populateClubFilters(data);
+
+                let columns = [];
+                let headerRow = '<tr>';
+
+                // 2. Define Static Columns and build header HTML
+                const STATIC_KEYS_ORDERED = Object.keys(STATIC_COLUMN_MAP);
+
+                STATIC_KEYS_ORDERED.forEach(key => {
+                    const config = STATIC_COLUMN_MAP[key];
+
+                    columns.push({
+                        data: key,
+                        title: createHeader(config.abbr, config.full),
+                        className: config.className || 'dt-center',
+                        type: config.type === 'num' ? 'num-fmt' : 'string',
+                        render: config.render
+                    });
+
+                    const headerClass = key === "Name" ? 'player-name-header' : '';
+                    headerRow += `<th class="dt-head-center ${headerClass}">${createHeader(config.abbr, config.full)}</th>`;
+                });
+
+                // 3. Identify and Define Dynamic Gameweek Columns
+                const firstPlayer = data[0];
+                const gameweekKeys = Object.keys(firstPlayer).filter(key => {
+                    return !STATIC_KEYS_SET.has(key) && /^\d+$/.test(key);
+                }).sort((a, b) => {
+                    // Sort by key value descending (most recent gameweek first)
+                    return parseInt(b) - parseInt(a);
+                });
+
+                gameweekKeys.forEach(gwKey => {
+                    columns.push({
+                        data: gwKey,
+                        title: createHeader(gwKey, `GW${gwKey}`),
+                        className: 'gw-col dt-center',
+                        type: 'num-fmt',
+                        render: function (data, type, row) {
+                            // Check if data is the special object { points: X, tooltip: Y }
+                            if (typeof data === 'object' && data !== null && data.hasOwnProperty('points')) {
+                                const points = data.points === null || data.points === undefined ? '-' : data.points;
+
+                                // Use .trim() to ensure no leading/trailing whitespace/newlines in the data itself
+                                const tooltip = data.tooltip ? data.tooltip.trim() : '';
+
+                                // For sorting/filtering, return the points number
+                                if (type === 'sort' || type === 'type') {
+                                    return data.points;
+                                }
+
+                                return `<div class="custom-tooltip-container"><span class="custom-tooltip-points">${points}</span><div class="custom-tooltip-content">${tooltip.replace(/\n/g, '<br>')}</div></div>`;
                             }
 
-                            return `<div class="custom-tooltip-container"><span class="custom-tooltip-points">${points}</span><div class="custom-tooltip-content">${tooltip.replace(/\n/g, '<br>')}</div></div>`;
+                            // Otherwise, it's a dash (DNP)
+                            return '-';
                         }
-                        
-                        // Otherwise, it's a dash (DNP)
-                        return '-';
+                    });
+                    headerRow += `<th class="dt-head-center gw-col">${createHeader(gwKey, `Gameweek ${gwKey} Points`)}</th>`;
+                });
+
+                headerRow += '</tr>';
+
+                // Finalize Setup and Initialize DataTables    
+                $('#myTable').empty();
+                $('#myTable').append(`<thead>${headerRow}</thead>`);
+
+                dataTableInstance = $('#myTable').DataTable({
+                    data: data,
+                    columns: columns,
+                    paging: true,
+                    searching: true,
+                    scrollX: true,
+                    order: [[5, 'desc']],
+                    responsive: false,
+                    info: true,
+
+                    lengthMenu: [
+                        [10, 15, 25, 50, 100, -1],
+                        ['10', '15', '25', '50', '100', 'All']
+                    ],
+                    pageLength: 15,
+
+                    columnDefs: [
+                        { orderSequence: ['asc', 'desc'], targets: '_all' }
+                    ],
+
+                    language: {
+                        search: "Search:",
+                        info: "Showing _START_ to _END_ of _TOTAL_ entries",
                     }
                 });
-                headerRow += `<th class="dt-head-center gw-col">${createHeader(gwKey, `Gameweek ${gwKey} Points`)}</th>`;
-            });
-            
-            headerRow += '</tr>';
 
-            // Finalize Setup and Initialize DataTables    
-            $('#myTable').empty(); 
-            $('#myTable').append(`<thead>${headerRow}</thead>`);
-
-            dataTableInstance = $('#myTable').DataTable({
-                data: data,
-                columns: columns, 
-                paging: true,
-                searching: true,
-                scrollX: true,
-                order: [[5, 'desc']], 
-                responsive: false, 
-                info: true,
-                
-                lengthMenu: [
-                    [10, 15, 25, 50, 100, -1], 
-                    ['10', '15', '25', '50', '100', 'All'] 
-                ],
-                pageLength: 15, 
-                
-                columnDefs: [
-                    { orderSequence: ['asc', 'desc'], targets: '_all' }
-                ],
-                
-                language: {
-                    search: "Search:",
-                    info: "Showing _START_ to _END_ of _TOTAL_ entries",
-                }
-            });
-
-            // Force column width recalculation
-            setTimeout(() => {
-                if(dataTableInstance) {
-                    dataTableInstance.columns.adjust().draw();
-                }
-            }, 50);
-
-            // --- Attach Click Handler for Player Details Modal ---
-            $('#myTable tbody').on('click', 'tr', function () {
-                if (dataTableInstance) {
-                    // Get the row data object for the clicked row
-                    const rowData = dataTableInstance.row(this).data();
-                    if (rowData) {
-                        showModal('player', rowData);
+                // Force column width recalculation
+                setTimeout(() => {
+                    if (dataTableInstance) {
+                        dataTableInstance.columns.adjust().draw();
                     }
-                }
-            });
+                }, 50);
 
-            // --- CUSTOM TOOLTIP POSITIONING LOGIC (Place after the player details click handler) ---
-            $('#myTable').on('mouseenter', '.custom-tooltip-container', function() {
-                const $container = $(this);
-                const $tooltip = $container.find('.custom-tooltip-content');
-                
-                // Get the container's position relative to the viewport
-                const containerRect = $container[0].getBoundingClientRect();
-                const tooltipWidth = $tooltip.outerWidth();
-                const tooltipHeight = $tooltip.outerHeight();
-                
-                let top, left;
-
-                // 1. Vertical Positioning (Fixes bottom row clipping)
-                const spaceBelow = $(window).height() - containerRect.bottom;
-                const spaceAbove = containerRect.top;
-
-                // Flip to ABOVE if not enough space below AND enough space above (10px buffer)
-                if (spaceBelow < tooltipHeight + 10 && spaceAbove > tooltipHeight) {
-                    top = containerRect.top - tooltipHeight - 5; // 5px margin
-                } else {
-                    // Default position BELOW
-                    top = containerRect.bottom + 5; // 5px margin
-                }
-
-                // 2. Horizontal Positioning (Forces left-side display to stay inside the screen)
-                const spaceRight = $(window).width() - containerRect.right;
-                
-                if (spaceRight < tooltipWidth) {
-                    // If it clips on the right, position to the left of the container's right edge
-                    left = containerRect.right - tooltipWidth - 5; 
-                } else {
-                    // Default position slightly to the right of the container's left edge
-                    // Note: Using containerRect.right - tooltipWidth for consistent left alignment
-                    left = containerRect.right - tooltipWidth - 5; 
-                }
-                
-                // Apply fixed positions
-                $tooltip.css({
-                    top: top + 'px',
-                    left: left + 'px',
-                    right: 'auto',
-                    bottom: 'auto'
+                // --- Attach Click Handler for Player Details Modal ---
+                $('#myTable tbody').on('click', 'tr', function () {
+                    if (dataTableInstance) {
+                        // Get the row data object for the clicked row
+                        const rowData = dataTableInstance.row(this).data();
+                        if (rowData) {
+                            showModal('player', rowData);
+                        }
+                    }
                 });
-            });
 
-            // Hide the tooltip on mouseleave (Clear dynamic positioning)
-            $('#myTable').on('mouseleave', '.custom-tooltip-container', function() {
-                const $tooltip = $(this).find('.custom-tooltip-content');
-                
-                // Clear dynamic positioning to prevent lingering issues
-                $tooltip.css({
-                    top: '',
-                    left: '',
-                    right: '',
-                    bottom: ''
+                // --- CUSTOM TOOLTIP POSITIONING LOGIC (Final Guaranteed Fix for Off-Screen Headers) ---
+                $('#myTable').on('mouseenter', '.custom-tooltip-container', function () {
+                    const $container = $(this);
+                    const $tooltip = $container.find('.custom-tooltip-content');
+
+                    const containerRect = $container[0].getBoundingClientRect();
+                    const tooltipWidth = $tooltip.outerWidth();
+                    const tooltipHeight = $tooltip.outerHeight();
+
+                    let top, left;
+
+                    // A small buffer for screen edges
+                    const margin = 5; 
+                    const windowWidth = $(window).width();
+
+                    // 1. Vertical Positioning (No change)
+                    const spaceBelow = $(window).height() - containerRect.bottom;
+                    const spaceAbove = containerRect.top;
+
+                    if (spaceBelow < tooltipHeight + 10 && spaceAbove > tooltipHeight) {
+                        top = containerRect.top - tooltipHeight - margin; // Position ABOVE
+                    } else {
+                        top = containerRect.bottom + margin; // Default position BELOW
+                    }
+
+                    // 2. Horizontal Positioning (The Definitive Fix)
+
+                    // A. Calculate the Maximum Allowed Left Position (Right-Side Anchor)
+                    // This value places the right edge of the tooltip flush with the screen's right edge (minus margin).
+                    const maxLeft = windowWidth - tooltipWidth - margin;
+                    
+                    // B. Calculate the Default Preferred Left Position (Alignment with Container)
+                    const preferredLeft = containerRect.left;
+
+                    // The final 'left' position must be the MINIMUM of the two values:
+                    // 1. Alignment with the container (preferredLeft).
+                    // 2. The absolute right-side anchor (maxLeft).
+                    let finalLeft = Math.min(preferredLeft, maxLeft);
+
+                    // C. Calculate the Minimum Allowed Left Position (Left-Side Anchor)
+                    // Ensure 'left' is never less than the left margin (Fix for Player Name)
+                    left = Math.max(finalLeft, margin);
+
+
+                    // Apply fixed positions
+                    $tooltip.css({
+                        top: top + 'px',
+                        left: left + 'px',
+                        right: 'auto', // Essential
+                        bottom: 'auto'
+                    });
                 });
-            });
-            // --- END CUSTOM TOOLTIP POSITIONING LOGIC ---
-            // --- End Click Handler ---
 
-            // Visionary Checkbox Event Listener
-            $('#visionary-filter').on('change', function() {
-                // Redraw the table to re-apply all active filters (including the new custom one)
-                if (dataTableInstance) {
-                    dataTableInstance.draw();
-                }
-            });
+                // Hide the tooltip on mouseleave (Clear dynamic positioning)
+                $('#myTable').on('mouseleave', '.custom-tooltip-container', function () {
+                    const $tooltip = $(this).find('.custom-tooltip-content');
+                    $tooltip.css({
+                        top: '',
+                        left: '',
+                        right: '',
+                        bottom: ''
+                    });
+                });
+                // --- END CUSTOM TOOLTIP POSITIONING LOGIC ---
 
-            // 5. Attach Filter Event Listeners  
-            $('#max-value-filter, #position-filter').on('keyup change', function() {
-                if(dataTableInstance) {
-                    dataTableInstance.draw(); 
-                }
-            });
+                // Visionary Checkbox Event Listener
+                $('#visionary-filter').on('change', function () {
+                    // Redraw the table to re-apply all active filters (including the new custom one)
+                    if (dataTableInstance) {
+                        dataTableInstance.draw();
+                    }
+                });
 
-            // Club Filter Dropdown Toggle
-            $('#club-dropdown-toggle').on('click', function(e) {
-                e.stopPropagation(); 
-                toggleClubDropdown();
-            });
-            
-            // Close dropdown when clicking outside
-            $(document).on('click', function(e) {
-                if (!$('#club-dropdown-menu').hasClass('hidden') && !$(e.target).closest('#club-dropdown-menu').length && !$(e.target).is('#club-dropdown-toggle')) {
-                    $('#club-dropdown-menu').addClass('hidden');
-                    $('#club-dropdown-toggle').attr('aria-expanded', 'false');
-                }
-            });
+                // 5. Attach Filter Event Listeners  
+                $('#max-value-filter, #position-filter').on('keyup change', function () {
+                    if (dataTableInstance) {
+                        dataTableInstance.draw();
+                    }
+                });
 
-            // Club Checkbox changes
-            $('#club-filter-list').on('change', '.club-checkbox', function() {
-                updateClubDisplayText();
-                if(dataTableInstance) {
-                    dataTableInstance.draw();
-                }
-            });
+                // Club Filter Dropdown Toggle
+                $('#club-dropdown-toggle').on('click', function (e) {
+                    e.stopPropagation();
+                    toggleClubDropdown();
+                });
 
-            // Select All / Unselect All
-            $('#select-all-clubs, #unselect-all-clubs').on('click', function() {
-                const isSelectAll = this.id === 'select-all-clubs';
-                $('#club-filter-list input[type="checkbox"]').prop('checked', isSelectAll).trigger('change');
-            });
+                // Close dropdown when clicking outside
+                $(document).on('click', function (e) {
+                    if (!$('#club-dropdown-menu').hasClass('hidden') && !$(e.target).closest('#club-dropdown-menu').length && !$(e.target).is('#club-dropdown-toggle')) {
+                        $('#club-dropdown-menu').addClass('hidden');
+                        $('#club-dropdown-toggle').attr('aria-expanded', 'false');
+                    }
+                });
 
-        }
+                // Club Checkbox changes
+                $('#club-filter-list').on('change', '.club-checkbox', function () {
+                    updateClubDisplayText();
+                    if (dataTableInstance) {
+                        dataTableInstance.draw();
+                    }
+                });
 
-        fetch('transformed_data.json?t=' + new Date().getTime())
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok ' + response.statusText);
-                }
-                return response.json();
-            })
-            .then(playerData => {
-                // Once data is loaded, initialize the table
-                initializeTable(playerData);
-            })
-            .catch(error => {
-                console.error('Error loading data:', error);
-                $('#loading-message').text('Failed to load player data. Check console for error details.');
-            });
+                // Select All / Unselect All
+                $('#select-all-clubs, #unselect-all-clubs').on('click', function () {
+                    const isSelectAll = this.id === 'select-all-clubs';
+                    $('#club-filter-list input[type="checkbox"]').prop('checked', isSelectAll).trigger('change');
+                });
 
-    });
+            }
+
+            fetch('transformed_data.json?t=' + new Date().getTime())
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(playerData => {
+                    // Once data is loaded, initialize the table
+                    initializeTable(playerData);
+                })
+                .catch(error => {
+                    console.error('Error loading data:', error);
+                    $('#loading-message').text('Failed to load player data. Check console for error details.');
+                });
+
+        });
     </script>
 
 </body>
+<!-- end -->
 </html>
