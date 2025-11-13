@@ -240,7 +240,7 @@
         },
         "5": {
             "points": 1,
-            "tooltip": "4 Oct (A) MCI L 3-2\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "4 Oct (A) MCI L 3-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "6": {
             "points": 6,
@@ -252,7 +252,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "8 Nov (H) CHE D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "8 Nov (H) CHE D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -637,7 +637,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 0,
-        "Selected Percentage": 4.4,
+        "Selected Percentage": 4.3,
         "Total Games Played": 0,
         "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 0,
@@ -1253,7 +1253,7 @@
         "Total 60 min Appearances": 7,
         "1": {
             "points": 2,
-            "tooltip": "6 Sep (H) LCL W 4-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "6 Sep (H) LCL W 4-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 2,
@@ -1261,7 +1261,7 @@
         },
         "3": {
             "points": 5,
-            "tooltip": "21 Sep (A) MUN D 0-0\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "21 Sep (A) MUN D 0-0\nBonus x2 (+2pts)\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 3,
@@ -1273,7 +1273,7 @@
         },
         "6": {
             "points": 3,
-            "tooltip": "12 Oct (H) BHA W 1-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "12 Oct (H) BHA W 1-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 2,
@@ -1885,7 +1885,7 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "21 Sep (A) MUN D 0-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "21 Sep (A) MUN D 0-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": "-",
         "5": {
@@ -2108,7 +2108,7 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "4 Oct (A) MCI L 3-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "4 Oct (A) MCI L 3-2\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 4,
@@ -2120,7 +2120,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "8 Nov (H) CHE D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "8 Nov (H) CHE D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -2338,7 +2338,7 @@
         },
         "8": {
             "points": 1,
-            "tooltip": "8 Nov (H) CHE D 1-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "8 Nov (H) CHE D 1-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -2750,15 +2750,15 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "12 Sep (H) BHA W 2-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Sep (H) BHA W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "3": {
             "points": 8,
-            "tooltip": "19 Sep (A) TOT W 1-5\nGoal (+4pts)\nBonus x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "19 Sep (A) TOT W 1-5\nGoal (+4pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 6,
-            "tooltip": "28 Sep (H) LCL W 4-1\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (H) LCL W 4-1\nGoal (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 2,
@@ -3160,7 +3160,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 9,
-        "Selected Percentage": 4.5,
+        "Selected Percentage": 4.6,
         "Total Games Played": 5,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -3406,11 +3406,11 @@
         },
         "2": {
             "points": 1,
-            "tooltip": "14 Sep (H) TOT L 0-2\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "14 Sep (H) TOT L 0-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "3": {
             "points": 0,
-            "tooltip": "19 Sep (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "tooltip": "19 Sep (H) LCL L 1-2\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "4": {
             "points": 1,
@@ -3426,11 +3426,11 @@
         },
         "7": {
             "points": 1,
-            "tooltip": "2 Nov (A) AVL D 3-3\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "2 Nov (A) AVL D 3-3\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "8": {
             "points": 0,
-            "tooltip": "9 Nov (H) MCI L 1-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)\nConceded (-1pt)"
+            "tooltip": "9 Nov (H) MCI L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -3620,20 +3620,20 @@
         "Total 60 min Appearances": 7,
         "1": {
             "points": 9,
-            "tooltip": "7 Sep (A) BHA D 0-0\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (A) BHA D 0-0\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 1,
-            "tooltip": "14 Sep (H) CHE L 1-3\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "14 Sep (H) CHE L 1-3\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "3": "-",
         "4": {
             "points": 2,
-            "tooltip": "27 Sep (A) ARS D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "27 Sep (A) ARS D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 7,
-            "tooltip": "5 Oct (A) WHU W 0-2\nClean Sheet (+4pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (A) WHU W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nBonus (+1pt)"
         },
         "6": {
             "points": 8,
@@ -3645,7 +3645,7 @@
         },
         "8": {
             "points": 7,
-            "tooltip": "8 Nov (A) MUN W 0-1\nClean Sheet (+4pts)\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "8 Nov (A) MUN W 0-1\nClean Sheet (+4pts)\n60 min (+1pt)\nClearance (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -4044,7 +4044,7 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "12 Sep (H) BHA W 2-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Sep (H) BHA W 2-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": {
             "points": 2,
@@ -4064,7 +4064,7 @@
         },
         "7": {
             "points": 3,
-            "tooltip": "1 Nov (H) WHU W 1-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "1 Nov (H) WHU W 1-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
         },
         "8": {
             "points": 2,
@@ -4258,7 +4258,7 @@
         "Total 60 min Appearances": 5,
         "1": {
             "points": 3,
-            "tooltip": "7 Sep (A) BHA D 0-0\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (A) BHA D 0-0\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
         },
         "2": {
             "points": 2,
@@ -4271,7 +4271,7 @@
         },
         "5": {
             "points": 10,
-            "tooltip": "5 Oct (A) WHU W 0-2\nGoal (+5pts)\nBonus x2 (+2pts)\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (A) WHU W 0-2\nGoal (+5pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
         },
         "6": {
             "points": 1,
@@ -4908,7 +4908,7 @@
         },
         "2": {
             "points": 0,
-            "tooltip": "12 Sep (H) ARS L 1-5\n60 min (+1pt)\n1 min (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "12 Sep (H) ARS L 1-5\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
         "3": "-",
         "4": "-",
@@ -5696,23 +5696,23 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "12 Sep (A) MCI L 2-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Sep (A) MCI L 2-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": {
             "points": 1,
-            "tooltip": "21 Sep (H) WHU W 4-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "21 Sep (H) WHU W 4-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) EVE W 1-0\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "28 Sep (H) EVE W 1-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)\nYellow Card (-1pt)"
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (A) TOT L 1-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (A) TOT L 1-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (A) ARS L 1-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (A) ARS L 1-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 2,
@@ -6125,7 +6125,7 @@
         "Total 60 min Appearances": 3,
         "1": {
             "points": 9,
-            "tooltip": "7 Sep (H) LEI W 4-0\nGoal (+4pts)\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (H) LEI W 4-0\nGoal (+4pts)\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 1,
@@ -6149,7 +6149,7 @@
         },
         "7": {
             "points": 6,
-            "tooltip": "2 Nov (A) BHA W 2-3\nGoal (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "2 Nov (A) BHA W 2-3\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 1,
@@ -6343,7 +6343,7 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 2,
-            "tooltip": "5 Sep (H) MCI W 2-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Sep (H) MCI W 2-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 1,
@@ -6351,11 +6351,11 @@
         },
         "3": {
             "points": 6,
-            "tooltip": "21 Sep (H) LEI W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "21 Sep (H) LEI W 1-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 8,
-            "tooltip": "28 Sep (A) WHU W 0-4\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "28 Sep (A) WHU W 0-4\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "5": {
             "points": 2,
@@ -6371,7 +6371,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "8 Nov (A) ARS D 1-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "8 Nov (A) ARS D 1-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -6755,7 +6755,7 @@
         "Total 60 min Appearances": 2,
         "1": {
             "points": 0,
-            "tooltip": "5 Sep (H) MCI W 2-1\n60 min (+1pt)\n1 min (+1pt)\nOwn Goal (-2pts)"
+            "tooltip": "5 Sep (H) MCI W 2-1\n1 min (+1pt)\n60 min (+1pt)\nOwn Goal (-2pts)"
         },
         "2": {
             "points": 1,
@@ -6774,7 +6774,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "8 Nov (A) ARS D 1-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "8 Nov (A) ARS D 1-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -6976,7 +6976,7 @@
         },
         "4": {
             "points": 8,
-            "tooltip": "28 Sep (A) WHU W 0-4\nGoal (+5pts)\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (A) WHU W 0-4\nGoal (+5pts)\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
         },
         "5": {
             "points": 2,
@@ -7406,7 +7406,7 @@
         },
         "4": {
             "points": 9,
-            "tooltip": "28 Sep (A) WHU W 0-4\nGoal (+5pts)\nBonus (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (A) WHU W 0-4\nGoal (+5pts)\n60 min (+1pt)\nBonus (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 2,
@@ -7612,7 +7612,7 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 4,
-            "tooltip": "7 Sep (H) AVL D 0-0\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)"
+            "tooltip": "7 Sep (H) AVL D 0-0\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)\nClean Sheet (+1pt)"
         },
         "2": {
             "points": 2,
@@ -7624,7 +7624,7 @@
         },
         "4": {
             "points": 4,
-            "tooltip": "28 Sep (H) EVE W 1-0\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "28 Sep (H) EVE W 1-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)\nBonus (+1pt)"
         },
         "5": {
             "points": 2,
@@ -7636,11 +7636,11 @@
         },
         "7": {
             "points": 2,
-            "tooltip": "2 Nov (H) MUN L 2-3\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "2 Nov (H) MUN L 2-3\n60 min (+1pt)\n1 min (+1pt)"
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (A) LIV D 1-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "9 Nov (A) LIV D 1-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -7830,7 +7830,7 @@
         "Total 60 min Appearances": 7,
         "1": {
             "points": 6,
-            "tooltip": "7 Sep (H) WHU W 1-0\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "7 Sep (H) WHU W 1-0\nGoal (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 5,
@@ -7846,11 +7846,11 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (H) BHA W 1-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (H) BHA W 1-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (A) CHE L 1-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (A) CHE L 1-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 6,
@@ -8220,7 +8220,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 15,
-        "Selected Percentage": 13.8,
+        "Selected Percentage": 13.9,
         "Total Games Played": 7,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -8465,7 +8465,7 @@
         },
         "3": {
             "points": 6,
-            "tooltip": "21 Sep (H) WHU W 4-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nClearance (+1pt)"
+            "tooltip": "21 Sep (H) WHU W 4-1\nAssist (+3pts)\n60 min (+1pt)\nClearance (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 6,
@@ -8478,7 +8478,7 @@
         },
         "7": {
             "points": 7,
-            "tooltip": "2 Nov (H) MUN L 2-3\nGoal (+5pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "2 Nov (H) MUN L 2-3\nGoal (+5pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 2,
@@ -8676,7 +8676,7 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "14 Sep (H) TOT L 0-2\n1 min (+1pt)\nSaves (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "14 Sep (H) TOT L 0-2\n60 min (+1pt)\n1 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)"
         },
         "3": {
             "points": 1,
@@ -9088,7 +9088,7 @@
         },
         "2": {
             "points": 4,
-            "tooltip": "14 Sep (A) AVL W 1-3\nBonus x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "14 Sep (A) AVL W 1-3\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "3": {
             "points": 6,
@@ -9096,11 +9096,11 @@
         },
         "4": {
             "points": 5,
-            "tooltip": "28 Sep (A) WHU W 0-4\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "28 Sep (A) WHU W 0-4\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "5": {
             "points": 2,
-            "tooltip": "3 Oct (A) MUN D 1-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "3 Oct (A) MUN D 1-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 6,
@@ -9108,7 +9108,7 @@
         },
         "7": {
             "points": 7,
-            "tooltip": "1 Nov (H) LCL W 2-0\nClean Sheet (+4pts)\nBonus (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "1 Nov (H) LCL W 2-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)"
         },
         "8": {
             "points": 2,
@@ -10308,7 +10308,7 @@
         "Total 60 min Appearances": 3,
         "1": {
             "points": 5,
-            "tooltip": "7 Sep (A) LIV W 1-4\nAssist (+3pts)\nBonus (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (A) LIV W 1-4\nAssist (+3pts)\n1 min (+1pt)\nBonus (+1pt)"
         },
         "2": {
             "points": 1,
@@ -10535,7 +10535,7 @@
         },
         "4": {
             "points": 1,
-            "tooltip": "28 Sep (A) BHA L 1-0\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "28 Sep (A) BHA L 1-0\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "5": {
             "points": 3,
@@ -10741,7 +10741,7 @@
         "Total 60 min Appearances": 7,
         "1": {
             "points": 6,
-            "tooltip": "5 Sep (H) MCI W 2-1\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Sep (H) MCI W 2-1\nGoal (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 6,
@@ -10749,7 +10749,7 @@
         },
         "3": {
             "points": 9,
-            "tooltip": "21 Sep (H) LEI W 1-0\nGoal (+4pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "21 Sep (H) LEI W 1-0\nGoal (+4pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 6,
@@ -10757,7 +10757,7 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "3 Oct (A) MUN D 1-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "3 Oct (A) MUN D 1-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 2,
@@ -10964,7 +10964,7 @@
         },
         "3": {
             "points": 3,
-            "tooltip": "21 Sep (H) ARS D 0-0\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "21 Sep (H) ARS D 0-0\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
         },
         "4": {
             "points": 3,
@@ -11387,7 +11387,7 @@
         },
         "2": {
             "points": 3,
-            "tooltip": "14 Sep (H) LIV W 1-0\n1 min (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Sep (H) LIV W 1-0\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
         },
         "3": {
             "points": 2,
@@ -11828,7 +11828,7 @@
         },
         "4": {
             "points": 1,
-            "tooltip": "28 Sep (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "28 Sep (H) TOT L 1-2\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "5": {
             "points": 2,
@@ -12649,7 +12649,7 @@
         },
         "2": {
             "points": 0,
-            "tooltip": "14 Sep (H) CHE L 1-3\n60 min (+1pt)\n1 min (+1pt)\nOwn Goal (-2pts)"
+            "tooltip": "14 Sep (H) CHE L 1-3\n1 min (+1pt)\n60 min (+1pt)\nOwn Goal (-2pts)"
         },
         "3": "-",
         "4": {
@@ -12662,7 +12662,7 @@
         },
         "6": {
             "points": 3,
-            "tooltip": "12 Oct (H) LEI D 0-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "12 Oct (H) LEI D 0-0\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 2,
@@ -12888,7 +12888,7 @@
         },
         "6": {
             "points": 5,
-            "tooltip": "12 Oct (H) MCI L 1-2\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (H) MCI L 1-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 1,
@@ -13313,7 +13313,7 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "19 Sep (A) TOT W 1-5\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "19 Sep (A) TOT W 1-5\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": "-",
         "5": "-",
@@ -13516,7 +13516,7 @@
         },
         "3": {
             "points": 8,
-            "tooltip": "19 Sep (A) TOT W 1-5\nGoal (+6pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "19 Sep (A) TOT W 1-5\nGoal (+6pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 5,
@@ -13532,7 +13532,7 @@
         },
         "7": {
             "points": 6,
-            "tooltip": "1 Nov (H) WHU W 1-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "1 Nov (H) WHU W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "8": {
             "points": 4,
@@ -13730,7 +13730,7 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "12 Sep (H) BHA W 2-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Sep (H) BHA W 2-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": {
             "points": 12,
@@ -13746,7 +13746,7 @@
         },
         "6": {
             "points": 1,
-            "tooltip": "12 Oct (A) LIV W 1-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "12 Oct (A) LIV W 1-2\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "7": "-",
         "8": "-",
@@ -14172,11 +14172,11 @@
         },
         "5": {
             "points": 1,
-            "tooltip": "4 Oct (H) ARS W 3-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "4 Oct (H) ARS W 3-2\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (A) LIV W 1-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (A) LIV W 1-2\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 9,
@@ -14587,7 +14587,7 @@
         },
         "2": {
             "points": 10,
-            "tooltip": "12 Sep (H) BHA W 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Sep (H) BHA W 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": {
             "points": 2,
@@ -14607,7 +14607,7 @@
         },
         "7": {
             "points": 3,
-            "tooltip": "1 Nov (H) WHU W 1-0\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "1 Nov (H) WHU W 1-0\n1 min (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 2,
@@ -15395,7 +15395,7 @@
         "Total 60 min Appearances": 1,
         "1": {
             "points": 6,
-            "tooltip": "6 Sep (H) LCL W 4-1\nGoal (+5pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "6 Sep (H) LCL W 4-1\nGoal (+5pts)\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "2": "-",
         "3": {
@@ -15630,15 +15630,15 @@
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (A) LIV W 1-2\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (A) LIV W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 2,
-            "tooltip": "1 Nov (H) WHU W 1-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "1 Nov (H) WHU W 1-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 6,
-            "tooltip": "9 Nov (A) EVE W 1-2\nGoal (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "9 Nov (A) EVE W 1-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -16219,15 +16219,15 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 7,
-            "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+4pts)\n1 min (+1pt)\nBonus (+1pt)\n60 min (+1pt)"
+            "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)"
         },
         "2": {
             "points": 14,
-            "tooltip": "14 Sep (A) LCL W 1-5\nGoal (+6pts)\nAssist (+3pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "14 Sep (A) LCL W 1-5\nGoal (+6pts)\nBonus x3 (+3pts)\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": {
             "points": 6,
-            "tooltip": "21 Sep (H) ARS D 0-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "21 Sep (H) ARS D 0-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 6,
@@ -16643,7 +16643,7 @@
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) LCL W 4-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (H) LCL W 4-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 1,
@@ -17454,7 +17454,7 @@
         "Total 60 min Appearances": 7,
         "1": {
             "points": 13,
-            "tooltip": "7 Sep (H) LEI W 4-0\nGoal (+5pts)\nAssist (+3pts)\nBonus x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "7 Sep (H) LEI W 4-0\nGoal (+5pts)\nAssist (+3pts)\nBonus x2 (+2pts)\n1 min (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 2,
@@ -17462,15 +17462,15 @@
         },
         "3": {
             "points": 3,
-            "tooltip": "21 Sep (H) ARS D 0-0\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "21 Sep (H) ARS D 0-0\n1 min (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 9,
-            "tooltip": "28 Sep (A) LIV W 0-2\nGoal (+5pts)\n1 min (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)\nBonus (+1pt)"
+            "tooltip": "28 Sep (A) LIV W 0-2\nGoal (+5pts)\nClean Sheet (+1pt)\n60 min (+1pt)\nBonus (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 5,
-            "tooltip": "3 Oct (H) CHE D 1-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "3 Oct (H) CHE D 1-1\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 8,
@@ -17672,15 +17672,15 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 1,
-            "tooltip": "6 Sep (A) ARS L 4-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "6 Sep (A) ARS L 4-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "2": {
             "points": 6,
-            "tooltip": "14 Sep (H) MUN L 1-5\nGoal (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "14 Sep (H) MUN L 1-5\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "3": {
             "points": 5,
-            "tooltip": "19 Sep (A) EVE W 1-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "19 Sep (A) EVE W 1-2\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 6,
@@ -17696,11 +17696,11 @@
         },
         "7": {
             "points": 2,
-            "tooltip": "1 Nov (A) CHE L 2-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "1 Nov (A) CHE L 2-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 5,
-            "tooltip": "9 Nov (H) TOT W 4-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "9 Nov (H) TOT W 4-2\nGoal (+4pts)\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -17890,7 +17890,7 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 5,
-            "tooltip": "6 Sep (H) LCL W 4-1\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "6 Sep (H) LCL W 4-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 15,
@@ -17898,7 +17898,7 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "21 Sep (A) MUN D 0-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "21 Sep (A) MUN D 0-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 2,
@@ -17914,7 +17914,7 @@
         },
         "7": {
             "points": 10,
-            "tooltip": "2 Nov (A) LEI W 1-4\nGoal (+4pts)\nAssist (+3pts)\n60 min (+1pt)\nBonus (+1pt)\n1 min (+1pt)"
+            "tooltip": "2 Nov (A) LEI W 1-4\nGoal (+4pts)\nAssist (+3pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 9,
@@ -18947,7 +18947,7 @@
         },
         "2": {
             "points": 6,
-            "tooltip": "14 Sep (H) LIV W 1-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Sep (H) LIV W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": {
             "points": 2,
@@ -19374,7 +19374,7 @@
         },
         "8": {
             "points": -1,
-            "tooltip": "9 Nov (A) LCL L 4-2\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)\nConceded x2 (-2pts)"
+            "tooltip": "9 Nov (A) LCL L 4-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)\nConceded x2 (-2pts)"
         },
         "upcoming_fixtures": [
             {
@@ -19984,7 +19984,7 @@
         },
         "3": {
             "points": 1,
-            "tooltip": "19 Sep (H) MCI L 1-5\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "19 Sep (H) MCI L 1-5\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "4": {
             "points": 1,
@@ -19992,7 +19992,7 @@
         },
         "5": {
             "points": 3,
-            "tooltip": "5 Oct (H) BHA W 1-0\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)\nClean Sheet (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "5 Oct (H) BHA W 1-0\n1 min (+1pt)\nBonus (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "6": "-",
         "7": {
@@ -20191,7 +20191,7 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 6,
-            "tooltip": "7 Sep (H) WHU W 1-0\nAssist (+3pts)\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (H) WHU W 1-0\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
         },
         "2": {
             "points": 2,
@@ -20199,7 +20199,7 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "19 Sep (H) MCI L 1-5\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "19 Sep (H) MCI L 1-5\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 7,
@@ -20207,7 +20207,7 @@
         },
         "5": {
             "points": 3,
-            "tooltip": "5 Oct (H) BHA W 1-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (H) BHA W 1-0\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 2,
@@ -20829,7 +20829,7 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "19 Sep (H) MCI L 1-5\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "19 Sep (H) MCI L 1-5\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 1,
@@ -20841,7 +20841,7 @@
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (A) CHE L 1-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (A) CHE L 1-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 1,
@@ -21060,7 +21060,7 @@
         },
         "7": {
             "points": 2,
-            "tooltip": "2 Nov (A) TOT L 2-1\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)\nConceded (-1pt)"
+            "tooltip": "2 Nov (A) TOT L 2-1\n1 min (+1pt)\nBonus (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "8": {
             "points": 2,
@@ -21486,16 +21486,16 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (A) LCL L 1-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (A) LCL L 1-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": "-",
         "7": {
             "points": 1,
-            "tooltip": "2 Nov (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "2 Nov (A) TOT L 2-1\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (H) BHA D 1-1\n1 min (+1pt)\nClearance (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "9 Nov (H) BHA D 1-1\nClearance (+1pt)\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -21716,7 +21716,7 @@
         },
         "6": {
             "points": 7,
-            "tooltip": "12 Oct (H) MUN L 1-4\nGoal (+5pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (H) MUN L 1-4\nGoal (+5pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 1,
@@ -22330,7 +22330,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (H) LEI D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "9 Nov (H) LEI D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -23166,11 +23166,11 @@
         "3": "-",
         "4": {
             "points": 3,
-            "tooltip": "27 Sep (A) ARS D 1-1\nSaves (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "27 Sep (A) ARS D 1-1\n60 min (+1pt)\n1 min (+1pt)\nSaves (+1pt)"
         },
         "5": {
             "points": 7,
-            "tooltip": "5 Oct (A) WHU W 0-2\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)"
+            "tooltip": "5 Oct (A) WHU W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\nBonus (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 6,
@@ -23182,7 +23182,7 @@
         },
         "8": {
             "points": 7,
-            "tooltip": "8 Nov (A) MUN W 0-1\nClean Sheet (+4pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "8 Nov (A) MUN W 0-1\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nBonus (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -23587,7 +23587,7 @@
         "1": "-",
         "2": {
             "points": 0,
-            "tooltip": "12 Sep (H) ARS L 1-5\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "12 Sep (H) ARS L 1-5\n60 min (+1pt)\n1 min (+1pt)\nConceded x2 (-2pts)"
         },
         "3": "-",
         "4": {
@@ -23795,7 +23795,7 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 1,
-            "tooltip": "7 Sep (A) MUN L 4-0\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "7 Sep (A) MUN L 4-0\nSaves (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
         "2": {
             "points": 5,
@@ -23803,7 +23803,7 @@
         },
         "3": {
             "points": 4,
-            "tooltip": "21 Sep (A) CHE L 1-0\nSaves x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "21 Sep (A) CHE L 1-0\nSaves x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 1,
@@ -23811,11 +23811,11 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (H) EVE D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (H) EVE D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 8,
-            "tooltip": "12 Oct (A) AVL D 0-0\nClean Sheet (+4pts)\nSaves x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (A) AVL D 0-0\nClean Sheet (+4pts)\nSaves x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 1,
@@ -23823,7 +23823,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (A) WHU D 1-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "9 Nov (A) WHU D 1-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -24034,7 +24034,7 @@
         },
         "7": {
             "points": 7,
-            "tooltip": "2 Nov (A) BHA W 2-3\nClean Sheet (+4pts)\n60 min (+1pt)\nBonus (+1pt)\n1 min (+1pt)"
+            "tooltip": "2 Nov (A) BHA W 2-3\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nBonus (+1pt)"
         },
         "8": {
             "points": 3,
@@ -24244,7 +24244,7 @@
         },
         "5": {
             "points": 1,
-            "tooltip": "5 Oct (H) AVL L 0-2\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "5 Oct (H) AVL L 0-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "6": {
             "points": 2,
@@ -24893,7 +24893,7 @@
         "3": "-",
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) MUN L 0-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (H) MUN L 0-2\n60 min (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 2,
@@ -24909,7 +24909,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (H) BHA D 1-1\n60 min (+1pt)\nBonus (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "9 Nov (H) BHA D 1-1\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -25524,7 +25524,7 @@
         "Total 60 min Appearances": 4,
         "1": {
             "points": 0,
-            "tooltip": "7 Sep (H) EVE L 1-4\n60 min (+1pt)\n1 min (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "7 Sep (H) EVE L 1-4\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
         "2": {
             "points": 2,
@@ -25745,7 +25745,7 @@
         },
         "2": {
             "points": 0,
-            "tooltip": "12 Sep (A) WHU W 1-5\n1 min (+1pt)\n60 min (+1pt)\nOwn Goal (-2pts)"
+            "tooltip": "12 Sep (A) WHU W 1-5\n60 min (+1pt)\n1 min (+1pt)\nOwn Goal (-2pts)"
         },
         "3": {
             "points": 6,
@@ -25761,7 +25761,7 @@
         },
         "6": {
             "points": 8,
-            "tooltip": "12 Oct (H) BHA W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)\nSaves (+1pt)\nBonus (+1pt)"
+            "tooltip": "12 Oct (H) BHA W 1-0\nClean Sheet (+4pts)\nBonus (+1pt)\n60 min (+1pt)\n1 min (+1pt)\nSaves (+1pt)"
         },
         "7": {
             "points": 2,
@@ -25959,7 +25959,7 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 3,
-            "tooltip": "7 Sep (H) AVL D 0-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "7 Sep (H) AVL D 0-0\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 1,
@@ -26780,7 +26780,7 @@
         "3": "-",
         "4": {
             "points": 1,
-            "tooltip": "28 Sep (A) MCI L 4-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "28 Sep (A) MCI L 4-1\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "5": "-",
         "6": "-",
@@ -27193,7 +27193,7 @@
         },
         "5": {
             "points": 5,
-            "tooltip": "3 Oct (A) MUN D 1-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "3 Oct (A) MUN D 1-1\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 1,
@@ -27202,7 +27202,7 @@
         "7": "-",
         "8": {
             "points": 2,
-            "tooltip": "8 Nov (A) ARS D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "8 Nov (A) ARS D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -27404,7 +27404,7 @@
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) TOT L 1-2\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "5": {
             "points": 1,
@@ -27412,7 +27412,7 @@
         },
         "6": {
             "points": 3,
-            "tooltip": "12 Oct (A) AVL D 0-0\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "12 Oct (A) AVL D 0-0\n1 min (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 2,
@@ -27617,11 +27617,11 @@
         },
         "5": {
             "points": 3,
-            "tooltip": "5 Oct (A) LCL L 1-0\n60 min (+1pt)\nClearance (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (A) LCL L 1-0\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 1,
-            "tooltip": "12 Oct (H) MCI L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "12 Oct (H) MCI L 1-2\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "7": {
             "points": 1,
@@ -28269,7 +28269,7 @@
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (H) MCI L 1-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (H) MCI L 1-2\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 2,
@@ -28277,7 +28277,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (H) BHA D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "9 Nov (H) BHA D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -29265,15 +29265,15 @@
         },
         "3": {
             "points": 1,
-            "tooltip": "21 Sep (A) CHE L 1-0\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "21 Sep (A) CHE L 1-0\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) TOT L 1-2\n1 min (+1pt)\nBonus (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "28 Sep (H) TOT L 1-2\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)\nConceded (-1pt)"
         },
         "5": {
             "points": 1,
-            "tooltip": "5 Oct (H) EVE D 1-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "5 Oct (H) EVE D 1-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "6": {
             "points": 6,
@@ -29483,11 +29483,11 @@
         },
         "3": {
             "points": 3,
-            "tooltip": "21 Sep (H) ARS D 0-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "21 Sep (H) ARS D 0-0\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 10,
-            "tooltip": "28 Sep (A) LIV W 0-2\nGoal (+5pts)\nBonus x2 (+2pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (A) LIV W 0-2\nGoal (+5pts)\nBonus x2 (+2pts)\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 4,
@@ -29499,7 +29499,7 @@
         },
         "7": {
             "points": 2,
-            "tooltip": "2 Nov (A) BHA W 2-3\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "2 Nov (A) BHA W 2-3\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 2,
@@ -30151,15 +30151,15 @@
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) CHE L 0-4\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (H) CHE L 0-4\n60 min (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (H) AVL L 0-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (H) AVL L 0-2\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (A) LCL L 1-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (A) LCL L 1-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 2,
@@ -30551,7 +30551,7 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 6,
-            "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 2,
@@ -30559,7 +30559,7 @@
         },
         "3": {
             "points": 6,
-            "tooltip": "21 Sep (H) ARS D 0-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "21 Sep (H) ARS D 0-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 6,
@@ -30972,7 +30972,7 @@
         "Total 60 min Appearances": 5,
         "1": {
             "points": 13,
-            "tooltip": "7 Sep (H) LEI W 4-0\nGoal x2 (+8pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (H) LEI W 4-0\nGoal x2 (+8pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 13,
@@ -30980,7 +30980,7 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "21 Sep (H) ARS D 0-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "21 Sep (H) ARS D 0-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 2,
@@ -30992,7 +30992,7 @@
         },
         "6": {
             "points": 8,
-            "tooltip": "12 Oct (A) EVE W 1-4\nGoal (+4pts)\nBonus x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (A) EVE W 1-4\nGoal (+4pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 1,
@@ -32418,7 +32418,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (A) LCL L 4-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "9 Nov (A) LCL L 4-2\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -32821,19 +32821,19 @@
         },
         "2": {
             "points": 1,
-            "tooltip": "12 Sep (H) ARS L 1-5\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "12 Sep (H) ARS L 1-5\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "3": {
             "points": 2,
-            "tooltip": "21 Sep (A) BHA L 4-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "21 Sep (A) BHA L 4-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) CHE L 0-4\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (H) CHE L 0-4\n60 min (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (H) AVL L 0-2\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (H) AVL L 0-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 1,
@@ -32845,7 +32845,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (H) LEI D 1-1\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "9 Nov (H) LEI D 1-1\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -33265,15 +33265,15 @@
         },
         "4": {
             "points": 1,
-            "tooltip": "27 Sep (H) AVL D 1-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "27 Sep (H) AVL D 1-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "5": {
             "points": 4,
-            "tooltip": "4 Oct (A) MCI L 3-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "4 Oct (A) MCI L 3-2\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "6": {
             "points": 6,
-            "tooltip": "12 Oct (H) BHA W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (H) BHA W 1-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 1,
@@ -33471,11 +33471,11 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 9,
-            "tooltip": "7 Sep (H) WHU W 1-0\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "7 Sep (H) WHU W 1-0\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 9,
-            "tooltip": "14 Sep (A) EVE W 0-2\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "14 Sep (A) EVE W 0-2\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "3": {
             "points": 0,
@@ -33491,7 +33491,7 @@
         },
         "6": {
             "points": 1,
-            "tooltip": "12 Oct (A) CHE L 1-0\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "12 Oct (A) CHE L 1-0\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "7": {
             "points": 7,
@@ -33499,7 +33499,7 @@
         },
         "8": {
             "points": -3,
-            "tooltip": "9 Nov (A) LCL L 4-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)\nOwn Goal (-2pts)\nConceded x2 (-2pts)"
+            "tooltip": "9 Nov (A) LCL L 4-2\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)\nOwn Goal (-2pts)\nConceded x2 (-2pts)"
         },
         "upcoming_fixtures": [
             {
@@ -33890,15 +33890,15 @@
         },
         "2": {
             "points": 6,
-            "tooltip": "14 Sep (A) EVE W 0-2\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "14 Sep (A) EVE W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "3": {
             "points": 6,
-            "tooltip": "19 Sep (H) MCI L 1-5\nSavedPenalty (+5pts)\nSaves (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "19 Sep (H) MCI L 1-5\nSavedPenalty (+5pts)\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded x2 (-2pts)"
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (A) LEI W 1-2\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (A) LEI W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "5": {
             "points": 6,
@@ -36820,7 +36820,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 19,
-        "Selected Percentage": 7.6,
+        "Selected Percentage": 7.5,
         "Total Games Played": 6,
         "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
@@ -37420,7 +37420,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 20,
-        "Selected Percentage": 14.6,
+        "Selected Percentage": 14.7,
         "Total Games Played": 4,
         "Total Over 4 Gameweeks": 20,
         "Games Played Over 4 Gameweeks": 4,
@@ -37458,7 +37458,7 @@
         },
         "8": {
             "points": 16,
-            "tooltip": "9 Nov (H) TOT W 4-2\nGoal x2 (+10pts)\nAssist (+3pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "9 Nov (H) TOT W 4-2\nGoal x2 (+10pts)\nAssist (+3pts)\nBonus x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -37842,7 +37842,7 @@
         "Total 60 min Appearances": 7,
         "1": {
             "points": 4,
-            "tooltip": "6 Sep (H) LCL W 4-1\nBonus x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "6 Sep (H) LCL W 4-1\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 8,
@@ -38064,7 +38064,7 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "12 Sep (A) MCI L 2-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Sep (A) MCI L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "3": {
             "points": 2,
@@ -38480,7 +38480,7 @@
         "Total 60 min Appearances": 3,
         "1": {
             "points": 2,
-            "tooltip": "7 Sep (A) BHA D 0-0\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "7 Sep (A) BHA D 0-0\n1 min (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "2": {
             "points": 2,
@@ -38912,7 +38912,7 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (A) TOT L 1-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (A) TOT L 1-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 2,
@@ -38924,7 +38924,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (A) LIV D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "9 Nov (A) LIV D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -39118,7 +39118,7 @@
         },
         "2": {
             "points": 1,
-            "tooltip": "12 Sep (A) MCI L 2-1\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "12 Sep (A) MCI L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "3": {
             "points": 8,
@@ -39126,7 +39126,7 @@
         },
         "4": {
             "points": 6,
-            "tooltip": "28 Sep (H) EVE W 1-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (H) EVE W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 2,
@@ -39538,7 +39538,7 @@
         "Total 60 min Appearances": 7,
         "1": {
             "points": 2,
-            "tooltip": "7 Sep (H) AVL D 0-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (H) AVL D 0-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 1,
@@ -39554,11 +39554,11 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (A) TOT L 1-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (A) TOT L 1-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (A) ARS L 1-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (A) ARS L 1-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 6,
@@ -39566,7 +39566,7 @@
         },
         "8": {
             "points": 1,
-            "tooltip": "9 Nov (A) LIV D 1-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "9 Nov (A) LIV D 1-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -40958,7 +40958,7 @@
         "3": "-",
         "4": {
             "points": 3,
-            "tooltip": "28 Sep (A) WHU W 0-4\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (A) WHU W 0-4\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
         },
         "5": "-",
         "6": "-",
@@ -41158,7 +41158,7 @@
         "Total 60 min Appearances": 2,
         "1": {
             "points": 2,
-            "tooltip": "5 Sep (H) MCI W 2-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Sep (H) MCI W 2-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 0,
@@ -41390,7 +41390,7 @@
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (A) LCL L 1-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (A) LCL L 1-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 2,
@@ -41398,7 +41398,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (H) LEI D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "9 Nov (H) LEI D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -41976,7 +41976,7 @@
         "Total 60 min Appearances": 1,
         "1": {
             "points": 2,
-            "tooltip": "7 Sep (H) WHU W 1-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (H) WHU W 1-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": "-",
         "3": "-",
@@ -42184,7 +42184,7 @@
         },
         "3": {
             "points": 6,
-            "tooltip": "21 Sep (H) ARS D 0-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "21 Sep (H) ARS D 0-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": "-",
         "5": {
@@ -42197,7 +42197,7 @@
         },
         "7": {
             "points": 2,
-            "tooltip": "2 Nov (A) BHA W 2-3\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "2 Nov (A) BHA W 2-3\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 1,
@@ -42399,7 +42399,7 @@
         },
         "3": {
             "points": 6,
-            "tooltip": "21 Sep (H) ARS D 0-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "21 Sep (H) ARS D 0-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 6,
@@ -43200,11 +43200,11 @@
         "3": "-",
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) LCL W 4-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (H) LCL W 4-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "5": {
             "points": 2,
-            "tooltip": "4 Oct (H) ARS W 3-2\nSaves (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "4 Oct (H) ARS W 3-2\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)"
         },
         "6": {
             "points": 2,
@@ -43423,11 +43423,11 @@
         },
         "6": {
             "points": 10,
-            "tooltip": "12 Oct (A) LIV W 1-2\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (A) LIV W 1-2\nGoal (+5pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 10,
-            "tooltip": "1 Nov (H) WHU W 1-0\nGoal (+5pts)\nBonus x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "1 Nov (H) WHU W 1-0\nGoal (+5pts)\nBonus x2 (+2pts)\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "8": {
             "points": 2,
@@ -43628,7 +43628,7 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (H) EVE D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (H) EVE D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": "-",
         "7": {
@@ -43831,7 +43831,7 @@
         },
         "2": {
             "points": 9,
-            "tooltip": "14 Sep (H) LIV W 1-0\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Sep (H) LIV W 1-0\nClean Sheet (+4pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": "-",
         "4": {
@@ -43852,7 +43852,7 @@
         },
         "8": {
             "points": 5,
-            "tooltip": "9 Nov (A) WHU D 1-1\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "9 Nov (A) WHU D 1-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -44061,7 +44061,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (A) WHU D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "9 Nov (A) WHU D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -44677,7 +44677,7 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "4 Oct (A) MCI L 3-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "4 Oct (A) MCI L 3-2\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 5,
@@ -45654,7 +45654,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 33,
-        "Selected Percentage": 10.6,
+        "Selected Percentage": 10.7,
         "Total Games Played": 8,
         "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
@@ -45684,7 +45684,7 @@
         },
         "3": {
             "points": 3,
-            "tooltip": "21 Sep (H) LEI W 1-0\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
+            "tooltip": "21 Sep (H) LEI W 1-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 13,
@@ -45894,7 +45894,7 @@
         "Total 60 min Appearances": 6,
         "1": {
             "points": 2,
-            "tooltip": "7 Sep (A) BHA D 0-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "7 Sep (A) BHA D 0-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)\nYellow Card (-1pt)"
         },
         "2": {
             "points": 8,
@@ -45907,16 +45907,16 @@
         },
         "5": {
             "points": 3,
-            "tooltip": "5 Oct (A) WHU W 0-2\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (A) WHU W 0-2\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 3,
-            "tooltip": "12 Oct (H) LEI D 0-0\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "12 Oct (H) LEI D 0-0\n1 min (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)"
         },
         "7": "-",
         "8": {
             "points": 4,
-            "tooltip": "8 Nov (A) MUN W 0-1\n60 min (+1pt)\n1 min (+1pt)\nClearance (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "8 Nov (A) MUN W 0-1\n1 min (+1pt)\nClearance (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -46130,7 +46130,7 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (A) TOT L 1-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (A) TOT L 1-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": "-",
         "7": {
@@ -46333,7 +46333,7 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "14 Sep (A) LEI L 1-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Sep (A) LEI L 1-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": "-",
         "4": {
@@ -46354,7 +46354,7 @@
         },
         "8": {
             "points": 1,
-            "tooltip": "9 Nov (H) BHA D 1-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "9 Nov (H) BHA D 1-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -46559,7 +46559,7 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "12 Sep (H) BHA W 2-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Sep (H) BHA W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "3": {
             "points": 2,
@@ -46573,7 +46573,7 @@
         "6": "-",
         "7": {
             "points": 6,
-            "tooltip": "1 Nov (H) WHU W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "1 Nov (H) WHU W 1-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 1,
@@ -47554,7 +47554,7 @@
         },
         "3": {
             "points": -1,
-            "tooltip": "19 Sep (H) MCI L 1-5\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)\nConceded x2 (-2pts)"
+            "tooltip": "19 Sep (H) MCI L 1-5\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)\nConceded x2 (-2pts)"
         },
         "4": {
             "points": 1,
@@ -47570,7 +47570,7 @@
         },
         "7": {
             "points": 1,
-            "tooltip": "2 Nov (H) LIV W 2-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "2 Nov (H) LIV W 2-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "8": {
             "points": 0,
@@ -48393,11 +48393,11 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "21 Sep (A) BHA L 4-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "21 Sep (A) BHA L 4-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) CHE L 0-4\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (H) CHE L 0-4\n1 min (+1pt)\n60 min (+1pt)"
         },
         "5": {
             "points": 1,
@@ -49222,7 +49222,7 @@
         "Total 60 min Appearances": 1,
         "1": {
             "points": 3,
-            "tooltip": "7 Sep (A) TOT L 1-0\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (A) TOT L 1-0\n1 min (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 1,
@@ -51049,7 +51049,7 @@
         },
         "8": {
             "points": 6,
-            "tooltip": "9 Nov (H) LEI D 1-1\nGoal (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "9 Nov (H) LEI D 1-1\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -51239,7 +51239,7 @@
         "Total 60 min Appearances": 5,
         "1": {
             "points": 3,
-            "tooltip": "7 Sep (H) WHU W 1-0\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (H) WHU W 1-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": "-",
         "3": {
@@ -51248,7 +51248,7 @@
         },
         "4": {
             "points": 7,
-            "tooltip": "28 Sep (A) LEI W 1-2\nGoal (+5pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (A) LEI W 1-2\nGoal (+5pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 3,
@@ -51264,7 +51264,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (A) LCL L 4-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "9 Nov (A) LCL L 4-2\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -51478,7 +51478,7 @@
         },
         "7": {
             "points": 11,
-            "tooltip": "2 Nov (A) AVL D 3-3\nAssist x2 (+6pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "2 Nov (A) AVL D 3-3\nAssist x2 (+6pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 2,
@@ -51866,7 +51866,7 @@
         "Total 60 min Appearances": 7,
         "1": {
             "points": 2,
-            "tooltip": "7 Sep (H) EVE L 1-4\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "7 Sep (H) EVE L 1-4\n60 min (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 2,
@@ -51891,7 +51891,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (H) BHA D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "9 Nov (H) BHA D 1-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -55618,7 +55618,7 @@
         },
         "3": {
             "points": 6,
-            "tooltip": "19 Sep (A) TOT W 1-5\nAssist (+3pts)\n60 min (+1pt)\nBonus (+1pt)\n1 min (+1pt)"
+            "tooltip": "19 Sep (A) TOT W 1-5\nAssist (+3pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": "-",
         "5": "-",
@@ -55819,11 +55819,11 @@
         },
         "4": {
             "points": 6,
-            "tooltip": "28 Sep (H) EVE W 1-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "28 Sep (H) EVE W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 1,
-            "tooltip": "5 Oct (A) TOT L 1-0\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "5 Oct (A) TOT L 1-0\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "6": {
             "points": 2,
@@ -56219,7 +56219,7 @@
         "Total 60 min Appearances": 5,
         "1": {
             "points": 2,
-            "tooltip": "7 Sep (A) TOT L 1-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "7 Sep (A) TOT L 1-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 1,
@@ -56235,7 +56235,7 @@
         },
         "5": {
             "points": 1,
-            "tooltip": "5 Oct (H) AVL L 0-2\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "5 Oct (H) AVL L 0-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "6": "-",
         "7": "-",
@@ -56626,7 +56626,7 @@
         },
         "2": {
             "points": 6,
-            "tooltip": "14 Sep (A) EVE W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Sep (A) EVE W 0-2\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": {
             "points": 0,
@@ -57028,7 +57028,7 @@
         "Total 60 min Appearances": 3,
         "1": {
             "points": 2,
-            "tooltip": "7 Sep (A) MUN L 4-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (A) MUN L 4-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 1,
@@ -57663,11 +57663,11 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "21 Sep (H) LEI W 1-0\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "21 Sep (H) LEI W 1-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)\nYellow Card (-1pt)"
         },
         "4": {
             "points": 3,
-            "tooltip": "28 Sep (A) WHU W 0-4\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
+            "tooltip": "28 Sep (A) WHU W 0-4\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "5": {
             "points": 2,
@@ -57675,7 +57675,7 @@
         },
         "6": {
             "points": 9,
-            "tooltip": "12 Oct (H) TOT W 1-0\nGoal (+5pts)\nBonus (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (H) TOT W 1-0\nGoal (+5pts)\n1 min (+1pt)\nBonus (+1pt)\nClean Sheet (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 3,
@@ -59063,7 +59063,7 @@
         "3": "-",
         "4": {
             "points": 1,
-            "tooltip": "27 Sep (A) ARS D 1-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "27 Sep (A) ARS D 1-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "5": {
             "points": 18,
@@ -59079,7 +59079,7 @@
         },
         "8": {
             "points": 12,
-            "tooltip": "8 Nov (A) MUN W 0-1\nClean Sheet (+4pts)\nAssist (+3pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "8 Nov (A) MUN W 0-1\nClean Sheet (+4pts)\nAssist (+3pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -59484,7 +59484,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 15,
-        "Selected Percentage": 2.2,
+        "Selected Percentage": 2.1,
         "Total Games Played": 5,
         "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 4,
@@ -59516,11 +59516,11 @@
         },
         "5": {
             "points": 6,
-            "tooltip": "5 Oct (A) WHU W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (A) WHU W 0-2\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 6,
-            "tooltip": "12 Oct (H) LEI D 0-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (H) LEI D 0-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 1,
@@ -59740,15 +59740,15 @@
         },
         "6": {
             "points": 4,
-            "tooltip": "12 Oct (H) LEI D 0-0\nBonus (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (H) LEI D 0-0\n1 min (+1pt)\n60 min (+1pt)\nBonus (+1pt)\nClean Sheet (+1pt)"
         },
         "7": {
             "points": 2,
-            "tooltip": "2 Nov (H) EVE D 3-3\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "2 Nov (H) EVE D 3-3\n60 min (+1pt)\n1 min (+1pt)"
         },
         "8": {
             "points": 3,
-            "tooltip": "8 Nov (A) MUN W 0-1\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "8 Nov (A) MUN W 0-1\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -60154,7 +60154,7 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 7,
-            "tooltip": "7 Sep (H) AVL D 0-0\nClean Sheet (+4pts)\n1 min (+1pt)\nSaves (+1pt)\n60 min (+1pt)"
+            "tooltip": "7 Sep (H) AVL D 0-0\nClean Sheet (+4pts)\nSaves (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "2": {
             "points": 2,
@@ -60170,7 +60170,7 @@
         },
         "5": {
             "points": 3,
-            "tooltip": "5 Oct (A) TOT L 1-0\n60 min (+1pt)\nSaves (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (A) TOT L 1-0\nSaves (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 2,
@@ -60178,7 +60178,7 @@
         },
         "7": {
             "points": 2,
-            "tooltip": "2 Nov (H) MUN L 2-3\nSaves (+1pt)\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "2 Nov (H) MUN L 2-3\n1 min (+1pt)\nSaves (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "8": {
             "points": 2,
@@ -60569,7 +60569,7 @@
         "Total 60 min Appearances": 6,
         "1": {
             "points": 6,
-            "tooltip": "7 Sep (H) AVL D 0-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "7 Sep (H) AVL D 0-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 2,
@@ -60577,17 +60577,17 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "21 Sep (H) WHU W 4-1\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "21 Sep (H) WHU W 4-1\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 8,
-            "tooltip": "28 Sep (H) EVE W 1-0\nClean Sheet (+4pts)\nBonus x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (H) EVE W 1-0\nClean Sheet (+4pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "5": "-",
         "6": "-",
         "7": {
             "points": 1,
-            "tooltip": "2 Nov (H) MUN L 2-3\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "2 Nov (H) MUN L 2-3\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "8": {
             "points": 2,
@@ -61193,11 +61193,11 @@
         "Total 60 min Appearances": 6,
         "1": {
             "points": 8,
-            "tooltip": "5 Sep (H) MCI W 2-1\nBonus x3 (+3pts)\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Sep (H) MCI W 2-1\nAssist (+3pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 2,
-            "tooltip": "14 Sep (A) AVL W 1-3\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "14 Sep (A) AVL W 1-3\n1 min (+1pt)\n60 min (+1pt)"
         },
         "3": {
             "points": 6,
@@ -61210,7 +61210,7 @@
         },
         "6": {
             "points": 8,
-            "tooltip": "12 Oct (H) TOT W 1-0\nClean Sheet (+4pts)\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "12 Oct (H) TOT W 1-0\nClean Sheet (+4pts)\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "7": {
             "points": 15,
@@ -62009,7 +62009,7 @@
         },
         "8": {
             "points": 1,
-            "tooltip": "9 Nov (H) MCI L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "9 Nov (H) MCI L 1-2\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -62210,7 +62210,7 @@
         },
         "6": {
             "points": -1,
-            "tooltip": "12 Oct (H) MUN L 1-4\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)\nOwn Goal (-2pts)"
+            "tooltip": "12 Oct (H) MUN L 1-4\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nOwn Goal (-2pts)"
         },
         "7": {
             "points": 7,
@@ -62408,7 +62408,7 @@
         "Total 60 min Appearances": 5,
         "1": {
             "points": 1,
-            "tooltip": "7 Sep (A) LIV W 1-4\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "7 Sep (A) LIV W 1-4\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "2": {
             "points": 1,
@@ -62824,11 +62824,11 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "14 Sep (H) TOT L 0-2\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "14 Sep (H) TOT L 0-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "3": {
             "points": 1,
-            "tooltip": "19 Sep (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "19 Sep (H) LCL L 1-2\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "4": {
             "points": 2,
@@ -62836,7 +62836,7 @@
         },
         "5": {
             "points": 7,
-            "tooltip": "5 Oct (A) LEI D 1-1\nGoal (+5pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (A) LEI D 1-1\nGoal (+5pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "6": {
             "points": 2,
@@ -62844,7 +62844,7 @@
         },
         "7": {
             "points": 2,
-            "tooltip": "2 Nov (A) AVL D 3-3\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "2 Nov (A) AVL D 3-3\n60 min (+1pt)\n1 min (+1pt)"
         },
         "8": {
             "points": 5,
@@ -63446,7 +63446,7 @@
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (H) MCI L 1-2\nSaves (+1pt)\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "12 Oct (H) MCI L 1-2\n1 min (+1pt)\nSaves (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "7": "-",
         "8": "-",
@@ -63892,7 +63892,7 @@
         },
         "6": {
             "points": 6,
-            "tooltip": "12 Oct (H) WHU W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (H) WHU W 1-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 1,
@@ -64677,7 +64677,7 @@
         "2": "-",
         "3": {
             "points": 2,
-            "tooltip": "19 Sep (A) EVE W 1-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "19 Sep (A) EVE W 1-2\n60 min (+1pt)\n1 min (+1pt)"
         },
         "4": {
             "points": 0,
@@ -65282,7 +65282,7 @@
         },
         "2": {
             "points": 0,
-            "tooltip": "14 Sep (H) MUN L 1-5\n60 min (+1pt)\n1 min (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "14 Sep (H) MUN L 1-5\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
         "3": {
             "points": 1,
@@ -65694,7 +65694,7 @@
         },
         "2": {
             "points": 0,
-            "tooltip": "14 Sep (H) MUN L 1-5\n60 min (+1pt)\n1 min (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "14 Sep (H) MUN L 1-5\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
         "3": {
             "points": 1,
@@ -66112,7 +66112,7 @@
         },
         "5": {
             "points": 3,
-            "tooltip": "5 Oct (H) LIV W 1-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (H) LIV W 1-0\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 3,
@@ -66120,7 +66120,7 @@
         },
         "7": {
             "points": 2,
-            "tooltip": "1 Nov (A) CHE L 2-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "1 Nov (A) CHE L 2-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 6,
@@ -66520,7 +66520,7 @@
         },
         "4": {
             "points": 5,
-            "tooltip": "28 Sep (A) MCI L 4-1\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (A) MCI L 4-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "5": "-",
         "6": "-",
@@ -67340,11 +67340,11 @@
         },
         "6": {
             "points": 9,
-            "tooltip": "12 Oct (H) WHU W 1-0\nGoal (+4pts)\nBonus x3 (+3pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "12 Oct (H) WHU W 1-0\nGoal (+4pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "7": {
             "points": 2,
-            "tooltip": "1 Nov (A) CHE L 2-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "1 Nov (A) CHE L 2-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 1,
@@ -67944,7 +67944,7 @@
         "Total 60 min Appearances": 8,
         "1": {
             "points": 2,
-            "tooltip": "6 Sep (A) ARS L 4-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "6 Sep (A) ARS L 4-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "2": {
             "points": 2,
@@ -67972,7 +67972,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (H) TOT W 4-2\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "9 Nov (H) TOT W 4-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -68744,7 +68744,7 @@
         "Total 60 min Appearances": 5,
         "1": {
             "points": 1,
-            "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "5 Sep (A) CHE L 2-1\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "2": "-",
         "3": {
@@ -68956,7 +68956,7 @@
         "Total 60 min Appearances": 1,
         "1": {
             "points": 1,
-            "tooltip": "5 Sep (A) CHE L 2-1\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "2": "-",
         "3": "-",
@@ -69182,7 +69182,7 @@
         },
         "6": {
             "points": 7,
-            "tooltip": "12 Oct (A) LIV W 1-2\nGoal (+4pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (A) LIV W 1-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nBonus (+1pt)"
         },
         "7": {
             "points": 2,
@@ -69578,7 +69578,7 @@
         },
         "2": {
             "points": 2,
-            "tooltip": "14 Sep (A) LCL W 1-5\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Sep (A) LCL W 1-5\n60 min (+1pt)\n1 min (+1pt)"
         },
         "3": {
             "points": 4,
@@ -70192,7 +70192,7 @@
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (A) LEI W 1-2\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (A) LEI W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "5": {
             "points": 5,
@@ -70200,7 +70200,7 @@
         },
         "6": {
             "points": 2,
-            "tooltip": "12 Oct (A) CHE L 1-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (A) CHE L 1-0\n60 min (+1pt)\n1 min (+1pt)"
         },
         "7": {
             "points": 8,
@@ -71422,7 +71422,7 @@
         },
         "7": {
             "points": 2,
-            "tooltip": "1 Nov (A) MCI L 1-0\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "1 Nov (A) MCI L 1-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "8": {
             "points": 1,
@@ -72029,7 +72029,7 @@
         },
         "2": {
             "points": 0,
-            "tooltip": "14 Sep (H) MUN L 1-5\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "14 Sep (H) MUN L 1-5\n60 min (+1pt)\n1 min (+1pt)\nConceded x2 (-2pts)"
         },
         "3": {
             "points": 2,
@@ -72041,7 +72041,7 @@
         },
         "5": {
             "points": 8,
-            "tooltip": "5 Oct (H) LIV W 1-0\nClean Sheet (+4pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "5 Oct (H) LIV W 1-0\nClean Sheet (+4pts)\nBonus x2 (+2pts)\n60 min (+1pt)\n1 min (+1pt)"
         },
         "6": {
             "points": 8,
@@ -72221,7 +72221,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 14,
-        "Selected Percentage": 1.2,
+        "Selected Percentage": 1.1,
         "Total Games Played": 3,
         "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 3,
@@ -72245,11 +72245,11 @@
         "2": "-",
         "3": {
             "points": 7,
-            "tooltip": "21 Sep (H) LEI W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)"
+            "tooltip": "21 Sep (H) LEI W 1-0\nClean Sheet (+4pts)\n1 min (+1pt)\nBonus (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 6,
-            "tooltip": "28 Sep (A) WHU W 0-4\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (A) WHU W 0-4\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "5": "-",
         "6": {
@@ -73288,7 +73288,7 @@
         },
         "2": {
             "points": 0,
-            "tooltip": "14 Sep (H) MUN L 1-5\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "14 Sep (H) MUN L 1-5\n60 min (+1pt)\n1 min (+1pt)\nConceded x2 (-2pts)"
         },
         "3": {
             "points": 1,
@@ -73505,11 +73505,11 @@
         },
         "4": {
             "points": 0,
-            "tooltip": "28 Sep (A) MCI L 4-1\n60 min (+1pt)\n1 min (+1pt)\nConceded x2 (-2pts)"
+            "tooltip": "28 Sep (A) MCI L 4-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
         "5": {
             "points": 7,
-            "tooltip": "5 Oct (H) LIV W 1-0\nClean Sheet (+4pts)\nBonus (+1pt)\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "5 Oct (H) LIV W 1-0\nClean Sheet (+4pts)\n60 min (+1pt)\n1 min (+1pt)\nBonus (+1pt)"
         },
         "6": {
             "points": 6,
@@ -73517,11 +73517,11 @@
         },
         "7": {
             "points": 1,
-            "tooltip": "1 Nov (A) CHE L 2-0\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)\nConceded (-1pt)"
+            "tooltip": "1 Nov (A) CHE L 2-0\n60 min (+1pt)\nClearance (+1pt)\n1 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "8": {
             "points": 4,
-            "tooltip": "9 Nov (H) TOT W 4-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "9 Nov (H) TOT W 4-2\nAssist (+3pts)\n60 min (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -73916,11 +73916,11 @@
         },
         "3": {
             "points": 1,
-            "tooltip": "21 Sep (A) CHE L 1-0\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "21 Sep (A) CHE L 1-0\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "4": {
             "points": 2,
-            "tooltip": "28 Sep (H) TOT L 1-2\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "28 Sep (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "5": {
             "points": 2,
@@ -73928,7 +73928,7 @@
         },
         "6": {
             "points": 3,
-            "tooltip": "12 Oct (A) AVL D 0-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "12 Oct (A) AVL D 0-0\n1 min (+1pt)\n60 min (+1pt)\nClean Sheet (+1pt)"
         },
         "7": {
             "points": 4,
@@ -73936,7 +73936,7 @@
         },
         "8": {
             "points": 2,
-            "tooltip": "9 Nov (A) WHU D 1-1\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "9 Nov (A) WHU D 1-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -74775,7 +74775,7 @@
         },
         "4": {
             "points": 0,
-            "tooltip": "28 Sep (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "tooltip": "28 Sep (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)\nConceded (-1pt)"
         },
         "5": {
             "points": 2,
@@ -74989,7 +74989,7 @@
         },
         "3": {
             "points": 2,
-            "tooltip": "19 Sep (H) MCI L 1-5\n60 min (+1pt)\n1 min (+1pt)"
+            "tooltip": "19 Sep (H) MCI L 1-5\n1 min (+1pt)\n60 min (+1pt)"
         },
         "4": {
             "points": 6,
@@ -75418,7 +75418,7 @@
         },
         "5": {
             "points": 2,
-            "tooltip": "5 Oct (H) LIV W 1-0\nClean Sheet (+1pt)\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "5 Oct (H) LIV W 1-0\n60 min (+1pt)\n1 min (+1pt)\nClean Sheet (+1pt)\nYellow Card (-1pt)"
         },
         "6": {
             "points": 3,
@@ -75430,7 +75430,7 @@
         },
         "8": {
             "points": 1,
-            "tooltip": "9 Nov (H) TOT W 4-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "tooltip": "9 Nov (H) TOT W 4-2\n60 min (+1pt)\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -75642,7 +75642,7 @@
         "7": "-",
         "8": {
             "points": 8,
-            "tooltip": "8 Nov (A) ARS D 1-1\nGoal (+5pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "8 Nov (A) ARS D 1-1\nGoal (+5pts)\n60 min (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
