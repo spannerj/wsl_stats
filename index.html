@@ -1155,6 +1155,7 @@
 
                 // FIX: Calculate Points Per Game (PG) on the fly, as the key is missing from JSON
                 "Points Per Game": {
+                    data: null,
                     abbr: 'PG',
                     full: 'Points per game over the season (Points / Appearances)',
                     type: 'num',
@@ -1502,7 +1503,7 @@
                     const config = STATIC_COLUMN_MAP[key];
 
                     columns.push({
-                        data: key,
+                        data: config.data !== undefined ? config.data : key,
                         title: createHeader(config.abbr, config.full),
                         className: config.className || 'dt-center',
                         type: config.type === 'num' ? 'num-fmt' : 'string',
@@ -1562,9 +1563,9 @@
                     columns: columns,
                     paging: true,
                     searching: true,
-                    scrollX: true,
+                    scrollX: false,
                     order: [[5, 'desc']],
-                    responsive: false,
+                    responsive: true,
                     info: true,
 
                     lengthMenu: [
