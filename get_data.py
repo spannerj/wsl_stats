@@ -1,7 +1,11 @@
+import time
 import requests
 import json
 from collections import defaultdict
 from datetime import datetime
+import schedule
+import os
+import subprocess
 
 
 def get_fixture_data() -> list[dict[str, str | int]]:
@@ -56,7 +60,7 @@ def process_game(game):
     kick_off_time = date_obj.strftime("%H:%M")
 
     return {
-        "game_date": game_date,     
+        "game_date": game_date,
         "kick_off_time": kick_off_time,
         "game_week": stage_id,
         "home_id": home_id.upper(),
@@ -146,9 +150,6 @@ def extract_teams_from_game_id(game_id):
     return "", ""
 
 
-# --- MAPPING FUNCTIONS ---
-
-
 def get_wsl_team_code(team_name):
     """
     Transforms a full or partial WSL team name into its standardized 3-character code.
@@ -190,23 +191,133 @@ def get_position_code(position):
 
 
 # --- TOOLTIP FUNCTION ---
+# def create_gw_tooltip(game_data, player_team_code):
+#     """
+#     Creates a detailed, multi-line tooltip string for Gameweek match.
+#     Works directly with API game data structure.
+#     """
+#     game = game_data["game"]
+
+#     # 1. Date Formatting
+#     try:
+#         date_obj = datetime.fromisoformat(game["scheduledAt"].replace("Z", "+00:00"))
+#         date_str = date_obj.strftime("%-d %b")
+#     except (KeyError, ValueError):
+#         date_str = "Date Unknown"
+
+#     # 2. Extract team codes from game ID
+#     game_id = game.get("id", "")
+#     home_team, away_team = extract_teams_from_game_id(game_id)
+
+#     # 3. Determine opponent and location
+#     if player_team_code == home_team:
+#         opponent_team = away_team
+#         location = "(H)"
+#     elif player_team_code == away_team:
+#         opponent_team = home_team
+#         location = "(A)"
+#     else:
+#         opponent_team = "Unknown"
+#         location = ""
+
+#     fixture_line = f"{location} {opponent_team}"
+
+#     # 4. Score and Result (W/D/L) - use already-separated scores
+#     home_score = game.get("home", {}).get("score", 0)
+#     away_score = game.get("away", {}).get("score", 0)
+#     score = f"{home_score}-{away_score}"
+
+#     # Determine result
+#     result_abbr = "D"
+#     if player_team_code == home_team:
+#         player_score, opponent_score = home_score, away_score
+#     elif player_team_code == away_team:
+#         player_score, opponent_score = away_score, home_score
+#     else:
+#         player_score, opponent_score = home_score, away_score
+
+#     if player_score > opponent_score:
+#         result_abbr = "W"
+#     elif player_score < opponent_score:
+#         result_abbr = "L"
+
+#     score_line = f"{result_abbr} {score}"
+#     header_line = f"{date_str} {fixture_line} {score_line}"
+
+#     # 5. Process contributions
+#     contribution_lines = []
+#     CONTRIBUTION_MAP = {
+#         "PlayedOneMinute": "1 min",
+#         "PlayedSixtyMinutes": "60 min",
+#         "Scored": "Goal",
+#         "Assisted": "Assist",
+#         "CleanSheet": "Clean Sheet",
+#         "Bonus": "Bonus",
+#         "ThreeSaves": "Saves",
+#         "GoalLineClearance": "Clearance",
+#         "MissedPenalty": "Missed Pen",
+#         "ReceivedRedCard": "Red Card",
+#         "ReceivedYellowCard": "Yellow Card",
+#         "ScoredOwnGoal": "Own Goal",
+#         "ConcededGoals": "Conceded",
+#     }
+
+#     # Sort contributions by total points (quantity * individualPoints)
+#     contributions = game_data.get("contributions", [])
+#     sorted_contributions = sorted(
+#         contributions,
+#         key=lambda c: c.get("quantity", 1) * c.get("individualPoints", 0),
+#         reverse=True,
+#     )
+
+#     for contrib in sorted_contributions:
+#         contrib_type = contrib["contribution"]
+#         label = CONTRIBUTION_MAP.get(contrib_type, contrib_type)
+#         quantity = contrib.get("quantity", 1)
+#         individual_points = contrib.get("individualPoints", 0)
+#         # Calculate total points for this contribution
+#         total_points = quantity * individual_points
+
+#         # Only include contributions with non-zero points or where it's a card/event
+#         if total_points != 0 or contrib_type in [
+#             "ReceivedRedCard",
+#             "ReceivedYellowCard",
+#             "MissedPenalty",
+#             "ScoredOwnGoal",
+#         ]:
+#             sign = "+" if total_points > 0 else ""
+
+#             if quantity > 1:
+#                 line = f"{label} x{quantity} ({sign}{total_points}pt{'' if abs(total_points) == 1 else 's'})"
+#             else:
+#                 line = f"{label} ({sign}{total_points}pt{'' if abs(total_points) == 1 else 's'})"
+
+#             contribution_lines.append(line)
+
+#     # Combine: Header line, separator, Contribution lines
+#     tooltip_parts = [header_line] + contribution_lines
+#     return "\n".join(tooltip_parts)
+
 def create_gw_tooltip(game_data, player_team_code):
     """
     Creates a detailed, multi-line tooltip string for Gameweek match.
     Works directly with API game data structure.
     """
-    game = game_data["game"]
+    # ... (Sections 1-4 remain unchanged) ...
 
+    game = game_data["game"]
     # 1. Date Formatting
     try:
+        from datetime import datetime # Ensure datetime is imported if this is a standalone function
         date_obj = datetime.fromisoformat(game["scheduledAt"].replace("Z", "+00:00"))
         date_str = date_obj.strftime("%-d %b")
-    except (KeyError, ValueError):
+    except (KeyError, ValueError, ImportError):
         date_str = "Date Unknown"
 
     # 2. Extract team codes from game ID
     game_id = game.get("id", "")
-    home_team, away_team = extract_teams_from_game_id(game_id)
+    # Assume extract_teams_from_game_id is defined elsewhere
+    home_team, away_team = extract_teams_from_game_id(game_id) 
 
     # 3. Determine opponent and location
     if player_team_code == home_team:
@@ -221,12 +332,11 @@ def create_gw_tooltip(game_data, player_team_code):
 
     fixture_line = f"{location} {opponent_team}"
 
-    # 4. Score and Result (W/D/L) - use already-separated scores
+    # 4. Score and Result (W/D/L)
     home_score = game.get("home", {}).get("score", 0)
     away_score = game.get("away", {}).get("score", 0)
     score = f"{home_score}-{away_score}"
 
-    # Determine result
     result_abbr = "D"
     if player_team_code == home_team:
         player_score, opponent_score = home_score, away_score
@@ -243,7 +353,8 @@ def create_gw_tooltip(game_data, player_team_code):
     score_line = f"{result_abbr} {score}"
     header_line = f"{date_str} {fixture_line} {score_line}"
 
-    # 5. Process contributions
+
+    # 5. Process contributions (REVISED SECTION)
     contribution_lines = []
     CONTRIBUTION_MAP = {
         "PlayedOneMinute": "1 min",
@@ -261,12 +372,20 @@ def create_gw_tooltip(game_data, player_team_code):
         "ConcededGoals": "Conceded",
     }
 
-    # Sort contributions by total points (quantity * individualPoints)
     contributions = game_data.get("contributions", [])
+    
+    # ----------------------------------------------------------------------
+    # KEY CHANGE HERE: Use a tuple for the sort key.
+    # 1. Sort by total_points (descending: use negative value)
+    # 2. Sort by contribution type name (ascending: use name string)
+    # This provides a stable and deterministic secondary sort key.
+    # ----------------------------------------------------------------------
     sorted_contributions = sorted(
         contributions,
-        key=lambda c: c.get("quantity", 1) * c.get("individualPoints", 0),
-        reverse=True,
+        key=lambda c: (
+            -1 * (c.get("quantity", 1) * c.get("individualPoints", 0)),  # Primary: Total Points (Negative for Descending)
+            c["contribution"]  # Secondary: Contribution Type Name (Ascending)
+        )
     )
 
     for contrib in sorted_contributions:
@@ -274,7 +393,6 @@ def create_gw_tooltip(game_data, player_team_code):
         label = CONTRIBUTION_MAP.get(contrib_type, contrib_type)
         quantity = contrib.get("quantity", 1)
         individual_points = contrib.get("individualPoints", 0)
-        # Calculate total points for this contribution
         total_points = quantity * individual_points
 
         # Only include contributions with non-zero points or where it's a card/event
@@ -519,7 +637,60 @@ def transform_data(output_file="transformed_data.json", recent_games_count=4):
         json.dump(combined_data, f, indent=4, ensure_ascii=False)
     print(f"Data saved to {output_file}")
 
+    commit_changes_to_git()
+
+
+def commit_changes_to_git():
+    try:
+        print("Starting Git operations...")
+
+        # 1. Stage the file (Add is required even for status check)
+        subprocess.run(["git", "add", "transformed_data.json"], check=True, cwd=os.getcwd())
+
+        # 2. Check the status: Run 'git status --porcelain'
+        # The --porcelain format provides an easy-to-parse output.
+        status_result = subprocess.run(
+            ["git", "status", "--porcelain"],
+            check=True,
+            capture_output=True,
+            text=True,
+            cwd=os.getcwd()
+        )
+
+        print(status_result)
+
+        # Check if the staged file appears in the status output
+        # ' M transformed_data.json' or 'A  transformed_data.json' indicates a change
+        if "transformed_data.json" in status_result.stdout:
+            print("File was modified. Proceeding with commit and push.")
+
+            # 3. Commit the changes
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+            commit_message = f"Automated data refresh: {timestamp}"
+            subprocess.run(["git", "commit", "-m", commit_message], check=True, cwd=os.getcwd())
+
+            # 4. Push to the remote repository
+            subprocess.run(["git", "push", "origin", "main"], check=True, cwd=os.getcwd())
+
+            print("Successfully committed and pushed new data to GitHub.")
+        else:
+            print("No changes detected in transformed_data.json. Skipping commit and push.")
+
+    except subprocess.CalledProcessError as e:
+        print("A Git command failed.")
+        print(f"Stdout: {e.stdout}")
+        print(f"Stderr: {e.stderr}")
+    except Exception as e:
+        print(f"An unexpected error occurred during Git operations: {e}")
+
+
+# Schedule the transformation to every 3 hours
+schedule.every(3).hour.do(transform_data)  
+
+print('Started')
 
 # Execute the transformation when the script is run
 if __name__ == "__main__":
-    transform_data(output_file="transformed_data.json")
+    while True:
+        schedule.run_pending()
+        time.sleep(5)
