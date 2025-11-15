@@ -2725,14 +2725,14 @@
         "Nationality": "Netherlands",
         "News": null,
         "Visionary": false,
-        "Total Points": 35,
-        "Selected Percentage": 17.4,
+        "Total Points": 38,
+        "Selected Percentage": 17.5,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 15,
+        "Total Over 4 Gameweeks": 18,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.8,
-        "Points Per Million": 3.8,
-        "Points Per Million Over 4 Gameweeks": 1.6,
+        "Points Per Game Over 4 Gameweeks": 4.5,
+        "Points Per Million": 4.1,
+        "Points Per Million Over 4 Gameweeks": 1.9,
         "Total Goals": 3,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -2741,11 +2741,11 @@
         "Total Own Goals": 0,
         "Total Conceeded": 0,
         "Total Clean Sheet": 0,
-        "Total Bonus Points": 3,
+        "Total Bonus Points": 5,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 8,
+        "Total 60 min Appearances": 9,
         "1": {
             "points": 2,
             "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)\n60 min (+1pt)"
@@ -2779,8 +2779,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+            "points": 4,
+            "tooltip": "15 Nov (H) MUN W 3-0\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -2937,7 +2937,7 @@
         "News": "Quad injury. Expected back in December.",
         "Visionary": false,
         "Total Points": 36,
-        "Selected Percentage": 43.4,
+        "Selected Percentage": 42.9,
         "Total Games Played": 8,
         "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 4,
@@ -4006,14 +4006,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 25,
+        "Total Points": 27,
         "Selected Percentage": 4.0,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 8,
+        "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.0,
-        "Points Per Million": 4.2,
-        "Points Per Million Over 4 Gameweeks": 1.3,
+        "Points Per Game Over 4 Gameweeks": 2.5,
+        "Points Per Million": 4.5,
+        "Points Per Million Over 4 Gameweeks": 1.7,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -4021,12 +4021,12 @@
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
-        "Total Clean Sheet": 1,
+        "Total Clean Sheet": 2,
         "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 7,
+        "Total 60 min Appearances": 8,
         "1": {
             "points": 1,
             "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)"
@@ -4060,8 +4060,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+            "points": 3,
+            "tooltip": "15 Nov (H) MUN W 3-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -8429,7 +8429,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 33,
-        "Selected Percentage": 12.2,
+        "Selected Percentage": 12.1,
         "Total Games Played": 7,
         "Total Over 4 Gameweeks": 17,
         "Games Played Over 4 Gameweeks": 4,
@@ -10278,7 +10278,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 17,
-        "Selected Percentage": 4.3,
+        "Selected Percentage": 4.2,
         "Total Games Played": 7,
         "Total Over 4 Gameweeks": 9,
         "Games Played Over 4 Gameweeks": 4,
@@ -10713,7 +10713,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 33,
-        "Selected Percentage": 26.3,
+        "Selected Percentage": 26.2,
         "Total Games Played": 7,
         "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
@@ -10928,14 +10928,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 51,
+        "Total Points": 52,
         "Selected Percentage": 23.1,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 30,
+        "Total Over 4 Gameweeks": 31,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 7.5,
-        "Points Per Million": 6.0,
-        "Points Per Million Over 4 Gameweeks": 3.5,
+        "Points Per Game Over 4 Gameweeks": 7.8,
+        "Points Per Million": 6.1,
+        "Points Per Million Over 4 Gameweeks": 3.6,
         "Total Goals": 4,
         "Total Assists": 2,
         "Total Red Cards": 0,
@@ -10948,7 +10948,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 6,
+        "Total 60 min Appearances": 7,
         "1": {
             "points": 1,
             "tooltip": "7 Sep (H) LEI W 4-0\n1 min (+1pt)"
@@ -10982,8 +10982,8 @@
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -13473,14 +13473,14 @@
         "Nationality": "Netherlands",
         "News": null,
         "Visionary": false,
-        "Total Points": 49,
-        "Selected Percentage": 27.9,
+        "Total Points": 54,
+        "Selected Percentage": 28.0,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 19,
+        "Total Over 4 Gameweeks": 24,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.8,
-        "Points Per Million": 6.6,
-        "Points Per Million Over 4 Gameweeks": 2.6,
+        "Points Per Game Over 4 Gameweeks": 6.0,
+        "Points Per Million": 7.3,
+        "Points Per Million Over 4 Gameweeks": 3.2,
         "Total Goals": 2,
         "Total Assists": 4,
         "Total Red Cards": 0,
@@ -13488,12 +13488,12 @@
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": -2,
-        "Total Clean Sheet": 1,
+        "Total Clean Sheet": 2,
         "Total Bonus Points": 6,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 8,
+        "Total 60 min Appearances": 9,
         "1": {
             "points": 1,
             "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
@@ -13527,8 +13527,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 7,
-            "tooltip": "15 Nov (H) MUN W 3-0\nAssist x2 (+6pts)\n1 min (+1pt)"
+            "points": 12,
+            "tooltip": "15 Nov (H) MUN W 3-0\nAssist x2 (+6pts)\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -14105,14 +14105,14 @@
         "Nationality": "Spain",
         "News": null,
         "Visionary": false,
-        "Total Points": 28,
+        "Total Points": 33,
         "Selected Percentage": 4.3,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 17,
+        "Total Over 4 Gameweeks": 22,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.2,
-        "Points Per Million": 4.3,
-        "Points Per Million Over 4 Gameweeks": 2.6,
+        "Points Per Game Over 4 Gameweeks": 5.5,
+        "Points Per Million": 5.1,
+        "Points Per Million Over 4 Gameweeks": 3.4,
         "Total Goals": 0,
         "Total Assists": 2,
         "Total Red Cards": 0,
@@ -14120,12 +14120,12 @@
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": -1,
-        "Total Clean Sheet": 1,
+        "Total Clean Sheet": 2,
         "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 7,
+        "Total 60 min Appearances": 8,
         "1": {
             "points": 1,
             "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)"
@@ -14159,8 +14159,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+            "points": 6,
+            "tooltip": "15 Nov (H) MUN W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -14515,14 +14515,14 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": false,
-        "Total Points": 30,
+        "Total Points": 32,
         "Selected Percentage": 17.2,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 10,
+        "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.5,
-        "Points Per Million": 4.1,
-        "Points Per Million Over 4 Gameweeks": 1.4,
+        "Points Per Game Over 4 Gameweeks": 3.0,
+        "Points Per Million": 4.4,
+        "Points Per Million Over 4 Gameweeks": 1.6,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -14530,12 +14530,12 @@
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
-        "Total Clean Sheet": 1,
+        "Total Clean Sheet": 2,
         "Total Bonus Points": 7,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 8,
+        "Total 60 min Appearances": 9,
         "1": {
             "points": 3,
             "tooltip": "5 Sep (A) CHE L 2-1\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
@@ -14569,8 +14569,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+            "points": 3,
+            "tooltip": "15 Nov (H) MUN W 3-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -15105,14 +15105,14 @@
         "Nationality": "England",
         "News": "Injured",
         "Visionary": false,
-        "Total Points": 12,
-        "Selected Percentage": 6.6,
+        "Total Points": 17,
+        "Selected Percentage": 6.7,
         "Total Games Played": 5,
-        "Total Over 4 Gameweeks": 10,
+        "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.5,
-        "Points Per Million": 1.4,
-        "Points Per Million Over 4 Gameweeks": 1.2,
+        "Points Per Game Over 4 Gameweeks": 3.8,
+        "Points Per Million": 2.0,
+        "Points Per Million Over 4 Gameweeks": 1.8,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -15120,12 +15120,12 @@
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
-        "Total Clean Sheet": 0,
-        "Total Bonus Points": 0,
+        "Total Clean Sheet": 1,
+        "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 5,
-        "Total 60 min Appearances": 2,
+        "Total 60 min Appearances": 3,
         "1": {
             "points": 2,
             "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)\n60 min (+1pt)"
@@ -15147,8 +15147,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\n1 min (+1pt)"
         },
         "9": {
-            "points": 6,
-            "tooltip": "15 Nov (H) MUN W 3-0\nGoal (+5pts)\n1 min (+1pt)"
+            "points": 11,
+            "tooltip": "15 Nov (H) MUN W 3-0\nGoal (+5pts)\nBonus x3 (+3pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -15305,7 +15305,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 19,
-        "Selected Percentage": 20.1,
+        "Selected Percentage": 20.0,
         "Total Games Played": 7,
         "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
@@ -15520,14 +15520,14 @@
         "Nationality": "Jamaica",
         "News": null,
         "Visionary": false,
-        "Total Points": 48,
-        "Selected Percentage": 21.2,
+        "Total Points": 49,
+        "Selected Percentage": 21.3,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 18,
+        "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.5,
-        "Points Per Million": 4.0,
-        "Points Per Million Over 4 Gameweeks": 1.5,
+        "Points Per Game Over 4 Gameweeks": 4.8,
+        "Points Per Million": 4.1,
+        "Points Per Million Over 4 Gameweeks": 1.6,
         "Total Goals": 6,
         "Total Assists": 2,
         "Total Red Cards": 0,
@@ -15540,7 +15540,7 @@
         "Total Missed Penalties": 1,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 8,
+        "Total 60 min Appearances": 9,
         "1": {
             "points": 2,
             "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)\n60 min (+1pt)"
@@ -15574,8 +15574,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 8,
-            "tooltip": "15 Nov (H) MUN W 3-0\nGoal (+4pts)\nAssist (+3pts)\n1 min (+1pt)"
+            "points": 9,
+            "tooltip": "15 Nov (H) MUN W 3-0\nGoal (+4pts)\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -15926,14 +15926,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": true,
-        "Total Points": 0,
+        "Total Points": 1,
         "Selected Percentage": 1.5,
-        "Total Games Played": 1,
-        "Total Over 4 Gameweeks": 0,
-        "Games Played Over 4 Gameweeks": 1,
-        "Points Per Game Over 4 Gameweeks": 0.0,
-        "Points Per Million": 0.0,
-        "Points Per Million Over 4 Gameweeks": 0.0,
+        "Total Games Played": 2,
+        "Total Over 4 Gameweeks": 1,
+        "Games Played Over 4 Gameweeks": 2,
+        "Points Per Game Over 4 Gameweeks": 0.2,
+        "Points Per Million": 0.2,
+        "Points Per Million Over 4 Gameweeks": 0.2,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -15945,7 +15945,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 1,
+        "Total 1 min Appearances": 2,
         "Total 60 min Appearances": 0,
         "1": "-",
         "2": "-",
@@ -15958,7 +15958,10 @@
             "tooltip": "2 Nov (A) BHA W 2-3\n1 min (+1pt)\nConceded (-1pt)"
         },
         "8": "-",
-        "9": "-",
+        "9": {
+            "points": 1,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "7 Dec",
@@ -16113,14 +16116,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 43,
+        "Total Points": 44,
         "Selected Percentage": 37.1,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 8,
+        "Total Over 4 Gameweeks": 9,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.0,
-        "Points Per Million": 5.4,
-        "Points Per Million Over 4 Gameweeks": 1.0,
+        "Points Per Game Over 4 Gameweeks": 2.2,
+        "Points Per Million": 5.5,
+        "Points Per Million Over 4 Gameweeks": 1.1,
         "Total Goals": 1,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -16133,7 +16136,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 8,
+        "Total 60 min Appearances": 9,
         "1": {
             "points": 7,
             "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+4pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
@@ -16167,8 +16170,8 @@
             "tooltip": "8 Nov (H) AVL L 0-1\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 0,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\nConceded (-1pt)"
+            "points": 1,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -16514,14 +16517,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 10,
+        "Total Points": 11,
         "Selected Percentage": 6.2,
-        "Total Games Played": 4,
-        "Total Over 4 Gameweeks": 10,
+        "Total Games Played": 5,
+        "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.5,
-        "Points Per Million": 1.0,
-        "Points Per Million Over 4 Gameweeks": 1.0,
+        "Points Per Game Over 4 Gameweeks": 1.2,
+        "Points Per Million": 1.1,
+        "Points Per Million Over 4 Gameweeks": 0.5,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -16533,7 +16536,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 4,
+        "Total 1 min Appearances": 5,
         "Total 60 min Appearances": 1,
         "1": "-",
         "2": "-",
@@ -16555,7 +16558,10 @@
             "points": 1,
             "tooltip": "9 Nov (A) EVE W 1-2\n1 min (+1pt)"
         },
-        "9": "-",
+        "9": {
+            "points": 1,
+            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "7 Dec",
@@ -16710,14 +16716,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": true,
-        "Total Points": 3,
+        "Total Points": 4,
         "Selected Percentage": 0.7,
         "Total Games Played": 3,
-        "Total Over 4 Gameweeks": 3,
+        "Total Over 4 Gameweeks": 4,
         "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 0.8,
-        "Points Per Million": 0.4,
-        "Points Per Million Over 4 Gameweeks": 0.4,
+        "Points Per Game Over 4 Gameweeks": 1.0,
+        "Points Per Million": 0.5,
+        "Points Per Million Over 4 Gameweeks": 0.5,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -16730,7 +16736,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 3,
-        "Total 60 min Appearances": 0,
+        "Total 60 min Appearances": 1,
         "1": "-",
         "2": "-",
         "3": "-",
@@ -16746,8 +16752,8 @@
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -17316,14 +17322,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 49,
+        "Total Points": 50,
         "Selected Percentage": 37.0,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 17,
+        "Total Over 4 Gameweeks": 18,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.2,
-        "Points Per Million": 5.4,
-        "Points Per Million Over 4 Gameweeks": 1.9,
+        "Points Per Game Over 4 Gameweeks": 4.5,
+        "Points Per Million": 5.5,
+        "Points Per Million Over 4 Gameweeks": 2.0,
         "Total Goals": 2,
         "Total Assists": 5,
         "Total Red Cards": 0,
@@ -17336,7 +17342,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 7,
+        "Total 60 min Appearances": 8,
         "1": {
             "points": 13,
             "tooltip": "7 Sep (H) LEI W 4-0\nGoal (+5pts)\nAssist (+3pts)\nBonus x2 (+2pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
@@ -17370,8 +17376,8 @@
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -18178,13 +18184,13 @@
         "Nationality": "England",
         "News": null,
         "Visionary": true,
-        "Total Points": 5,
+        "Total Points": 6,
         "Selected Percentage": 1.2,
-        "Total Games Played": 5,
+        "Total Games Played": 6,
         "Total Over 4 Gameweeks": 4,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 1.0,
-        "Points Per Million": 0.8,
+        "Points Per Million": 1.0,
         "Points Per Million Over 4 Gameweeks": 0.7,
         "Total Goals": 0,
         "Total Assists": 0,
@@ -18197,7 +18203,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 5,
+        "Total 1 min Appearances": 6,
         "Total 60 min Appearances": 0,
         "1": "-",
         "2": "-",
@@ -18222,7 +18228,10 @@
             "points": 1,
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)"
         },
-        "9": "-",
+        "9": {
+            "points": 1,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "7 Dec",
@@ -21768,7 +21777,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 0,
-        "Selected Percentage": 2.1,
+        "Selected Percentage": 2.0,
         "Total Games Played": 0,
         "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 0,
@@ -23876,14 +23885,14 @@
         "Nationality": "Canada",
         "News": null,
         "Visionary": false,
-        "Total Points": 36,
+        "Total Points": 37,
         "Selected Percentage": 8.5,
         "Total Games Played": 8,
-        "Total Over 4 Gameweeks": 13,
+        "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.2,
-        "Points Per Million": 5.1,
-        "Points Per Million Over 4 Gameweeks": 1.9,
+        "Points Per Game Over 4 Gameweeks": 3.5,
+        "Points Per Million": 5.3,
+        "Points Per Million Over 4 Gameweeks": 2.0,
         "Total Goals": 1,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -23896,7 +23905,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 8,
-        "Total 60 min Appearances": 7,
+        "Total 60 min Appearances": 8,
         "1": {
             "points": 9,
             "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+4pts)\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
@@ -23927,8 +23936,8 @@
             "tooltip": "8 Nov (H) AVL L 0-1\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 0,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\nConceded (-1pt)"
+            "points": 1,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -25594,7 +25603,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 25,
-        "Selected Percentage": 18.1,
+        "Selected Percentage": 18.3,
         "Total Games Played": 8,
         "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
@@ -29323,14 +29332,14 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": false,
-        "Total Points": 29,
+        "Total Points": 30,
         "Selected Percentage": 2.2,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 7,
+        "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.8,
-        "Points Per Million": 3.9,
-        "Points Per Million Over 4 Gameweeks": 0.9,
+        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Million": 4.0,
+        "Points Per Million Over 4 Gameweeks": 1.1,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -29343,7 +29352,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 8,
+        "Total 60 min Appearances": 9,
         "1": {
             "points": 3,
             "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
@@ -29377,8 +29386,8 @@
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -30808,13 +30817,13 @@
         "Nationality": "France",
         "News": null,
         "Visionary": false,
-        "Total Points": 41,
+        "Total Points": 42,
         "Selected Percentage": 16.0,
-        "Total Games Played": 8,
+        "Total Games Played": 9,
         "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 2.8,
-        "Points Per Million": 4.8,
+        "Points Per Million": 4.9,
         "Points Per Million Over 4 Gameweeks": 1.3,
         "Total Goals": 5,
         "Total Assists": 1,
@@ -30827,7 +30836,7 @@
         "Total Bonus Points": 5,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 8,
+        "Total 1 min Appearances": 9,
         "Total 60 min Appearances": 5,
         "1": {
             "points": 13,
@@ -30861,7 +30870,10 @@
             "points": 1,
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)"
         },
-        "9": "-",
+        "9": {
+            "points": 1,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "7 Dec",
@@ -31841,14 +31853,14 @@
         "Nationality": "Wales",
         "News": null,
         "Visionary": true,
-        "Total Points": 0,
+        "Total Points": 1,
         "Selected Percentage": 1.1,
         "Total Games Played": 1,
-        "Total Over 4 Gameweeks": 0,
+        "Total Over 4 Gameweeks": 1,
         "Games Played Over 4 Gameweeks": 1,
-        "Points Per Game Over 4 Gameweeks": 0.0,
-        "Points Per Million": 0.0,
-        "Points Per Million Over 4 Gameweeks": 0.0,
+        "Points Per Game Over 4 Gameweeks": 0.2,
+        "Points Per Million": 0.2,
+        "Points Per Million Over 4 Gameweeks": 0.2,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -31861,7 +31873,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 1,
-        "Total 60 min Appearances": 0,
+        "Total 60 min Appearances": 1,
         "1": "-",
         "2": "-",
         "3": "-",
@@ -31871,8 +31883,8 @@
         "7": "-",
         "8": "-",
         "9": {
-            "points": 0,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\nConceded (-1pt)"
+            "points": 1,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -36656,7 +36668,7 @@
         "News": "ACL injury",
         "Visionary": false,
         "Total Points": 19,
-        "Selected Percentage": 5.6,
+        "Selected Percentage": 5.5,
         "Total Games Played": 6,
         "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
@@ -37259,7 +37271,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 20,
-        "Selected Percentage": 16.0,
+        "Selected Percentage": 16.1,
         "Total Games Played": 4,
         "Total Over 4 Gameweeks": 20,
         "Games Played Over 4 Gameweeks": 4,
@@ -42015,14 +42027,14 @@
         "Nationality": "Sweden",
         "News": null,
         "Visionary": false,
-        "Total Points": 33,
+        "Total Points": 34,
         "Selected Percentage": 20.3,
         "Total Games Played": 8,
-        "Total Over 4 Gameweeks": 4,
+        "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.0,
-        "Points Per Million": 6.7,
-        "Points Per Million Over 4 Gameweeks": 0.8,
+        "Points Per Game Over 4 Gameweeks": 1.2,
+        "Points Per Million": 6.9,
+        "Points Per Million Over 4 Gameweeks": 1.0,
         "Total Goals": 1,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -42035,7 +42047,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 8,
-        "Total 60 min Appearances": 6,
+        "Total 60 min Appearances": 7,
         "1": {
             "points": 6,
             "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
@@ -42066,8 +42078,8 @@
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)"
         },
         "9": {
-            "points": 0,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\nConceded (-1pt)"
+            "points": 1,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -42223,14 +42235,14 @@
         "Nationality": "Netherlands",
         "News": null,
         "Visionary": false,
-        "Total Points": 28,
+        "Total Points": 29,
         "Selected Percentage": 5.3,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 4,
+        "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.0,
-        "Points Per Million": 4.0,
-        "Points Per Million Over 4 Gameweeks": 0.6,
+        "Points Per Game Over 4 Gameweeks": 1.2,
+        "Points Per Million": 4.1,
+        "Points Per Million Over 4 Gameweeks": 0.7,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -42243,7 +42255,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 7,
+        "Total 60 min Appearances": 8,
         "1": {
             "points": 9,
             "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+4pts)\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
@@ -42277,8 +42289,8 @@
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": -1,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "points": 0,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -42434,14 +42446,14 @@
         "Nationality": "Canada",
         "News": null,
         "Visionary": true,
-        "Total Points": 1,
+        "Total Points": 2,
         "Selected Percentage": 0.4,
-        "Total Games Played": 1,
-        "Total Over 4 Gameweeks": 1,
-        "Games Played Over 4 Gameweeks": 1,
-        "Points Per Game Over 4 Gameweeks": 0.2,
-        "Points Per Million": 0.2,
-        "Points Per Million Over 4 Gameweeks": 0.2,
+        "Total Games Played": 2,
+        "Total Over 4 Gameweeks": 2,
+        "Games Played Over 4 Gameweeks": 2,
+        "Points Per Game Over 4 Gameweeks": 0.5,
+        "Points Per Million": 0.3,
+        "Points Per Million Over 4 Gameweeks": 0.3,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -42453,7 +42465,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 1,
+        "Total 1 min Appearances": 2,
         "Total 60 min Appearances": 0,
         "1": "-",
         "2": "-",
@@ -42466,7 +42478,10 @@
             "tooltip": "2 Nov (A) BHA W 2-3\n1 min (+1pt)"
         },
         "8": "-",
-        "9": "-",
+        "9": {
+            "points": 1,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "7 Dec",
@@ -42989,14 +43004,14 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": false,
-        "Total Points": 17,
-        "Selected Percentage": 4.5,
+        "Total Points": 22,
+        "Selected Percentage": 4.6,
         "Total Games Played": 7,
-        "Total Over 4 Gameweeks": 12,
+        "Total Over 4 Gameweeks": 17,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.0,
-        "Points Per Million": 3.8,
-        "Points Per Million Over 4 Gameweeks": 2.7,
+        "Points Per Game Over 4 Gameweeks": 4.2,
+        "Points Per Million": 4.9,
+        "Points Per Million Over 4 Gameweeks": 3.8,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -43004,12 +43019,12 @@
         "Total Saves": 2,
         "Total Own Goals": 0,
         "Total Conceeded": -2,
-        "Total Clean Sheet": 1,
+        "Total Clean Sheet": 2,
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 7,
-        "Total 60 min Appearances": 6,
+        "Total 60 min Appearances": 7,
         "1": {
             "points": 1,
             "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
@@ -43037,8 +43052,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+            "points": 6,
+            "tooltip": "15 Nov (H) MUN W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -43194,14 +43209,14 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": false,
-        "Total Points": 38,
+        "Total Points": 42,
         "Selected Percentage": 6.8,
         "Total Games Played": 8,
-        "Total Over 4 Gameweeks": 23,
+        "Total Over 4 Gameweeks": 27,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 5.8,
-        "Points Per Million": 4.6,
-        "Points Per Million Over 4 Gameweeks": 2.8,
+        "Points Per Game Over 4 Gameweeks": 6.8,
+        "Points Per Million": 5.1,
+        "Points Per Million Over 4 Gameweeks": 3.3,
         "Total Goals": 3,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -43209,12 +43224,12 @@
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
-        "Total Clean Sheet": 2,
-        "Total Bonus Points": 5,
+        "Total Clean Sheet": 3,
+        "Total Bonus Points": 7,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 8,
-        "Total 60 min Appearances": 6,
+        "Total 60 min Appearances": 7,
         "1": "-",
         "2": {
             "points": 4,
@@ -43245,8 +43260,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+            "points": 5,
+            "tooltip": "15 Nov (H) MUN W 3-0\nBonus x2 (+2pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -50372,14 +50387,14 @@
         "Nationality": "Germany",
         "News": null,
         "Visionary": true,
-        "Total Points": 8,
-        "Selected Percentage": 0.4,
+        "Total Points": 14,
+        "Selected Percentage": 0.5,
         "Total Games Played": 2,
-        "Total Over 4 Gameweeks": 8,
+        "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 2,
-        "Points Per Game Over 4 Gameweeks": 2.0,
-        "Points Per Million": 1.2,
-        "Points Per Million Over 4 Gameweeks": 1.2,
+        "Points Per Game Over 4 Gameweeks": 3.5,
+        "Points Per Million": 2.2,
+        "Points Per Million Over 4 Gameweeks": 2.2,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -50387,12 +50402,12 @@
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
-        "Total Clean Sheet": 0,
-        "Total Bonus Points": 0,
+        "Total Clean Sheet": 1,
+        "Total Bonus Points": 1,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 2,
-        "Total 60 min Appearances": 1,
+        "Total 60 min Appearances": 2,
         "1": "-",
         "2": "-",
         "3": "-",
@@ -50405,8 +50420,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 6,
-            "tooltip": "15 Nov (H) MUN W 3-0\nGoal (+6pts)\n1 min (+1pt)\nYellow Card (-1pt)"
+            "points": 12,
+            "tooltip": "15 Nov (H) MUN W 3-0\nGoal (+6pts)\nClean Sheet (+4pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -58794,7 +58809,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 45,
-        "Selected Percentage": 8.9,
+        "Selected Percentage": 9.0,
         "Total Games Played": 7,
         "Total Over 4 Gameweeks": 37,
         "Games Played Over 4 Gameweeks": 4,
@@ -60748,7 +60763,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 0,
-        "Selected Percentage": 2.8,
+        "Selected Percentage": 2.9,
         "Total Games Played": 0,
         "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 0,
@@ -65870,7 +65885,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 22,
-        "Selected Percentage": 7.3,
+        "Selected Percentage": 7.4,
         "Total Games Played": 8,
         "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 4,
@@ -68519,14 +68534,14 @@
         "Nationality": "Canada",
         "News": null,
         "Visionary": false,
-        "Total Points": 14,
+        "Total Points": 19,
         "Selected Percentage": 5.7,
         "Total Games Played": 7,
-        "Total Over 4 Gameweeks": 11,
+        "Total Over 4 Gameweeks": 16,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.8,
-        "Points Per Million": 3.5,
-        "Points Per Million Over 4 Gameweeks": 2.8,
+        "Points Per Game Over 4 Gameweeks": 4.0,
+        "Points Per Million": 4.8,
+        "Points Per Million Over 4 Gameweeks": 4.0,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -68534,12 +68549,12 @@
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": -2,
-        "Total Clean Sheet": 1,
+        "Total Clean Sheet": 2,
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 7,
-        "Total 60 min Appearances": 5,
+        "Total 60 min Appearances": 6,
         "1": {
             "points": 1,
             "tooltip": "5 Sep (A) CHE L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
@@ -68567,8 +68582,8 @@
             "tooltip": "9 Nov (A) EVE W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+            "points": 6,
+            "tooltip": "15 Nov (H) MUN W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -68724,13 +68739,13 @@
         "Nationality": "Germany",
         "News": null,
         "Visionary": true,
-        "Total Points": 8,
+        "Total Points": 9,
         "Selected Percentage": 1.6,
-        "Total Games Played": 5,
+        "Total Games Played": 6,
         "Total Over 4 Gameweeks": 7,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 1.8,
-        "Points Per Million": 1.1,
+        "Points Per Million": 1.3,
         "Points Per Million Over 4 Gameweeks": 1.0,
         "Total Goals": 0,
         "Total Assists": 1,
@@ -68743,7 +68758,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 5,
+        "Total 1 min Appearances": 6,
         "Total 60 min Appearances": 1,
         "1": {
             "points": 1,
@@ -68768,7 +68783,10 @@
             "points": 1,
             "tooltip": "9 Nov (A) EVE W 1-2\n1 min (+1pt)"
         },
-        "9": "-",
+        "9": {
+            "points": 1,
+            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "7 Dec",
@@ -68923,14 +68941,14 @@
         "Nationality": "Switzerland",
         "News": null,
         "Visionary": false,
-        "Total Points": 23,
+        "Total Points": 24,
         "Selected Percentage": 9.7,
-        "Total Games Played": 7,
-        "Total Over 4 Gameweeks": 19,
+        "Total Games Played": 8,
+        "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.8,
-        "Points Per Million": 5.0,
-        "Points Per Million Over 4 Gameweeks": 4.1,
+        "Points Per Game Over 4 Gameweeks": 3.8,
+        "Points Per Million": 5.2,
+        "Points Per Million Over 4 Gameweeks": 3.3,
         "Total Goals": 2,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -68942,7 +68960,7 @@
         "Total Bonus Points": 1,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 7,
+        "Total 1 min Appearances": 8,
         "Total 60 min Appearances": 4,
         "1": {
             "points": 1,
@@ -68973,7 +68991,10 @@
             "points": 5,
             "tooltip": "9 Nov (A) EVE W 1-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "9": "-",
+        "9": {
+            "points": 1,
+            "tooltip": "15 Nov (H) MUN W 3-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "7 Dec",
@@ -69312,14 +69333,14 @@
         "Nationality": "Sweden",
         "News": null,
         "Visionary": false,
-        "Total Points": 21,
+        "Total Points": 22,
         "Selected Percentage": 3.0,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 5,
+        "Total Over 4 Gameweeks": 6,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.2,
-        "Points Per Million": 3.2,
-        "Points Per Million Over 4 Gameweeks": 0.8,
+        "Points Per Game Over 4 Gameweeks": 1.5,
+        "Points Per Million": 3.4,
+        "Points Per Million Over 4 Gameweeks": 0.9,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -69332,7 +69353,7 @@
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 9,
-        "Total 60 min Appearances": 6,
+        "Total 60 min Appearances": 7,
         "1": {
             "points": 3,
             "tooltip": "7 Sep (H) LEI W 4-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
@@ -69366,8 +69387,8 @@
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)"
         },
         "9": {
-            "points": 1,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -71540,14 +71561,14 @@
         "Nationality": "Sweden",
         "News": null,
         "Visionary": false,
-        "Total Points": 16,
+        "Total Points": 17,
         "Selected Percentage": 2.6,
-        "Total Games Played": 7,
-        "Total Over 4 Gameweeks": 6,
+        "Total Games Played": 8,
+        "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.5,
-        "Points Per Million": 1.7,
-        "Points Per Million Over 4 Gameweeks": 0.6,
+        "Points Per Game Over 4 Gameweeks": 1.2,
+        "Points Per Million": 1.8,
+        "Points Per Million Over 4 Gameweeks": 0.5,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -71559,7 +71580,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 7,
+        "Total 1 min Appearances": 8,
         "Total 60 min Appearances": 4,
         "1": "-",
         "2": {
@@ -71590,7 +71611,10 @@
             "points": 1,
             "tooltip": "8 Nov (H) AVL L 0-1\n1 min (+1pt)"
         },
-        "9": "-",
+        "9": {
+            "points": 1,
+            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "7 Dec",
@@ -75571,7 +75595,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 16,
-        "Selected Percentage": 1.7,
+        "Selected Percentage": 1.8,
         "Total Games Played": 7,
         "Total Over 4 Gameweeks": 13,
         "Games Played Over 4 Gameweeks": 4,
