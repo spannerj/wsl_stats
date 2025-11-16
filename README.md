@@ -7,10 +7,8 @@ The ```get_data.py``` script will query the GraphQL endpoint on Aerial to retrie
 ### Testing
 You can run the scripts locally to generate the json files and run a local webserver to see the results:
 
-Simply create a virtual env - ```python -m venv .venv```
+Install dependencies with uv - ```uv sync```
 
-Activate the environment - ```source .venv/bin/activate```
+Run the data script - ```uv run get_data.py```
 
-Install requirements - ```pip install -r requirements.txt```
-
-Run the webserver - ```python -m http.server 8000``` and see the resultant webpage on [http://[::]:8000/](http://[::]:8000/)
+Run the webserver - ```uv run python -m http.server 8000``` and see the resultant webpage on [http://[::]:8000/](http://[::]:8000/)

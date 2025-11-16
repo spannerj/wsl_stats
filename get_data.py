@@ -191,124 +191,14 @@ def get_position_code(position):
 
 
 # --- TOOLTIP FUNCTION ---
-# def create_gw_tooltip(game_data, player_team_code):
-#     """
-#     Creates a detailed, multi-line tooltip string for Gameweek match.
-#     Works directly with API game data structure.
-#     """
-#     game = game_data["game"]
-
-#     # 1. Date Formatting
-#     try:
-#         date_obj = datetime.fromisoformat(game["scheduledAt"].replace("Z", "+00:00"))
-#         date_str = date_obj.strftime("%-d %b")
-#     except (KeyError, ValueError):
-#         date_str = "Date Unknown"
-
-#     # 2. Extract team codes from game ID
-#     game_id = game.get("id", "")
-#     home_team, away_team = extract_teams_from_game_id(game_id)
-
-#     # 3. Determine opponent and location
-#     if player_team_code == home_team:
-#         opponent_team = away_team
-#         location = "(H)"
-#     elif player_team_code == away_team:
-#         opponent_team = home_team
-#         location = "(A)"
-#     else:
-#         opponent_team = "Unknown"
-#         location = ""
-
-#     fixture_line = f"{location} {opponent_team}"
-
-#     # 4. Score and Result (W/D/L) - use already-separated scores
-#     home_score = game.get("home", {}).get("score", 0)
-#     away_score = game.get("away", {}).get("score", 0)
-#     score = f"{home_score}-{away_score}"
-
-#     # Determine result
-#     result_abbr = "D"
-#     if player_team_code == home_team:
-#         player_score, opponent_score = home_score, away_score
-#     elif player_team_code == away_team:
-#         player_score, opponent_score = away_score, home_score
-#     else:
-#         player_score, opponent_score = home_score, away_score
-
-#     if player_score > opponent_score:
-#         result_abbr = "W"
-#     elif player_score < opponent_score:
-#         result_abbr = "L"
-
-#     score_line = f"{result_abbr} {score}"
-#     header_line = f"{date_str} {fixture_line} {score_line}"
-
-#     # 5. Process contributions
-#     contribution_lines = []
-#     CONTRIBUTION_MAP = {
-#         "PlayedOneMinute": "1 min",
-#         "PlayedSixtyMinutes": "60 min",
-#         "Scored": "Goal",
-#         "Assisted": "Assist",
-#         "CleanSheet": "Clean Sheet",
-#         "Bonus": "Bonus",
-#         "ThreeSaves": "Saves",
-#         "GoalLineClearance": "Clearance",
-#         "MissedPenalty": "Missed Pen",
-#         "ReceivedRedCard": "Red Card",
-#         "ReceivedYellowCard": "Yellow Card",
-#         "ScoredOwnGoal": "Own Goal",
-#         "ConcededGoals": "Conceded",
-#     }
-
-#     # Sort contributions by total points (quantity * individualPoints)
-#     contributions = game_data.get("contributions", [])
-#     sorted_contributions = sorted(
-#         contributions,
-#         key=lambda c: c.get("quantity", 1) * c.get("individualPoints", 0),
-#         reverse=True,
-#     )
-
-#     for contrib in sorted_contributions:
-#         contrib_type = contrib["contribution"]
-#         label = CONTRIBUTION_MAP.get(contrib_type, contrib_type)
-#         quantity = contrib.get("quantity", 1)
-#         individual_points = contrib.get("individualPoints", 0)
-#         # Calculate total points for this contribution
-#         total_points = quantity * individual_points
-
-#         # Only include contributions with non-zero points or where it's a card/event
-#         if total_points != 0 or contrib_type in [
-#             "ReceivedRedCard",
-#             "ReceivedYellowCard",
-#             "MissedPenalty",
-#             "ScoredOwnGoal",
-#         ]:
-#             sign = "+" if total_points > 0 else ""
-
-#             if quantity > 1:
-#                 line = f"{label} x{quantity} ({sign}{total_points}pt{'' if abs(total_points) == 1 else 's'})"
-#             else:
-#                 line = f"{label} ({sign}{total_points}pt{'' if abs(total_points) == 1 else 's'})"
-
-#             contribution_lines.append(line)
-
-#     # Combine: Header line, separator, Contribution lines
-#     tooltip_parts = [header_line] + contribution_lines
-#     return "\n".join(tooltip_parts)
-
 def create_gw_tooltip(game_data, player_team_code):
     """
     Creates a detailed, multi-line tooltip string for Gameweek match.
     Works directly with API game data structure.
     """
-    # ... (Sections 1-4 remain unchanged) ...
-
     game = game_data["game"]
     # 1. Date Formatting
     try:
-        from datetime import datetime # Ensure datetime is imported if this is a standalone function
         date_obj = datetime.fromisoformat(game["scheduledAt"].replace("Z", "+00:00"))
         date_str = date_obj.strftime("%-d %b")
     except (KeyError, ValueError, ImportError):
@@ -317,7 +207,7 @@ def create_gw_tooltip(game_data, player_team_code):
     # 2. Extract team codes from game ID
     game_id = game.get("id", "")
     # Assume extract_teams_from_game_id is defined elsewhere
-    home_team, away_team = extract_teams_from_game_id(game_id) 
+    home_team, away_team = extract_teams_from_game_id(game_id)
 
     # 3. Determine opponent and location
     if player_team_code == home_team:
@@ -353,8 +243,7 @@ def create_gw_tooltip(game_data, player_team_code):
     score_line = f"{result_abbr} {score}"
     header_line = f"{date_str} {fixture_line} {score_line}"
 
-
-    # 5. Process contributions (REVISED SECTION)
+    #  5. Process contributions (REVISED SECTION)
     contribution_lines = []
     CONTRIBUTION_MAP = {
         "PlayedOneMinute": "1 min",
@@ -373,9 +262,7 @@ def create_gw_tooltip(game_data, player_team_code):
     }
 
     contributions = game_data.get("contributions", [])
-    
     # ----------------------------------------------------------------------
-    # KEY CHANGE HERE: Use a tuple for the sort key.
     # 1. Sort by total_points (descending: use negative value)
     # 2. Sort by contribution type name (ascending: use name string)
     # This provides a stable and deterministic secondary sort key.
@@ -383,7 +270,7 @@ def create_gw_tooltip(game_data, player_team_code):
     sorted_contributions = sorted(
         contributions,
         key=lambda c: (
-            -1 * (c.get("quantity", 1) * c.get("individualPoints", 0)),  # Primary: Total Points (Negative for Descending)
+            -1 * (c.get("quantity", 1) * c.get("individualPoints", 0)),  # Primary: Total Pts (Negative for Descending)
             c["contribution"]  # Secondary: Contribution Type Name (Ascending)
         )
     )
@@ -449,10 +336,71 @@ def combine_player_and_fixture_data(final_player_list, fixtures_map):
     return all_players_with_fixtures
 
 
-# --- MAIN TRANSFORMATION FUNCTION ---
-def transform_data(output_file="transformed_data.json", recent_games_count=4):
+# --- NEW FUNCTION FOR HISTORY FILE ---
+def update_player_history(final_player_list, history_file="player_history.json"):
     """
-    Fetches data from API, transforms it directly, and saves to output file.
+    Updates the daily historical record for player value and selected percentage.
+    The file will store the latest run's data for the current day.
+    """
+    print(f"Updating historical data in {history_file}...")
+    today_date_str = datetime.now().strftime("%Y-%m-%d")
+
+    # 1. Load existing history data
+    history_data = {}
+    if os.path.exists(history_file) and os.path.getsize(history_file) > 0:
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                history_data = json.load(f)
+        except json.JSONDecodeError:
+            print(f"Warning: {history_file} is corrupted or empty. Starting new history.")
+            history_data = {}
+
+    # 2. Prepare today's data (Player Slug -> {Value, Selected Percentage})
+    today_player_data = {}
+    for player in final_player_list:
+        # Assuming the 'slug' is available in the original API response and should be preserved
+        # Since 'slug' is fetched in get_player_data, let's grab it from there
+        # For simplicity, we'll use the combined 'Name' as a key since the final_player_list
+        # doesn't contain the 'slug' directly from the API response
+        # *A better long-term solution would be to include 'slug' in the final_player object.*
+        player_key = player.get('Name')
+
+        if player_key:
+            # Create a dictionary for the player's current stats
+            today_player_data[player_key] = {
+                "Value": player.get("Value"),
+                "Selected Percentage": player.get("Selected Percentage"),
+            }
+
+    # 3. Update history data for the current date
+    # History data structure: { "Player Name": { "YYYY-MM-DD": { "Value": X, "Selected Percentage": Y }, ... } }
+
+    # Iterate through all players in the current run
+    for player_name, current_stats in today_player_data.items():
+        # Get or initialize the historical record for this player
+        player_history = history_data.get(player_name, {})
+
+        # Update/overwrite the record for today
+        player_history[today_date_str] = current_stats
+
+        # Save the updated history back to the main data structure
+        history_data[player_name] = player_history
+
+    # 4. Save the updated history file
+    try:
+        with open(history_file, "w", encoding="utf-8") as f:
+            json.dump(history_data, f, indent=4, ensure_ascii=False)
+        print(f"Historical data for {today_date_str} saved to {history_file}.")
+    except Exception as e:
+        print(f"Error saving historical data: {e}")
+
+    return history_file  # Return file path for potential git staging
+
+
+# --- MAIN TRANSFORMATION FUNCTION ---
+def transform_data(output_file="transformed_data.json", history_file="player_history.json", recent_games_count=4):
+    """
+    Fetches data from API, transforms it directly, and saves to output file(s).
     """
 
     # 1. Fetch data from API
@@ -625,18 +573,22 @@ def transform_data(output_file="transformed_data.json", recent_games_count=4):
 
     print(f"{len(final_output)} players processed.")
 
-    # Get fixtrure data for teams
+    # 5. Update the player history file
+    update_player_history(final_output, history_file)
+
+    # 6. Get fixture data for teams and combine with main data
     fixtures = get_fixture_data()
     print("Loaded fixtures from API.")
 
     filtered_fixtures = filter_fixtures(fixtures)
     combined_data = combine_player_and_fixture_data(final_output, filtered_fixtures)
 
-    # Save output
+    # 7. Save main output
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(combined_data, f, indent=4, ensure_ascii=False)
     print(f"Data saved to {output_file}")
 
+    # 8. Commit main output to Git (history file is not committed by default)
     commit_changes_to_git()
 
 
@@ -645,10 +597,10 @@ def commit_changes_to_git():
         print("Starting Git operations...")
 
         # 1. Stage the file (Add is required even for status check)
-        subprocess.run(["git", "add", "transformed_data.json"], check=True, cwd=os.getcwd())
+        # Add both files to staging
+        subprocess.run(["git", "add", "transformed_data.json", "player_history.json"], check=True, cwd=os.getcwd())
 
         # 2. Check the status: Run 'git status --porcelain'
-        # The --porcelain format provides an easy-to-parse output.
         status_result = subprocess.run(
             ["git", "status", "--porcelain"],
             check=True,
@@ -657,12 +609,11 @@ def commit_changes_to_git():
             cwd=os.getcwd()
         )
 
-        print(status_result)
-
-        # Check if the staged file appears in the status output
-        # ' M transformed_data.json' or 'A  transformed_data.json' indicates a change
-        if "transformed_data.json" in status_result.stdout:
-            print("File was modified. Proceeding with commit and push.")
+        # Check if either staged file appears in the status output
+        # ' M transformed_data.json', 'A  transformed_data.json',
+        # ' M player_history.json', 'A  player_history.json' indicates a change
+        if "transformed_data.json" in status_result.stdout or "player_history.json" in status_result.stdout:
+            print("One or both files were modified. Proceeding with commit and push.")
 
             # 3. Commit the changes
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -674,7 +625,7 @@ def commit_changes_to_git():
 
             print("Successfully committed and pushed new data to GitHub.")
         else:
-            print("No changes detected in transformed_data.json. Skipping commit and push.")
+            print("No changes detected in tracked files. Skipping commit and push.")
 
     except subprocess.CalledProcessError as e:
         print("A Git command failed.")
@@ -685,7 +636,7 @@ def commit_changes_to_git():
 
 
 # Schedule the transformation to every 3 hours
-schedule.every(3).hour.do(transform_data)  
+schedule.every(3).hours.do(transform_data)
 
 print('Started')
 
