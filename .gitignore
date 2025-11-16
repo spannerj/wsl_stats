@@ -1,0 +1,15 @@
+# Python / uv / pip artifacts
+# Virtual environment directory (common names)
+.venv/
+venv/
+env/
+/site/
+
+.DS_store
+
+# Build artifacts
+# .egg-info folder (generated metadata)
+*.egg-info/
+.eggs/
+dist/
+build/
