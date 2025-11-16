@@ -1,0 +1,1523 @@
+[
+    {
+        "Date": "2025-11-16",
+        "Players": {
+            "Manuela Zinsberger": {
+                "Value": 4.5,
+                "Selected Percentage": 0.9
+            },
+            "Steph Catley": {
+                "Value": 7.0,
+                "Selected Percentage": 9.0
+            },
+            "No\u00eblle Maritz": {
+                "Value": 5.5,
+                "Selected Percentage": 4.5
+            },
+            "Laura Wienroither": {
+                "Value": 4.5,
+                "Selected Percentage": 4.3
+            },
+            "Leah Williamson": {
+                "Value": 7.8,
+                "Selected Percentage": 4.0
+            },
+            "Lotte Wubben-Moy": {
+                "Value": 5.5,
+                "Selected Percentage": 4.8
+            },
+            "Kim Little": {
+                "Value": 8.0,
+                "Selected Percentage": 1.9
+            },
+            "Frida Maanum": {
+                "Value": 8.9,
+                "Selected Percentage": 4.3
+            },
+            "Lia W\u00e4lti": {
+                "Value": 6.5,
+                "Selected Percentage": 0.7
+            },
+            "Stina Blackstenius": {
+                "Value": 9.0,
+                "Selected Percentage": 5.8
+            },
+            "Caitlin Foord": {
+                "Value": 8.5,
+                "Selected Percentage": 5.7
+            },
+            "Katie McCabe": {
+                "Value": 8.0,
+                "Selected Percentage": 20.6
+            },
+            "Beth Mead": {
+                "Value": 9.0,
+                "Selected Percentage": 9.3
+            },
+            "Vivianne Miedema": {
+                "Value": 9.3,
+                "Selected Percentage": 17.1
+            },
+            "Hannah Hampton": {
+                "Value": 6.0,
+                "Selected Percentage": 51.8
+            },
+            "Sarah Mayling": {
+                "Value": 4.5,
+                "Selected Percentage": 4.6
+            },
+            "Maz Pacheco": {
+                "Value": 4.0,
+                "Selected Percentage": 20.8
+            },
+            "Anna Patten": {
+                "Value": 6.0,
+                "Selected Percentage": 12.1
+            },
+            "Evie Rabjohn": {
+                "Value": 4.0,
+                "Selected Percentage": 0.9
+            },
+            "Laura Blindkilde Brown": {
+                "Value": 6.0,
+                "Selected Percentage": 4.1
+            },
+            "Kirsty Hanson": {
+                "Value": 6.0,
+                "Selected Percentage": 9.4
+            },
+            "Rachel Daly": {
+                "Value": 9.0,
+                "Selected Percentage": 4.2
+            },
+            "Katie Startup": {
+                "Value": 4.0,
+                "Selected Percentage": 4.0
+            },
+            "Megan Walsh": {
+                "Value": 4.0,
+                "Selected Percentage": 4.2
+            },
+            "Jorja Fox": {
+                "Value": 4.5,
+                "Selected Percentage": 0.5
+            },
+            "Poppy Pattinson": {
+                "Value": 5.0,
+                "Selected Percentage": 2.6
+            },
+            "Libby Bance": {
+                "Value": 4.0,
+                "Selected Percentage": 1.6
+            },
+            "Maisie Symonds": {
+                "Value": 6.0,
+                "Selected Percentage": 3.4
+            },
+            "Katie Robinson": {
+                "Value": 5.0,
+                "Selected Percentage": 4.5
+            },
+            "Elisabeth Terland": {
+                "Value": 10.7,
+                "Selected Percentage": 6.1
+            },
+            "Millie Bright": {
+                "Value": 8.0,
+                "Selected Percentage": 13.7
+            },
+            "Kadeisha Buchanan": {
+                "Value": 5.5,
+                "Selected Percentage": 0.9
+            },
+            "Niamh Charles": {
+                "Value": 7.4,
+                "Selected Percentage": 3.4
+            },
+            "Erin Cuthbert": {
+                "Value": 8.0,
+                "Selected Percentage": 5.2
+            },
+            "Guro Reiten": {
+                "Value": 9.4,
+                "Selected Percentage": 3.0
+            },
+            "Johanna Rytting Kaneryd": {
+                "Value": 9.5,
+                "Selected Percentage": 4.1
+            },
+            "Jelena Cankovic": {
+                "Value": 6.0,
+                "Selected Percentage": 2.7
+            },
+            "Bethany England": {
+                "Value": 7.5,
+                "Selected Percentage": 7.2
+            },
+            "Lauren James": {
+                "Value": 8.5,
+                "Selected Percentage": 1.5
+            },
+            "Sam Kerr": {
+                "Value": 6.7,
+                "Selected Percentage": 13.9
+            },
+            "Fran Kirby": {
+                "Value": 8.0,
+                "Selected Percentage": 12.0
+            },
+            "Courtney Brosnan": {
+                "Value": 5.3,
+                "Selected Percentage": 2.3
+            },
+            "Emily Ramsey": {
+                "Value": 4.0,
+                "Selected Percentage": 3.7
+            },
+            "Nathalie Bj\u00f6rn": {
+                "Value": 7.0,
+                "Selected Percentage": 6.8
+            },
+            "Megan Finnigan": {
+                "Value": 4.5,
+                "Selected Percentage": 0.8
+            },
+            "Gabrielle George": {
+                "Value": 6.5,
+                "Selected Percentage": 2.7
+            },
+            "Elise Stenevik": {
+                "Value": 4.0,
+                "Selected Percentage": 3.5
+            },
+            "Aurora Galli": {
+                "Value": 4.5,
+                "Selected Percentage": 1.3
+            },
+            "Lucy Hope": {
+                "Value": 4.5,
+                "Selected Percentage": 0.9
+            },
+            "Karen Holmgaard": {
+                "Value": 5.0,
+                "Selected Percentage": 4.4
+            },
+            "Clare Wheeler": {
+                "Value": 5.5,
+                "Selected Percentage": 1.8
+            },
+            "Aggie Beever-Jones": {
+                "Value": 10.2,
+                "Selected Percentage": 27.6
+            },
+            "Jessica Park": {
+                "Value": 8.4,
+                "Selected Percentage": 22.3
+            },
+            "Katja Snoeijs": {
+                "Value": 7.5,
+                "Selected Percentage": 1.1
+            },
+            "Sam Tierney": {
+                "Value": 5.6,
+                "Selected Percentage": 5.0
+            },
+            "Shannon O'Brien": {
+                "Value": 6.0,
+                "Selected Percentage": 0.7
+            },
+            "Hannah Cain": {
+                "Value": 6.5,
+                "Selected Percentage": 1.5
+            },
+            "Missy Goodwin": {
+                "Value": 5.5,
+                "Selected Percentage": 1.3
+            },
+            "Rachael Laws": {
+                "Value": 4.0,
+                "Selected Percentage": 2.4
+            },
+            "Taylor Hinds": {
+                "Value": 6.5,
+                "Selected Percentage": 2.3
+            },
+            "Missy Kearns": {
+                "Value": 6.5,
+                "Selected Percentage": 3.2
+            },
+            "Ceri Holland": {
+                "Value": 7.0,
+                "Selected Percentage": 1.5
+            },
+            "Leanne Kiernan": {
+                "Value": 6.5,
+                "Selected Percentage": 1.4
+            },
+            "Khiara Keating": {
+                "Value": 4.5,
+                "Selected Percentage": 6.8
+            },
+            "Kerstin Casparij": {
+                "Value": 7.3,
+                "Selected Percentage": 27.8
+            },
+            "Alex Greenwood": {
+                "Value": 6.8,
+                "Selected Percentage": 16.4
+            },
+            "Ruby Mace": {
+                "Value": 4.5,
+                "Selected Percentage": 8.7
+            },
+            "Leila Ouahabi": {
+                "Value": 6.5,
+                "Selected Percentage": 4.2
+            },
+            "Laura Coombs": {
+                "Value": 6.0,
+                "Selected Percentage": 1.7
+            },
+            "Yui Hasegawa": {
+                "Value": 7.3,
+                "Selected Percentage": 17.7
+            },
+            "Hayley Raso": {
+                "Value": 5.0,
+                "Selected Percentage": 0.6
+            },
+            "Mary Fowler": {
+                "Value": 8.5,
+                "Selected Percentage": 0.2
+            },
+            "Lauren Hemp": {
+                "Value": 8.5,
+                "Selected Percentage": 6.6
+            },
+            "Chloe Kelly": {
+                "Value": 7.5,
+                "Selected Percentage": 20.5
+            },
+            "Khadija Shaw": {
+                "Value": 12.0,
+                "Selected Percentage": 21.5
+            },
+            "Sophie Baggaley": {
+                "Value": 4.5,
+                "Selected Percentage": 4.0
+            },
+            "Hannah Blundell": {
+                "Value": 6.0,
+                "Selected Percentage": 1.5
+            },
+            "Maya Le Tissier": {
+                "Value": 8.0,
+                "Selected Percentage": 37.3
+            },
+            "Millie Turner": {
+                "Value": 6.9,
+                "Selected Percentage": 1.3
+            },
+            "Grace Clinton": {
+                "Value": 10.0,
+                "Selected Percentage": 6.3
+            },
+            "Leah Galton": {
+                "Value": 8.5,
+                "Selected Percentage": 0.7
+            },
+            "Hayley Ladd": {
+                "Value": 4.5,
+                "Selected Percentage": 4.9
+            },
+            "Lucy Staniforth": {
+                "Value": 5.0,
+                "Selected Percentage": 2.1
+            },
+            "Ella Toone": {
+                "Value": 9.1,
+                "Selected Percentage": 37.4
+            },
+            "Nikita Parris": {
+                "Value": 7.8,
+                "Selected Percentage": 8.1
+            },
+            "Alessia Russo": {
+                "Value": 12.3,
+                "Selected Percentage": 43.5
+            },
+            "Martha Thomas": {
+                "Value": 5.5,
+                "Selected Percentage": 3.1
+            },
+            "Rachel Williams": {
+                "Value": 6.0,
+                "Selected Percentage": 1.2
+            },
+            "Gemma Evans": {
+                "Value": 4.0,
+                "Selected Percentage": 6.7
+            },
+            "Rebecca Spencer": {
+                "Value": 4.5,
+                "Selected Percentage": 0.5
+            },
+            "Asmita Ale": {
+                "Value": 5.0,
+                "Selected Percentage": 1.0
+            },
+            "Molly Bartrip": {
+                "Value": 4.5,
+                "Selected Percentage": 1.8
+            },
+            "Ashleigh Neville": {
+                "Value": 5.5,
+                "Selected Percentage": 3.1
+            },
+            "Amy James-Turner": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Shelina Zadorsky": {
+                "Value": 5.0,
+                "Selected Percentage": 1.1
+            },
+            "Drew Spence": {
+                "Value": 6.5,
+                "Selected Percentage": 1.6
+            },
+            "Eveliina Summanen": {
+                "Value": 6.0,
+                "Selected Percentage": 5.7
+            },
+            "Celin Bizet": {
+                "Value": 8.5,
+                "Selected Percentage": 1.5
+            },
+            "Kit Graham": {
+                "Value": 4.5,
+                "Selected Percentage": 2.5
+            },
+            "Jessica Naz": {
+                "Value": 6.5,
+                "Selected Percentage": 2.9
+            },
+            "Grace Fisk": {
+                "Value": 5.0,
+                "Selected Percentage": 6.4
+            },
+            "Lucy Parker": {
+                "Value": 5.5,
+                "Selected Percentage": 2.2
+            },
+            "Risa Shimizu": {
+                "Value": 4.0,
+                "Selected Percentage": 2.5
+            },
+            "Honoka Hayashi": {
+                "Value": 7.0,
+                "Selected Percentage": 0.9
+            },
+            "Halle Houssein": {
+                "Value": 4.0,
+                "Selected Percentage": 2.1
+            },
+            "Jess Ziu": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Viviane Asseyi": {
+                "Value": 9.0,
+                "Selected Percentage": 1.7
+            },
+            "Gemma Bonner": {
+                "Value": 5.5,
+                "Selected Percentage": 3.9
+            },
+            "Victoria Pelova": {
+                "Value": 6.5,
+                "Selected Percentage": 1.9
+            },
+            "Sofie Lundgaard": {
+                "Value": 4.0,
+                "Selected Percentage": 2.9
+            },
+            "Sabrina D'Angelo": {
+                "Value": 4.5,
+                "Selected Percentage": 5.8
+            },
+            "Maika Hamano": {
+                "Value": 7.6,
+                "Selected Percentage": 2.4
+            },
+            "Amber Tysiak": {
+                "Value": 5.5,
+                "Selected Percentage": 2.4
+            },
+            "Janina Leitzig": {
+                "Value": 4.5,
+                "Selected Percentage": 3.6
+            },
+            "Jayde Riviere": {
+                "Value": 7.0,
+                "Selected Percentage": 8.6
+            },
+            "Anouk Denton": {
+                "Value": 5.5,
+                "Selected Percentage": 1.3
+            },
+            "Lisa Naalsund": {
+                "Value": 6.0,
+                "Selected Percentage": 0.9
+            },
+            "Miri Taylor": {
+                "Value": 5.0,
+                "Selected Percentage": 0.6
+            },
+            "Fuka Nagano": {
+                "Value": 6.5,
+                "Selected Percentage": 1.3
+            },
+            "Lenna Gunning-Williams": {
+                "Value": 4.5,
+                "Selected Percentage": 3.5
+            },
+            "Hannah Silcock": {
+                "Value": 4.0,
+                "Selected Percentage": 0.7
+            },
+            "Faye Kirby": {
+                "Value": 4.0,
+                "Selected Percentage": 2.6
+            },
+            "Daphne van Domselaar": {
+                "Value": 5.5,
+                "Selected Percentage": 15.6
+            },
+            "Charlize Rule": {
+                "Value": 4.1,
+                "Selected Percentage": 8.7
+            },
+            "Madison Haley": {
+                "Value": 6.0,
+                "Selected Percentage": 0.3
+            },
+            "Olivia Clark": {
+                "Value": 4.0,
+                "Selected Percentage": 1.4
+            },
+            "Naomi Layzell": {
+                "Value": 4.5,
+                "Selected Percentage": 0.5
+            },
+            "Cerys Brown": {
+                "Value": 4.0,
+                "Selected Percentage": 0.8
+            },
+            "Sjoeke N\u00fcsken": {
+                "Value": 8.0,
+                "Selected Percentage": 1.3
+            },
+            "Catarina Mac\u00e1rio": {
+                "Value": 9.5,
+                "Selected Percentage": 1.1
+            },
+            "Janice Cayman": {
+                "Value": 6.5,
+                "Selected Percentage": 1.1
+            },
+            "Jenna Clark": {
+                "Value": 4.5,
+                "Selected Percentage": 1.9
+            },
+            "Lucy Parry": {
+                "Value": 4.0,
+                "Selected Percentage": 1.4
+            },
+            "Marie-Therese H\u00f6binger": {
+                "Value": 8.0,
+                "Selected Percentage": 1.1
+            },
+            "Mia Enderby": {
+                "Value": 5.5,
+                "Selected Percentage": 2.9
+            },
+            "Eleanor Heeps": {
+                "Value": 4.0,
+                "Selected Percentage": 1.3
+            },
+            "Princess Ademiluyi": {
+                "Value": 4.5,
+                "Selected Percentage": 0.2
+            },
+            "Emma Watson": {
+                "Value": 4.5,
+                "Selected Percentage": 0.9
+            },
+            "Laia Codina": {
+                "Value": 5.0,
+                "Selected Percentage": 0.7
+            },
+            "Julie Thibaud": {
+                "Value": 5.0,
+                "Selected Percentage": 1.4
+            },
+            "Hinata Miyazawa": {
+                "Value": 7.5,
+                "Selected Percentage": 2.2
+            },
+            "Sophie Haug": {
+                "Value": 7.5,
+                "Selected Percentage": 0.4
+            },
+            "Ebony Salmon": {
+                "Value": 7.0,
+                "Selected Percentage": 2.0
+            },
+            "Riko Ueki": {
+                "Value": 7.5,
+                "Selected Percentage": 0.5
+            },
+            "Jorelyn Carabal\u00ed": {
+                "Value": 4.5,
+                "Selected Percentage": 0.7
+            },
+            "Phallon Tullis-Joyce": {
+                "Value": 6.0,
+                "Selected Percentage": 26.0
+            },
+            "Kyra Cooney-Cross": {
+                "Value": 7.0,
+                "Selected Percentage": 2.2
+            },
+            "Melvine Malard": {
+                "Value": 8.6,
+                "Selected Percentage": 16.5
+            },
+            "Brooke Aspin": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Luana B\u00fchler": {
+                "Value": 4.5,
+                "Selected Percentage": 0.4
+            },
+            "Olga Ahtinen": {
+                "Value": 4.1,
+                "Selected Percentage": 10.6
+            },
+            "Jutta Rantala": {
+                "Value": 5.0,
+                "Selected Percentage": 0.3
+            },
+            "Safia Middleton-Patel": {
+                "Value": 4.0,
+                "Selected Percentage": 1.0
+            },
+            "Katie O'Hanlon": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Matilda Vinberg": {
+                "Value": 5.0,
+                "Selected Percentage": 1.4
+            },
+            "Charlotte Grant": {
+                "Value": 4.0,
+                "Selected Percentage": 7.2
+            },
+            "Katrina Gorry": {
+                "Value": 7.5,
+                "Selected Percentage": 4.0
+            },
+            "Nicole Momiki": {
+                "Value": 6.5,
+                "Selected Percentage": 1.8
+            },
+            "Emily Fox": {
+                "Value": 7.5,
+                "Selected Percentage": 12.4
+            },
+            "Amanda Nild\u00e9n": {
+                "Value": 5.6,
+                "Selected Percentage": 12.0
+            },
+            "Simone Sherwood": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Lize Kop": {
+                "Value": 4.5,
+                "Selected Percentage": 12.2
+            },
+            "Naomi Williams": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Vivienne Lia": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Lydia Sallaway": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Jessica Pegram": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Lily Dent": {
+                "Value": 4.5,
+                "Selected Percentage": 0.9
+            },
+            "Issy Hobson": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Macy Settle": {
+                "Value": 4.0,
+                "Selected Percentage": 0.6
+            },
+            "Denny Draper": {
+                "Value": 4.5,
+                "Selected Percentage": 0.4
+            },
+            "Eva Spencer": {
+                "Value": 4.0,
+                "Selected Percentage": 0.6
+            },
+            "Lucy Newell": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Soraya Walsh": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Mayra Ram\u00edrez": {
+                "Value": 9.9,
+                "Selected Percentage": 0.3
+            },
+            "Tara O'Hanlon": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Poppy Pritchard": {
+                "Value": 4.5,
+                "Selected Percentage": 0.2
+            },
+            "Katie Reid": {
+                "Value": 4.6,
+                "Selected Percentage": 7.5
+            },
+            "Maddy Earl": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Olivia Johnson": {
+                "Value": 4.0,
+                "Selected Percentage": 0.8
+            },
+            "Freya Godfrey": {
+                "Value": 4.0,
+                "Selected Percentage": 14.7
+            },
+            "Laila Harbert": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Mariona Caldentey": {
+                "Value": 10.1,
+                "Selected Percentage": 33.2
+            },
+            "Michelle Agyemang": {
+                "Value": 5.7,
+                "Selected Percentage": 16.7
+            },
+            "Paula Tom\u00e1s": {
+                "Value": 4.0,
+                "Selected Percentage": 1.3
+            },
+            "Jill Baijings": {
+                "Value": 4.4,
+                "Selected Percentage": 1.1
+            },
+            "Ruby-Rae Tucker": {
+                "Value": 4.5,
+                "Selected Percentage": 0.5
+            },
+            "Rachel McLauchlan": {
+                "Value": 5.5,
+                "Selected Percentage": 3.3
+            },
+            "Marisa Olislagers": {
+                "Value": 5.7,
+                "Selected Percentage": 7.0
+            },
+            "Marit Au\u00e9e": {
+                "Value": 4.0,
+                "Selected Percentage": 0.7
+            },
+            "Kiko Seike": {
+                "Value": 8.0,
+                "Selected Percentage": 2.1
+            },
+            "Bex Rayner": {
+                "Value": 4.5,
+                "Selected Percentage": 0.3
+            },
+            "Aisha Masaka": {
+                "Value": 4.5,
+                "Selected Percentage": 0.3
+            },
+            "Alejandra Bernab\u00e9": {
+                "Value": 5.5,
+                "Selected Percentage": 0.6
+            },
+            "Lucy Bronze": {
+                "Value": 7.9,
+                "Selected Percentage": 7.4
+            },
+            "Lexi Potter": {
+                "Value": 5.5,
+                "Selected Percentage": 0.2
+            },
+            "J\u00falia Bartel": {
+                "Value": 4.5,
+                "Selected Percentage": 0.1
+            },
+            "Oriane Jean-Fran\u00e7ois": {
+                "Value": 6.0,
+                "Selected Percentage": 0.2
+            },
+            "Sandy Baltimore": {
+                "Value": 8.1,
+                "Selected Percentage": 4.6
+            },
+            "Kinga Szemik": {
+                "Value": 5.0,
+                "Selected Percentage": 1.5
+            },
+            "Camila S\u00e1ez": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Ella Morris": {
+                "Value": 4.0,
+                "Selected Percentage": 0.2
+            },
+            "Araya Dennis": {
+                "Value": 4.5,
+                "Selected Percentage": 0.7
+            },
+            "Anna Sandberg": {
+                "Value": 4.9,
+                "Selected Percentage": 20.5
+            },
+            "Dominique Janssen": {
+                "Value": 7.0,
+                "Selected Percentage": 5.4
+            },
+            "Simi Awujo": {
+                "Value": 6.0,
+                "Selected Percentage": 0.4
+            },
+            "Keira Barry": {
+                "Value": 4.0,
+                "Selected Percentage": 1.3
+            },
+            "Eve Annets": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Ayaka Yamashita": {
+                "Value": 4.5,
+                "Selected Percentage": 4.0
+            },
+            "Aoba Fujino": {
+                "Value": 8.1,
+                "Selected Percentage": 6.6
+            },
+            "Chantelle Swaby": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Sari Kees": {
+                "Value": 4.0,
+                "Selected Percentage": 4.0
+            },
+            "No\u00e9mie Mouchon": {
+                "Value": 4.5,
+                "Selected Percentage": 1.1
+            },
+            "Maddy Duffy": {
+                "Value": 4.0,
+                "Selected Percentage": 0.9
+            },
+            "Zara Shaw": {
+                "Value": 4.5,
+                "Selected Percentage": 0.9
+            },
+            "Olivia Smith": {
+                "Value": 9.4,
+                "Selected Percentage": 8.9
+            },
+            "Inma Gabarro": {
+                "Value": 4.5,
+                "Selected Percentage": 0.2
+            },
+            "Toni Payne": {
+                "Value": 6.0,
+                "Selected Percentage": 0.7
+            },
+            "Ellie Jones": {
+                "Value": 4.5,
+                "Selected Percentage": 0.5
+            },
+            "Kenzie Weir": {
+                "Value": 4.0,
+                "Selected Percentage": 0.5
+            },
+            "Wieke Kaptein": {
+                "Value": 7.1,
+                "Selected Percentage": 10.7
+            },
+            "Chasity Grant": {
+                "Value": 7.0,
+                "Selected Percentage": 2.9
+            },
+            "Rosa Kafaji": {
+                "Value": 6.1,
+                "Selected Percentage": 12.6
+            },
+            "Cornelia Kapocs": {
+                "Value": 6.0,
+                "Selected Percentage": 3.1
+            },
+            "Gracie Prior": {
+                "Value": 4.5,
+                "Selected Percentage": 3.0
+            },
+            "Codie Thomas": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Sacha Lewis": {
+                "Value": 4.0,
+                "Selected Percentage": 0.2
+            },
+            "Eve O'Carroll": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Lily Murphy": {
+                "Value": 5.0,
+                "Selected Percentage": 1.3
+            },
+            "Clare Hunt": {
+                "Value": 4.1,
+                "Selected Percentage": 15.8
+            },
+            "Manuela Pav\u00ed": {
+                "Value": 6.0,
+                "Selected Percentage": 0.2
+            },
+            "Maelys Mpome": {
+                "Value": 5.0,
+                "Selected Percentage": 1.0
+            },
+            "Anna Csiki": {
+                "Value": 4.5,
+                "Selected Percentage": 0.3
+            },
+            "Oona Siren": {
+                "Value": 6.0,
+                "Selected Percentage": 0.9
+            },
+            "Gabriela Nunes da Silva": {
+                "Value": 6.0,
+                "Selected Percentage": 0.5
+            },
+            "Lily Woodham": {
+                "Value": 5.0,
+                "Selected Percentage": 1.3
+            },
+            "Maite Oroz": {
+                "Value": 6.0,
+                "Selected Percentage": 0.3
+            },
+            "Seraina Piubel": {
+                "Value": 5.0,
+                "Selected Percentage": 2.2
+            },
+            "Shana Chossenotte": {
+                "Value": 5.5,
+                "Selected Percentage": 0.0
+            },
+            "Poppy Groves": {
+                "Value": 4.0,
+                "Selected Percentage": 0.5
+            },
+            "Sammy Kaczmar": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Nelly Las": {
+                "Value": 4.0,
+                "Selected Percentage": 0.5
+            },
+            "Ffion Bowen": {
+                "Value": 4.5,
+                "Selected Percentage": 0.4
+            },
+            "Soffia Kelly": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Rebecca Knaak": {
+                "Value": 6.5,
+                "Selected Percentage": 0.4
+            },
+            "Kelly Gago": {
+                "Value": 6.0,
+                "Selected Percentage": 2.3
+            },
+            "Shekiera Martinez": {
+                "Value": 7.8,
+                "Selected Percentage": 2.7
+            },
+            "Olivia Holdt": {
+                "Value": 5.5,
+                "Selected Percentage": 4.0
+            },
+            "Martina Fern\u00e1ndez": {
+                "Value": 5.5,
+                "Selected Percentage": 2.4
+            },
+            "Louna Ribadeira": {
+                "Value": 4.5,
+                "Selected Percentage": 0.1
+            },
+            "Samantha Kerr": {
+                "Value": 5.5,
+                "Selected Percentage": 7.3
+            },
+            "Kayla Rendell": {
+                "Value": 4.0,
+                "Selected Percentage": 0.5
+            },
+            "Evie Milner": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Tahirah Heron": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Mia Balmer": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Rebecca Guy": {
+                "Value": 4.0,
+                "Selected Percentage": 0.2
+            },
+            "Jessica Brady": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Rubie Deaville": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Cerys Neil": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Jessica Lightfoot": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Erin Caldecott": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Neve McDonald": {
+                "Value": 4.0,
+                "Selected Percentage": 0.5
+            },
+            "Mayzee Davies": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Jessica Anderson": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Mared Griffiths": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Zara Bailey": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Jhanaie Dezire-Pierre": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Elliana Martin": {
+                "Value": 4.5,
+                "Selected Percentage": 0.1
+            },
+            "Verena Hanshaw": {
+                "Value": 5.0,
+                "Selected Percentage": 1.6
+            },
+            "Kerolin Nicoli Israel Ferraz": {
+                "Value": 7.5,
+                "Selected Percentage": 0.8
+            },
+            "Caitlin Hayes": {
+                "Value": 4.1,
+                "Selected Percentage": 7.7
+            },
+            "Naomi Girma": {
+                "Value": 6.2,
+                "Selected Percentage": 3.2
+            },
+            "Eva Nystr\u00f6m": {
+                "Value": 4.5,
+                "Selected Percentage": 0.7
+            },
+            "Silvana Miranda": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Josefine Rybrink": {
+                "Value": 4.0,
+                "Selected Percentage": 3.6
+            },
+            "Jenna Nighswonger": {
+                "Value": 5.0,
+                "Selected Percentage": 0.3
+            },
+            "Hl\u00edn Eir\u00edksd\u00f3ttir": {
+                "Value": 4.0,
+                "Selected Percentage": 1.7
+            },
+            "Nadine Noordam": {
+                "Value": 5.0,
+                "Selected Percentage": 1.1
+            },
+            "Femke Liefting": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Keira Walsh": {
+                "Value": 6.5,
+                "Selected Percentage": 18.3
+            },
+            "Niamh Peacock": {
+                "Value": 4.0,
+                "Selected Percentage": 0.2
+            },
+            "Sophie Jackson": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Anneke Borbe": {
+                "Value": 4.0,
+                "Selected Percentage": 0.2
+            },
+            "Cecily Wellesley-Smith": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Jessie Gale": {
+                "Value": 4.5,
+                "Selected Percentage": 0.1
+            },
+            "Ellie Roebuck": {
+                "Value": 5.0,
+                "Selected Percentage": 10.6
+            },
+            "Lynn Wilms": {
+                "Value": 6.6,
+                "Selected Percentage": 7.9
+            },
+            "Oc\u00e9ane Deslandes": {
+                "Value": 6.0,
+                "Selected Percentage": 1.2
+            },
+            "Rachel Maltby": {
+                "Value": 4.0,
+                "Selected Percentage": 2.1
+            },
+            "Lucia Kendall": {
+                "Value": 5.5,
+                "Selected Percentage": 1.7
+            },
+            "Mia Sorrentino": {
+                "Value": 4.5,
+                "Selected Percentage": 0.3
+            },
+            "Chiamaka Nnadozie": {
+                "Value": 5.0,
+                "Selected Percentage": 7.7
+            },
+            "Manuela Vanegas": {
+                "Value": 5.0,
+                "Selected Percentage": 0.6
+            },
+            "Moeka Minami": {
+                "Value": 5.5,
+                "Selected Percentage": 3.5
+            },
+            "Carla Camacho": {
+                "Value": 4.5,
+                "Selected Percentage": 1.6
+            },
+            "Livia Peng": {
+                "Value": 4.5,
+                "Selected Percentage": 0.5
+            },
+            "Ellie Carpenter": {
+                "Value": 7.7,
+                "Selected Percentage": 27.6
+            },
+            "Mara Alber": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Ashanti Akpan": {
+                "Value": 4.5,
+                "Selected Percentage": 0.1
+            },
+            "Chloe Sarwie": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Rion Ishikawa": {
+                "Value": 4.0,
+                "Selected Percentage": 1.7
+            },
+            "Hikaru Kitagawa": {
+                "Value": 4.5,
+                "Selected Percentage": 0.9
+            },
+            "Rosa van Gool": {
+                "Value": 4.5,
+                "Selected Percentage": 0.6
+            },
+            "Aisha Nsangou": {
+                "Value": 4.0,
+                "Selected Percentage": 0.2
+            },
+            "Ornella Vignola": {
+                "Value": 5.1,
+                "Selected Percentage": 33.7
+            },
+            "Katie Keane": {
+                "Value": 4.0,
+                "Selected Percentage": 0.9
+            },
+            "Celeste Boureille": {
+                "Value": 4.0,
+                "Selected Percentage": 1.2
+            },
+            "Rafaela Borggr\u00e4fe": {
+                "Value": 4.0,
+                "Selected Percentage": 4.9
+            },
+            "Kirsty MacLean": {
+                "Value": 6.5,
+                "Selected Percentage": 0.5
+            },
+            "Elene Lete": {
+                "Value": 4.0,
+                "Selected Percentage": 9.2
+            },
+            "Sophie Hillyerd": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Emily Orman": {
+                "Value": 4.0,
+                "Selected Percentage": 2.0
+            },
+            "Alexa Uttridge": {
+                "Value": 4.0,
+                "Selected Percentage": 2.5
+            },
+            "Elena Linari": {
+                "Value": 5.0,
+                "Selected Percentage": 6.4
+            },
+            "Teyah Goldie": {
+                "Value": 4.5,
+                "Selected Percentage": 6.9
+            },
+            "Isa Kardinaal": {
+                "Value": 4.0,
+                "Selected Percentage": 0.3
+            },
+            "Julia Roddar": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Maddi Wilde": {
+                "Value": 4.0,
+                "Selected Percentage": 0.6
+            },
+            "Rofiat Imuran": {
+                "Value": 4.0,
+                "Selected Percentage": 1.3
+            },
+            "Dani\u00eblle van de Donk": {
+                "Value": 6.4,
+                "Selected Percentage": 5.0
+            },
+            "Saki Kumagai": {
+                "Value": 4.0,
+                "Selected Percentage": 7.1
+            },
+            "Gesa Marashi": {
+                "Value": 4.0,
+                "Selected Percentage": 0.2
+            },
+            "Mar\u00eda P\u00e9rez": {
+                "Value": 4.0,
+                "Selected Percentage": 4.4
+            },
+            "Mia Hamilton": {
+                "Value": 4.0,
+                "Selected Percentage": 0.8
+            },
+            "Lola Singer": {
+                "Value": 4.0,
+                "Selected Percentage": 1.3
+            },
+            "Sanni Franssi": {
+                "Value": 5.0,
+                "Selected Percentage": 1.3
+            },
+            "Kosovare Asllani": {
+                "Value": 6.7,
+                "Selected Percentage": 11.7
+            },
+            "Sofia Jakobsson": {
+                "Value": 6.0,
+                "Selected Percentage": 1.1
+            },
+            "Lotta Lindstr\u00f6m": {
+                "Value": 4.5,
+                "Selected Percentage": 0.9
+            },
+            "Isobel Goodwin": {
+                "Value": 7.5,
+                "Selected Percentage": 4.3
+            },
+            "Corinne Henson": {
+                "Value": 4.5,
+                "Selected Percentage": 0.2
+            },
+            "Emily Vennard": {
+                "Value": 4.5,
+                "Selected Percentage": 0.5
+            },
+            "Eartha Cumings": {
+                "Value": 5.0,
+                "Selected Percentage": 1.1
+            },
+            "Jade Rose": {
+                "Value": 4.0,
+                "Selected Percentage": 5.6
+            },
+            "Sydney Lohmann": {
+                "Value": 7.0,
+                "Selected Percentage": 1.6
+            },
+            "Iman Beney": {
+                "Value": 4.6,
+                "Selected Percentage": 9.4
+            },
+            "Scarlett Hill": {
+                "Value": 4.0,
+                "Selected Percentage": 0.8
+            },
+            "Julia Zigiotti Olme": {
+                "Value": 6.5,
+                "Selected Percentage": 3.1
+            },
+            "Tamira Livingston": {
+                "Value": 4.0,
+                "Selected Percentage": 0.5
+            },
+            "Erin Radbourne": {
+                "Value": 4.0,
+                "Selected Percentage": 1.8
+            },
+            "Toko Koga": {
+                "Value": 4.5,
+                "Selected Percentage": 10.3
+            },
+            "In\u00e8s Belloumou": {
+                "Value": 4.5,
+                "Selected Percentage": 0.4
+            },
+            "Selin Cemal": {
+                "Value": 4.0,
+                "Selected Percentage": 1.2
+            },
+            "Sarah Brasero-Carreira": {
+                "Value": 4.0,
+                "Selected Percentage": 0.6
+            },
+            "Yu Endo": {
+                "Value": 4.5,
+                "Selected Percentage": 1.2
+            },
+            "Keira Flannery": {
+                "Value": 4.0,
+                "Selected Percentage": 0.4
+            },
+            "Ffion Morgan": {
+                "Value": 6.4,
+                "Selected Percentage": 6.1
+            },
+            "Emily Brown": {
+                "Value": 4.5,
+                "Selected Percentage": 0.6
+            },
+            "Fridolina Rolf\u00f6": {
+                "Value": 9.4,
+                "Selected Percentage": 2.6
+            },
+            "Jana Fern\u00e1ndez": {
+                "Value": 5.9,
+                "Selected Percentage": 10.8
+            },
+            "Veerle Buurman": {
+                "Value": 5.0,
+                "Selected Percentage": 1.1
+            },
+            "Heather Payne": {
+                "Value": 5.0,
+                "Selected Percentage": 1.1
+            },
+            "Maya Hijikata": {
+                "Value": 4.5,
+                "Selected Percentage": 0.3
+            },
+            "Leila Wandeler": {
+                "Value": 4.5,
+                "Selected Percentage": 0.6
+            },
+            "Katie Zelem": {
+                "Value": 6.5,
+                "Selected Percentage": 3.4
+            },
+            "Alanna Kennedy": {
+                "Value": 5.5,
+                "Selected Percentage": 7.4
+            },
+            "Wassa Sangar\u00e9": {
+                "Value": 4.0,
+                "Selected Percentage": 3.0
+            },
+            "Fuka Tsunoda": {
+                "Value": 4.0,
+                "Selected Percentage": 1.4
+            },
+            "Emily Van Egmond": {
+                "Value": 5.5,
+                "Selected Percentage": 5.2
+            },
+            "Beata Olsson": {
+                "Value": 6.5,
+                "Selected Percentage": 0.3
+            },
+            "Luc\u00eda Corrales": {
+                "Value": 4.5,
+                "Selected Percentage": 2.2
+            },
+            "Emilia Szymczak": {
+                "Value": 4.5,
+                "Selected Percentage": 0.5
+            },
+            "Olivia McLoughlin": {
+                "Value": 4.5,
+                "Selected Percentage": 1.4
+            },
+            "Cathinka Tandberg": {
+                "Value": 5.9,
+                "Selected Percentage": 17.7
+            },
+            "Rosella Ayane": {
+                "Value": 5.0,
+                "Selected Percentage": 0.5
+            },
+            "Grace Geyoro": {
+                "Value": 9.0,
+                "Selected Percentage": 1.1
+            },
+            "Alyssa Thompson": {
+                "Value": 9.5,
+                "Selected Percentage": 2.0
+            },
+            "Georgia Mullet": {
+                "Value": 4.5,
+                "Selected Percentage": 1.4
+            },
+            "Lucy Morgan": {
+                "Value": 4.5,
+                "Selected Percentage": 0.3
+            },
+            "Taylor Warren": {
+                "Value": 4.5,
+                "Selected Percentage": 0.1
+            },
+            "Rachael Adedini": {
+                "Value": 4.5,
+                "Selected Percentage": 0.1
+            },
+            "Sophia Poor": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Hannah Poulter": {
+                "Value": 4.0,
+                "Selected Percentage": 0.1
+            },
+            "Amelia Oldroyd": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Samira Shikhshabekova": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Millie Burdon": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Amy Liddiard": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Katie Scott": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Imogen Seymour": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            },
+            "Sophie Harwood": {
+                "Value": 4.0,
+                "Selected Percentage": 0.0
+            }
+        }
+    }
+]
