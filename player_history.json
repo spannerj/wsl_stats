@@ -3,10 +3,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
         }
     },
     "Steph Catley": {
         "2025-11-16": {
+            "Value": 7.0,
+            "Selected Percentage": 9.0
+        },
+        "2025-11-17": {
             "Value": 7.0,
             "Selected Percentage": 9.0
         }
@@ -15,10 +23,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 4.6
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 4.6
         }
     },
     "Laura Wienroither": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 4.3
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 4.3
         }
@@ -27,10 +43,18 @@
         "2025-11-16": {
             "Value": 7.8,
             "Selected Percentage": 4.0
+        },
+        "2025-11-17": {
+            "Value": 7.8,
+            "Selected Percentage": 4.0
         }
     },
     "Lotte Wubben-Moy": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 5.1
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 5.1
         }
@@ -39,16 +63,28 @@
         "2025-11-16": {
             "Value": 8.0,
             "Selected Percentage": 1.8
+        },
+        "2025-11-17": {
+            "Value": 8.0,
+            "Selected Percentage": 1.8
         }
     },
     "Frida Maanum": {
         "2025-11-16": {
             "Value": 8.9,
             "Selected Percentage": 4.3
+        },
+        "2025-11-17": {
+            "Value": 8.9,
+            "Selected Percentage": 4.2
         }
     },
     "Lia Wälti": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 0.7
         }
@@ -57,16 +93,28 @@
         "2025-11-16": {
             "Value": 9.1,
             "Selected Percentage": 6.3
+        },
+        "2025-11-17": {
+            "Value": 9.1,
+            "Selected Percentage": 6.3
         }
     },
     "Caitlin Foord": {
         "2025-11-16": {
             "Value": 8.5,
             "Selected Percentage": 5.8
+        },
+        "2025-11-17": {
+            "Value": 8.5,
+            "Selected Percentage": 5.7
         }
     },
     "Katie McCabe": {
         "2025-11-16": {
+            "Value": 8.0,
+            "Selected Percentage": 20.2
+        },
+        "2025-11-17": {
             "Value": 8.0,
             "Selected Percentage": 20.2
         }
@@ -75,10 +123,18 @@
         "2025-11-16": {
             "Value": 9.0,
             "Selected Percentage": 9.3
+        },
+        "2025-11-17": {
+            "Value": 9.0,
+            "Selected Percentage": 9.3
         }
     },
     "Vivianne Miedema": {
         "2025-11-16": {
+            "Value": 9.3,
+            "Selected Percentage": 17.6
+        },
+        "2025-11-17": {
             "Value": 9.3,
             "Selected Percentage": 17.6
         }
@@ -87,10 +143,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 41.1
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 40.8
         }
     },
     "Sarah Mayling": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 4.5
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 4.5
         }
@@ -99,10 +163,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 20.4
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 20.3
         }
     },
     "Anna Patten": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 12.8
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 12.8
         }
@@ -111,10 +183,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.9
         }
     },
     "Laura Blindkilde Brown": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 4.0
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 4.0
         }
@@ -123,10 +203,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 9.6
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 9.6
         }
     },
     "Rachel Daly": {
         "2025-11-16": {
+            "Value": 9.0,
+            "Selected Percentage": 4.2
+        },
+        "2025-11-17": {
             "Value": 9.0,
             "Selected Percentage": 4.2
         }
@@ -135,10 +223,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 3.9
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 3.9
         }
     },
     "Megan Walsh": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 4.0
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 4.0
         }
@@ -147,16 +243,28 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
         }
     },
     "Poppy Pattinson": {
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 2.6
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 2.5
         }
     },
     "Libby Bance": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.6
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.6
         }
@@ -165,10 +273,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 3.3
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 3.3
         }
     },
     "Katie Robinson": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 4.4
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 4.4
         }
@@ -177,10 +293,18 @@
         "2025-11-16": {
             "Value": 10.7,
             "Selected Percentage": 5.8
+        },
+        "2025-11-17": {
+            "Value": 10.7,
+            "Selected Percentage": 5.8
         }
     },
     "Millie Bright": {
         "2025-11-16": {
+            "Value": 8.0,
+            "Selected Percentage": 13.7
+        },
+        "2025-11-17": {
             "Value": 8.0,
             "Selected Percentage": 13.7
         }
@@ -189,10 +313,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 0.9
         }
     },
     "Niamh Charles": {
         "2025-11-16": {
+            "Value": 7.4,
+            "Selected Percentage": 3.5
+        },
+        "2025-11-17": {
             "Value": 7.4,
             "Selected Percentage": 3.5
         }
@@ -201,10 +333,18 @@
         "2025-11-16": {
             "Value": 8.0,
             "Selected Percentage": 5.2
+        },
+        "2025-11-17": {
+            "Value": 8.0,
+            "Selected Percentage": 5.2
         }
     },
     "Guro Reiten": {
         "2025-11-16": {
+            "Value": 9.4,
+            "Selected Percentage": 2.9
+        },
+        "2025-11-17": {
             "Value": 9.4,
             "Selected Percentage": 2.9
         }
@@ -213,10 +353,18 @@
         "2025-11-16": {
             "Value": 9.5,
             "Selected Percentage": 4.1
+        },
+        "2025-11-17": {
+            "Value": 9.5,
+            "Selected Percentage": 4.1
         }
     },
     "Jelena Cankovic": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 2.6
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 2.6
         }
@@ -225,10 +373,18 @@
         "2025-11-16": {
             "Value": 7.5,
             "Selected Percentage": 6.9
+        },
+        "2025-11-17": {
+            "Value": 7.5,
+            "Selected Percentage": 6.8
         }
     },
     "Lauren James": {
         "2025-11-16": {
+            "Value": 8.5,
+            "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
             "Value": 8.5,
             "Selected Percentage": 1.5
         }
@@ -237,10 +393,18 @@
         "2025-11-16": {
             "Value": 6.7,
             "Selected Percentage": 14.8
+        },
+        "2025-11-17": {
+            "Value": 6.7,
+            "Selected Percentage": 14.8
         }
     },
     "Fran Kirby": {
         "2025-11-16": {
+            "Value": 8.0,
+            "Selected Percentage": 12.0
+        },
+        "2025-11-17": {
             "Value": 8.0,
             "Selected Percentage": 12.0
         }
@@ -249,10 +413,18 @@
         "2025-11-16": {
             "Value": 5.3,
             "Selected Percentage": 2.2
+        },
+        "2025-11-17": {
+            "Value": 5.3,
+            "Selected Percentage": 2.2
         }
     },
     "Emily Ramsey": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 3.7
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 3.7
         }
@@ -261,10 +433,18 @@
         "2025-11-16": {
             "Value": 7.0,
             "Selected Percentage": 7.1
+        },
+        "2025-11-17": {
+            "Value": 7.0,
+            "Selected Percentage": 7.1
         }
     },
     "Megan Finnigan": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.8
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.8
         }
@@ -273,10 +453,18 @@
         "2025-11-16": {
             "Value": 6.5,
             "Selected Percentage": 2.6
+        },
+        "2025-11-17": {
+            "Value": 6.5,
+            "Selected Percentage": 2.6
         }
     },
     "Elise Stenevik": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 3.2
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 3.2
         }
@@ -285,10 +473,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 1.2
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 1.2
         }
     },
     "Lucy Hope": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.9
         }
@@ -297,10 +493,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 4.2
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 4.2
         }
     },
     "Clare Wheeler": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 1.8
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 1.8
         }
@@ -309,10 +513,18 @@
         "2025-11-16": {
             "Value": 10.1,
             "Selected Percentage": 25.9
+        },
+        "2025-11-17": {
+            "Value": 10.1,
+            "Selected Percentage": 25.8
         }
     },
     "Jessica Park": {
         "2025-11-16": {
+            "Value": 8.5,
+            "Selected Percentage": 23.3
+        },
+        "2025-11-17": {
             "Value": 8.5,
             "Selected Percentage": 23.3
         }
@@ -321,10 +533,18 @@
         "2025-11-16": {
             "Value": 7.5,
             "Selected Percentage": 1.1
+        },
+        "2025-11-17": {
+            "Value": 7.5,
+            "Selected Percentage": 1.1
         }
     },
     "Sam Tierney": {
         "2025-11-16": {
+            "Value": 5.6,
+            "Selected Percentage": 4.8
+        },
+        "2025-11-17": {
             "Value": 5.6,
             "Selected Percentage": 4.8
         }
@@ -333,10 +553,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 0.7
         }
     },
     "Hannah Cain": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 1.5
         }
@@ -345,10 +573,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 1.3
         }
     },
     "Rachael Laws": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 2.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 2.3
         }
@@ -357,10 +593,18 @@
         "2025-11-16": {
             "Value": 6.5,
             "Selected Percentage": 2.3
+        },
+        "2025-11-17": {
+            "Value": 6.5,
+            "Selected Percentage": 2.3
         }
     },
     "Missy Kearns": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 3.2
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 3.2
         }
@@ -369,10 +613,18 @@
         "2025-11-16": {
             "Value": 7.0,
             "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
+            "Value": 7.0,
+            "Selected Percentage": 1.5
         }
     },
     "Leanne Kiernan": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 1.4
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 1.4
         }
@@ -381,16 +633,28 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 6.5
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 6.5
         }
     },
     "Kerstin Casparij": {
         "2025-11-16": {
             "Value": 7.4,
             "Selected Percentage": 28.5
+        },
+        "2025-11-17": {
+            "Value": 7.4,
+            "Selected Percentage": 28.6
         }
     },
     "Alex Greenwood": {
         "2025-11-16": {
+            "Value": 6.7,
+            "Selected Percentage": 15.2
+        },
+        "2025-11-17": {
             "Value": 6.7,
             "Selected Percentage": 15.2
         }
@@ -399,10 +663,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 8.5
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 8.5
         }
     },
     "Leila Ouahabi": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 4.4
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 4.4
         }
@@ -411,10 +683,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 1.7
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 1.7
         }
     },
     "Yui Hasegawa": {
         "2025-11-16": {
+            "Value": 7.3,
+            "Selected Percentage": 17.1
+        },
+        "2025-11-17": {
             "Value": 7.3,
             "Selected Percentage": 17.1
         }
@@ -423,10 +703,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 0.6
         }
     },
     "Mary Fowler": {
         "2025-11-16": {
+            "Value": 8.5,
+            "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
             "Value": 8.5,
             "Selected Percentage": 0.2
         }
@@ -435,16 +723,28 @@
         "2025-11-16": {
             "Value": 8.5,
             "Selected Percentage": 7.0
+        },
+        "2025-11-17": {
+            "Value": 8.5,
+            "Selected Percentage": 7.0
         }
     },
     "Chloe Kelly": {
         "2025-11-16": {
             "Value": 7.4,
             "Selected Percentage": 19.9
+        },
+        "2025-11-17": {
+            "Value": 7.4,
+            "Selected Percentage": 19.8
         }
     },
     "Khadija Shaw": {
         "2025-11-16": {
+            "Value": 12.0,
+            "Selected Percentage": 21.6
+        },
+        "2025-11-17": {
             "Value": 12.0,
             "Selected Percentage": 21.6
         }
@@ -453,10 +753,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 3.8
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 3.7
         }
     },
     "Hannah Blundell": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 1.5
         }
@@ -465,10 +773,18 @@
         "2025-11-16": {
             "Value": 8.0,
             "Selected Percentage": 37.0
+        },
+        "2025-11-17": {
+            "Value": 8.0,
+            "Selected Percentage": 37.0
         }
     },
     "Millie Turner": {
         "2025-11-16": {
+            "Value": 6.9,
+            "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
             "Value": 6.9,
             "Selected Percentage": 1.3
         }
@@ -477,10 +793,18 @@
         "2025-11-16": {
             "Value": 10.0,
             "Selected Percentage": 6.1
+        },
+        "2025-11-17": {
+            "Value": 10.0,
+            "Selected Percentage": 6.1
         }
     },
     "Leah Galton": {
         "2025-11-16": {
+            "Value": 8.5,
+            "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
             "Value": 8.5,
             "Selected Percentage": 0.7
         }
@@ -489,10 +813,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 4.8
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 4.8
         }
     },
     "Lucy Staniforth": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 2.1
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 2.1
         }
@@ -501,10 +833,18 @@
         "2025-11-16": {
             "Value": 9.1,
             "Selected Percentage": 36.8
+        },
+        "2025-11-17": {
+            "Value": 9.1,
+            "Selected Percentage": 36.8
         }
     },
     "Nikita Parris": {
         "2025-11-16": {
+            "Value": 7.8,
+            "Selected Percentage": 8.4
+        },
+        "2025-11-17": {
             "Value": 7.8,
             "Selected Percentage": 8.4
         }
@@ -513,10 +853,18 @@
         "2025-11-16": {
             "Value": 12.3,
             "Selected Percentage": 44.5
+        },
+        "2025-11-17": {
+            "Value": 12.3,
+            "Selected Percentage": 44.6
         }
     },
     "Martha Thomas": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 3.1
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 3.1
         }
@@ -525,10 +873,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 1.2
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 1.2
         }
     },
     "Gemma Evans": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 6.7
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 6.7
         }
@@ -537,10 +893,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
         }
     },
     "Asmita Ale": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.0
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.0
         }
@@ -549,10 +913,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 1.8
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 1.8
         }
     },
     "Ashleigh Neville": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 3.0
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 3.0
         }
@@ -561,10 +933,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
         }
     },
     "Shelina Zadorsky": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.1
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.1
         }
@@ -573,10 +953,18 @@
         "2025-11-16": {
             "Value": 6.5,
             "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
+            "Value": 6.5,
+            "Selected Percentage": 1.5
         }
     },
     "Eveliina Summanen": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 6.0
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 6.0
         }
@@ -585,10 +973,18 @@
         "2025-11-16": {
             "Value": 8.5,
             "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
+            "Value": 8.5,
+            "Selected Percentage": 1.5
         }
     },
     "Kit Graham": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 2.5
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 2.5
         }
@@ -597,10 +993,18 @@
         "2025-11-16": {
             "Value": 6.5,
             "Selected Percentage": 2.9
+        },
+        "2025-11-17": {
+            "Value": 6.5,
+            "Selected Percentage": 2.9
         }
     },
     "Grace Fisk": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 6.3
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 6.3
         }
@@ -609,10 +1013,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 2.2
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 2.2
         }
     },
     "Risa Shimizu": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 2.5
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 2.5
         }
@@ -621,10 +1033,18 @@
         "2025-11-16": {
             "Value": 7.0,
             "Selected Percentage": 0.8
+        },
+        "2025-11-17": {
+            "Value": 7.0,
+            "Selected Percentage": 0.8
         }
     },
     "Halle Houssein": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 2.1
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 2.1
         }
@@ -633,10 +1053,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Viviane Asseyi": {
         "2025-11-16": {
+            "Value": 9.0,
+            "Selected Percentage": 1.7
+        },
+        "2025-11-17": {
             "Value": 9.0,
             "Selected Percentage": 1.7
         }
@@ -645,10 +1073,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 3.8
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 3.8
         }
     },
     "Victoria Pelova": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 1.9
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 1.9
         }
@@ -657,16 +1093,28 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 2.9
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 2.9
         }
     },
     "Sabrina D'Angelo": {
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 7.3
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 7.4
         }
     },
     "Maika Hamano": {
         "2025-11-16": {
+            "Value": 7.6,
+            "Selected Percentage": 2.3
+        },
+        "2025-11-17": {
             "Value": 7.6,
             "Selected Percentage": 2.3
         }
@@ -675,10 +1123,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 2.3
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 2.3
         }
     },
     "Janina Leitzig": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 3.6
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 3.6
         }
@@ -687,10 +1143,18 @@
         "2025-11-16": {
             "Value": 7.0,
             "Selected Percentage": 8.5
+        },
+        "2025-11-17": {
+            "Value": 7.0,
+            "Selected Percentage": 8.5
         }
     },
     "Anouk Denton": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 1.5
         }
@@ -699,16 +1163,28 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 0.9
         }
     },
     "Miri Taylor": {
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 0.8
         }
     },
     "Fuka Nagano": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 1.2
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 1.2
         }
@@ -717,10 +1193,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 3.4
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 3.4
         }
     },
     "Hannah Silcock": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.7
         }
@@ -729,16 +1213,28 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 2.5
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 2.6
         }
     },
     "Daphne van Domselaar": {
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 18.9
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 19.1
         }
     },
     "Charlize Rule": {
         "2025-11-16": {
+            "Value": 4.2,
+            "Selected Percentage": 8.6
+        },
+        "2025-11-17": {
             "Value": 4.2,
             "Selected Percentage": 8.6
         }
@@ -747,10 +1243,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 0.3
         }
     },
     "Olivia Clark": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.3
         }
@@ -759,10 +1263,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
         }
     },
     "Cerys Brown": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.8
         }
@@ -771,10 +1283,18 @@
         "2025-11-16": {
             "Value": 8.0,
             "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
+            "Value": 8.0,
+            "Selected Percentage": 1.2
         }
     },
     "Catarina Macário": {
         "2025-11-16": {
+            "Value": 9.5,
+            "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
             "Value": 9.5,
             "Selected Percentage": 1.3
         }
@@ -783,10 +1303,18 @@
         "2025-11-16": {
             "Value": 6.5,
             "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
+            "Value": 6.5,
+            "Selected Percentage": 0.9
         }
     },
     "Jenna Clark": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 1.9
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 1.9
         }
@@ -795,10 +1323,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
         }
     },
     "Marie-Therese Höbinger": {
         "2025-11-16": {
+            "Value": 8.0,
+            "Selected Percentage": 1.0
+        },
+        "2025-11-17": {
             "Value": 8.0,
             "Selected Percentage": 1.0
         }
@@ -807,10 +1343,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 2.9
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 2.9
         }
     },
     "Eleanor Heeps": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.3
         }
@@ -819,10 +1363,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.2
         }
     },
     "Emma Watson": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.9
         }
@@ -831,10 +1383,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 0.7
         }
     },
     "Julie Thibaud": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.4
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.4
         }
@@ -843,10 +1403,18 @@
         "2025-11-16": {
             "Value": 7.5,
             "Selected Percentage": 2.2
+        },
+        "2025-11-17": {
+            "Value": 7.5,
+            "Selected Percentage": 2.2
         }
     },
     "Sophie Haug": {
         "2025-11-16": {
+            "Value": 7.5,
+            "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
             "Value": 7.5,
             "Selected Percentage": 0.4
         }
@@ -855,10 +1423,18 @@
         "2025-11-16": {
             "Value": 7.0,
             "Selected Percentage": 2.0
+        },
+        "2025-11-17": {
+            "Value": 7.0,
+            "Selected Percentage": 1.9
         }
     },
     "Riko Ueki": {
         "2025-11-16": {
+            "Value": 7.5,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 7.5,
             "Selected Percentage": 0.5
         }
@@ -867,16 +1443,28 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.7
         }
     },
     "Phallon Tullis-Joyce": {
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 26.9
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 26.7
         }
     },
     "Kyra Cooney-Cross": {
         "2025-11-16": {
+            "Value": 7.0,
+            "Selected Percentage": 2.2
+        },
+        "2025-11-17": {
             "Value": 7.0,
             "Selected Percentage": 2.2
         }
@@ -885,10 +1473,18 @@
         "2025-11-16": {
             "Value": 8.6,
             "Selected Percentage": 15.9
+        },
+        "2025-11-17": {
+            "Value": 8.6,
+            "Selected Percentage": 15.9
         }
     },
     "Brooke Aspin": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -897,10 +1493,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
         }
     },
     "Olga Ahtinen": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 10.1
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 10.1
         }
@@ -909,10 +1513,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 0.3
         }
     },
     "Safia Middleton-Patel": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.1
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.1
         }
@@ -921,10 +1533,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Matilda Vinberg": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.4
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.4
         }
@@ -933,10 +1553,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 7.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 7.1
         }
     },
     "Katrina Gorry": {
         "2025-11-16": {
+            "Value": 7.5,
+            "Selected Percentage": 4.0
+        },
+        "2025-11-17": {
             "Value": 7.5,
             "Selected Percentage": 4.0
         }
@@ -945,16 +1573,28 @@
         "2025-11-16": {
             "Value": 6.5,
             "Selected Percentage": 1.8
+        },
+        "2025-11-17": {
+            "Value": 6.5,
+            "Selected Percentage": 1.8
         }
     },
     "Emily Fox": {
         "2025-11-16": {
             "Value": 7.5,
             "Selected Percentage": 12.5
+        },
+        "2025-11-17": {
+            "Value": 7.5,
+            "Selected Percentage": 12.4
         }
     },
     "Amanda Nildén": {
         "2025-11-16": {
+            "Value": 5.6,
+            "Selected Percentage": 11.4
+        },
+        "2025-11-17": {
             "Value": 5.6,
             "Selected Percentage": 11.4
         }
@@ -963,16 +1603,28 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Lize Kop": {
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 13.2
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 13.4
         }
     },
     "Naomi Williams": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -981,10 +1633,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Lydia Sallaway": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -993,10 +1653,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Lily Dent": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.9
         }
@@ -1005,10 +1673,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Macy Settle": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.6
         }
@@ -1017,10 +1693,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
         }
     },
     "Eva Spencer": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -1029,10 +1713,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Soraya Walsh": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -1041,10 +1733,18 @@
         "2025-11-16": {
             "Value": 9.9,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 9.9,
+            "Selected Percentage": 0.3
         }
     },
     "Tara O'Hanlon": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -1053,10 +1753,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.2
         }
     },
     "Katie Reid": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 5.0
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 5.0
         }
@@ -1065,10 +1773,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Olivia Johnson": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.8
         }
@@ -1077,10 +1793,18 @@
         "2025-11-16": {
             "Value": 4.1,
             "Selected Percentage": 16.5
+        },
+        "2025-11-17": {
+            "Value": 4.1,
+            "Selected Percentage": 16.5
         }
     },
     "Laila Harbert": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -1089,10 +1813,18 @@
         "2025-11-16": {
             "Value": 10.1,
             "Selected Percentage": 33.1
+        },
+        "2025-11-17": {
+            "Value": 10.1,
+            "Selected Percentage": 33.1
         }
     },
     "Michelle Agyemang": {
         "2025-11-16": {
+            "Value": 5.6,
+            "Selected Percentage": 15.8
+        },
+        "2025-11-17": {
             "Value": 5.6,
             "Selected Percentage": 15.8
         }
@@ -1101,10 +1833,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
         }
     },
     "Jill Baijings": {
         "2025-11-16": {
+            "Value": 4.4,
+            "Selected Percentage": 1.0
+        },
+        "2025-11-17": {
             "Value": 4.4,
             "Selected Percentage": 1.0
         }
@@ -1113,10 +1853,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
         }
     },
     "Rachel McLauchlan": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 3.3
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 3.3
         }
@@ -1125,10 +1873,18 @@
         "2025-11-16": {
             "Value": 5.7,
             "Selected Percentage": 7.3
+        },
+        "2025-11-17": {
+            "Value": 5.7,
+            "Selected Percentage": 7.3
         }
     },
     "Marit Auée": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.7
         }
@@ -1137,10 +1893,18 @@
         "2025-11-16": {
             "Value": 8.0,
             "Selected Percentage": 2.1
+        },
+        "2025-11-17": {
+            "Value": 8.0,
+            "Selected Percentage": 2.1
         }
     },
     "Bex Rayner": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.3
         }
@@ -1149,10 +1913,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
         }
     },
     "Alejandra Bernabé": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 0.6
         }
@@ -1161,10 +1933,18 @@
         "2025-11-16": {
             "Value": 7.9,
             "Selected Percentage": 7.7
+        },
+        "2025-11-17": {
+            "Value": 7.9,
+            "Selected Percentage": 7.7
         }
     },
     "Lexi Potter": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 0.2
         }
@@ -1173,10 +1953,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
         }
     },
     "Oriane Jean-François": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 0.2
         }
@@ -1185,10 +1973,18 @@
         "2025-11-16": {
             "Value": 8.1,
             "Selected Percentage": 4.4
+        },
+        "2025-11-17": {
+            "Value": 8.1,
+            "Selected Percentage": 4.4
         }
     },
     "Kinga Szemik": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.5
         }
@@ -1197,10 +1993,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Ella Morris": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
@@ -1209,16 +2013,28 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.7
         }
     },
     "Anna Sandberg": {
         "2025-11-16": {
             "Value": 4.9,
             "Selected Percentage": 20.4
+        },
+        "2025-11-17": {
+            "Value": 4.9,
+            "Selected Percentage": 20.3
         }
     },
     "Dominique Janssen": {
         "2025-11-16": {
+            "Value": 7.0,
+            "Selected Percentage": 5.2
+        },
+        "2025-11-17": {
             "Value": 7.0,
             "Selected Percentage": 5.2
         }
@@ -1227,10 +2043,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 0.4
         }
     },
     "Keira Barry": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.3
         }
@@ -1239,16 +2063,28 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Ayaka Yamashita": {
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 5.0
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 5.2
         }
     },
     "Aoba Fujino": {
         "2025-11-16": {
+            "Value": 8.2,
+            "Selected Percentage": 6.9
+        },
+        "2025-11-17": {
             "Value": 8.2,
             "Selected Percentage": 6.9
         }
@@ -1257,10 +2093,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Sari Kees": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 4.2
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 4.2
         }
@@ -1269,10 +2113,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 1.1
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 1.1
         }
     },
     "Maddy Duffy": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.9
         }
@@ -1281,10 +2133,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
         }
     },
     "Olivia Smith": {
         "2025-11-16": {
+            "Value": 9.3,
+            "Selected Percentage": 8.6
+        },
+        "2025-11-17": {
             "Value": 9.3,
             "Selected Percentage": 8.6
         }
@@ -1293,10 +2153,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.2
         }
     },
     "Toni Payne": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 0.7
         }
@@ -1305,10 +2173,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
         }
     },
     "Kenzie Weir": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -1317,10 +2193,18 @@
         "2025-11-16": {
             "Value": 7.2,
             "Selected Percentage": 11.0
+        },
+        "2025-11-17": {
+            "Value": 7.2,
+            "Selected Percentage": 11.0
         }
     },
     "Chasity Grant": {
         "2025-11-16": {
+            "Value": 7.0,
+            "Selected Percentage": 2.8
+        },
+        "2025-11-17": {
             "Value": 7.0,
             "Selected Percentage": 2.8
         }
@@ -1329,10 +2213,18 @@
         "2025-11-16": {
             "Value": 6.1,
             "Selected Percentage": 12.8
+        },
+        "2025-11-17": {
+            "Value": 6.1,
+            "Selected Percentage": 12.8
         }
     },
     "Cornelia Kapocs": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 2.9
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 2.9
         }
@@ -1341,10 +2233,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 3.0
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 3.0
         }
     },
     "Codie Thomas": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
@@ -1353,10 +2253,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
         }
     },
     "Eve O'Carroll": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -1365,10 +2273,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 1.3
         }
     },
     "Clare Hunt": {
         "2025-11-16": {
+            "Value": 4.1,
+            "Selected Percentage": 15.6
+        },
+        "2025-11-17": {
             "Value": 4.1,
             "Selected Percentage": 15.6
         }
@@ -1377,10 +2293,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 0.2
         }
     },
     "Maelys Mpome": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.0
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.0
         }
@@ -1389,10 +2313,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
         }
     },
     "Oona Siren": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 0.9
         }
@@ -1401,10 +2333,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 0.5
         }
     },
     "Lily Woodham": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.3
         }
@@ -1413,10 +2353,18 @@
         "2025-11-16": {
             "Value": 6.0,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 6.0,
+            "Selected Percentage": 0.3
         }
     },
     "Seraina Piubel": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 2.1
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 2.1
         }
@@ -1425,10 +2373,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 0.0
         }
     },
     "Poppy Groves": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -1437,10 +2393,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Nelly Las": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -1449,10 +2413,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
         }
     },
     "Soffia Kelly": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -1461,10 +2433,18 @@
         "2025-11-16": {
             "Value": 6.5,
             "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
+            "Value": 6.5,
+            "Selected Percentage": 0.6
         }
     },
     "Kelly Gago": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 3.0
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 3.0
         }
@@ -1473,10 +2453,18 @@
         "2025-11-16": {
             "Value": 7.8,
             "Selected Percentage": 2.7
+        },
+        "2025-11-17": {
+            "Value": 7.8,
+            "Selected Percentage": 2.7
         }
     },
     "Olivia Holdt": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 3.7
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 3.7
         }
@@ -1485,10 +2473,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 2.6
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 2.6
         }
     },
     "Louna Ribadeira": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.1
         }
@@ -1497,10 +2493,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 7.2
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 7.2
         }
     },
     "Kayla Rendell": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -1509,10 +2513,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Tahirah Heron": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -1521,10 +2533,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Rebecca Guy": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -1533,10 +2553,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Rubie Deaville": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -1545,10 +2573,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Jessica Lightfoot": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -1557,10 +2593,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Neve McDonald": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -1569,10 +2613,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Jessica Anderson": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -1581,10 +2633,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Zara Bailey": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -1593,10 +2653,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Elliana Martin": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.1
         }
@@ -1605,10 +2673,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 1.5
         }
     },
     "Kerolin Nicoli Israel Ferraz": {
         "2025-11-16": {
+            "Value": 7.5,
+            "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
             "Value": 7.5,
             "Selected Percentage": 0.7
         }
@@ -1617,10 +2693,18 @@
         "2025-11-16": {
             "Value": 4.1,
             "Selected Percentage": 8.1
+        },
+        "2025-11-17": {
+            "Value": 4.1,
+            "Selected Percentage": 8.1
         }
     },
     "Naomi Girma": {
         "2025-11-16": {
+            "Value": 6.2,
+            "Selected Percentage": 3.3
+        },
+        "2025-11-17": {
             "Value": 6.2,
             "Selected Percentage": 3.3
         }
@@ -1629,10 +2713,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.7
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.7
         }
     },
     "Silvana Miranda": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -1641,10 +2733,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 3.5
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 3.4
         }
     },
     "Jenna Nighswonger": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 0.3
         }
@@ -1653,10 +2753,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 1.6
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 1.6
         }
     },
     "Nadine Noordam": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.2
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.2
         }
@@ -1665,10 +2773,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Keira Walsh": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 18.5
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 18.5
         }
@@ -1677,10 +2793,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
         }
     },
     "Sophie Jackson": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -1689,10 +2813,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
         }
     },
     "Cecily Wellesley-Smith": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -1701,22 +2833,38 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
         }
     },
     "Ellie Roebuck": {
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 10.3
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 10.2
         }
     },
     "Lynn Wilms": {
         "2025-11-16": {
             "Value": 6.7,
             "Selected Percentage": 9.1
+        },
+        "2025-11-17": {
+            "Value": 6.7,
+            "Selected Percentage": 9.2
         }
     },
     "Océane Deslandes": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 1.4
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 1.4
         }
@@ -1725,10 +2873,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 2.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 2.1
         }
     },
     "Lucia Kendall": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 1.8
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 1.8
         }
@@ -1737,16 +2893,28 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
         }
     },
     "Chiamaka Nnadozie": {
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 9.4
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 9.5
         }
     },
     "Manuela Vanegas": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 0.6
         }
@@ -1755,10 +2923,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 3.5
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 3.5
         }
     },
     "Carla Camacho": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 1.6
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 1.6
         }
@@ -1767,10 +2943,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 3.0
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 3.1
         }
     },
     "Ellie Carpenter": {
         "2025-11-16": {
+            "Value": 7.7,
+            "Selected Percentage": 28.2
+        },
+        "2025-11-17": {
             "Value": 7.7,
             "Selected Percentage": 28.2
         }
@@ -1779,10 +2963,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Ashanti Akpan": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.1
         }
@@ -1791,10 +2983,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Rion Ishikawa": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.7
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.7
         }
@@ -1803,10 +3003,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 1.0
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 1.0
         }
     },
     "Rosa van Gool": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.6
         }
@@ -1815,10 +3023,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
         }
     },
     "Ornella Vignola": {
         "2025-11-16": {
+            "Value": 5.1,
+            "Selected Percentage": 33.8
+        },
+        "2025-11-17": {
             "Value": 5.1,
             "Selected Percentage": 33.8
         }
@@ -1827,10 +3043,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
         }
     },
     "Celeste Boureille": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.1
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.1
         }
@@ -1839,10 +3063,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 4.6
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 4.6
         }
     },
     "Kirsty MacLean": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 0.5
         }
@@ -1851,10 +3083,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 9.6
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 9.7
         }
     },
     "Sophie Hillyerd": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -1863,10 +3103,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 1.8
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 1.8
         }
     },
     "Alexa Uttridge": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 2.4
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 2.4
         }
@@ -1875,10 +3123,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 6.8
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 6.8
         }
     },
     "Teyah Goldie": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 6.8
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 6.8
         }
@@ -1887,10 +3143,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
         }
     },
     "Julia Roddar": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -1899,10 +3163,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.6
         }
     },
     "Rofiat Imuran": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.3
         }
@@ -1911,16 +3183,28 @@
         "2025-11-16": {
             "Value": 6.4,
             "Selected Percentage": 4.9
+        },
+        "2025-11-17": {
+            "Value": 6.4,
+            "Selected Percentage": 4.9
         }
     },
     "Saki Kumagai": {
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 7.6
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 7.7
         }
     },
     "Gesa Marashi": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
@@ -1929,10 +3213,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 4.3
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 4.3
         }
     },
     "Mia Hamilton": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.8
         }
@@ -1941,10 +3233,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
         }
     },
     "Sanni Franssi": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.3
         }
@@ -1953,10 +3253,18 @@
         "2025-11-16": {
             "Value": 6.7,
             "Selected Percentage": 11.6
+        },
+        "2025-11-17": {
+            "Value": 6.7,
+            "Selected Percentage": 11.6
         }
     },
     "Sofia Jakobsson": {
         "2025-11-16": {
+            "Value": 6.0,
+            "Selected Percentage": 1.1
+        },
+        "2025-11-17": {
             "Value": 6.0,
             "Selected Percentage": 1.1
         }
@@ -1965,10 +3273,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.9
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
         }
     },
     "Isobel Goodwin": {
         "2025-11-16": {
+            "Value": 7.5,
+            "Selected Percentage": 4.3
+        },
+        "2025-11-17": {
             "Value": 7.5,
             "Selected Percentage": 4.3
         }
@@ -1977,10 +3293,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.2
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.2
         }
     },
     "Emily Vennard": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.5
         }
@@ -1989,10 +3313,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 1.2
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 1.2
         }
     },
     "Jade Rose": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 5.8
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 5.8
         }
@@ -2001,10 +3333,18 @@
         "2025-11-16": {
             "Value": 7.0,
             "Selected Percentage": 1.6
+        },
+        "2025-11-17": {
+            "Value": 7.0,
+            "Selected Percentage": 1.6
         }
     },
     "Iman Beney": {
         "2025-11-16": {
+            "Value": 4.6,
+            "Selected Percentage": 9.7
+        },
+        "2025-11-17": {
             "Value": 4.6,
             "Selected Percentage": 9.7
         }
@@ -2013,10 +3353,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.8
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
         }
     },
     "Julia Zigiotti Olme": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 3.0
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 3.0
         }
@@ -2025,10 +3373,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
         }
     },
     "Erin Radbourne": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.7
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.7
         }
@@ -2037,10 +3393,18 @@
         "2025-11-16": {
             "Value": 4.6,
             "Selected Percentage": 10.9
+        },
+        "2025-11-17": {
+            "Value": 4.6,
+            "Selected Percentage": 10.9
         }
     },
     "Inès Belloumou": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.4
         }
@@ -2049,10 +3413,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 1.2
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 1.2
         }
     },
     "Sarah Brasero-Carreira": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.6
         }
@@ -2061,10 +3433,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 1.2
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 1.2
         }
     },
     "Keira Flannery": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -2073,10 +3453,18 @@
         "2025-11-16": {
             "Value": 6.4,
             "Selected Percentage": 6.0
+        },
+        "2025-11-17": {
+            "Value": 6.4,
+            "Selected Percentage": 6.0
         }
     },
     "Emily Brown": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.6
         }
@@ -2085,10 +3473,18 @@
         "2025-11-16": {
             "Value": 9.4,
             "Selected Percentage": 2.6
+        },
+        "2025-11-17": {
+            "Value": 9.4,
+            "Selected Percentage": 2.6
         }
     },
     "Jana Fernández": {
         "2025-11-16": {
+            "Value": 5.9,
+            "Selected Percentage": 10.8
+        },
+        "2025-11-17": {
             "Value": 5.9,
             "Selected Percentage": 10.8
         }
@@ -2097,10 +3493,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 1.1
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 1.1
         }
     },
     "Heather Payne": {
         "2025-11-16": {
+            "Value": 5.0,
+            "Selected Percentage": 1.1
+        },
+        "2025-11-17": {
             "Value": 5.0,
             "Selected Percentage": 1.1
         }
@@ -2109,10 +3513,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
         }
     },
     "Leila Wandeler": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.6
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.6
         }
@@ -2121,10 +3533,18 @@
         "2025-11-16": {
             "Value": 6.5,
             "Selected Percentage": 3.4
+        },
+        "2025-11-17": {
+            "Value": 6.5,
+            "Selected Percentage": 3.4
         }
     },
     "Alanna Kennedy": {
         "2025-11-16": {
+            "Value": 5.5,
+            "Selected Percentage": 7.3
+        },
+        "2025-11-17": {
             "Value": 5.5,
             "Selected Percentage": 7.3
         }
@@ -2133,10 +3553,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 3.5
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 3.6
         }
     },
     "Fuka Tsunoda": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 1.4
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 1.4
         }
@@ -2145,10 +3573,18 @@
         "2025-11-16": {
             "Value": 5.5,
             "Selected Percentage": 5.0
+        },
+        "2025-11-17": {
+            "Value": 5.5,
+            "Selected Percentage": 5.0
         }
     },
     "Beata Olsson": {
         "2025-11-16": {
+            "Value": 6.5,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 6.5,
             "Selected Percentage": 0.5
         }
@@ -2157,10 +3593,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 2.1
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 2.1
         }
     },
     "Emilia Szymczak": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.5
         }
@@ -2169,10 +3613,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 1.5
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 1.5
         }
     },
     "Cathinka Tandberg": {
         "2025-11-16": {
+            "Value": 5.9,
+            "Selected Percentage": 17.5
+        },
+        "2025-11-17": {
             "Value": 5.9,
             "Selected Percentage": 17.5
         }
@@ -2181,10 +3633,18 @@
         "2025-11-16": {
             "Value": 5.0,
             "Selected Percentage": 0.5
+        },
+        "2025-11-17": {
+            "Value": 5.0,
+            "Selected Percentage": 0.5
         }
     },
     "Grace Geyoro": {
         "2025-11-16": {
+            "Value": 9.0,
+            "Selected Percentage": 1.1
+        },
+        "2025-11-17": {
             "Value": 9.0,
             "Selected Percentage": 1.1
         }
@@ -2193,16 +3653,28 @@
         "2025-11-16": {
             "Value": 9.5,
             "Selected Percentage": 2.7
+        },
+        "2025-11-17": {
+            "Value": 9.5,
+            "Selected Percentage": 2.8
         }
     },
     "Georgia Mullet": {
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 1.8
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 1.9
         }
     },
     "Lucy Morgan": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.3
         }
@@ -2211,10 +3683,18 @@
         "2025-11-16": {
             "Value": 4.5,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
         }
     },
     "Rachael Adedini": {
         "2025-11-16": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
             "Value": 4.5,
             "Selected Percentage": 0.1
         }
@@ -2223,10 +3703,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Hannah Poulter": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -2235,10 +3723,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Samira Shikhshabekova": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -2247,10 +3743,18 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Amy Liddiard": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -2259,16 +3763,28 @@
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Imogen Seymour": {
         "2025-11-16": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Sophie Harwood": {
         "2025-11-16": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-11-17": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
