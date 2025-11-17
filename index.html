@@ -8,6 +8,8 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.4/css/dataTables.dataTables.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -658,55 +660,75 @@
 
         /* Ensure no horizontal scrollbar appears due to dynamic content */
         body {
-            overflow-x: hidden !important; /* Use !important for maximum enforcement */
+            overflow-x: hidden !important;
+            /* Use !important for maximum enforcement */
         }
 
         /* Ensure no horizontal scrollbar appears due to dynamic content */
         body {
-            overflow-x: hidden !important; 
+            overflow-x: hidden !important;
         }
 
         /* Check your CSS for the tooltip */
         .custom-tooltip-content {
             /* Ensure this is set correctly for viewport calculation */
-            position: fixed; 
+            position: fixed;
             z-index: 9999;
+        }
+
+        /* Custom Tailwind/CSS classes for the tab buttons */
+        .tab-button {
+            padding: 0.75rem 1rem;
+            border-bottom: 2px solid transparent;
+            font-weight: 500;
+            color: #4B5563;
+            /* text-gray-600 */
+            transition: all 0.15s ease-in-out;
+            cursor: pointer;
+        }
+
+        .tab-button:hover {
+            color: #111827;
+            /* text-gray-900 */
+        }
+
+        .tab-button.active {
+            color: #4F46E5;
+            /* text-indigo-600 */
+            border-bottom-color: #4F46E5;
+            font-weight: 600;
         }
     </style>
 
-    </style>
 </head>
 
 <body>
 
     <div class="max-w-full mx-auto pt-2 px-4 pb-4">
         <div class="flex items-center justify-between">
-            <a href="https://www.buymeacoffee.com/spannerj" target="_blank" 
-            class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-300 rounded-md px-2 py-1 bg-white hover:bg-gray-50 transition duration-150 ease-in-out">
-                
-                <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&slug=spannerj&button_colour=FFDD00&font_colour=000000&font_family=Inter&coffee_colour=ffffff" 
-                    alt="Buy Me A Coffee" 
-                    style="height: 36px; width: auto;" 
-                    class="h-12 w-auto">
+            <a href="https://www.buymeacoffee.com/spannerj" target="_blank"
+                class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-300 rounded-md px-2 py-1 bg-white hover:bg-gray-50 transition duration-150 ease-in-out">
+
+                <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&slug=spannerj&button_colour=FFDD00&font_colour=000000&font_family=Inter&coffee_colour=ffffff"
+                    alt="Buy Me A Coffee" style="height: 36px; width: auto;" class="h-12 w-auto">
             </a>
 
-            <div class="flex justify-center w-full"> 
+            <div class="flex justify-center w-full">
                 <h2 class="text-2xl font-bold leading-tight text-gray-600">
                     WSL Fantasy Player Statistics
                 </h2>
             </div>
 
             <div class="invisible">
-                <a href="https://www.buymeacoffee.com/spannerj" target="_blank" class="flex items-center text-sm font-medium text-gray-700 border border-gray-300 rounded-md px-3 py-1 bg-white" style="opacity: 0;">
-                    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&slug=spannerj&button_colour=FFDD00&font_colour=000000&font_family=Inter&coffee_colour=ffffff&height=20" alt="Buy Me A Coffee" style="height: 20px !important;width: auto !important;" >
+                <a href="https://www.buymeacoffee.com/spannerj" target="_blank"
+                    class="flex items-center text-sm font-medium text-gray-700 border border-gray-300 rounded-md px-3 py-1 bg-white"
+                    style="opacity: 0;">
+                    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&slug=spannerj&button_colour=FFDD00&font_colour=000000&font_family=Inter&coffee_colour=ffffff&height=20"
+                        alt="Buy Me A Coffee" style="height: 20px !important;width: auto !important;">
                 </a>
             </div>
         </div>
 
-
-        <!-- <h2 class="text-2xl font-extrabold text-gray-900 mb-4 text-center">
-            WSL Aerial Fantasy Player Statistics
-        </h2> -->
 
         <div
             class="flex flex-col md:flex-row justify-between items-end md:items-center mb-4 space-y-2 md:space-y-0 md:space-x-4">
@@ -811,6 +833,7 @@
             </p>
         </div>
     </div>
+
     <div id="player-details-modal" class="modal-backdrop hidden" onclick="closeModal('player')">
         <div class="modal-content p-6 w-full max-w-lg" onclick="event.stopPropagation()">
 
@@ -829,57 +852,129 @@
                 <div id="modal-news-container"></div>
             </div>
 
-            <div id="modal-stats-grid" class="grid grid-cols-2 gap-2">
+            <div class="border-b border-gray-200 mb-4">
+                <nav class="-mb-px flex space-x-4" aria-label="Tabs">
+                    <a href="#" id="details-tab" onclick="switchTab('details')" class="tab-button active">
+                        Stats & Fixtures
+                    </a>
+                    <a href="#" id="history-tab" onclick="switchTab('history')" class="tab-button">
+                        Value & Selection History
+                    </a>
+                </nav>
             </div>
+            <div id="modal-tab-content">
+                <div id="tab-details" class="tab-pane">
+                    <div id="modal-stats-grid" class="grid grid-cols-2 gap-2">
+                    </div>
 
-            <div class="mt-6 pt-4 border-t">
-                <h4 class="text-xl font-semibold text-indigo-700 mb-3 flex items-center">
-                    <i class="fa-solid fa-calendar-alt mr-2"></i> Upcoming Matches
-                </h4>
-                <div id="modal-fixtures-list" class="space-y-3">
-                    <p class="text-gray-500 text-sm italic">Loading fixtures...</p>
+                    <div class="mt-6 pt-4 border-t">
+                        <h4 class="text-xl font-semibold text-indigo-700 mb-3 flex items-center">
+                            <i class="fa-solid fa-calendar-alt mr-2"></i> Upcoming Matches
+                        </h4>
+                        <div id="modal-fixtures-list" class="space-y-3">
+                            <p class="text-gray-500 text-sm italic">Loading fixtures...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-history" class="tab-pane hidden">
+                    <div class="relative h-64 md:h-80 w-full">
+                        <canvas id="playerChart" class="w-full h-full"></canvas>
+                    </div>
+                    <div id="chartLoadingMessage" class="text-center text-sm text-gray-500 mt-3 hidden">Loading chart
+                        data...</div>
+                    <div id="chartNoDataMessage" class="text-center text-sm text-gray-500 mt-3 hidden">Historical data
+                        not found for this player.</div>
                 </div>
             </div>
-
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.datatables.net/2.3.4/js/dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/3.0.7/js/dataTables.responsive.js"></script>
     <script src="https://cdn.datatables.net/responsive/3.0.7/js/responsive.dataTables.js"></script>
 
-
-    <script>
+<script>
+        // --- GLOBALS FOR CHARTING ---
+        const PLAYER_HISTORY_PATH = 'player_history.json'; 
+        const TRANSFORMED_DATA_PATH = 'transformed_data.json'; 
+        
+        let playerHistoryData = {}; 
+        let myChart = null; 
+        // --- NEW GLOBALS ---
 
         const VISIONARY_SVG_LARGE = `
         <svg class="visionary-icon w-6 h-6 align-top relative -top-1" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill="#0d996d"
-                d="M62.0583 23.8654C62.5588 21.8379 65.4412 21.8379 65.9417 23.8654L70.0291 40.4225C72.1656 49.0771 78.923 55.8344 87.5775 57.9709L104.135 62.0583C106.162 62.5588 106.162 65.4412 104.135 65.9417L87.5775 70.0291C78.9229 72.1656 72.1656 78.923 70.0291 87.5775L65.9417 104.135C65.4412 106.162 62.5588 106.162 62.0583 104.135L57.9709 87.5775C55.8344 78.9229 49.077 72.1656 40.4225 70.0291L23.8654 65.9417C21.8379 65.4412 21.8379 62.5588 23.8654 62.0583L40.4225 57.9709C49.0771 55.8344 55.8344 49.077 57.9709 40.4225L62.0583 23.8654ZM31.0291 19.9327C31.2794 18.9189 32.7206 18.9189 32.9709 19.9327L33.2859 21.2088C34.4432 25.8966 38.1034 29.5568 42.7912 30.7141L44.0673 31.0291C45.0811 31.2794 45.0811 32.7206 44.0673 32.9709L42.7912 33.2859C38.1034 34.4432 34.4432 38.1034 33.2859 42.7912L32.9709 44.0673C32.7206 45.0811 31.2794 45.0811 31.0291 44.0673L30.7141 42.7912C29.5568 38.1034 25.8966 34.4432 21.2088 33.2859L19.9327 32.9709C18.9189 32.7206 18.9189 31.2794 19.9327 31.0291L21.2088 30.7141C25.8966 29.5568 29.5568 25.8966 30.7141 21.2088L31.0291 19.9327Z"
+                d="M62.0583 23.8654C62.5588 21.8379 65.4412 21.8379 65.9417 23.8654L70.0291 40.4225C72.1656 49.0771 78.923 55.8344 87.5775 57.9709L104.135 62.0583C106.162 62.5588 106.162 65.4412 104.135 65.9417L87.5775 70.0291C78.9229 72.1656 72.1656 78.923 70.0291 87.5775L65.9417 104.135C65.4412 106.162 62.5588 106.162 62.0583 104.135L57.9709 87.5775C55.8344 78.9229 49.0770 72.1656 40.4225 70.0291L23.8654 65.9417C21.8379 65.4412 21.8379 62.5588 23.8654 62.0583L40.4225 57.9709C49.0771 55.8344 55.8344 49.0770 57.9709 40.4225L62.0583 23.8654ZM31.0291 19.9327C31.2794 18.9189 32.7206 18.9189 32.9709 19.9327L33.2859 21.2088C34.4432 25.8966 38.1034 29.5568 42.7912 30.7141L44.0673 31.0291C45.0811 31.2794 45.0811 32.7206 44.0673 32.9709L42.7912 33.2859C38.1034 34.4432 34.4432 38.1034 33.2859 42.7912L32.9709 44.0673C32.7206 45.0811 31.2794 45.0811 31.0291 44.0673L30.7141 42.7912C29.5568 38.1034 25.8966 34.4432 21.2088 33.2859L19.9327 32.9709C18.9189 32.7206 18.9189 31.2794 19.9327 31.0291L21.2088 30.7141C25.8966 29.5568 29.5568 25.8966 30.7141 21.2088L31.0291 19.9327Z"
             />
         </svg>
     `;
         const VISIONARY_SVG_SMALL = `
         <svg class="visionary-icon" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill="#0d996d"
-                d="M62.0583 23.8654C62.5588 21.8379 65.4412 21.8379 65.9417 23.8654L70.0291 40.4225C72.1656 49.0771 78.923 55.8344 87.5775 57.9709L104.135 62.0583C106.162 62.5588 106.162 65.4412 104.135 65.9417L87.5775 70.0291C78.9229 72.1656 72.1656 78.923 70.0291 87.5775L65.9417 104.135C65.4412 106.162 62.5588 106.162 62.0583 104.135L57.9709 87.5775C55.8344 78.9229 49.077 72.1656 40.4225 70.0291L23.8654 65.9417C21.8379 65.4412 21.8379 62.5588 23.8654 62.0583L40.4225 57.9709C49.0771 55.8344 55.8344 49.077 57.9709 40.4225L62.0583 23.8654ZM31.0291 19.9327C31.2794 18.9189 32.7206 18.9189 32.9709 19.9327L33.2859 21.2088C34.4432 25.8966 38.1034 29.5568 42.7912 30.7141L44.0673 31.0291C45.0811 31.2794 45.0811 32.7206 44.0673 32.9709L42.7912 33.2859C38.1034 34.4432 34.4432 38.1034 33.2859 42.7912L32.9709 44.0673C32.7206 45.0811 31.2794 45.0811 31.0291 44.0673L30.7141 42.7912C29.5568 38.1034 25.8966 34.4432 21.2088 33.2859L19.9327 32.9709C18.9189 32.7206 18.9189 31.2794 19.9327 31.0291L21.2088 30.7141C25.8966 29.5568 29.5568 25.8966 30.7141 21.2088L31.0291 19.9327Z"
+                d="M62.0583 23.8654C62.5588 21.8379 65.4412 21.8379 65.9417 23.8654L70.0291 40.4225C72.1656 49.0771 78.923 55.8344 87.5775 57.9709L104.135 62.0583C106.162 62.5588 106.162 65.4412 104.135 65.9417L87.5775 70.0291C78.9229 72.1656 72.1656 78.923 70.0291 87.5775L65.9417 104.135C65.4412 106.162 62.5588 106.162 62.0583 104.135L57.9709 87.5775C55.8344 78.9229 49.0770 72.1656 40.4225 70.0291L23.8654 65.9417C21.8379 65.4412 21.8379 62.5588 23.8654 62.0583L40.4225 57.9709C49.0771 55.8344 55.8344 49.0770 57.9709 40.4225L62.0583 23.8654ZM31.0291 19.9327C31.2794 18.9189 32.7206 18.9189 32.9709 19.9327L33.2859 21.2088C34.4432 25.8966 38.1034 29.5568 42.7912 30.7141L44.0673 31.0291C45.0811 31.2794 45.0811 32.7206 44.0673 32.9709L42.7912 33.2859C38.1034 34.4432 34.4432 38.1034 33.2859 42.7912L32.9709 44.0673C32.7206 45.0811 31.2794 45.0811 31.0291 44.0673L30.7141 42.7912C29.5568 38.1034 25.8966 34.4432 21.2088 33.2859L19.9327 32.9709C18.9189 32.7206 18.9189 31.2794 19.9327 31.0291L21.2088 30.7141C25.8966 29.5568 29.5568 25.8966 30.7141 21.2088L31.0291 19.9327Z"
             />
         </svg>
     `;
+        
+        /**
+         * Enhanced cleaning of player names for consistent lookup.
+         * This handles casing, leading/trailing spaces, and removes punctuation.
+         * @param {string} name 
+         * @returns {string} The normalized key (trimmed, lowercased, punctuation-free, single-space separated).
+         */
+        function normalizeKey(name) {
+            if (name === null || name === undefined) return "";
+            
+            let normalized = name.toString().toLowerCase().trim();
+            
+            // 1. Remove all non-alphabetic/non-space characters (periods, hyphens, etc.)
+            normalized = normalized.replace(/[^a-z\s]/g, ''); 
+            
+            // 2. Condense multiple spaces into a single space (e.g., "  " -> " ")
+            normalized = normalized.replace(/\s+/g, ' '); 
+            
+            return normalized;
+        }
+
         $(document).ready(function () {
 
             const RECENT_GAMES_COUNT = 4;
             let dataTableInstance = null;
             let uniqueClubs = [];
 
+            // --- Tab Switching Logic (Tailwind version of Bootstrap tabs) ---
+            window.switchTab = function (tabName) {
+                $('.tab-button').removeClass('active');
+                $('.tab-pane').addClass('hidden');
+
+                $(`#${tabName}-tab`).addClass('active');
+                $(`#tab-${tabName}`).removeClass('hidden');
+
+                if (tabName === 'history') {
+                    const playerName = $('#player-details-modal').data('player-name'); 
+                    $('#chartLoadingMessage').removeClass('hidden'); 
+                    
+                    setTimeout(() => {
+                        renderChart(playerName);
+                        $('#chartLoadingMessage').addClass('hidden');
+                    }, 50);
+                }
+            }
+
             // --- GLOBAL MODAL FUNCTIONS ---
-            // Unified function to handle both modals
             window.showModal = function (type, data = null) {
                 if (type === 'glossary') {
-                    // Generate content every time in case the dynamic columns change 
                     generateGlossaryContent(dataTableInstance ? dataTableInstance.settings()[0].aoColumns : []);
                     $('#glossary-modal').removeClass('hidden');
                 } else if (type === 'player' && data) {
                     populatePlayerDetails(data);
+                    
+                    $('#player-details-modal').data('player-name', data.Name);
+                    switchTab('details'); 
+
                     $('#player-details-modal').removeClass('hidden');
                 }
             };
@@ -889,13 +984,17 @@
                     $('#glossary-modal').addClass('hidden');
                 } else if (type === 'player') {
                     $('#player-details-modal').addClass('hidden');
+                    if (myChart) {
+                        myChart.destroy();
+                        myChart = null;
+                    }
                 }
             };
 
             $('#show-key-button').on('click', () => showModal('glossary'));
             // --- END GLOBAL MODAL FUNCTIONS ---
 
-            // --- NEW PLAYER DETAILS FUNCTION ---
+            // --- PLAYER DETAILS FUNCTION ---
             function populatePlayerDetails(player) {
                 const nameEl = $('#modal-player-name');
                 const posEl = $('#modal-player-pos');
@@ -903,9 +1002,8 @@
                 const valueEl = $('#modal-player-value');
                 const natEl = $('#modal-player-nat');
                 const statsGrid = $('#modal-stats-grid');
-                const fixturesListEl = $('#modal-fixtures-list'); // NEW TARGET ELEMENT
+                const fixturesListEl = $('#modal-fixtures-list'); 
 
-                // 1. Set Header Info
                 if (player.Visionary) {
                     nameEl.html(`${player.Name} ${VISIONARY_SVG_LARGE}`);
                 } else {
@@ -918,34 +1016,23 @@
 
                 const newsContainerEl = $('#modal-news-container');
 
-                // --- Null/Empty Check and Display ---
-                // 1. Clear the container first (important for subsequent modal opens)
                 newsContainerEl.html('');
-
-                // 2. Check for existence and non-empty string in JavaScript
-                // The player object likely uses 'news' (lowercase) since it comes from GraphQL.
-                // If your JSON keys were capitalized, use player.News
                 const playerNews = player.News;
 
-                if (playerNews) {
-                    // We use .trim() to ensure we don't display anything if it's just whitespace
-                    if (playerNews.trim() !== "") {
-                        // Apply a Tailwind class for red highlight and bold text
-                        const newsHtml = `<div class="text-sm font-semibold text-red-600 mb-1">${playerNews}</div>`;
-                        newsContainerEl.html(newsHtml);
-                    }
+                if (playerNews && playerNews.trim() !== "") {
+                    const newsHtml = `<div class="text-sm font-semibold text-red-600 mb-1">${playerNews}</div>`;
+                    newsContainerEl.html(newsHtml);
                 }
 
-                // 2. Define Stats to Display in the Modal Card
                 const statKeys = [
                     { "label": "Total Points (P)", "key": "Total Points", "unit": "" },
-                    { "label": "Points Per Game (PG)", "key": "Points Per Game", "unit": "", "calc": true }, // Needs calculation
-                    { "label": "Selection Rate (S%)", "key": "Selected Percentage", "unit": "%", "raw_unit": true }, // Has % in data
+                    { "label": "Points Per Game (PG)", "key": "Points Per Game", "unit": "", "calc": true }, 
+                    { "label": "Selection Rate (S%)", "key": "Selected Percentage", "unit": "%", "raw_unit": true }, 
                     { "label": "Goals Scored", "key": "Total Goals", "unit": "" },
                     { "label": "Assists", "key": "Total Assists", "unit": "" },
                     { "label": "Clean Sheets (CS)", "key": "Total Clean Sheet", "unit": "" },
                     { "label": "Points Last 4 GWs (P4)", "key": "Total Over 4 Gameweeks", "unit": "" },
-                    { "label": "Points/M Last 4 GWs (PM4)", "key": "Points Per Million Over 4 Gameweeks", "unit": "", "raw_unit": true }, // Show as number
+                    { "label": "Points/M Last 4 GWs (PM4)", "key": "Points Per Million Over 4 Gameweeks", "unit": "", "raw_unit": true }, 
                 ];
 
                 let detailsHTML = '';
@@ -953,7 +1040,6 @@
                 statKeys.forEach(stat => {
                     let displayValue = '-';
 
-                    // Handle calculated fields (like PPG)
                     if (stat.calc) {
                         const totalPoints = player["Total Points"];
                         const gamesPlayed = player["Total Games Played"];
@@ -962,9 +1048,10 @@
                         displayValue = player[stat.key];
                     }
 
-                    // Format the display value
                     if (typeof displayValue === 'number' && !stat.raw_unit) {
-                        displayValue = safeToFixed(displayValue, 0); // Default to integer if not specified
+                        displayValue = safeToFixed(displayValue, 0); 
+                    } else if (typeof displayValue === 'number' && (stat.key === 'Selected Percentage' || stat.key === 'Points Per Million Over 4 Gameweeks')) {
+                        displayValue = safeToFixed(displayValue, 1);
                     }
 
                     detailsHTML += `
@@ -979,9 +1066,8 @@
 
                 statsGrid.html(detailsHTML);
 
-                // Populate Upcoming Fixtures
                 const fixtures = player.upcoming_fixtures || [];
-                const playerClubCode = player.Club; // Player's club code (e.g., 'MUN')
+                const playerClubCode = player.Club;
                 let fixturesHTML = '';
 
                 if (fixtures.length === 0) {
@@ -996,13 +1082,11 @@
 
                         const opponentCode = isHome ? fixture.away_short_name : fixture.home_short_name;
                         const location = isHome ? ' (Home)' : ' (Away)';
-
-                        // Fallback in case shortName is missing (e.g., opponentCode is null/undefined)
                         const displayOpponentCode = opponentCode || '???';
 
                         const opponentClass = isHome
-                            ? 'font-bold text-gray-900'       // Apply bold and darker color for home games
-                            : 'font-medium text-gray-600';  // Keep medium weight and lighter color for away games
+                            ? 'font-bold text-gray-900'
+                            : 'font-medium text-gray-600';
 
                         listHTML += `
                         <div class="flex justify-between items-center text-sm border-b border-gray-100 pb-2">
@@ -1022,14 +1106,155 @@
 
                 fixturesListEl.html(fixturesHTML);
             }
-            // --- END NEW PLAYER DETAILS FUNCTION ---
+            // --- END PLAYER DETAILS FUNCTION ---
 
-            // Helper function to create the abbreviated header with a tooltip
+            // --- CHARTING LOGIC ---
+
+            function renderChart(playerName) {
+                // 1. Get the key and perform lookup
+                const historyKey = normalizeKey(playerName);
+                const history = playerHistoryData[historyKey];
+
+                
+                $('#chartLoadingMessage').addClass('hidden');
+                $('#chartNoDataMessage').addClass('hidden');
+
+                // 2. Check for data validity (exists and has at least two points)
+                if (!history || history.length < 2) {
+                    
+                    $('#chartNoDataMessage').removeClass('hidden'); 
+                    
+                    if (myChart) {
+                        myChart.destroy();
+                        myChart = null;
+                    }
+                    return;
+                }
+                
+                // 3. Prepare data for chart
+                const dates = history.map(item => new Date(item.timestamp).toLocaleDateString('en-GB')); 
+                const values = history.map(item => item.value);
+                const selectionPercentages = history.map(item => item.selected_by_percent);
+                
+                // 4. Calculate dynamic min/max for Selection % 
+                const minSelection = Math.min(...selectionPercentages);
+                const maxSelection = Math.max(...selectionPercentages);
+                
+                // Add a buffer (e.g., 5 points) to the min and max for padding
+                const padding = 5;
+                let ySelectMin = Math.max(0, Math.floor(minSelection) - padding); 
+                let ySelectMax = Math.ceil(maxSelection) + padding; 
+
+                // Ensure the scale is not too tight if min/max are close
+                if (ySelectMax - ySelectMin < 10) {
+                    ySelectMax = ySelectMax + (10 - (ySelectMax - ySelectMin));
+                }
+
+                // If the lowest value is 0, keep the min at 0
+                if (minSelection === 0) {
+                    ySelectMin = 0;
+                }
+                
+                // 5. Render the chart
+                const ctx = document.getElementById('playerChart').getContext('2d');
+
+                if (myChart) {
+                    myChart.destroy();
+                }
+
+                myChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: dates,
+                        datasets: [
+                            {
+                                label: 'Value (£m)',
+                                data: values,
+                                borderColor: 'rgb(79, 70, 229)', 
+                                backgroundColor: 'rgba(79, 70, 229, 0.2)',
+                                fill: false,
+                                yAxisID: 'y-value',
+                                lineTension: 0.1,
+                                pointRadius: 4,
+                            },
+                            {
+                                label: 'Selection %',
+                                data: selectionPercentages,
+                                borderColor: 'rgb(245, 158, 11)', 
+                                backgroundColor: 'rgba(245, 158, 11, 0.2)',
+                                fill: false,
+                                yAxisID: 'y-select',
+                                lineTension: 0.1,
+                                pointRadius: 4,
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        title: {
+                            display: false,
+                        },
+                        legend: {
+                            position: 'bottom',
+                        },
+                        scales: {
+                            xAxes: [{
+                                display: true,
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'Date'
+                                }
+                            }],
+                            yAxes: [
+                                {
+                                    id: 'y-value',
+                                    type: 'linear',
+                                    position: 'left',
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Value (£m)'
+                                    },
+                                    gridLines: {
+                                        drawOnChartArea: false, 
+                                    },
+                                    ticks: {
+                                        callback: function(value, index, values) {
+                                            return '£' + value.toFixed(1) + 'm';
+                                        }
+                                    }
+                                },
+                                {
+                                    id: 'y-select',
+                                    type: 'linear',
+                                    position: 'right',
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Selection (%)'
+                                    },
+                                    ticks: {
+                                        // *** DYNAMIC SCALE CALCULATED ABOVE ***
+                                        min: ySelectMin, 
+                                        max: ySelectMax, 
+                                        callback: function(value, index, values) {
+                                            return value + '%';
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                });
+            }
+
+            // --- END CHARTING LOGIC ---
+
+            // Helper function to create the abbreviated header with a tooltip (No Change)
             function createHeader(abbr, fullTitle) {
                 return `<div class="custom-tooltip-container"><span class="custom-tooltip-points">${abbr}</span><div class="custom-tooltip-content">${fullTitle.replace(/\n/g, '<br>')}</div></div>`;
             }
 
-            // Helper function to safely format data, returning '-' for missing values
+            // Helper function to safely format data, returning '-' for missing values (No Change)
             function safeToFixed(data, decimals) {
                 if (data === null || data === undefined || isNaN(data) || !isFinite(data) || data === '-') {
                     return '-';
@@ -1037,7 +1262,7 @@
                 return parseFloat(data).toFixed(decimals);
             }
 
-            // --- Mapped column definitions for STATIC data with custom SVGs/Abbreviations ---
+            // --- Mapped column definitions for STATIC data (No Change) ---
             const STATIC_COLUMN_MAP = {
                 "Name": {
                     abbr: 'Name',
@@ -1053,19 +1278,16 @@
                             let classString = 'font-bold';
                             let finalContent;
 
-                            // 1. Determine Color Class (Red/News wins priority)
                             if (hasNews) {
-                                classString += ' news-text'; // RED
+                                classString += ' news-text'; 
                             } else if (isVisionary) {
-                                classString += ' visionary-text'; // PURPLE
+                                classString += ' visionary-text'; 
                             } else {
                                 classString += ' text-gray-800';
                             }
 
-                            // Create the styled name element
                             const nameSpan = `<span class="${classString}">${data}</span>`;
 
-                            // 2. Handle icon structure (if visionary)
                             if (isVisionary) {
                                 finalContent = `<div class="flex items-center">
                                                 ${nameSpan}
@@ -1075,16 +1297,12 @@
                                 finalContent = nameSpan;
                             }
 
-                            // 3. 🚨 NEW: Wrap content in Tooltip if news is available
                             if (hasNews) {
-                                // Prepare the news string: convert \n to <br> for HTML display
                                 const tooltipHtml = playerNews.replace(/\n/g, '<br>');
 
-                                // Wrap the entire visual content in the tooltip structure
                                 return `<div class="custom-tooltip-container">${finalContent}<span class="custom-tooltip-content">${tooltipHtml}</span></div>`;
                             }
 
-                            // 4. Return the content without a tooltip
                             return finalContent;
                         }
                         return data;
@@ -1098,8 +1316,7 @@
                     className: 'whitespace-nowrap dt-center',
                     render: function (data, type, row) {
                         if (type === 'display') {
-                            const teamCode = data; // e.g., "ARS", "MUN"
-                            // Wrap the team code in a span with the base style and color class
+                            const teamCode = data; 
                             return `<span class="team-badge badge-${teamCode}">${teamCode}</span>`;
                         }
                         return data;
@@ -1133,17 +1350,14 @@
                     render: function (data, type, row) {
                         if (type === 'display') {
                             const formattedData = safeToFixed(data, 1);
-                            // Wrap the content in a div with inline padding
                             return `<div style="padding-left: 8px; padding-right: 8px;">${formattedData}</div>`;
                         }
                         return data;
                     },
 
-                    // Keep dt-center for column alignment
                     className: 'dt-center'
                 },
 
-                // P for Total Points (Text Only)
                 "Total Points": {
                     abbr: `P`,
                     full: 'Points for the season',
@@ -1153,7 +1367,6 @@
 
                 "Total Games Played": { abbr: 'G', full: 'Games played this season (Total appearances)', type: 'num', className: 'dt-center' },
 
-                // FIX: Calculate Points Per Game (PG) on the fly, as the key is missing from JSON
                 "Points Per Game": {
                     data: null,
                     abbr: 'PG',
@@ -1164,16 +1377,13 @@
                         const gamesPlayed = row["Total Games Played"];
 
                         if (type === 'sort' || type === 'type') {
-                            // Return numeric value for sorting/filtering (return 0 if divisor is 0)
                             return gamesPlayed > 0 ? (totalPoints / gamesPlayed) : 0;
                         }
-                        // Return formatted string for display
                         return gamesPlayed > 0 ? safeToFixed(totalPoints / gamesPlayed, 1) : '-';
                     },
                     className: 'dt-center'
                 },
 
-                // FIX: Calculate Points Per Million (PM) on the fly, as the key might be missing
                 "Points Per Million": {
                     abbr: 'PM',
                     full: 'Points scored per million pounds spent (Total season)',
@@ -1183,16 +1393,13 @@
                         const value = row["Value"];
 
                         if (type === 'sort' || type === 'type') {
-                            // Return numeric value for sorting/filtering (return 0 if divisor is 0)
                             return value > 0 ? (totalPoints / value) : 0;
                         }
-                        // Return formatted string for display
                         return value > 0 ? safeToFixed(totalPoints / value, 1) : '-';
                     },
                     className: 'dt-center'
                 },
 
-                // --- UPDATED 4 GW METRICS ---
                 "Total Over 4 Gameweeks": {
                     abbr: `P${RECENT_GAMES_COUNT}`,
                     full: `Total points over last ${RECENT_GAMES_COUNT} gameweeks`,
@@ -1211,7 +1418,7 @@
                     abbr: `PG${RECENT_GAMES_COUNT}`,
                     full: `Points per available gameweek (PPG over ${RECENT_GAMES_COUNT} weeks - uses 4 as divisor)`,
                     type: 'num',
-                    render: (data) => safeToFixed(data, 1), // Show one decimal
+                    render: (data) => safeToFixed(data, 1), 
                     className: 'dt-center'
                 },
 
@@ -1219,12 +1426,10 @@
                     abbr: `PM${RECENT_GAMES_COUNT}`,
                     full: `Points per million over last ${RECENT_GAMES_COUNT} gameweeks`,
                     type: 'num',
-                    render: (data) => safeToFixed(data, 1), // Show one decimal
+                    render: (data) => safeToFixed(data, 1), 
                     className: 'dt-center'
                 },
-                // --- END UPDATED 4 GW METRICS ---
 
-                // GOALS (Font Awesome Volleyball Icon - Green)
                 "Total Goals": {
                     abbr: `<i class="fa-solid fa-volleyball icon-green text-base fa-header-icon"></i>`,
                     full: 'Goals scored ',
@@ -1232,7 +1437,6 @@
                     className: 'dt-center'
                 },
 
-                // ASSISTS (Text Only)
                 "Total Assists": {
                     abbr: `A`,
                     full: 'Assists this season',
@@ -1240,7 +1444,6 @@
                     className: 'dt-center'
                 },
 
-                // CLEAN SHEET (Text Only)
                 "Total Clean Sheet": {
                     abbr: `CS`,
                     full: 'Clean sheets this season',
@@ -1248,7 +1451,6 @@
                     className: 'dt-center'
                 },
 
-                // BONUS POINTS (Font Awesome Star Icon - Yellow)
                 "Total Bonus Points": {
                     abbr: `<i class="fa-solid fa-star icon-yellow text-base fa-header-icon"></i>`,
                     full: 'Bonus points won this season',
@@ -1256,7 +1458,6 @@
                     className: 'dt-center'
                 },
 
-                // YELLOW CARD (Font Awesome Square Icon - Yellow)
                 "Total Yellow Cards": {
                     abbr: `<i class="fa-solid fa-square icon-yellow text-base fa-header-icon"></i>`,
                     full: 'Yellow cards this season',
@@ -1264,7 +1465,6 @@
                     className: 'dt-center'
                 },
 
-                // RED CARD (Font Awesome Square Icon - Red)
                 "Total Red Cards": {
                     abbr: `<i class="fa-solid fa-square icon-red text-base fa-header-icon"></i>`,
                     full: 'Red cards this season',
@@ -1272,7 +1472,6 @@
                     className: 'dt-center'
                 },
 
-                // MISSED PENALTY (Text Only)
                 "Total Missed Penalties": {
                     abbr: `MP`,
                     full: 'Missed penalties this season',
@@ -1282,7 +1481,6 @@
                 "Total Clearances": { abbr: 'CL', full: 'Goal line clearances this season', type: 'num', className: 'dt-center' },
                 "Total Conceeded": { abbr: 'GC', full: 'Points lost for goals conceded (-1 per 2 goals conceeded)', type: 'num', className: 'dt-center' },
 
-                // SAVES (Text Only)
                 "Total Saves": {
                     abbr: `S`,
                     full: 'Save points awarded (Goalkeepers, 1 pt per 3 saves)',
@@ -1290,7 +1488,6 @@
                     className: 'dt-center'
                 },
 
-                // OWN GOALS (Text Only)
                 "Total Own Goals": {
                     abbr: `OG`,
                     full: 'Own goals scored this season (-2 points each)',
@@ -1303,17 +1500,11 @@
 
             const STATIC_KEYS_SET = new Set(Object.keys(STATIC_COLUMN_MAP));
 
-            /**
-             * Generates the HTML content for the glossary modal.
-             * @param {Array} columns The DataTables column settings array (optional, for dynamic GW columns).
-             */
+            // --- Other helper functions (No Change) ---
             function generateGlossaryContent(columns) {
                 let html = '';
-
-                // 1. Static Columns
                 Object.keys(STATIC_COLUMN_MAP).forEach(key => {
                     const config = STATIC_COLUMN_MAP[key];
-                    // Use innerText for abbr to strip potential HTML/Icons before display
                     const abbrText = $('<div>').html(config.abbr).text().trim() || config.abbr;
 
                     html += `
@@ -1324,9 +1515,7 @@
                 `;
                 });
 
-                // 2. Dynamic Gameweek Columns (if table is initialized)
                 if (columns.length > 0) {
-                    // Find the first Gameweek column to represent the dynamic group
                     const gwColumn = columns.find(col => col.data && /^\d+$/.test(col.data));
 
                     if (gwColumn) {
@@ -1346,7 +1535,6 @@
                 $('#glossary-content').html(html);
             }
 
-            // --- Club Filter UI Helper Functions ---
             function updateClubDisplayText() {
                 const selectedCount = $('#club-filter-list input[type="checkbox"]:checked').length;
                 const totalCount = uniqueClubs.length;
@@ -1394,41 +1582,33 @@
                 updateClubDisplayText();
             }
 
-            // --- DataTables Custom Filter ---
             $.fn.dataTable.ext.search.push(
                 function (settings, data, dataIndex, rowData) {
-                    // Ensure the filter only applies to the current table instance
                     if (dataTableInstance && settings.nTable.id !== dataTableInstance.table().node().id) {
                         return true;
                     }
 
-                    // 1. Max Value Filter
                     const maxValueInput = parseFloat($('#max-value-filter').val());
                     const playerValue = parseFloat(rowData["Value"]);
                     const isValueValid = isNaN(maxValueInput) || isNaN(playerValue) || playerValue <= maxValueInput;
                     if (!isValueValid) { return false; }
 
-                    // 2. Position Filter
                     const selectedPosition = $('#position-filter').val();
                     const playerPosition = rowData["Position"];
                     const isPositionValid = selectedPosition === "" || playerPosition === selectedPosition;
                     if (!isPositionValid) { return false; }
 
-                    // 3. Club Filter
                     const selectedClubs = $('#club-filter-list input[type="checkbox"]:checked').map(function () {
                         return this.value;
                     }).get();
 
                     const playerClub = rowData["Club"];
-                    // Only filter if clubs were successfully populated and selected
                     const isClubValid = selectedClubs.length === 0 ? false : selectedClubs.includes(playerClub);
                     if (!isClubValid) { return false; }
 
-                    // Visionary Filter
                     const visionaryChecked = $('#visionary-filter').is(':checked');
                     const isVisionary = rowData.Visionary === true;
 
-                    // If checkbox is checked, only show visionary players
                     if (visionaryChecked && !isVisionary) {
                         return false;
                     }
@@ -1437,31 +1617,19 @@
                 }
             );
 
-
-            // --- Custom DataTables Filter ---
             $.fn.dataTable.ext.search.push(
                 function (settings, data, dataIndex) {
-                    // Only apply this filter to YOUR specific DataTable instance
-                    // Assuming your table's DOM ID is 'player-stats-table'
-                    if (settings.nTable.id !== 'player-stats-table') {
+                    if (settings.nTable.id !== 'myTable') {
                         return true;
                     }
 
-                    // 1. Get the player's full data object (DataTables stores it in 'row')
                     const rowData = settings.aoData[dataIndex]._aData;
-
-                    // 2. Get the state of the checkbox
                     const showVisionariesOnly = $('#visionary-filter').prop('checked');
-
-                    // 3. Get the player's 'Visionarye' status
                     const isVisionary = rowData.Visionary === true;
 
-                    // Filtering logic:
                     if (showVisionariesOnly) {
-                        // If the box is checked, ONLY allow visionary players to pass.
                         return isVisionary;
                     } else {
-                        // If the box is NOT checked, allow ALL players to pass.
                         return true;
                     }
                 }
@@ -1473,30 +1641,21 @@
                 }
             });
 
-            // --- End Custom Filter ---
-
-            /**
-             * Initializes and renders the DataTables table with player data.
-             * @param {Array<Object>} data The array of player objects.
-             */
+            // --- initializeTable (No Change) ---
             function initializeTable(data) {
-                // Hide the loading message and show the table container if data is present
                 if (!data || data.length === 0) {
                     $('#loading-message').text('No player data available to display. Please ensure your data is loaded correctly.');
                     return;
                 }
 
-                // Hide the loading message and make the table visible
                 $('#loading-message').addClass('hidden');
                 $('#myTable').removeClass('hidden');
 
-                // Populate club filters BEFORE table initialization
                 populateClubFilters(data);
 
                 let columns = [];
                 let headerRow = '<tr>';
 
-                // 2. Define Static Columns and build header HTML
                 const STATIC_KEYS_ORDERED = Object.keys(STATIC_COLUMN_MAP);
 
                 STATIC_KEYS_ORDERED.forEach(key => {
@@ -1514,12 +1673,10 @@
                     headerRow += `<th class="dt-head-center ${headerClass}">${createHeader(config.abbr, config.full)}</th>`;
                 });
 
-                // 3. Identify and Define Dynamic Gameweek Columns
                 const firstPlayer = data[0];
                 const gameweekKeys = Object.keys(firstPlayer).filter(key => {
                     return !STATIC_KEYS_SET.has(key) && /^\d+$/.test(key);
                 }).sort((a, b) => {
-                    // Sort by key value descending (most recent gameweek first)
                     return parseInt(b) - parseInt(a);
                 });
 
@@ -1530,14 +1687,11 @@
                         className: 'gw-col dt-center',
                         type: 'num-fmt',
                         render: function (data, type, row) {
-                            // Check if data is the special object { points: X, tooltip: Y }
                             if (typeof data === 'object' && data !== null && data.hasOwnProperty('points')) {
                                 const points = data.points === null || data.points === undefined ? '-' : data.points;
 
-                                // Use .trim() to ensure no leading/trailing whitespace/newlines in the data itself
                                 const tooltip = data.tooltip ? data.tooltip.trim() : '';
 
-                                // For sorting/filtering, return the points number
                                 if (type === 'sort' || type === 'type') {
                                     return data.points;
                                 }
@@ -1545,7 +1699,6 @@
                                 return `<div class="custom-tooltip-container"><span class="custom-tooltip-points">${points}</span><div class="custom-tooltip-content">${tooltip.replace(/\n/g, '<br>')}</div></div>`;
                             }
 
-                            // Otherwise, it's a dash (DNP)
                             return '-';
                         }
                     });
@@ -1554,7 +1707,6 @@
 
                 headerRow += '</tr>';
 
-                // Finalize Setup and Initialize DataTables    
                 $('#myTable').empty();
                 $('#myTable').append(`<thead>${headerRow}</thead>`);
 
@@ -1584,17 +1736,14 @@
                     }
                 });
 
-                // Force column width recalculation
                 setTimeout(() => {
                     if (dataTableInstance) {
                         dataTableInstance.columns.adjust().draw();
                     }
                 }, 50);
 
-                // --- Attach Click Handler for Player Details Modal ---
                 $('#myTable tbody').on('click', 'tr', function () {
                     if (dataTableInstance) {
-                        // Get the row data object for the clicked row
                         const rowData = dataTableInstance.row(this).data();
                         if (rowData) {
                             showModal('player', rowData);
@@ -1602,7 +1751,6 @@
                     }
                 });
 
-                // --- CUSTOM TOOLTIP POSITIONING LOGIC (Final Guaranteed Fix for Off-Screen Headers) ---
                 $('#myTable').on('mouseenter', '.custom-tooltip-container', function () {
                     const $container = $(this);
                     const $tooltip = $container.find('.custom-tooltip-content');
@@ -1613,49 +1761,33 @@
 
                     let top, left;
 
-                    // A small buffer for screen edges
                     const margin = 5; 
                     const windowWidth = $(window).width();
 
-                    // 1. Vertical Positioning (No change)
                     const spaceBelow = $(window).height() - containerRect.bottom;
                     const spaceAbove = containerRect.top;
 
                     if (spaceBelow < tooltipHeight + 10 && spaceAbove > tooltipHeight) {
-                        top = containerRect.top - tooltipHeight - margin; // Position ABOVE
+                        top = containerRect.top - tooltipHeight - margin; 
                     } else {
-                        top = containerRect.bottom + margin; // Default position BELOW
+                        top = containerRect.bottom + margin; 
                     }
 
-                    // 2. Horizontal Positioning (The Definitive Fix)
-
-                    // A. Calculate the Maximum Allowed Left Position (Right-Side Anchor)
-                    // This value places the right edge of the tooltip flush with the screen's right edge (minus margin).
                     const maxLeft = windowWidth - tooltipWidth - margin;
-                    
-                    // B. Calculate the Default Preferred Left Position (Alignment with Container)
                     const preferredLeft = containerRect.left;
 
-                    // The final 'left' position must be the MINIMUM of the two values:
-                    // 1. Alignment with the container (preferredLeft).
-                    // 2. The absolute right-side anchor (maxLeft).
                     let finalLeft = Math.min(preferredLeft, maxLeft);
-
-                    // C. Calculate the Minimum Allowed Left Position (Left-Side Anchor)
-                    // Ensure 'left' is never less than the left margin (Fix for Player Name)
                     left = Math.max(finalLeft, margin);
 
 
-                    // Apply fixed positions
                     $tooltip.css({
                         top: top + 'px',
                         left: left + 'px',
-                        right: 'auto', // Essential
+                        right: 'auto', 
                         bottom: 'auto'
                     });
                 });
 
-                // Hide the tooltip on mouseleave (Clear dynamic positioning)
                 $('#myTable').on('mouseleave', '.custom-tooltip-container', function () {
                     const $tooltip = $(this).find('.custom-tooltip-content');
                     $tooltip.css({
@@ -1665,30 +1797,23 @@
                         bottom: ''
                     });
                 });
-                // --- END CUSTOM TOOLTIP POSITIONING LOGIC ---
-
-                // Visionary Checkbox Event Listener
+                
                 $('#visionary-filter').on('change', function () {
-                    // Redraw the table to re-apply all active filters (including the new custom one)
                     if (dataTableInstance) {
                         dataTableInstance.draw();
                     }
                 });
-
-                // 5. Attach Filter Event Listeners  
                 $('#max-value-filter, #position-filter').on('keyup change', function () {
                     if (dataTableInstance) {
                         dataTableInstance.draw();
                     }
                 });
 
-                // Club Filter Dropdown Toggle
                 $('#club-dropdown-toggle').on('click', function (e) {
                     e.stopPropagation();
                     toggleClubDropdown();
                 });
 
-                // Close dropdown when clicking outside
                 $(document).on('click', function (e) {
                     if (!$('#club-dropdown-menu').hasClass('hidden') && !$(e.target).closest('#club-dropdown-menu').length && !$(e.target).is('#club-dropdown-toggle')) {
                         $('#club-dropdown-menu').addClass('hidden');
@@ -1696,7 +1821,6 @@
                     }
                 });
 
-                // Club Checkbox changes
                 $('#club-filter-list').on('change', '.club-checkbox', function () {
                     updateClubDisplayText();
                     if (dataTableInstance) {
@@ -1704,33 +1828,85 @@
                     }
                 });
 
-                // Select All / Unselect All
                 $('#select-all-clubs, #unselect-all-clubs').on('click', function () {
                     const isSelectAll = this.id === 'select-all-clubs';
                     $('#club-filter-list input[type="checkbox"]').prop('checked', isSelectAll).trigger('change');
                 });
-
             }
 
-            fetch('transformed_data.json?t=' + new Date().getTime())
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
+            async function fetchData() {
+                try {
+                    const cacheBuster = '?t=' + new Date().getTime();
+
+                    const [transformedResponse, historyResponse] = await Promise.all([
+                        fetch(TRANSFORMED_DATA_PATH + cacheBuster),
+                        fetch(PLAYER_HISTORY_PATH + cacheBuster)
+                    ]);
+
+                    if (!transformedResponse.ok) {
+                         throw new Error(`Transformed data network response was not ok: ${transformedResponse.statusText}`);
                     }
-                    return response.json();
-                })
-                .then(playerData => {
-                    // Once data is loaded, initialize the table
+                    
+                    const playerData = await transformedResponse.json();
+                    
+                    try {
+                        let historyObject = {};
+                        if (historyResponse.ok) {
+                            historyObject = await historyResponse.json();
+                        } else {
+                            console.warn(`Player history data network response was not ok: ${historyResponse.statusText}. Chart will show no data.`);
+                        }
+                        
+                        if (typeof historyObject === 'object' && historyObject !== null && Object.keys(historyObject).length > 0) { 
+                             
+                            playerHistoryData = {}; 
+                            let totalEntries = 0;
+
+                            for (const playerName in historyObject) {
+                                if (historyObject.hasOwnProperty(playerName)) {
+                                    const normalizedKey = normalizeKey(playerName);
+                                    
+                                    const historyByDate = historyObject[playerName];
+                                    const historyArray = [];
+
+                                    for (const date in historyByDate) {
+                                        if (historyByDate.hasOwnProperty(date)) {
+                                            historyArray.push({
+                                                timestamp: date, 
+                                                value: historyByDate[date].Value,
+                                                selected_by_percent: historyByDate[date]["Selected Percentage"]
+                                            });
+                                        }
+                                    }
+
+                                    historyArray.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+
+                                    playerHistoryData[normalizedKey] = historyArray; 
+                                    totalEntries++;
+                                }
+                            }
+                        } else {
+                             playerHistoryData = {}; 
+                        }
+
+                    } catch (e) {
+                        console.error("Error processing player history JSON. Chart will show no data. Ensure history data is a valid JSON object.", e);
+                        playerHistoryData = {}; 
+                    }
+
                     initializeTable(playerData);
-                })
-                .catch(error => {
+
+                } catch (error) {
                     console.error('Error loading data:', error);
                     $('#loading-message').text('Failed to load player data. Check console for error details.');
-                });
+                }
+            }
+            // --- END MODIFIED DATA FETCHING FUNCTION ---
 
+            fetchData();
         });
     </script>
 
 </body>
-<!-- end -->
+
 </html>
