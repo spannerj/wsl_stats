@@ -75,6 +75,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.8
         }
     },
     "Steph Catley": {
@@ -151,6 +155,10 @@
             "Selected Percentage": 9.0
         },
         "2025-12-04": {
+            "Value": 7.0,
+            "Selected Percentage": 9.0
+        },
+        "2025-12-05": {
             "Value": 7.0,
             "Selected Percentage": 9.0
         }
@@ -231,6 +239,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 4.6
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 4.6
         }
     },
     "Laura Wienroither": {
@@ -307,6 +319,10 @@
             "Selected Percentage": 4.2
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 4.2
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 4.2
         }
@@ -387,6 +403,10 @@
         "2025-12-04": {
             "Value": 7.8,
             "Selected Percentage": 4.0
+        },
+        "2025-12-05": {
+            "Value": 7.8,
+            "Selected Percentage": 4.0
         }
     },
     "Lotte Wubben-Moy": {
@@ -463,6 +483,10 @@
             "Selected Percentage": 5.2
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 5.2
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 5.2
         }
@@ -543,6 +567,10 @@
         "2025-12-04": {
             "Value": 8.0,
             "Selected Percentage": 1.7
+        },
+        "2025-12-05": {
+            "Value": 8.0,
+            "Selected Percentage": 1.7
         }
     },
     "Frida Maanum": {
@@ -619,6 +647,10 @@
             "Selected Percentage": 4.2
         },
         "2025-12-04": {
+            "Value": 8.9,
+            "Selected Percentage": 4.2
+        },
+        "2025-12-05": {
             "Value": 8.9,
             "Selected Percentage": 4.2
         }
@@ -699,6 +731,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 0.7
         }
     },
     "Stina Blackstenius": {
@@ -777,6 +813,10 @@
         "2025-12-04": {
             "Value": 9.1,
             "Selected Percentage": 6.3
+        },
+        "2025-12-05": {
+            "Value": 9.1,
+            "Selected Percentage": 6.2
         }
     },
     "Caitlin Foord": {
@@ -853,6 +893,10 @@
             "Selected Percentage": 5.7
         },
         "2025-12-04": {
+            "Value": 8.5,
+            "Selected Percentage": 5.7
+        },
+        "2025-12-05": {
             "Value": 8.5,
             "Selected Percentage": 5.7
         }
@@ -933,6 +977,10 @@
         "2025-12-04": {
             "Value": 8.0,
             "Selected Percentage": 19.9
+        },
+        "2025-12-05": {
+            "Value": 8.0,
+            "Selected Percentage": 19.8
         }
     },
     "Beth Mead": {
@@ -1009,6 +1057,10 @@
             "Selected Percentage": 9.4
         },
         "2025-12-04": {
+            "Value": 9.0,
+            "Selected Percentage": 9.4
+        },
+        "2025-12-05": {
             "Value": 9.0,
             "Selected Percentage": 9.4
         }
@@ -1089,6 +1141,10 @@
         "2025-12-04": {
             "Value": 9.3,
             "Selected Percentage": 17.9
+        },
+        "2025-12-05": {
+            "Value": 9.3,
+            "Selected Percentage": 17.9
         }
     },
     "Hannah Hampton": {
@@ -1167,6 +1223,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 37.4
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 37.3
         }
     },
     "Sarah Mayling": {
@@ -1245,6 +1305,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 4.5
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 4.4
         }
     },
     "Maz Pacheco": {
@@ -1321,6 +1385,10 @@
             "Selected Percentage": 20.1
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 20.1
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 20.1
         }
@@ -1401,6 +1469,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 12.8
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 12.8
         }
     },
     "Evie Rabjohn": {
@@ -1477,6 +1549,10 @@
             "Selected Percentage": 0.9
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.9
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.9
         }
@@ -1557,6 +1633,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 4.0
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 4.0
         }
     },
     "Kirsty Hanson": {
@@ -1633,6 +1713,10 @@
             "Selected Percentage": 9.8
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 9.9
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 9.9
         }
@@ -1713,6 +1797,10 @@
         "2025-12-04": {
             "Value": 9.0,
             "Selected Percentage": 4.2
+        },
+        "2025-12-05": {
+            "Value": 9.0,
+            "Selected Percentage": 4.2
         }
     },
     "Katie Startup": {
@@ -1789,6 +1877,10 @@
             "Selected Percentage": 3.9
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 3.9
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 3.9
         }
@@ -1869,6 +1961,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 3.9
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 3.9
         }
     },
     "Jorja Fox": {
@@ -1945,6 +2041,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.5
         }
@@ -2025,6 +2125,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 2.5
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 2.5
         }
     },
     "Libby Bance": {
@@ -2101,6 +2205,10 @@
             "Selected Percentage": 1.6
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 1.6
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 1.6
         }
@@ -2181,6 +2289,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 3.3
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 3.3
         }
     },
     "Katie Robinson": {
@@ -2257,6 +2369,10 @@
             "Selected Percentage": 4.4
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 4.3
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 4.3
         }
@@ -2337,6 +2453,10 @@
         "2025-12-04": {
             "Value": 10.7,
             "Selected Percentage": 5.7
+        },
+        "2025-12-05": {
+            "Value": 10.7,
+            "Selected Percentage": 5.7
         }
     },
     "Millie Bright": {
@@ -2413,6 +2533,10 @@
             "Selected Percentage": 13.6
         },
         "2025-12-04": {
+            "Value": 8.0,
+            "Selected Percentage": 13.5
+        },
+        "2025-12-05": {
             "Value": 8.0,
             "Selected Percentage": 13.5
         }
@@ -2493,6 +2617,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 0.8
         }
     },
     "Niamh Charles": {
@@ -2569,6 +2697,10 @@
             "Selected Percentage": 3.5
         },
         "2025-12-04": {
+            "Value": 7.4,
+            "Selected Percentage": 3.5
+        },
+        "2025-12-05": {
             "Value": 7.4,
             "Selected Percentage": 3.5
         }
@@ -2649,6 +2781,10 @@
         "2025-12-04": {
             "Value": 8.0,
             "Selected Percentage": 5.1
+        },
+        "2025-12-05": {
+            "Value": 8.0,
+            "Selected Percentage": 5.1
         }
     },
     "Guro Reiten": {
@@ -2725,6 +2861,10 @@
             "Selected Percentage": 2.9
         },
         "2025-12-04": {
+            "Value": 9.4,
+            "Selected Percentage": 2.9
+        },
+        "2025-12-05": {
             "Value": 9.4,
             "Selected Percentage": 2.9
         }
@@ -2805,6 +2945,10 @@
         "2025-12-04": {
             "Value": 9.5,
             "Selected Percentage": 4.1
+        },
+        "2025-12-05": {
+            "Value": 9.5,
+            "Selected Percentage": 4.1
         }
     },
     "Jelena Cankovic": {
@@ -2881,6 +3025,10 @@
             "Selected Percentage": 2.6
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 2.6
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 2.6
         }
@@ -2961,6 +3109,10 @@
         "2025-12-04": {
             "Value": 7.5,
             "Selected Percentage": 6.8
+        },
+        "2025-12-05": {
+            "Value": 7.5,
+            "Selected Percentage": 6.8
         }
     },
     "Lauren James": {
@@ -3037,6 +3189,10 @@
             "Selected Percentage": 1.5
         },
         "2025-12-04": {
+            "Value": 8.5,
+            "Selected Percentage": 1.5
+        },
+        "2025-12-05": {
             "Value": 8.5,
             "Selected Percentage": 1.5
         }
@@ -3117,6 +3273,10 @@
         "2025-12-04": {
             "Value": 6.7,
             "Selected Percentage": 14.5
+        },
+        "2025-12-05": {
+            "Value": 6.7,
+            "Selected Percentage": 14.5
         }
     },
     "Fran Kirby": {
@@ -3195,6 +3355,10 @@
         "2025-12-04": {
             "Value": 8.0,
             "Selected Percentage": 11.8
+        },
+        "2025-12-05": {
+            "Value": 8.0,
+            "Selected Percentage": 11.7
         }
     },
     "Courtney Brosnan": {
@@ -3271,6 +3435,10 @@
             "Selected Percentage": 2.2
         },
         "2025-12-04": {
+            "Value": 5.3,
+            "Selected Percentage": 2.2
+        },
+        "2025-12-05": {
             "Value": 5.3,
             "Selected Percentage": 2.2
         }
@@ -3351,6 +3519,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 3.8
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 3.8
         }
     },
     "Nathalie Björn": {
@@ -3427,6 +3599,10 @@
             "Selected Percentage": 7.1
         },
         "2025-12-04": {
+            "Value": 7.0,
+            "Selected Percentage": 7.1
+        },
+        "2025-12-05": {
             "Value": 7.0,
             "Selected Percentage": 7.1
         }
@@ -3507,6 +3683,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.8
         }
     },
     "Gabrielle George": {
@@ -3583,6 +3763,10 @@
             "Selected Percentage": 2.6
         },
         "2025-12-04": {
+            "Value": 6.5,
+            "Selected Percentage": 2.6
+        },
+        "2025-12-05": {
             "Value": 6.5,
             "Selected Percentage": 2.6
         }
@@ -3663,6 +3847,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 3.0
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 3.0
         }
     },
     "Aurora Galli": {
@@ -3739,6 +3927,10 @@
             "Selected Percentage": 1.2
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 1.2
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 1.2
         }
@@ -3819,6 +4011,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.9
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
         }
     },
     "Karen Holmgaard": {
@@ -3895,6 +4091,10 @@
             "Selected Percentage": 4.2
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 4.1
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 4.1
         }
@@ -3975,6 +4175,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 1.8
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 1.8
         }
     },
     "Aggie Beever-Jones": {
@@ -4051,6 +4255,10 @@
             "Selected Percentage": 25.4
         },
         "2025-12-04": {
+            "Value": 10.1,
+            "Selected Percentage": 25.3
+        },
+        "2025-12-05": {
             "Value": 10.1,
             "Selected Percentage": 25.3
         }
@@ -4131,6 +4339,10 @@
         "2025-12-04": {
             "Value": 8.5,
             "Selected Percentage": 23.7
+        },
+        "2025-12-05": {
+            "Value": 8.5,
+            "Selected Percentage": 23.7
         }
     },
     "Katja Snoeijs": {
@@ -4207,6 +4419,10 @@
             "Selected Percentage": 1.1
         },
         "2025-12-04": {
+            "Value": 7.5,
+            "Selected Percentage": 1.1
+        },
+        "2025-12-05": {
             "Value": 7.5,
             "Selected Percentage": 1.1
         }
@@ -4287,6 +4503,10 @@
         "2025-12-04": {
             "Value": 5.6,
             "Selected Percentage": 4.6
+        },
+        "2025-12-05": {
+            "Value": 5.6,
+            "Selected Percentage": 4.6
         }
     },
     "Shannon O'Brien": {
@@ -4363,6 +4583,10 @@
             "Selected Percentage": 0.8
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 0.8
         }
@@ -4443,6 +4667,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 1.5
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 1.5
         }
     },
     "Missy Goodwin": {
@@ -4519,6 +4747,10 @@
             "Selected Percentage": 1.3
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 1.3
         }
@@ -4599,6 +4831,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 2.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 2.3
         }
     },
     "Taylor Hinds": {
@@ -4675,6 +4911,10 @@
             "Selected Percentage": 2.4
         },
         "2025-12-04": {
+            "Value": 6.5,
+            "Selected Percentage": 2.4
+        },
+        "2025-12-05": {
             "Value": 6.5,
             "Selected Percentage": 2.4
         }
@@ -4755,6 +4995,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 3.2
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 3.2
         }
     },
     "Ceri Holland": {
@@ -4831,6 +5075,10 @@
             "Selected Percentage": 1.5
         },
         "2025-12-04": {
+            "Value": 7.0,
+            "Selected Percentage": 1.5
+        },
+        "2025-12-05": {
             "Value": 7.0,
             "Selected Percentage": 1.5
         }
@@ -4911,6 +5159,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 1.4
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 1.4
         }
     },
     "Khiara Keating": {
@@ -4987,6 +5239,10 @@
             "Selected Percentage": 6.4
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 6.4
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 6.4
         }
@@ -5067,6 +5323,10 @@
         "2025-12-04": {
             "Value": 7.4,
             "Selected Percentage": 29.6
+        },
+        "2025-12-05": {
+            "Value": 7.4,
+            "Selected Percentage": 29.6
         }
     },
     "Alex Greenwood": {
@@ -5143,6 +5403,10 @@
             "Selected Percentage": 14.5
         },
         "2025-12-04": {
+            "Value": 6.7,
+            "Selected Percentage": 14.4
+        },
+        "2025-12-05": {
             "Value": 6.7,
             "Selected Percentage": 14.4
         }
@@ -5223,6 +5487,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 8.5
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 8.5
         }
     },
     "Leila Ouahabi": {
@@ -5299,6 +5567,10 @@
             "Selected Percentage": 4.5
         },
         "2025-12-04": {
+            "Value": 6.5,
+            "Selected Percentage": 4.5
+        },
+        "2025-12-05": {
             "Value": 6.5,
             "Selected Percentage": 4.5
         }
@@ -5379,6 +5651,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 1.6
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 1.6
         }
     },
     "Yui Hasegawa": {
@@ -5455,6 +5731,10 @@
             "Selected Percentage": 16.9
         },
         "2025-12-04": {
+            "Value": 7.3,
+            "Selected Percentage": 16.8
+        },
+        "2025-12-05": {
             "Value": 7.3,
             "Selected Percentage": 16.8
         }
@@ -5535,6 +5815,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 0.6
         }
     },
     "Mary Fowler": {
@@ -5611,6 +5895,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 8.5,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 8.5,
             "Selected Percentage": 0.2
         }
@@ -5691,6 +5979,10 @@
         "2025-12-04": {
             "Value": 8.5,
             "Selected Percentage": 7.4
+        },
+        "2025-12-05": {
+            "Value": 8.5,
+            "Selected Percentage": 7.4
         }
     },
     "Chloe Kelly": {
@@ -5767,6 +6059,10 @@
             "Selected Percentage": 19.6
         },
         "2025-12-04": {
+            "Value": 7.4,
+            "Selected Percentage": 19.5
+        },
+        "2025-12-05": {
             "Value": 7.4,
             "Selected Percentage": 19.5
         }
@@ -5847,6 +6143,10 @@
         "2025-12-04": {
             "Value": 12.0,
             "Selected Percentage": 22.1
+        },
+        "2025-12-05": {
+            "Value": 12.0,
+            "Selected Percentage": 22.1
         }
     },
     "Sophie Baggaley": {
@@ -5923,6 +6223,10 @@
             "Selected Percentage": 3.7
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 3.7
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 3.7
         }
@@ -6003,6 +6307,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 1.5
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 1.5
         }
     },
     "Maya Le Tissier": {
@@ -6079,6 +6387,10 @@
             "Selected Percentage": 37.0
         },
         "2025-12-04": {
+            "Value": 8.0,
+            "Selected Percentage": 37.0
+        },
+        "2025-12-05": {
             "Value": 8.0,
             "Selected Percentage": 37.0
         }
@@ -6159,6 +6471,10 @@
         "2025-12-04": {
             "Value": 6.9,
             "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
+            "Value": 6.9,
+            "Selected Percentage": 1.3
         }
     },
     "Grace Clinton": {
@@ -6235,6 +6551,10 @@
             "Selected Percentage": 6.1
         },
         "2025-12-04": {
+            "Value": 10.0,
+            "Selected Percentage": 6.1
+        },
+        "2025-12-05": {
             "Value": 10.0,
             "Selected Percentage": 6.1
         }
@@ -6315,6 +6635,10 @@
         "2025-12-04": {
             "Value": 8.5,
             "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
+            "Value": 8.5,
+            "Selected Percentage": 0.7
         }
     },
     "Hayley Ladd": {
@@ -6391,6 +6715,10 @@
             "Selected Percentage": 4.7
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 4.7
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 4.7
         }
@@ -6471,6 +6799,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 2.0
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 2.0
         }
     },
     "Ella Toone": {
@@ -6547,6 +6879,10 @@
             "Selected Percentage": 36.7
         },
         "2025-12-04": {
+            "Value": 9.1,
+            "Selected Percentage": 36.7
+        },
+        "2025-12-05": {
             "Value": 9.1,
             "Selected Percentage": 36.7
         }
@@ -6627,6 +6963,10 @@
         "2025-12-04": {
             "Value": 7.8,
             "Selected Percentage": 8.4
+        },
+        "2025-12-05": {
+            "Value": 7.8,
+            "Selected Percentage": 8.4
         }
     },
     "Alessia Russo": {
@@ -6703,6 +7043,10 @@
             "Selected Percentage": 44.8
         },
         "2025-12-04": {
+            "Value": 12.3,
+            "Selected Percentage": 44.9
+        },
+        "2025-12-05": {
             "Value": 12.3,
             "Selected Percentage": 44.9
         }
@@ -6783,6 +7127,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 3.1
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 3.1
         }
     },
     "Rachel Williams": {
@@ -6859,6 +7207,10 @@
             "Selected Percentage": 1.2
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 1.2
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 1.2
         }
@@ -6939,6 +7291,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 6.7
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 6.7
         }
     },
     "Rebecca Spencer": {
@@ -7015,6 +7371,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.5
         }
@@ -7095,6 +7455,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 1.0
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 1.0
         }
     },
     "Molly Bartrip": {
@@ -7171,6 +7535,10 @@
             "Selected Percentage": 1.8
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 1.8
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 1.8
         }
@@ -7251,6 +7619,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 3.1
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 3.1
         }
     },
     "Amy James-Turner": {
@@ -7327,6 +7699,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
@@ -7407,6 +7783,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 1.1
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 1.1
         }
     },
     "Drew Spence": {
@@ -7483,6 +7863,10 @@
             "Selected Percentage": 1.5
         },
         "2025-12-04": {
+            "Value": 6.5,
+            "Selected Percentage": 1.5
+        },
+        "2025-12-05": {
             "Value": 6.5,
             "Selected Percentage": 1.5
         }
@@ -7563,6 +7947,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 6.3
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 6.3
         }
     },
     "Celin Bizet": {
@@ -7639,6 +8027,10 @@
             "Selected Percentage": 1.5
         },
         "2025-12-04": {
+            "Value": 8.5,
+            "Selected Percentage": 1.5
+        },
+        "2025-12-05": {
             "Value": 8.5,
             "Selected Percentage": 1.5
         }
@@ -7719,6 +8111,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 2.5
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 2.5
         }
     },
     "Jessica Naz": {
@@ -7795,6 +8191,10 @@
             "Selected Percentage": 2.9
         },
         "2025-12-04": {
+            "Value": 6.5,
+            "Selected Percentage": 2.9
+        },
+        "2025-12-05": {
             "Value": 6.5,
             "Selected Percentage": 2.9
         }
@@ -7875,6 +8275,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 6.3
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 6.3
         }
     },
     "Lucy Parker": {
@@ -7951,6 +8355,10 @@
             "Selected Percentage": 2.1
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 2.1
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 2.1
         }
@@ -8031,6 +8439,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 2.5
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 2.5
         }
     },
     "Honoka Hayashi": {
@@ -8107,6 +8519,10 @@
             "Selected Percentage": 0.8
         },
         "2025-12-04": {
+            "Value": 7.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
             "Value": 7.0,
             "Selected Percentage": 0.8
         }
@@ -8187,6 +8603,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 2.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 2.1
         }
     },
     "Jess Ziu": {
@@ -8263,6 +8683,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -8343,6 +8767,10 @@
         "2025-12-04": {
             "Value": 9.0,
             "Selected Percentage": 1.7
+        },
+        "2025-12-05": {
+            "Value": 9.0,
+            "Selected Percentage": 1.7
         }
     },
     "Gemma Bonner": {
@@ -8419,6 +8847,10 @@
             "Selected Percentage": 3.7
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 3.7
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 3.7
         }
@@ -8499,6 +8931,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 1.9
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 1.9
         }
     },
     "Sofie Lundgaard": {
@@ -8575,6 +9011,10 @@
             "Selected Percentage": 2.9
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 2.9
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 2.9
         }
@@ -8655,6 +9095,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 7.5
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 7.5
         }
     },
     "Maika Hamano": {
@@ -8731,6 +9175,10 @@
             "Selected Percentage": 2.3
         },
         "2025-12-04": {
+            "Value": 7.6,
+            "Selected Percentage": 2.3
+        },
+        "2025-12-05": {
             "Value": 7.6,
             "Selected Percentage": 2.3
         }
@@ -8811,6 +9259,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 2.4
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 2.4
         }
     },
     "Janina Leitzig": {
@@ -8887,6 +9339,10 @@
             "Selected Percentage": 3.6
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 3.6
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 3.6
         }
@@ -8967,6 +9423,10 @@
         "2025-12-04": {
             "Value": 7.0,
             "Selected Percentage": 8.5
+        },
+        "2025-12-05": {
+            "Value": 7.0,
+            "Selected Percentage": 8.5
         }
     },
     "Anouk Denton": {
@@ -9043,6 +9503,10 @@
             "Selected Percentage": 1.7
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 1.7
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 1.7
         }
@@ -9123,6 +9587,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 0.9
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 0.9
         }
     },
     "Miri Taylor": {
@@ -9199,6 +9667,10 @@
             "Selected Percentage": 0.8
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 0.8
         }
@@ -9279,6 +9751,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 1.3
         }
     },
     "Lenna Gunning-Williams": {
@@ -9355,6 +9831,10 @@
             "Selected Percentage": 3.4
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 3.4
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 3.4
         }
@@ -9435,6 +9915,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.7
         }
     },
     "Faye Kirby": {
@@ -9511,6 +9995,10 @@
             "Selected Percentage": 2.6
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 2.6
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 2.6
         }
@@ -9591,6 +10079,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 20.5
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 20.5
         }
     },
     "Charlize Rule": {
@@ -9667,6 +10159,10 @@
             "Selected Percentage": 8.5
         },
         "2025-12-04": {
+            "Value": 4.2,
+            "Selected Percentage": 8.5
+        },
+        "2025-12-05": {
             "Value": 4.2,
             "Selected Percentage": 8.5
         }
@@ -9747,6 +10243,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 0.4
         }
     },
     "Olivia Clark": {
@@ -9823,6 +10323,10 @@
             "Selected Percentage": 1.3
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 1.3
         }
@@ -9903,6 +10407,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
         }
     },
     "Cerys Brown": {
@@ -9979,6 +10487,10 @@
             "Selected Percentage": 0.8
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.8
         }
@@ -10059,6 +10571,10 @@
         "2025-12-04": {
             "Value": 8.0,
             "Selected Percentage": 1.2
+        },
+        "2025-12-05": {
+            "Value": 8.0,
+            "Selected Percentage": 1.2
         }
     },
     "Catarina Macário": {
@@ -10135,6 +10651,10 @@
             "Selected Percentage": 1.3
         },
         "2025-12-04": {
+            "Value": 9.5,
+            "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
             "Value": 9.5,
             "Selected Percentage": 1.3
         }
@@ -10215,6 +10735,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 0.8
         }
     },
     "Jenna Clark": {
@@ -10291,6 +10815,10 @@
             "Selected Percentage": 1.9
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 1.9
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 1.9
         }
@@ -10371,6 +10899,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
         }
     },
     "Marie-Therese Höbinger": {
@@ -10447,6 +10979,10 @@
             "Selected Percentage": 1.0
         },
         "2025-12-04": {
+            "Value": 8.0,
+            "Selected Percentage": 1.0
+        },
+        "2025-12-05": {
             "Value": 8.0,
             "Selected Percentage": 1.0
         }
@@ -10527,6 +11063,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 2.9
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 2.9
         }
     },
     "Eleanor Heeps": {
@@ -10603,6 +11143,10 @@
             "Selected Percentage": 1.3
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 1.3
         }
@@ -10683,6 +11227,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.2
         }
     },
     "Emma Watson": {
@@ -10759,6 +11307,10 @@
             "Selected Percentage": 0.9
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.9
         }
@@ -10839,6 +11391,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 0.7
         }
     },
     "Julie Thibaud": {
@@ -10915,6 +11471,10 @@
             "Selected Percentage": 1.4
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 1.4
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 1.4
         }
@@ -10995,6 +11555,10 @@
         "2025-12-04": {
             "Value": 7.5,
             "Selected Percentage": 2.2
+        },
+        "2025-12-05": {
+            "Value": 7.5,
+            "Selected Percentage": 2.2
         }
     },
     "Sophie Haug": {
@@ -11071,6 +11635,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 7.5,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 7.5,
             "Selected Percentage": 0.4
         }
@@ -11151,6 +11719,10 @@
         "2025-12-04": {
             "Value": 7.0,
             "Selected Percentage": 1.9
+        },
+        "2025-12-05": {
+            "Value": 7.0,
+            "Selected Percentage": 1.9
         }
     },
     "Riko Ueki": {
@@ -11227,6 +11799,10 @@
             "Selected Percentage": 0.6
         },
         "2025-12-04": {
+            "Value": 7.5,
+            "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
             "Value": 7.5,
             "Selected Percentage": 0.6
         }
@@ -11307,6 +11883,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.7
         }
     },
     "Phallon Tullis-Joyce": {
@@ -11383,6 +11963,10 @@
             "Selected Percentage": 26.1
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 26.0
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 26.0
         }
@@ -11463,6 +12047,10 @@
         "2025-12-04": {
             "Value": 7.0,
             "Selected Percentage": 2.2
+        },
+        "2025-12-05": {
+            "Value": 7.0,
+            "Selected Percentage": 2.2
         }
     },
     "Melvine Malard": {
@@ -11539,6 +12127,10 @@
             "Selected Percentage": 15.8
         },
         "2025-12-04": {
+            "Value": 8.6,
+            "Selected Percentage": 15.7
+        },
+        "2025-12-05": {
             "Value": 8.6,
             "Selected Percentage": 15.7
         }
@@ -11619,6 +12211,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Luana Bühler": {
@@ -11695,6 +12291,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.4
         }
@@ -11775,6 +12375,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 9.8
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 9.8
         }
     },
     "Jutta Rantala": {
@@ -11851,6 +12455,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 0.3
         }
@@ -11931,6 +12539,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.2
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.2
         }
     },
     "Katie O'Hanlon": {
@@ -12007,6 +12619,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -12087,6 +12703,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 1.4
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 1.4
         }
     },
     "Charlotte Grant": {
@@ -12163,6 +12783,10 @@
             "Selected Percentage": 7.1
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 7.0
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 7.0
         }
@@ -12243,6 +12867,10 @@
         "2025-12-04": {
             "Value": 7.5,
             "Selected Percentage": 3.9
+        },
+        "2025-12-05": {
+            "Value": 7.5,
+            "Selected Percentage": 3.9
         }
     },
     "Nicole Momiki": {
@@ -12319,6 +12947,10 @@
             "Selected Percentage": 1.7
         },
         "2025-12-04": {
+            "Value": 6.5,
+            "Selected Percentage": 1.7
+        },
+        "2025-12-05": {
             "Value": 6.5,
             "Selected Percentage": 1.7
         }
@@ -12399,6 +13031,10 @@
         "2025-12-04": {
             "Value": 7.5,
             "Selected Percentage": 12.5
+        },
+        "2025-12-05": {
+            "Value": 7.5,
+            "Selected Percentage": 12.5
         }
     },
     "Amanda Nildén": {
@@ -12475,6 +13111,10 @@
             "Selected Percentage": 11.3
         },
         "2025-12-04": {
+            "Value": 5.6,
+            "Selected Percentage": 11.3
+        },
+        "2025-12-05": {
             "Value": 5.6,
             "Selected Percentage": 11.3
         }
@@ -12555,6 +13195,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Lize Kop": {
@@ -12631,6 +13275,10 @@
             "Selected Percentage": 14.6
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 14.9
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 14.9
         }
@@ -12711,6 +13359,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Vivienne Lia": {
@@ -12787,6 +13439,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -12867,6 +13523,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Jessica Pegram": {
@@ -12943,6 +13603,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -13023,6 +13687,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.9
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
         }
     },
     "Issy Hobson": {
@@ -13099,6 +13767,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -13179,6 +13851,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.6
         }
     },
     "Denny Draper": {
@@ -13255,6 +13931,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.4
         }
@@ -13335,6 +14015,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
         }
     },
     "Lucy Newell": {
@@ -13411,6 +14095,10 @@
             "Selected Percentage": 0.0
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -13491,6 +14179,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Mayra Ramírez": {
@@ -13567,6 +14259,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 9.9,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 9.9,
             "Selected Percentage": 0.3
         }
@@ -13647,6 +14343,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Poppy Pritchard": {
@@ -13723,6 +14423,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.2
         }
@@ -13803,6 +14507,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 4.2
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 4.2
         }
     },
     "Maddy Earl": {
@@ -13879,6 +14587,10 @@
             "Selected Percentage": 0.0
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -13959,6 +14671,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
         }
     },
     "Freya Godfrey": {
@@ -14035,6 +14751,10 @@
             "Selected Percentage": 17.2
         },
         "2025-12-04": {
+            "Value": 4.1,
+            "Selected Percentage": 17.4
+        },
+        "2025-12-05": {
             "Value": 4.1,
             "Selected Percentage": 17.4
         }
@@ -14115,6 +14835,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Mariona Caldentey": {
@@ -14191,6 +14915,10 @@
             "Selected Percentage": 32.9
         },
         "2025-12-04": {
+            "Value": 10.1,
+            "Selected Percentage": 32.8
+        },
+        "2025-12-05": {
             "Value": 10.1,
             "Selected Percentage": 32.8
         }
@@ -14271,6 +14999,10 @@
         "2025-12-04": {
             "Value": 5.6,
             "Selected Percentage": 15.2
+        },
+        "2025-12-05": {
+            "Value": 5.6,
+            "Selected Percentage": 15.2
         }
     },
     "Paula Tomás": {
@@ -14347,6 +15079,10 @@
             "Selected Percentage": 1.3
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 1.3
         }
@@ -14427,6 +15163,10 @@
         "2025-12-04": {
             "Value": 4.4,
             "Selected Percentage": 1.0
+        },
+        "2025-12-05": {
+            "Value": 4.4,
+            "Selected Percentage": 1.0
         }
     },
     "Ruby-Rae Tucker": {
@@ -14503,6 +15243,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.5
         }
@@ -14583,6 +15327,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 3.3
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 3.3
         }
     },
     "Marisa Olislagers": {
@@ -14661,6 +15409,10 @@
         "2025-12-04": {
             "Value": 5.7,
             "Selected Percentage": 7.5
+        },
+        "2025-12-05": {
+            "Value": 5.7,
+            "Selected Percentage": 7.6
         }
     },
     "Marit Auée": {
@@ -14737,6 +15489,10 @@
             "Selected Percentage": 0.7
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.7
         }
@@ -14817,6 +15573,10 @@
         "2025-12-04": {
             "Value": 8.0,
             "Selected Percentage": 2.2
+        },
+        "2025-12-05": {
+            "Value": 8.0,
+            "Selected Percentage": 2.2
         }
     },
     "Bex Rayner": {
@@ -14893,6 +15653,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.3
         }
@@ -14973,6 +15737,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
         }
     },
     "Alejandra Bernabé": {
@@ -15049,6 +15817,10 @@
             "Selected Percentage": 0.6
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 0.6
         }
@@ -15129,6 +15901,10 @@
         "2025-12-04": {
             "Value": 7.9,
             "Selected Percentage": 7.9
+        },
+        "2025-12-05": {
+            "Value": 7.9,
+            "Selected Percentage": 7.9
         }
     },
     "Lexi Potter": {
@@ -15205,6 +15981,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 0.2
         }
@@ -15285,6 +16065,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
         }
     },
     "Oriane Jean-François": {
@@ -15361,6 +16145,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 0.2
         }
@@ -15441,6 +16229,10 @@
         "2025-12-04": {
             "Value": 8.1,
             "Selected Percentage": 4.3
+        },
+        "2025-12-05": {
+            "Value": 8.1,
+            "Selected Percentage": 4.3
         }
     },
     "Kinga Szemik": {
@@ -15517,6 +16309,10 @@
             "Selected Percentage": 1.5
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 1.5
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 1.5
         }
@@ -15597,6 +16393,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Ella Morris": {
@@ -15673,6 +16473,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
@@ -15753,6 +16557,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.7
         }
     },
     "Anna Sandberg": {
@@ -15829,6 +16637,10 @@
             "Selected Percentage": 20.3
         },
         "2025-12-04": {
+            "Value": 4.9,
+            "Selected Percentage": 20.3
+        },
+        "2025-12-05": {
             "Value": 4.9,
             "Selected Percentage": 20.3
         }
@@ -15909,6 +16721,10 @@
         "2025-12-04": {
             "Value": 7.0,
             "Selected Percentage": 5.1
+        },
+        "2025-12-05": {
+            "Value": 7.0,
+            "Selected Percentage": 5.1
         }
     },
     "Simi Awujo": {
@@ -15985,6 +16801,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 0.4
         }
@@ -16065,6 +16885,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
         }
     },
     "Eve Annets": {
@@ -16141,6 +16965,10 @@
             "Selected Percentage": 0.0
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -16221,6 +17049,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 6.0
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 6.0
         }
     },
     "Aoba Fujino": {
@@ -16297,6 +17129,10 @@
             "Selected Percentage": 7.1
         },
         "2025-12-04": {
+            "Value": 8.2,
+            "Selected Percentage": 7.2
+        },
+        "2025-12-05": {
             "Value": 8.2,
             "Selected Percentage": 7.2
         }
@@ -16377,6 +17213,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Sari Kees": {
@@ -16453,6 +17293,10 @@
             "Selected Percentage": 4.2
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 4.1
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 4.1
         }
@@ -16533,6 +17377,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 1.1
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 1.1
         }
     },
     "Maddy Duffy": {
@@ -16609,6 +17457,10 @@
             "Selected Percentage": 0.9
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.9
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.9
         }
@@ -16689,6 +17541,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.9
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
         }
     },
     "Olivia Smith": {
@@ -16765,6 +17621,10 @@
             "Selected Percentage": 8.5
         },
         "2025-12-04": {
+            "Value": 9.3,
+            "Selected Percentage": 8.5
+        },
+        "2025-12-05": {
             "Value": 9.3,
             "Selected Percentage": 8.5
         }
@@ -16845,6 +17705,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.2
         }
     },
     "Toni Payne": {
@@ -16921,6 +17785,10 @@
             "Selected Percentage": 0.7
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 0.7
         }
@@ -17001,6 +17869,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
         }
     },
     "Kenzie Weir": {
@@ -17077,6 +17949,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -17157,6 +18033,10 @@
         "2025-12-04": {
             "Value": 7.2,
             "Selected Percentage": 11.2
+        },
+        "2025-12-05": {
+            "Value": 7.2,
+            "Selected Percentage": 11.2
         }
     },
     "Chasity Grant": {
@@ -17233,6 +18113,10 @@
             "Selected Percentage": 2.8
         },
         "2025-12-04": {
+            "Value": 7.0,
+            "Selected Percentage": 2.8
+        },
+        "2025-12-05": {
             "Value": 7.0,
             "Selected Percentage": 2.8
         }
@@ -17313,6 +18197,10 @@
         "2025-12-04": {
             "Value": 6.1,
             "Selected Percentage": 12.8
+        },
+        "2025-12-05": {
+            "Value": 6.1,
+            "Selected Percentage": 12.8
         }
     },
     "Cornelia Kapocs": {
@@ -17389,6 +18277,10 @@
             "Selected Percentage": 2.9
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 2.9
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 2.9
         }
@@ -17469,6 +18361,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 2.9
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 2.9
         }
     },
     "Codie Thomas": {
@@ -17545,6 +18441,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
@@ -17625,6 +18525,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
         }
     },
     "Eve O'Carroll": {
@@ -17701,6 +18605,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -17781,6 +18689,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 1.3
         }
     },
     "Clare Hunt": {
@@ -17857,6 +18769,10 @@
             "Selected Percentage": 15.8
         },
         "2025-12-04": {
+            "Value": 4.1,
+            "Selected Percentage": 15.8
+        },
+        "2025-12-05": {
             "Value": 4.1,
             "Selected Percentage": 15.8
         }
@@ -17937,6 +18853,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 0.2
         }
     },
     "Maelys Mpome": {
@@ -18013,6 +18933,10 @@
             "Selected Percentage": 1.1
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 1.1
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 1.1
         }
@@ -18093,6 +19017,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
         }
     },
     "Oona Siren": {
@@ -18169,6 +19097,10 @@
             "Selected Percentage": 0.9
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 0.9
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 0.9
         }
@@ -18249,6 +19181,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 0.5
         }
     },
     "Lily Woodham": {
@@ -18325,6 +19261,10 @@
             "Selected Percentage": 1.2
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 1.2
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 1.2
         }
@@ -18405,6 +19345,10 @@
         "2025-12-04": {
             "Value": 6.0,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 6.0,
+            "Selected Percentage": 0.3
         }
     },
     "Seraina Piubel": {
@@ -18481,6 +19425,10 @@
             "Selected Percentage": 2.1
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 2.0
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 2.0
         }
@@ -18561,6 +19509,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 0.0
         }
     },
     "Poppy Groves": {
@@ -18637,6 +19589,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -18717,6 +19673,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Nelly Las": {
@@ -18793,6 +19753,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -18873,6 +19837,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
         }
     },
     "Soffia Kelly": {
@@ -18949,6 +19917,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -19029,6 +20001,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 0.8
         }
     },
     "Kelly Gago": {
@@ -19105,6 +20081,10 @@
             "Selected Percentage": 2.9
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 2.9
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 2.9
         }
@@ -19185,6 +20165,10 @@
         "2025-12-04": {
             "Value": 7.8,
             "Selected Percentage": 2.8
+        },
+        "2025-12-05": {
+            "Value": 7.8,
+            "Selected Percentage": 2.8
         }
     },
     "Olivia Holdt": {
@@ -19261,6 +20245,10 @@
             "Selected Percentage": 3.7
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 3.7
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 3.7
         }
@@ -19341,6 +20329,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 2.6
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 2.6
         }
     },
     "Louna Ribadeira": {
@@ -19417,6 +20409,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.1
         }
@@ -19497,6 +20493,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 7.1
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 7.1
         }
     },
     "Kayla Rendell": {
@@ -19573,6 +20573,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -19653,6 +20657,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Tahirah Heron": {
@@ -19729,6 +20737,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -19809,6 +20821,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Rebecca Guy": {
@@ -19885,6 +20901,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -19965,6 +20985,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Rubie Deaville": {
@@ -20041,6 +21065,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -20121,6 +21149,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Jessica Lightfoot": {
@@ -20197,6 +21229,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -20277,6 +21313,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Neve McDonald": {
@@ -20353,6 +21393,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -20433,6 +21477,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Jessica Anderson": {
@@ -20509,6 +21557,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -20589,6 +21641,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Zara Bailey": {
@@ -20665,6 +21721,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -20745,6 +21805,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Elliana Martin": {
@@ -20821,6 +21885,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.1
         }
@@ -20901,6 +21969,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 1.5
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 1.5
         }
     },
     "Kerolin Nicoli Israel Ferraz": {
@@ -20977,6 +22049,10 @@
             "Selected Percentage": 0.7
         },
         "2025-12-04": {
+            "Value": 7.5,
+            "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
             "Value": 7.5,
             "Selected Percentage": 0.7
         }
@@ -21057,6 +22133,10 @@
         "2025-12-04": {
             "Value": 4.1,
             "Selected Percentage": 8.0
+        },
+        "2025-12-05": {
+            "Value": 4.1,
+            "Selected Percentage": 8.0
         }
     },
     "Naomi Girma": {
@@ -21133,6 +22213,10 @@
             "Selected Percentage": 3.3
         },
         "2025-12-04": {
+            "Value": 6.2,
+            "Selected Percentage": 3.3
+        },
+        "2025-12-05": {
             "Value": 6.2,
             "Selected Percentage": 3.3
         }
@@ -21213,6 +22297,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.7
         }
     },
     "Silvana Miranda": {
@@ -21289,6 +22377,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -21369,6 +22461,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 3.4
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 3.4
         }
     },
     "Jenna Nighswonger": {
@@ -21445,6 +22541,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 0.3
         }
@@ -21525,6 +22625,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.6
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.6
         }
     },
     "Nadine Noordam": {
@@ -21601,6 +22705,10 @@
             "Selected Percentage": 1.3
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 1.3
         }
@@ -21681,6 +22789,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Keira Walsh": {
@@ -21757,6 +22869,10 @@
             "Selected Percentage": 18.5
         },
         "2025-12-04": {
+            "Value": 6.5,
+            "Selected Percentage": 18.5
+        },
+        "2025-12-05": {
             "Value": 6.5,
             "Selected Percentage": 18.5
         }
@@ -21837,6 +22953,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
         }
     },
     "Sophie Jackson": {
@@ -21913,6 +23033,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.3
         }
@@ -21993,6 +23117,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
         }
     },
     "Cecily Wellesley-Smith": {
@@ -22069,6 +23197,10 @@
             "Selected Percentage": 0.4
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.4
         }
@@ -22149,6 +23281,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
         }
     },
     "Ellie Roebuck": {
@@ -22225,6 +23361,10 @@
             "Selected Percentage": 10.1
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 10.1
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 10.1
         }
@@ -22305,6 +23445,10 @@
         "2025-12-04": {
             "Value": 6.7,
             "Selected Percentage": 9.4
+        },
+        "2025-12-05": {
+            "Value": 6.7,
+            "Selected Percentage": 9.4
         }
     },
     "Océane Deslandes": {
@@ -22381,6 +23525,10 @@
             "Selected Percentage": 1.4
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 1.4
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 1.4
         }
@@ -22461,6 +23609,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 2.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 2.1
         }
     },
     "Lucia Kendall": {
@@ -22537,6 +23689,10 @@
             "Selected Percentage": 1.9
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 2.0
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 2.0
         }
@@ -22617,6 +23773,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
         }
     },
     "Chiamaka Nnadozie": {
@@ -22693,6 +23853,10 @@
             "Selected Percentage": 9.7
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 9.8
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 9.8
         }
@@ -22773,6 +23937,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 0.6
         }
     },
     "Moeka Minami": {
@@ -22849,6 +24017,10 @@
             "Selected Percentage": 3.5
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 3.5
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 3.5
         }
@@ -22929,6 +24101,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 1.6
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 1.6
         }
     },
     "Livia Peng": {
@@ -23005,6 +24181,10 @@
             "Selected Percentage": 3.4
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 3.5
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 3.5
         }
@@ -23085,6 +24265,10 @@
         "2025-12-04": {
             "Value": 7.7,
             "Selected Percentage": 28.6
+        },
+        "2025-12-05": {
+            "Value": 7.7,
+            "Selected Percentage": 28.6
         }
     },
     "Mara Alber": {
@@ -23161,6 +24345,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -23241,6 +24429,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
         }
     },
     "Chloe Sarwie": {
@@ -23317,6 +24509,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -23397,6 +24593,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.7
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.7
         }
     },
     "Hikaru Kitagawa": {
@@ -23473,6 +24673,10 @@
             "Selected Percentage": 1.0
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 1.0
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 1.0
         }
@@ -23553,6 +24757,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.6
         }
     },
     "Aisha Nsangou": {
@@ -23629,6 +24837,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
@@ -23709,6 +24921,10 @@
         "2025-12-04": {
             "Value": 5.1,
             "Selected Percentage": 33.4
+        },
+        "2025-12-05": {
+            "Value": 5.1,
+            "Selected Percentage": 33.4
         }
     },
     "Katie Keane": {
@@ -23785,6 +25001,10 @@
             "Selected Percentage": 0.8
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.8
         }
@@ -23865,6 +25085,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.0
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.0
         }
     },
     "Rafaela Borggräfe": {
@@ -23941,6 +25165,10 @@
             "Selected Percentage": 4.5
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 4.4
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 4.4
         }
@@ -24021,6 +25249,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 0.5
         }
     },
     "Elene Lete": {
@@ -24097,6 +25329,10 @@
             "Selected Percentage": 9.9
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 9.9
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 9.9
         }
@@ -24177,6 +25413,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.3
         }
     },
     "Emily Orman": {
@@ -24253,6 +25493,10 @@
             "Selected Percentage": 1.7
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 1.7
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 1.7
         }
@@ -24333,6 +25577,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 2.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 2.3
         }
     },
     "Elena Linari": {
@@ -24409,6 +25657,10 @@
             "Selected Percentage": 6.9
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 7.0
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 7.0
         }
@@ -24489,6 +25741,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 6.8
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 6.8
         }
     },
     "Isa Kardinaal": {
@@ -24565,6 +25821,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
@@ -24645,6 +25905,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Maddi Wilde": {
@@ -24721,6 +25985,10 @@
             "Selected Percentage": 0.6
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.6
         }
@@ -24801,6 +26069,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.3
         }
     },
     "Daniëlle van de Donk": {
@@ -24877,6 +26149,10 @@
             "Selected Percentage": 4.9
         },
         "2025-12-04": {
+            "Value": 6.4,
+            "Selected Percentage": 4.8
+        },
+        "2025-12-05": {
             "Value": 6.4,
             "Selected Percentage": 4.8
         }
@@ -24957,6 +26233,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 8.7
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 8.8
         }
     },
     "Gesa Marashi": {
@@ -25033,6 +26313,10 @@
             "Selected Percentage": 0.2
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
@@ -25113,6 +26397,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 4.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 4.1
         }
     },
     "Mia Hamilton": {
@@ -25189,6 +26477,10 @@
             "Selected Percentage": 0.8
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.8
         }
@@ -25269,6 +26561,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.2
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.2
         }
     },
     "Sanni Franssi": {
@@ -25345,6 +26641,10 @@
             "Selected Percentage": 1.3
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 1.3
         }
@@ -25425,6 +26725,10 @@
         "2025-12-04": {
             "Value": 6.7,
             "Selected Percentage": 11.8
+        },
+        "2025-12-05": {
+            "Value": 6.7,
+            "Selected Percentage": 11.8
         }
     },
     "Sofia Jakobsson": {
@@ -25501,6 +26805,10 @@
             "Selected Percentage": 1.1
         },
         "2025-12-04": {
+            "Value": 6.0,
+            "Selected Percentage": 1.1
+        },
+        "2025-12-05": {
             "Value": 6.0,
             "Selected Percentage": 1.1
         }
@@ -25581,6 +26889,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.9
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.9
         }
     },
     "Isobel Goodwin": {
@@ -25657,6 +26969,10 @@
             "Selected Percentage": 4.4
         },
         "2025-12-04": {
+            "Value": 7.5,
+            "Selected Percentage": 4.5
+        },
+        "2025-12-05": {
             "Value": 7.5,
             "Selected Percentage": 4.5
         }
@@ -25737,6 +27053,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.2
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.2
         }
     },
     "Emily Vennard": {
@@ -25813,6 +27133,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.5
         }
@@ -25893,6 +27217,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 1.3
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 1.3
         }
     },
     "Jade Rose": {
@@ -25971,6 +27299,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 5.9
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 6.0
         }
     },
     "Sydney Lohmann": {
@@ -26047,6 +27379,10 @@
             "Selected Percentage": 1.6
         },
         "2025-12-04": {
+            "Value": 7.0,
+            "Selected Percentage": 1.6
+        },
+        "2025-12-05": {
             "Value": 7.0,
             "Selected Percentage": 1.6
         }
@@ -26127,6 +27463,10 @@
         "2025-12-04": {
             "Value": 4.6,
             "Selected Percentage": 9.7
+        },
+        "2025-12-05": {
+            "Value": 4.6,
+            "Selected Percentage": 9.7
         }
     },
     "Scarlett Hill": {
@@ -26203,6 +27543,10 @@
             "Selected Percentage": 0.8
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.8
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.8
         }
@@ -26283,6 +27627,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 3.0
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 3.0
         }
     },
     "Tamira Livingston": {
@@ -26359,6 +27707,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.5
         }
@@ -26439,6 +27791,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.7
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.7
         }
     },
     "Toko Koga": {
@@ -26515,6 +27871,10 @@
             "Selected Percentage": 11.3
         },
         "2025-12-04": {
+            "Value": 4.6,
+            "Selected Percentage": 11.3
+        },
+        "2025-12-05": {
             "Value": 4.6,
             "Selected Percentage": 11.3
         }
@@ -26595,6 +27955,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.4
         }
     },
     "Selin Cemal": {
@@ -26671,6 +28035,10 @@
             "Selected Percentage": 1.2
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 1.2
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 1.2
         }
@@ -26751,6 +28119,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.6
         }
     },
     "Yu Endo": {
@@ -26827,6 +28199,10 @@
             "Selected Percentage": 1.2
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 1.2
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 1.2
         }
@@ -26907,6 +28283,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.4
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.4
         }
     },
     "Ffion Morgan": {
@@ -26983,6 +28363,10 @@
             "Selected Percentage": 6.0
         },
         "2025-12-04": {
+            "Value": 6.4,
+            "Selected Percentage": 6.0
+        },
+        "2025-12-05": {
             "Value": 6.4,
             "Selected Percentage": 6.0
         }
@@ -27063,6 +28447,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.6
         }
     },
     "Fridolina Rolfö": {
@@ -27139,6 +28527,10 @@
             "Selected Percentage": 2.6
         },
         "2025-12-04": {
+            "Value": 9.4,
+            "Selected Percentage": 2.6
+        },
+        "2025-12-05": {
             "Value": 9.4,
             "Selected Percentage": 2.6
         }
@@ -27219,6 +28611,10 @@
         "2025-12-04": {
             "Value": 5.9,
             "Selected Percentage": 10.8
+        },
+        "2025-12-05": {
+            "Value": 5.9,
+            "Selected Percentage": 10.8
         }
     },
     "Veerle Buurman": {
@@ -27295,6 +28691,10 @@
             "Selected Percentage": 1.1
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 1.1
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 1.1
         }
@@ -27375,6 +28775,10 @@
         "2025-12-04": {
             "Value": 5.0,
             "Selected Percentage": 1.1
+        },
+        "2025-12-05": {
+            "Value": 5.0,
+            "Selected Percentage": 1.1
         }
     },
     "Maya Hijikata": {
@@ -27451,6 +28855,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.3
         }
@@ -27531,6 +28939,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.6
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.6
         }
     },
     "Katie Zelem": {
@@ -27607,6 +29019,10 @@
             "Selected Percentage": 3.3
         },
         "2025-12-04": {
+            "Value": 6.5,
+            "Selected Percentage": 3.3
+        },
+        "2025-12-05": {
             "Value": 6.5,
             "Selected Percentage": 3.3
         }
@@ -27687,6 +29103,10 @@
         "2025-12-04": {
             "Value": 5.5,
             "Selected Percentage": 7.3
+        },
+        "2025-12-05": {
+            "Value": 5.5,
+            "Selected Percentage": 7.3
         }
     },
     "Wassa Sangaré": {
@@ -27763,6 +29183,10 @@
             "Selected Percentage": 3.8
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 3.8
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 3.8
         }
@@ -27843,6 +29267,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 1.4
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 1.4
         }
     },
     "Emily Van Egmond": {
@@ -27919,6 +29347,10 @@
             "Selected Percentage": 4.9
         },
         "2025-12-04": {
+            "Value": 5.5,
+            "Selected Percentage": 4.9
+        },
+        "2025-12-05": {
             "Value": 5.5,
             "Selected Percentage": 4.9
         }
@@ -27999,6 +29431,10 @@
         "2025-12-04": {
             "Value": 6.5,
             "Selected Percentage": 0.7
+        },
+        "2025-12-05": {
+            "Value": 6.5,
+            "Selected Percentage": 0.8
         }
     },
     "Lucía Corrales": {
@@ -28075,6 +29511,10 @@
             "Selected Percentage": 2.1
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 2.1
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 2.1
         }
@@ -28155,6 +29595,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.5
         }
     },
     "Olivia McLoughlin": {
@@ -28231,6 +29675,10 @@
             "Selected Percentage": 1.5
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 1.5
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 1.5
         }
@@ -28311,6 +29759,10 @@
         "2025-12-04": {
             "Value": 5.9,
             "Selected Percentage": 17.6
+        },
+        "2025-12-05": {
+            "Value": 5.9,
+            "Selected Percentage": 17.6
         }
     },
     "Rosella Ayane": {
@@ -28387,6 +29839,10 @@
             "Selected Percentage": 0.5
         },
         "2025-12-04": {
+            "Value": 5.0,
+            "Selected Percentage": 0.5
+        },
+        "2025-12-05": {
             "Value": 5.0,
             "Selected Percentage": 0.5
         }
@@ -28467,6 +29923,10 @@
         "2025-12-04": {
             "Value": 9.0,
             "Selected Percentage": 1.1
+        },
+        "2025-12-05": {
+            "Value": 9.0,
+            "Selected Percentage": 1.1
         }
     },
     "Alyssa Thompson": {
@@ -28543,6 +30003,10 @@
             "Selected Percentage": 3.1
         },
         "2025-12-04": {
+            "Value": 9.5,
+            "Selected Percentage": 3.2
+        },
+        "2025-12-05": {
             "Value": 9.5,
             "Selected Percentage": 3.2
         }
@@ -28623,6 +30087,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 2.0
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 2.0
         }
     },
     "Lucy Morgan": {
@@ -28699,6 +30167,10 @@
             "Selected Percentage": 0.3
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.3
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.3
         }
@@ -28779,6 +30251,10 @@
         "2025-12-04": {
             "Value": 4.5,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
         }
     },
     "Rachael Adedini": {
@@ -28855,6 +30331,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.5,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.5,
             "Selected Percentage": 0.1
         }
@@ -28935,6 +30415,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Hannah Poulter": {
@@ -29011,6 +30495,10 @@
             "Selected Percentage": 0.1
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.1
         }
@@ -29091,6 +30579,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Samira Shikhshabekova": {
@@ -29167,6 +30659,10 @@
             "Selected Percentage": 0.0
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -29247,6 +30743,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Amy Liddiard": {
@@ -29323,6 +30823,10 @@
             "Selected Percentage": 0.0
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
@@ -29403,6 +30907,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.1
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Imogen Seymour": {
@@ -29481,6 +30989,10 @@
         "2025-12-04": {
             "Value": 4.0,
             "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
         }
     },
     "Sophie Harwood": {
@@ -29557,6 +31069,10 @@
             "Selected Percentage": 0.0
         },
         "2025-12-04": {
+            "Value": 4.0,
+            "Selected Percentage": 0.0
+        },
+        "2025-12-05": {
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
