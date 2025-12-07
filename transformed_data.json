@@ -436,17 +436,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -631,17 +620,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -1925,7 +1903,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 23,
-        "Selected Percentage": 5.7,
+        "Selected Percentage": 5.6,
         "Total Games Played": 10,
         "Total Over 4 Gameweeks": 6,
         "Games Played Over 4 Gameweeks": 4,
@@ -2599,17 +2577,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -2752,7 +2719,7 @@
         "News": "Quad injury",
         "Visionary": false,
         "Total Points": 36,
-        "Selected Percentage": 35.2,
+        "Selected Percentage": 35.1,
         "Total Games Played": 8,
         "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 4,
@@ -3010,17 +2977,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -3440,17 +3396,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -3635,17 +3580,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -3851,17 +3785,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -4062,17 +3985,6 @@
             "tooltip": "7 Dec (A) TOT D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -4285,17 +4197,6 @@
             "tooltip": "7 Dec (A) TOT D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -4673,17 +4574,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -5049,17 +4939,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -5233,17 +5112,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -5445,20 +5313,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (A) LCL W 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -5810,18 +5667,18 @@
         "Nationality": "Norway",
         "News": null,
         "Visionary": false,
-        "Total Points": 27,
+        "Total Points": 26,
         "Selected Percentage": 5.6,
         "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 9,
+        "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.2,
-        "Points Per Million": 2.5,
-        "Points Per Million Over 4 Gameweeks": 0.8,
+        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Million": 2.4,
+        "Points Per Million Over 4 Gameweeks": 0.7,
         "Total Goals": 2,
         "Total Assists": 2,
         "Total Red Cards": 0,
-        "Total Yellow Cards": 0,
+        "Total Yellow Cards": 1,
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
@@ -5868,21 +5725,10 @@
             "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
         },
         "10": {
-            "points": 1,
-            "tooltip": "7 Dec (H) WHU D 0-0\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "7 Dec (H) WHU D 0-0\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -7312,17 +7158,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -7526,17 +7361,6 @@
             "tooltip": "7 Dec (H) AVL D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -7868,7 +7692,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 15,
-        "Selected Percentage": 14.2,
+        "Selected Percentage": 14.1,
         "Total Games Played": 7,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -8126,17 +7950,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -9123,17 +8936,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -10542,17 +10344,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -10960,17 +10751,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -11171,17 +10951,6 @@
             "tooltip": "7 Dec (H) MCI D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -11387,17 +11156,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -11571,17 +11329,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -12163,17 +11910,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -12769,17 +12505,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -12922,7 +12647,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 55,
-        "Selected Percentage": 30.5,
+        "Selected Percentage": 30.6,
         "Total Games Played": 10,
         "Total Over 4 Gameweeks": 23,
         "Games Played Over 4 Gameweeks": 4,
@@ -12983,17 +12708,6 @@
             "tooltip": "7 Dec (A) LEI D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -13186,17 +12900,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -13614,17 +13317,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -13813,17 +13505,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -14029,17 +13710,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -14214,17 +13884,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -14398,17 +14057,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -14601,17 +14249,6 @@
             "tooltip": "7 Dec (A) LEI D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -15015,17 +14652,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -15199,17 +14825,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -15390,17 +15005,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -15606,17 +15210,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -15796,17 +15389,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -15997,17 +15579,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -16190,17 +15761,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -16573,17 +16133,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -16799,17 +16348,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -16951,18 +16489,18 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 34,
+        "Total Points": 33,
         "Selected Percentage": 8.2,
         "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 10,
+        "Total Over 4 Gameweeks": 9,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.5,
-        "Points Per Million": 4.4,
-        "Points Per Million Over 4 Gameweeks": 1.3,
+        "Points Per Game Over 4 Gameweeks": 2.2,
+        "Points Per Million": 4.2,
+        "Points Per Million Over 4 Gameweeks": 1.2,
         "Total Goals": 3,
         "Total Assists": 2,
         "Total Red Cards": 0,
-        "Total Yellow Cards": 3,
+        "Total Yellow Cards": 4,
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
@@ -17009,21 +16547,10 @@
             "tooltip": "16 Nov (A) AVL W 1-3\n1 min (+1pt)\n60 min (+1pt)"
         },
         "10": {
-            "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -17424,17 +16951,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -17626,17 +17142,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -18233,17 +17738,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -18420,17 +17914,6 @@
             "tooltip": "7 Dec (H) AVL D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -18627,17 +18110,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -18811,17 +18283,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -19024,17 +18485,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -19235,17 +18685,6 @@
             "tooltip": "7 Dec (H) AVL D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -19451,17 +18890,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -19651,17 +19079,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -19844,17 +19261,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -20059,17 +19465,6 @@
             "tooltip": "7 Dec (H) AVL D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -20456,17 +19851,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -21068,17 +20452,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -21252,17 +20625,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -21467,17 +20829,6 @@
             "tooltip": "7 Dec (A) MUN D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -22260,17 +21611,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -22671,17 +22011,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -22886,17 +22215,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -23097,17 +22415,6 @@
             "tooltip": "7 Dec (H) WHU D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -23310,17 +22617,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -23515,17 +22811,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -23724,17 +23009,6 @@
             "tooltip": "7 Dec (A) TOT D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -24147,17 +23421,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -24695,7 +23958,7 @@
         "News": "Leg injury",
         "Visionary": false,
         "Total Points": 31,
-        "Selected Percentage": 19.1,
+        "Selected Percentage": 19.0,
         "Total Games Played": 9,
         "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 4,
@@ -24955,17 +24218,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -25107,16 +24359,16 @@
         "Nationality": "USA",
         "News": null,
         "Visionary": true,
-        "Total Points": 14,
+        "Total Points": 15,
         "Selected Percentage": 0.4,
         "Total Games Played": 5,
-        "Total Over 4 Gameweeks": 12,
+        "Total Over 4 Gameweeks": 13,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.0,
-        "Points Per Million": 2.3,
-        "Points Per Million Over 4 Gameweeks": 2.0,
+        "Points Per Game Over 4 Gameweeks": 3.2,
+        "Points Per Million": 2.5,
+        "Points Per Million Over 4 Gameweeks": 2.2,
         "Total Goals": 1,
-        "Total Assists": 0,
+        "Total Assists": 1,
         "Total Red Cards": 0,
         "Total Yellow Cards": 1,
         "Total Saves": 0,
@@ -25124,7 +24376,7 @@
         "Total Conceeded": 0,
         "Total Clean Sheet": 2,
         "Total Bonus Points": 0,
-        "Total Missed Penalties": 0,
+        "Total Missed Penalties": 1,
         "Total Clearances": 0,
         "Total 1 min Appearances": 5,
         "Total 60 min Appearances": 3,
@@ -25150,21 +24402,10 @@
             "tooltip": "16 Nov (H) LEI W 4-1\nGoal (+5pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "10": {
-            "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "7 Dec (A) LCL W 0-1\nAssist (+3pts)\n1 min (+1pt)\nMissed Pen (-2pts)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -25339,17 +24580,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -25534,17 +24764,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -25721,17 +24940,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -26333,17 +25541,6 @@
             "tooltip": "7 Dec (H) MCI D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -27325,17 +26522,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -27510,17 +26696,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -27694,17 +26869,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -28087,17 +27251,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -28301,17 +27454,6 @@
             "tooltip": "7 Dec (H) WHU D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -28714,17 +27856,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -28940,17 +28071,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -29124,17 +28244,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -29336,17 +28445,6 @@
             "tooltip": "7 Dec (H) WHU D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -29741,17 +28839,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -30111,17 +29198,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -30319,17 +29395,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -30532,17 +29597,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -30720,17 +29774,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -30904,17 +29947,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -31111,17 +30143,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -31310,17 +30331,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -31525,17 +30535,6 @@
             "tooltip": "7 Dec (A) MUN D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -32157,17 +31156,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -32344,17 +31332,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -32559,17 +31536,6 @@
             "tooltip": "7 Dec (H) AVL D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -33093,17 +32059,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -33289,17 +32244,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -33473,17 +32417,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -34032,17 +32965,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -34402,17 +33324,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -34586,17 +33497,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -34957,17 +33857,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -35141,17 +34030,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -35693,17 +34571,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -35892,20 +34759,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -36474,17 +35330,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -36664,17 +35509,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -36870,17 +35704,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -37065,17 +35888,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -37285,20 +36097,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (A) LCL W 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -37500,20 +36301,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (A) LCL W 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -37701,17 +36491,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -37853,15 +36632,15 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": false,
-        "Total Points": 35,
+        "Total Points": 39,
         "Selected Percentage": 2.3,
         "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 17,
+        "Total Over 4 Gameweeks": 21,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.2,
-        "Points Per Million": 4.4,
-        "Points Per Million Over 4 Gameweeks": 2.1,
-        "Total Goals": 3,
+        "Points Per Game Over 4 Gameweeks": 5.2,
+        "Points Per Million": 4.9,
+        "Points Per Million Over 4 Gameweeks": 2.6,
+        "Total Goals": 4,
         "Total Assists": 1,
         "Total Red Cards": 0,
         "Total Yellow Cards": 1,
@@ -37911,21 +36690,10 @@
             "tooltip": "16 Nov (H) LEI W 4-1\nGoal (+4pts)\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "10": {
-            "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "points": 5,
+            "tooltip": "7 Dec (A) LCL W 0-1\nGoal (+4pts)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -38110,17 +36878,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -38294,17 +37051,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -39671,17 +38417,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -39856,17 +38591,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -40040,17 +38764,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -40231,17 +38944,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -40443,17 +39145,6 @@
             "tooltip": "7 Dec (H) WHU D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -40659,17 +39350,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -40850,17 +39530,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -41035,17 +39704,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -41219,17 +39877,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -41429,17 +40076,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -41582,7 +40218,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 43,
-        "Selected Percentage": 7.4,
+        "Selected Percentage": 7.5,
         "Total Games Played": 9,
         "Total Over 4 Gameweeks": 18,
         "Games Played Over 4 Gameweeks": 4,
@@ -41640,17 +40276,6 @@
             "tooltip": "7 Dec (A) LEI D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -41843,17 +40468,6 @@
             "tooltip": "7 Dec (H) MCI D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -42053,17 +40667,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -42252,17 +40855,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -43744,7 +42336,7 @@
         "News": "Knock",
         "Visionary": false,
         "Total Points": 38,
-        "Selected Percentage": 11.2,
+        "Selected Percentage": 11.1,
         "Total Games Played": 9,
         "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 4,
@@ -44012,17 +42604,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -44228,20 +42809,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (A) LCL W 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -44647,17 +43217,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -44831,17 +43390,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -45017,17 +43565,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -45201,17 +43738,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -45390,17 +43916,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -45542,18 +44057,18 @@
         "Nationality": "Australia",
         "News": null,
         "Visionary": false,
-        "Total Points": 34,
+        "Total Points": 33,
         "Selected Percentage": 16.0,
         "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 9,
+        "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.2,
-        "Points Per Million": 8.3,
-        "Points Per Million Over 4 Gameweeks": 2.2,
+        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Million": 8.0,
+        "Points Per Million Over 4 Gameweeks": 2.0,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
-        "Total Yellow Cards": 3,
+        "Total Yellow Cards": 4,
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": -4,
@@ -45600,21 +44115,10 @@
             "tooltip": "16 Nov (H) ARS D 0-0\nClean Sheet (+4pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "10": {
-            "points": 1,
-            "tooltip": "7 Dec (H) AVL D 0-0\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "7 Dec (H) AVL D 0-0\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -45804,17 +44308,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -46008,17 +44501,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -46201,17 +44683,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -46417,17 +44888,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -46601,17 +45061,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -47004,17 +45453,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -47204,17 +45642,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -47388,17 +45815,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -47574,17 +45990,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -47758,17 +46163,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -47953,17 +46347,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -48138,17 +46521,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -48322,17 +46694,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -48527,17 +46888,6 @@
             "tooltip": "7 Dec (A) LEI D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -48946,17 +47296,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -49157,17 +47496,6 @@
             "tooltip": "7 Dec (H) AVL D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -49949,17 +48277,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -50133,17 +48450,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -50325,17 +48631,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -50509,17 +48804,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -51990,17 +50274,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -52174,17 +50447,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -52360,17 +50622,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -52545,17 +50796,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -52729,17 +50969,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -52917,17 +51146,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -53121,17 +51339,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -53311,17 +51518,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -53517,20 +51713,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (A) LCL W 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -53912,17 +52097,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -54096,17 +52270,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -54296,17 +52459,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -54686,17 +52838,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -54897,20 +53038,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (A) LCL W 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -55657,17 +53787,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -56018,17 +54137,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -56384,17 +54492,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -56604,17 +54701,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -56767,18 +54853,18 @@
         "Nationality": "France",
         "News": null,
         "Visionary": true,
-        "Total Points": 26,
+        "Total Points": 25,
         "Selected Percentage": 1.4,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 9,
+        "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.2,
-        "Points Per Million": 4.3,
-        "Points Per Million Over 4 Gameweeks": 1.5,
+        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Million": 4.2,
+        "Points Per Million Over 4 Gameweeks": 1.3,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
-        "Total Yellow Cards": 2,
+        "Total Yellow Cards": 3,
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": -3,
@@ -56822,21 +54908,10 @@
             "tooltip": "16 Nov (H) LCL L 1-3\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "10": {
-            "points": 1,
-            "tooltip": "7 Dec (A) TOT D 0-0\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "7 Dec (A) TOT D 0-0\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -57043,17 +55118,6 @@
             "tooltip": "7 Dec (A) TOT D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -57264,17 +55328,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -57459,17 +55512,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -57682,20 +55724,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (A) LCL W 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -57838,18 +55869,18 @@
         "Nationality": "Colombia",
         "News": null,
         "Visionary": true,
-        "Total Points": 3,
+        "Total Points": 2,
         "Selected Percentage": 0.6,
         "Total Games Played": 3,
-        "Total Over 4 Gameweeks": 3,
+        "Total Over 4 Gameweeks": 2,
         "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 0.8,
-        "Points Per Million": 0.6,
-        "Points Per Million Over 4 Gameweeks": 0.6,
+        "Points Per Game Over 4 Gameweeks": 0.5,
+        "Points Per Million": 0.4,
+        "Points Per Million Over 4 Gameweeks": 0.4,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
-        "Total Yellow Cards": 0,
+        "Total Yellow Cards": 1,
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
@@ -57875,21 +55906,10 @@
             "tooltip": "16 Nov (H) LEI W 4-1\n1 min (+1pt)"
         },
         "10": {
-            "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "7 Dec (A) LCL W 0-1\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -58085,20 +56105,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (A) LCL D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (A) LCL W 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -58297,17 +56306,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -60450,17 +58448,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -60649,17 +58636,6 @@
             "tooltip": "7 Dec (H) MCI D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -61202,14 +59178,14 @@
         "Nationality": "Spain",
         "News": null,
         "Visionary": false,
-        "Total Points": 23,
+        "Total Points": 28,
         "Selected Percentage": 10.2,
         "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 6,
+        "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.5,
-        "Points Per Million": 5.8,
-        "Points Per Million Over 4 Gameweeks": 1.5,
+        "Points Per Game Over 4 Gameweeks": 2.8,
+        "Points Per Million": 7.0,
+        "Points Per Million Over 4 Gameweeks": 2.8,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -61260,21 +59236,10 @@
             "tooltip": "16 Nov (A) AVL W 1-3\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)"
         },
         "10": {
-            "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "points": 6,
+            "tooltip": "7 Dec (H) BHA L 0-1\nSavedPenalty (+5pts)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -61450,17 +59415,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -61635,17 +59589,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -61819,17 +59762,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -62028,20 +59960,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -62223,17 +60144,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -62407,17 +60317,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -62620,17 +60519,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -62773,7 +60661,7 @@
         "News": "Injured",
         "Visionary": true,
         "Total Points": 0,
-        "Selected Percentage": 0.6,
+        "Selected Percentage": 0.5,
         "Total Games Played": 0,
         "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 0,
@@ -62804,17 +60692,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -63010,20 +60887,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -63198,17 +61064,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -63410,20 +61265,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -63598,17 +61442,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -63796,17 +61629,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -63981,17 +61803,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -64165,17 +61976,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -64378,17 +62178,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -64589,20 +62378,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -64780,17 +62558,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -64980,17 +62747,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -65192,20 +62948,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -65381,17 +63126,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -65566,17 +63300,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -65750,17 +63473,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -65960,17 +63672,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -66162,17 +63863,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -66372,17 +64062,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -66556,17 +64235,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -66772,17 +64440,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -66957,17 +64614,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -67141,17 +64787,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -67354,17 +64989,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -67548,17 +65172,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -67735,17 +65348,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -67929,17 +65531,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -68139,17 +65730,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -68323,17 +65903,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -68536,17 +66105,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -68720,17 +66278,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -68929,17 +66476,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
@@ -69141,20 +66677,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -69542,17 +67067,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -69726,17 +67240,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
@@ -69941,17 +67444,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "WHU",
-                "away_name": "West Ham United",
-                "away_short_name": "West Ham"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -70143,17 +67635,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -70349,17 +67830,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -70558,20 +68028,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -70753,17 +68212,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -70905,14 +68353,14 @@
         "Nationality": "Australia",
         "News": null,
         "Visionary": false,
-        "Total Points": 26,
+        "Total Points": 27,
         "Selected Percentage": 4.7,
-        "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 10,
+        "Total Games Played": 10,
+        "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.5,
-        "Points Per Million": 4.7,
-        "Points Per Million Over 4 Gameweeks": 1.8,
+        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Million": 4.9,
+        "Points Per Million Over 4 Gameweeks": 1.5,
         "Total Goals": 1,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -70924,7 +68372,7 @@
         "Total Bonus Points": 1,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 9,
+        "Total 1 min Appearances": 10,
         "Total 60 min Appearances": 8,
         "1": {
             "points": 2,
@@ -70962,19 +68410,11 @@
             "points": 1,
             "tooltip": "16 Nov (A) BHA L 4-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
-        "10": "-",
+        "10": {
+            "points": 1,
+            "tooltip": "7 Dec (H) MCI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -71374,17 +68814,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -71774,17 +69203,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -71986,17 +69404,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "14:30",
                 "game_week": "11",
@@ -72185,17 +69592,6 @@
         },
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -72394,20 +69790,9 @@
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) BHA D 0-0\n1 min (+1pt)"
+            "tooltip": "7 Dec (H) BHA L 0-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
@@ -72813,17 +70198,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -73194,17 +70568,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -73378,17 +70741,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -73564,17 +70916,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "11:55",
                 "game_week": "11",
@@ -73748,17 +71089,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LCL",
-                "home_name": "London City Lionesses",
-                "home_short_name": "London City",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -73934,17 +71264,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -74119,17 +71438,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
-            {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
                 "game_week": "11",
@@ -74303,17 +71611,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
-            },
             {
                 "game_date": "14 Dec",
                 "kick_off_time": "12:00",
@@ -74663,17 +71960,6 @@
         "10": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
-            {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
                 "game_week": "11",
@@ -74858,17 +72144,6 @@
         "9": "-",
         "10": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "7 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "10",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "AVL",
-                "away_name": "Aston Villa",
-                "away_short_name": "Aston Villa"
-            },
             {
                 "game_date": "11 Dec",
                 "kick_off_time": "19:00",
