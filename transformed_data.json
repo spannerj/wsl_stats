@@ -234,7 +234,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (A) EVE W 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -954,7 +954,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (A) EVE W 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -1088,16 +1088,16 @@
         "Nationality": "Scotland",
         "News": null,
         "Visionary": true,
-        "Total Points": 21,
+        "Total Points": 24,
         "Selected Percentage": 1.7,
         "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 7,
+        "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.8,
-        "Points Per Million": 2.6,
-        "Points Per Million Over 4 Gameweeks": 0.9,
+        "Points Per Game Over 4 Gameweeks": 2.5,
+        "Points Per Million": 3.0,
+        "Points Per Million Over 4 Gameweeks": 1.2,
         "Total Goals": 0,
-        "Total Assists": 0,
+        "Total Assists": 1,
         "Total Red Cards": 0,
         "Total Yellow Cards": 0,
         "Total Saves": 0,
@@ -1144,8 +1144,8 @@
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "points": 4,
+            "tooltip": "13 Dec (A) EVE W 1-2\nAssist (+3pts)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -1888,7 +1888,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (A) EVE W 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -2022,15 +2022,15 @@
         "Nationality": "Republic of Ireland",
         "News": null,
         "Visionary": false,
-        "Total Points": 32,
+        "Total Points": 38,
         "Selected Percentage": 19.0,
         "Total Games Played": 11,
-        "Total Over 4 Gameweeks": 3,
+        "Total Over 4 Gameweeks": 9,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 0.8,
-        "Points Per Million": 4.1,
-        "Points Per Million Over 4 Gameweeks": 0.4,
-        "Total Goals": 0,
+        "Points Per Game Over 4 Gameweeks": 2.2,
+        "Points Per Million": 4.8,
+        "Points Per Million Over 4 Gameweeks": 1.1,
+        "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
         "Total Yellow Cards": 2,
@@ -2084,8 +2084,8 @@
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "points": 7,
+            "tooltip": "13 Dec (A) EVE W 1-2\nGoal (+6pts)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -2282,7 +2282,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (A) EVE W 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -2622,7 +2622,7 @@
         "News": "Quad injury",
         "Visionary": false,
         "Total Points": 36,
-        "Selected Percentage": 33.1,
+        "Selected Percentage": 33.0,
         "Total Games Played": 8,
         "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 4,
@@ -7832,21 +7832,21 @@
         "Nationality": "Republic of Ireland",
         "News": null,
         "Visionary": false,
-        "Total Points": 13,
+        "Total Points": 12,
         "Selected Percentage": 3.0,
         "Total Games Played": 5,
-        "Total Over 4 Gameweeks": 11,
+        "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.8,
-        "Points Per Million": 2.5,
-        "Points Per Million Over 4 Gameweeks": 2.1,
+        "Points Per Game Over 4 Gameweeks": 2.5,
+        "Points Per Million": 2.3,
+        "Points Per Million Over 4 Gameweeks": 1.9,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
         "Total Yellow Cards": 0,
         "Total Saves": 2,
         "Total Own Goals": 0,
-        "Total Conceeded": -2,
+        "Total Conceeded": -3,
         "Total Clean Sheet": 1,
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
@@ -7876,8 +7876,8 @@
             "tooltip": "7 Dec (A) CHE W 0-1\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "13 Dec (H) ARS L 1-2\n1 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -9516,7 +9516,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (H) ARS L 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -12628,7 +12628,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (H) ARS L 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -14299,7 +14299,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 0,
-        "Selected Percentage": 3.5,
+        "Selected Percentage": 3.6,
         "Total Games Played": 0,
         "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 0,
@@ -16184,15 +16184,15 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 53,
+        "Total Points": 57,
         "Selected Percentage": 44.8,
         "Total Games Played": 11,
-        "Total Over 4 Gameweeks": 14,
+        "Total Over 4 Gameweeks": 18,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.5,
-        "Points Per Million": 4.3,
-        "Points Per Million Over 4 Gameweeks": 1.1,
-        "Total Goals": 4,
+        "Points Per Game Over 4 Gameweeks": 4.5,
+        "Points Per Million": 4.6,
+        "Points Per Million Over 4 Gameweeks": 1.5,
+        "Total Goals": 5,
         "Total Assists": 3,
         "Total Red Cards": 0,
         "Total Yellow Cards": 0,
@@ -16246,8 +16246,8 @@
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "points": 5,
+            "tooltip": "13 Dec (A) EVE W 1-2\nGoal (+4pts)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -18104,7 +18104,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 26,
-        "Selected Percentage": 1.6,
+        "Selected Percentage": 1.7,
         "Total Games Played": 9,
         "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
@@ -19662,15 +19662,15 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": true,
-        "Total Points": 28,
+        "Total Points": 33,
         "Selected Percentage": 1.0,
         "Total Games Played": 11,
-        "Total Over 4 Gameweeks": 12,
+        "Total Over 4 Gameweeks": 17,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.0,
-        "Points Per Million": 4.0,
-        "Points Per Million Over 4 Gameweeks": 1.7,
-        "Total Goals": 2,
+        "Points Per Game Over 4 Gameweeks": 4.2,
+        "Points Per Million": 4.7,
+        "Points Per Million Over 4 Gameweeks": 2.4,
+        "Total Goals": 3,
         "Total Assists": 0,
         "Total Red Cards": 0,
         "Total Yellow Cards": 1,
@@ -19724,8 +19724,8 @@
             "tooltip": "7 Dec (A) CHE W 0-1\nGoal (+5pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "points": 6,
+            "tooltip": "13 Dec (H) ARS L 1-2\nGoal (+5pts)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -27950,7 +27950,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (A) EVE W 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -30047,7 +30047,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (H) ARS L 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -30244,7 +30244,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (A) EVE W 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -34319,7 +34319,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (A) EVE W 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -40888,7 +40888,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (H) ARS L 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -46073,7 +46073,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (H) ARS L 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -46677,7 +46677,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (H) ARS L 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -52747,7 +52747,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (A) EVE W 1-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -56090,11 +56090,11 @@
         "Total Yellow Cards": 1,
         "Total Saves": 0,
         "Total Own Goals": 0,
-        "Total Conceeded": -5,
+        "Total Conceeded": -6,
         "Total Clean Sheet": 1,
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
-        "Total Clearances": 1,
+        "Total Clearances": 2,
         "Total 1 min Appearances": 8,
         "Total 60 min Appearances": 6,
         "1": {
@@ -56130,7 +56130,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "tooltip": "13 Dec (H) ARS L 1-2\nClearance (+1pt)\n1 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -56264,21 +56264,21 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": true,
-        "Total Points": 17,
-        "Selected Percentage": 1.0,
+        "Total Points": 16,
+        "Selected Percentage": 1.1,
         "Total Games Played": 8,
-        "Total Over 4 Gameweeks": 9,
+        "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.2,
-        "Points Per Million": 3.8,
-        "Points Per Million Over 4 Gameweeks": 2.0,
+        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Million": 3.6,
+        "Points Per Million Over 4 Gameweeks": 1.8,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
         "Total Yellow Cards": 0,
         "Total Saves": 0,
         "Total Own Goals": 1,
-        "Total Conceeded": -2,
+        "Total Conceeded": -3,
         "Total Clean Sheet": 1,
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
@@ -56317,8 +56317,8 @@
             "tooltip": "7 Dec (A) CHE W 0-1\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "13 Dec (H) ARS L 1-2\n1 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -56810,16 +56810,16 @@
         "Nationality": "Spain",
         "News": null,
         "Visionary": false,
-        "Total Points": 46,
+        "Total Points": 49,
         "Selected Percentage": 32.0,
         "Total Games Played": 11,
-        "Total Over 4 Gameweeks": 11,
+        "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.8,
-        "Points Per Million": 9.0,
-        "Points Per Million Over 4 Gameweeks": 2.2,
+        "Points Per Game Over 4 Gameweeks": 3.5,
+        "Points Per Million": 9.6,
+        "Points Per Million Over 4 Gameweeks": 2.7,
         "Total Goals": 4,
-        "Total Assists": 0,
+        "Total Assists": 1,
         "Total Red Cards": 0,
         "Total Yellow Cards": 1,
         "Total Saves": 0,
@@ -56872,8 +56872,8 @@
             "tooltip": "7 Dec (A) CHE W 0-1\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+            "points": 4,
+            "tooltip": "13 Dec (H) ARS L 1-2\nAssist (+3pts)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
