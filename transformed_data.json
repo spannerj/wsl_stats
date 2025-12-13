@@ -41,17 +41,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -182,14 +171,14 @@
         "Nationality": "Australia",
         "News": null,
         "Visionary": false,
-        "Total Points": 38,
+        "Total Points": 39,
         "Selected Percentage": 9.3,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 15,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.8,
-        "Points Per Million": 5.4,
-        "Points Per Million Over 4 Gameweeks": 2.1,
+        "Points Per Game Over 4 Gameweeks": 3.5,
+        "Points Per Million": 5.6,
+        "Points Per Million Over 4 Gameweeks": 2.0,
         "Total Goals": 0,
         "Total Assists": 2,
         "Total Red Cards": 0,
@@ -201,7 +190,7 @@
         "Total Bonus Points": 1,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 10,
         "1": {
             "points": 6,
@@ -243,19 +232,11 @@
             "points": 5,
             "tooltip": "6 Dec (H) LIV W 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -792,17 +773,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -933,13 +903,13 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 17,
+        "Total Points": 18,
         "Selected Percentage": 5.6,
-        "Total Games Played": 6,
+        "Total Games Played": 7,
         "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 3.8,
-        "Points Per Million": 3.1,
+        "Points Per Million": 3.3,
         "Points Per Million Over 4 Gameweeks": 2.7,
         "Total Goals": 0,
         "Total Assists": 0,
@@ -952,7 +922,7 @@
         "Total Bonus Points": 4,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 6,
+        "Total 1 min Appearances": 7,
         "Total 60 min Appearances": 4,
         "1": "-",
         "2": {
@@ -982,19 +952,11 @@
             "points": 5,
             "tooltip": "6 Dec (H) LIV W 2-1\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -1126,14 +1088,14 @@
         "Nationality": "Scotland",
         "News": null,
         "Visionary": true,
-        "Total Points": 20,
+        "Total Points": 21,
         "Selected Percentage": 1.7,
-        "Total Games Played": 8,
-        "Total Over 4 Gameweeks": 8,
+        "Total Games Played": 9,
+        "Total Over 4 Gameweeks": 7,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.0,
-        "Points Per Million": 2.5,
-        "Points Per Million Over 4 Gameweeks": 1.0,
+        "Points Per Game Over 4 Gameweeks": 1.8,
+        "Points Per Million": 2.6,
+        "Points Per Million Over 4 Gameweeks": 0.9,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -1145,7 +1107,7 @@
         "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 8,
+        "Total 1 min Appearances": 9,
         "Total 60 min Appearances": 7,
         "1": {
             "points": 2,
@@ -1181,19 +1143,11 @@
             "points": 1,
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -1386,17 +1340,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -1560,17 +1503,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -1763,17 +1695,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -1904,13 +1825,13 @@
         "Nationality": "Australia",
         "News": null,
         "Visionary": false,
-        "Total Points": 23,
+        "Total Points": 24,
         "Selected Percentage": 5.5,
-        "Total Games Played": 10,
+        "Total Games Played": 11,
         "Total Over 4 Gameweeks": 6,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 1.5,
-        "Points Per Million": 2.7,
+        "Points Per Million": 2.8,
         "Points Per Million Over 4 Gameweeks": 0.7,
         "Total Goals": 1,
         "Total Assists": 0,
@@ -1923,7 +1844,7 @@
         "Total Bonus Points": 1,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 6,
         "1": {
             "points": 1,
@@ -1965,19 +1886,11 @@
             "points": 0,
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)\nYellow Card (-1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -2109,13 +2022,13 @@
         "Nationality": "Republic of Ireland",
         "News": null,
         "Visionary": false,
-        "Total Points": 31,
+        "Total Points": 32,
         "Selected Percentage": 19.0,
-        "Total Games Played": 10,
+        "Total Games Played": 11,
         "Total Over 4 Gameweeks": 3,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 0.8,
-        "Points Per Million": 3.9,
+        "Points Per Million": 4.1,
         "Points Per Million Over 4 Gameweeks": 0.4,
         "Total Goals": 0,
         "Total Assists": 0,
@@ -2128,7 +2041,7 @@
         "Total Bonus Points": 5,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 7,
         "1": {
             "points": 2,
@@ -2170,19 +2083,11 @@
             "points": 1,
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -2314,14 +2219,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 33,
+        "Total Points": 34,
         "Selected Percentage": 9.7,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 11,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.8,
-        "Points Per Million": 3.7,
-        "Points Per Million Over 4 Gameweeks": 1.2,
+        "Points Per Game Over 4 Gameweeks": 1.2,
+        "Points Per Million": 3.8,
+        "Points Per Million Over 4 Gameweeks": 0.6,
         "Total Goals": 0,
         "Total Assists": 4,
         "Total Red Cards": 0,
@@ -2333,7 +2238,7 @@
         "Total Bonus Points": 6,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 4,
         "1": {
             "points": 10,
@@ -2375,19 +2280,11 @@
             "points": 1,
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -3179,17 +3076,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -4347,17 +4233,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -5465,17 +5340,6 @@
         },
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -7968,14 +7832,14 @@
         "Nationality": "Republic of Ireland",
         "News": null,
         "Visionary": false,
-        "Total Points": 12,
+        "Total Points": 13,
         "Selected Percentage": 3.0,
-        "Total Games Played": 4,
-        "Total Over 4 Gameweeks": 12,
+        "Total Games Played": 5,
+        "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.0,
-        "Points Per Million": 2.3,
-        "Points Per Million Over 4 Gameweeks": 2.3,
+        "Points Per Game Over 4 Gameweeks": 2.8,
+        "Points Per Million": 2.5,
+        "Points Per Million Over 4 Gameweeks": 2.1,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -7987,7 +7851,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 4,
+        "Total 1 min Appearances": 5,
         "Total 60 min Appearances": 4,
         "1": {
             "points": 2,
@@ -8011,19 +7875,11 @@
             "points": 7,
             "tooltip": "7 Dec (A) CHE W 0-1\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -8206,17 +8062,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -8583,17 +8428,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -8970,17 +8804,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -9145,17 +8968,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -9319,17 +9131,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -9522,17 +9323,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -9663,14 +9453,14 @@
         "Nationality": "Australia",
         "News": null,
         "Visionary": true,
-        "Total Points": 16,
+        "Total Points": 17,
         "Selected Percentage": 1.8,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 6,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.5,
-        "Points Per Million": 2.9,
-        "Points Per Million Over 4 Gameweeks": 1.1,
+        "Points Per Game Over 4 Gameweeks": 1.2,
+        "Points Per Million": 3.1,
+        "Points Per Million Over 4 Gameweeks": 0.9,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -9682,7 +9472,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 1,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 7,
         "1": {
             "points": 1,
@@ -9724,19 +9514,11 @@
             "points": 1,
             "tooltip": "7 Dec (A) CHE W 0-1\n1 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -10329,17 +10111,6 @@
         },
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -11493,17 +11264,6 @@
         },
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -12805,14 +12565,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 20,
+        "Total Points": 21,
         "Selected Percentage": 8.5,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 10,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.5,
-        "Points Per Million": 4.4,
-        "Points Per Million Over 4 Gameweeks": 2.2,
+        "Points Per Game Over 4 Gameweeks": 2.8,
+        "Points Per Million": 4.7,
+        "Points Per Million Over 4 Gameweeks": 2.4,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -12824,7 +12584,7 @@
         "Total Bonus Points": 5,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 8,
         "1": {
             "points": 1,
@@ -12866,19 +12626,11 @@
             "points": 5,
             "tooltip": "7 Dec (A) CHE W 0-1\nBonus x2 (+2pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -14210,17 +13962,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -15725,17 +15466,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -16454,14 +16184,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 52,
+        "Total Points": 53,
         "Selected Percentage": 44.8,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 23,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 5.8,
-        "Points Per Million": 4.2,
-        "Points Per Million Over 4 Gameweeks": 1.9,
+        "Points Per Game Over 4 Gameweeks": 3.5,
+        "Points Per Million": 4.3,
+        "Points Per Million Over 4 Gameweeks": 1.1,
         "Total Goals": 4,
         "Total Assists": 3,
         "Total Red Cards": 0,
@@ -16473,7 +16203,7 @@
         "Total Bonus Points": 6,
         "Total Missed Penalties": 0,
         "Total Clearances": 1,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 10,
         "1": {
             "points": 5,
@@ -16515,19 +16245,11 @@
             "points": 2,
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -19940,13 +19662,13 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": true,
-        "Total Points": 27,
+        "Total Points": 28,
         "Selected Percentage": 1.0,
-        "Total Games Played": 10,
+        "Total Games Played": 11,
         "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 3.0,
-        "Points Per Million": 3.9,
+        "Points Per Million": 4.0,
         "Points Per Million Over 4 Gameweeks": 1.7,
         "Total Goals": 2,
         "Total Assists": 0,
@@ -19959,7 +19681,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 6,
         "1": {
             "points": 1,
@@ -20001,19 +19723,11 @@
             "points": 8,
             "tooltip": "7 Dec (A) CHE W 0-1\nGoal (+5pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -20941,17 +20655,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -23694,17 +23397,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -26696,17 +26388,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -28221,13 +27902,13 @@
         "Nationality": "Australia",
         "News": null,
         "Visionary": false,
-        "Total Points": 11,
+        "Total Points": 12,
         "Selected Percentage": 2.6,
-        "Total Games Played": 5,
+        "Total Games Played": 6,
         "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 2.5,
-        "Points Per Million": 1.6,
+        "Points Per Million": 1.7,
         "Points Per Million Over 4 Gameweeks": 1.4,
         "Total Goals": 0,
         "Total Assists": 0,
@@ -28240,7 +27921,7 @@
         "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 5,
+        "Total 1 min Appearances": 6,
         "Total 60 min Appearances": 2,
         "1": "-",
         "2": "-",
@@ -28267,19 +27948,11 @@
             "points": 2,
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -30311,13 +29984,13 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": true,
-        "Total Points": 23,
+        "Total Points": 24,
         "Selected Percentage": 1.6,
-        "Total Games Played": 10,
+        "Total Games Played": 11,
         "Total Over 4 Gameweeks": 6,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 1.5,
-        "Points Per Million": 3.5,
+        "Points Per Million": 3.7,
         "Points Per Million Over 4 Gameweeks": 0.9,
         "Total Goals": 1,
         "Total Assists": 0,
@@ -30330,7 +30003,7 @@
         "Total Bonus Points": 1,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 6,
         "1": {
             "points": 2,
@@ -30372,19 +30045,11 @@
             "points": 3,
             "tooltip": "7 Dec (A) CHE W 0-1\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -30516,13 +30181,13 @@
         "Nationality": "USA",
         "News": null,
         "Visionary": false,
-        "Total Points": 38,
+        "Total Points": 39,
         "Selected Percentage": 12.9,
-        "Total Games Played": 10,
+        "Total Games Played": 11,
         "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 3.5,
-        "Points Per Million": 5.1,
+        "Points Per Million": 5.2,
         "Points Per Million Over 4 Gameweeks": 1.9,
         "Total Goals": 0,
         "Total Assists": 2,
@@ -30535,7 +30200,7 @@
         "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 9,
         "1": {
             "points": 2,
@@ -30577,19 +30242,11 @@
             "points": 5,
             "tooltip": "6 Dec (H) LIV W 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -31343,17 +31000,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -31517,17 +31163,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -32224,17 +31859,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -32398,17 +32022,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -33817,17 +33430,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -33991,17 +33593,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -34535,17 +34126,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -34676,14 +34256,14 @@
         "Nationality": "Spain",
         "News": null,
         "Visionary": false,
-        "Total Points": 52,
+        "Total Points": 53,
         "Selected Percentage": 32.5,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 13,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.2,
-        "Points Per Million": 5.1,
-        "Points Per Million Over 4 Gameweeks": 1.3,
+        "Points Per Game Over 4 Gameweeks": 2.5,
+        "Points Per Million": 5.2,
+        "Points Per Million Over 4 Gameweeks": 1.0,
         "Total Goals": 1,
         "Total Assists": 2,
         "Total Red Cards": 0,
@@ -34695,7 +34275,7 @@
         "Total Bonus Points": 18,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 9,
         "1": {
             "points": 4,
@@ -34737,19 +34317,11 @@
             "points": 4,
             "tooltip": "6 Dec (H) LIV W 2-1\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -40959,17 +40531,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -41134,17 +40695,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -41275,14 +40825,14 @@
         "Nationality": "Nigeria",
         "News": null,
         "Visionary": true,
-        "Total Points": 20,
+        "Total Points": 21,
         "Selected Percentage": 0.8,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 13,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.2,
-        "Points Per Million": 3.3,
-        "Points Per Million Over 4 Gameweeks": 2.2,
+        "Points Per Game Over 4 Gameweeks": 3.0,
+        "Points Per Million": 3.5,
+        "Points Per Million Over 4 Gameweeks": 2.0,
         "Total Goals": 0,
         "Total Assists": 2,
         "Total Red Cards": 0,
@@ -41294,7 +40844,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 5,
         "1": {
             "points": 1,
@@ -41336,19 +40886,11 @@
             "points": 5,
             "tooltip": "7 Dec (A) CHE W 0-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -41514,17 +41056,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -41688,17 +41219,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -46499,13 +46019,13 @@
         "Nationality": "France",
         "News": null,
         "Visionary": false,
-        "Total Points": 24,
+        "Total Points": 25,
         "Selected Percentage": 2.6,
-        "Total Games Played": 7,
+        "Total Games Played": 8,
         "Total Over 4 Gameweeks": 20,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 5.0,
-        "Points Per Million": 4.0,
+        "Points Per Million": 4.2,
         "Points Per Million Over 4 Gameweeks": 3.3,
         "Total Goals": 3,
         "Total Assists": 0,
@@ -46518,7 +46038,7 @@
         "Total Bonus Points": 1,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 7,
+        "Total 1 min Appearances": 8,
         "Total 60 min Appearances": 4,
         "1": {
             "points": 1,
@@ -46551,19 +46071,11 @@
             "points": 2,
             "tooltip": "7 Dec (A) CHE W 0-1\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -47102,14 +46614,14 @@
         "Nationality": "Spain",
         "News": null,
         "Visionary": false,
-        "Total Points": 31,
+        "Total Points": 32,
         "Selected Percentage": 2.4,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 17,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 7,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.2,
-        "Points Per Million": 5.6,
-        "Points Per Million Over 4 Gameweeks": 3.1,
+        "Points Per Game Over 4 Gameweeks": 1.8,
+        "Points Per Million": 5.8,
+        "Points Per Million Over 4 Gameweeks": 1.3,
         "Total Goals": 0,
         "Total Assists": 2,
         "Total Red Cards": 0,
@@ -47121,7 +46633,7 @@
         "Total Bonus Points": 5,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 10,
         "1": {
             "points": 2,
@@ -47163,19 +46675,11 @@
             "points": 3,
             "tooltip": "7 Dec (A) CHE W 0-1\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -48421,17 +47925,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -48595,17 +48088,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -48771,17 +48253,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -48945,17 +48416,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -49121,17 +48581,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -49295,17 +48744,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -52017,17 +51455,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -52979,17 +52406,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -53295,14 +52711,14 @@
         "Nationality": "Germany",
         "News": null,
         "Visionary": true,
-        "Total Points": 2,
+        "Total Points": 3,
         "Selected Percentage": 0.8,
-        "Total Games Played": 1,
-        "Total Over 4 Gameweeks": 2,
-        "Games Played Over 4 Gameweeks": 1,
-        "Points Per Game Over 4 Gameweeks": 0.5,
-        "Points Per Million": 0.5,
-        "Points Per Million Over 4 Gameweeks": 0.5,
+        "Total Games Played": 2,
+        "Total Over 4 Gameweeks": 3,
+        "Games Played Over 4 Gameweeks": 2,
+        "Points Per Game Over 4 Gameweeks": 0.8,
+        "Points Per Million": 0.8,
+        "Points Per Million Over 4 Gameweeks": 0.8,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -53314,7 +52730,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 1,
+        "Total 1 min Appearances": 2,
         "Total 60 min Appearances": 1,
         "1": "-",
         "2": "-",
@@ -53329,19 +52745,11 @@
             "points": 2,
             "tooltip": "6 Dec (H) LIV W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (A) EVE D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -53681,17 +53089,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
@@ -56679,14 +56076,14 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": true,
-        "Total Points": 15,
+        "Total Points": 16,
         "Selected Percentage": 1.7,
-        "Total Games Played": 7,
-        "Total Over 4 Gameweeks": 10,
+        "Total Games Played": 8,
+        "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.5,
-        "Points Per Million": 3.8,
-        "Points Per Million Over 4 Gameweeks": 2.5,
+        "Points Per Game Over 4 Gameweeks": 2.8,
+        "Points Per Million": 4.0,
+        "Points Per Million Over 4 Gameweeks": 2.8,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -56698,7 +56095,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 1,
-        "Total 1 min Appearances": 7,
+        "Total 1 min Appearances": 8,
         "Total 60 min Appearances": 6,
         "1": {
             "points": 2,
@@ -56731,19 +56128,11 @@
             "points": 5,
             "tooltip": "7 Dec (A) CHE W 0-1\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -56875,14 +56264,14 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": true,
-        "Total Points": 16,
+        "Total Points": 17,
         "Selected Percentage": 1.0,
-        "Total Games Played": 7,
-        "Total Over 4 Gameweeks": 15,
+        "Total Games Played": 8,
+        "Total Over 4 Gameweeks": 9,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.8,
-        "Points Per Million": 3.6,
-        "Points Per Million Over 4 Gameweeks": 3.3,
+        "Points Per Game Over 4 Gameweeks": 2.2,
+        "Points Per Million": 3.8,
+        "Points Per Million Over 4 Gameweeks": 2.0,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -56894,7 +56283,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 7,
+        "Total 1 min Appearances": 8,
         "Total 60 min Appearances": 3,
         "1": "-",
         "2": "-",
@@ -56927,19 +56316,11 @@
             "points": 6,
             "tooltip": "7 Dec (A) CHE W 0-1\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -57135,17 +56516,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -57310,17 +56680,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
                 "game_week": "12",
@@ -57451,14 +56810,14 @@
         "Nationality": "Spain",
         "News": null,
         "Visionary": false,
-        "Total Points": 45,
+        "Total Points": 46,
         "Selected Percentage": 32.0,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 12,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.0,
-        "Points Per Million": 8.8,
-        "Points Per Million Over 4 Gameweeks": 2.4,
+        "Points Per Game Over 4 Gameweeks": 2.8,
+        "Points Per Million": 9.0,
+        "Points Per Million Over 4 Gameweeks": 2.2,
         "Total Goals": 4,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -57470,7 +56829,7 @@
         "Total Bonus Points": 5,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 10,
         "1": {
             "points": 19,
@@ -57512,19 +56871,11 @@
             "points": 3,
             "tooltip": "7 Dec (A) CHE W 0-1\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
-        "11": "-",
+        "11": {
+            "points": 1,
+            "tooltip": "13 Dec (H) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "11 Jan",
                 "kick_off_time": "12:00",
@@ -71042,17 +70393,6 @@
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
-            {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
                 "game_week": "12",
@@ -71566,17 +70906,6 @@
         "10": "-",
         "11": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "13 Dec",
-                "kick_off_time": "12:00",
-                "game_week": "11",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "ARS",
-                "away_name": "Arsenal",
-                "away_short_name": "Arsenal"
-            },
             {
                 "game_date": "10 Jan",
                 "kick_off_time": "12:30",
