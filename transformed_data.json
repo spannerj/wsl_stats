@@ -2598,7 +2598,7 @@
         "News": "Quad injury",
         "Visionary": false,
         "Total Points": 36,
-        "Selected Percentage": 32.5,
+        "Selected Percentage": 32.4,
         "Total Games Played": 8,
         "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 4,
@@ -3772,8 +3772,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "points": 6,
+            "tooltip": "11 Dec (H) LIV W 3-0\nGoal (+5pts)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -12382,7 +12382,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 47,
-        "Selected Percentage": 4.7,
+        "Selected Percentage": 4.8,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 25,
         "Games Played Over 4 Gameweeks": 4,
@@ -12758,7 +12758,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 40,
-        "Selected Percentage": 16.5,
+        "Selected Percentage": 16.4,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 13,
         "Games Played Over 4 Gameweeks": 4,
@@ -13656,7 +13656,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 83,
-        "Selected Percentage": 26.7,
+        "Selected Percentage": 26.8,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 49,
         "Games Played Over 4 Gameweeks": 4,
@@ -18652,8 +18652,8 @@
         "9": "-",
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
+            "points": 7,
+            "tooltip": "14 Dec (A) MCI L 6-1\nGoal (+6pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -24169,8 +24169,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "points": 3,
+            "tooltip": "14 Dec (A) WHU D 2-2\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -32923,7 +32923,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 54,
-        "Selected Percentage": 32.0,
+        "Selected Percentage": 31.9,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
@@ -34948,7 +34948,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -42465,8 +42465,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -45062,7 +45062,7 @@
         "News": "Back injury",
         "Visionary": false,
         "Total Points": 16,
-        "Selected Percentage": 6.0,
+        "Selected Percentage": 5.9,
         "Total Games Played": 8,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -51646,8 +51646,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\nConceded (-1pt)"
+            "points": 6,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -55256,8 +55256,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -56081,7 +56081,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 36,
-        "Selected Percentage": 7.5,
+        "Selected Percentage": 7.6,
         "Total Games Played": 10,
         "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
@@ -58933,7 +58933,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 37,
-        "Selected Percentage": 4.7,
+        "Selected Percentage": 4.8,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
@@ -59998,7 +59998,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 26,
-        "Selected Percentage": 8.8,
+        "Selected Percentage": 8.7,
         "Total Games Played": 10,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -63084,8 +63084,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -65652,7 +65652,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 39,
-        "Selected Percentage": 4.3,
+        "Selected Percentage": 4.4,
         "Total Games Played": 9,
         "Total Over 4 Gameweeks": 30,
         "Games Played Over 4 Gameweeks": 4,
