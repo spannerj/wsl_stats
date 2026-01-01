@@ -72330,5 +72330,29 @@
             "Value": 4.0,
             "Selected Percentage": 0.2
         }
+    },
+    "Lea Schuller": {
+        "2026-01-01": {
+            "Value": 9.5,
+            "Selected Percentage": 0
+        }
+    },
+    "Hanna Lundkvist": {
+        "2026-01-01": {
+            "Value": 4.0,
+            "Selected Percentage": 0
+        }
+    },
+    "Hanna Wijk": {
+        "2026-01-01": {
+            "Value": 4.0,
+            "Selected Percentage": 0
+        }
+    },
+    "Matilda Nildén": {
+        "2026-01-01": {
+            "Value": 6.0,
+            "Selected Percentage": 0
+        }
     }
 }
