@@ -31076,7 +31076,7 @@
         },
         "2026-01-06": {
             "Value": 8.5,
-            "Selected Percentage": 13.7
+            "Selected Percentage": 13.6
         }
     },
     "Brooke Aspin": {
@@ -32966,7 +32966,7 @@
         },
         "2026-01-06": {
             "Value": 7.5,
-            "Selected Percentage": 3.9
+            "Selected Percentage": 3.8
         }
     },
     "Nicole Momiki": {
@@ -43676,7 +43676,7 @@
         },
         "2026-01-06": {
             "Value": 4.6,
-            "Selected Percentage": 8.1
+            "Selected Percentage": 8.2
         }
     },
     "Aoba Fujino": {
@@ -46196,7 +46196,7 @@
         },
         "2026-01-06": {
             "Value": 7.2,
-            "Selected Percentage": 7.6
+            "Selected Percentage": 7.5
         }
     },
     "Chasity Grant": {
@@ -63836,7 +63836,7 @@
         },
         "2026-01-06": {
             "Value": 5.1,
-            "Selected Percentage": 32.2
+            "Selected Percentage": 32.3
         }
     },
     "Katie Keane": {
@@ -80105,6 +80105,30 @@
         "2026-01-06": {
             "Value": 6.5,
             "Selected Percentage": 0.3
+        }
+    },
+    "Julie Blakstad": {
+        "2026-01-06": {
+            "Value": 6.0,
+            "Selected Percentage": 0
+        }
+    },
+    "Smilla Holmberg": {
+        "2026-01-06": {
+            "Value": 5.0,
+            "Selected Percentage": 0
+        }
+    },
+    "Alice Bergstrom": {
+        "2026-01-06": {
+            "Value": 4.5,
+            "Selected Percentage": 0
+        }
+    },
+    "Emma Jansson": {
+        "2026-01-06": {
+            "Value": 4.0,
+            "Selected Percentage": 0
         }
     }
 }
