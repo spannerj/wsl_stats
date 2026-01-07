@@ -3714,7 +3714,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 51,
-        "Selected Percentage": 16.1,
+        "Selected Percentage": 16.2,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 24,
         "Games Played Over 4 Gameweeks": 4,
@@ -9577,7 +9577,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 56,
-        "Selected Percentage": 24.7,
+        "Selected Percentage": 24.8,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -11321,8 +11321,8 @@
         },
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -13656,7 +13656,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 83,
-        "Selected Percentage": 28.8,
+        "Selected Percentage": 28.9,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 49,
         "Games Played Over 4 Gameweeks": 4,
@@ -21807,7 +21807,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -40480,7 +40480,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 14,
-        "Selected Percentage": 2.6,
+        "Selected Percentage": 2.5,
         "Total Games Played": 6,
         "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
@@ -42465,8 +42465,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -44310,7 +44310,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 32,
-        "Selected Percentage": 2.8,
+        "Selected Percentage": 2.9,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 20,
         "Games Played Over 4 Gameweeks": 4,
@@ -50019,7 +50019,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 35,
-        "Selected Percentage": 18.6,
+        "Selected Percentage": 18.5,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -64400,8 +64400,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 9,
-            "tooltip": "14 Dec (A) WHU D 2-2\nGoal (+4pts)\nAssist (+3pts)\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -68494,7 +68494,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 0,
-        "Selected Percentage": 0.2,
+        "Selected Percentage": 0.3,
         "Total Games Played": 0,
         "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 0,
@@ -68658,7 +68658,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 0,
-        "Selected Percentage": 0.0,
+        "Selected Percentage": 0.1,
         "Total Games Played": 0,
         "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 0,
