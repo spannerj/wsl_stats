@@ -83258,5 +83258,29 @@
             "Value": 4.0,
             "Selected Percentage": 0.0
         }
+    },
+    "Alice Bergström": {
+        "2026-01-08": {
+            "Value": 4.5,
+            "Selected Percentage": 0.0
+        }
+    },
+    "Jennifer Falk": {
+        "2026-01-08": {
+            "Value": 4.5,
+            "Selected Percentage": 0
+        }
+    },
+    "Estelle Cascarino": {
+        "2026-01-08": {
+            "Value": 4.5,
+            "Selected Percentage": 0
+        }
+    },
+    "Olaug Tvedten": {
+        "2026-01-08": {
+            "Value": 5.0,
+            "Selected Percentage": 0
+        }
     }
 }
