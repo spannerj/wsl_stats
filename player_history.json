@@ -32851,7 +32851,7 @@
             "Selected Percentage": 13.4
         },
         "2026-01-09": {
-            "Value": 8.4,
+            "Value": 8.5,
             "Selected Percentage": 13.2
         }
     },
@@ -84857,6 +84857,12 @@
         "2026-01-09": {
             "Value": 5.0,
             "Selected Percentage": 0.1
+        }
+    },
+    "Anna Jøsendal": {
+        "2026-01-09": {
+            "Value": 6.0,
+            "Selected Percentage": 0
         }
     }
 }

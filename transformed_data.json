@@ -2595,7 +2595,7 @@
         "Position": "GK",
         "Value": 5.8,
         "Nationality": "England",
-        "News": "Quad injury",
+        "News": null,
         "Visionary": false,
         "Total Points": 36,
         "Selected Percentage": 30.8,
@@ -6638,7 +6638,7 @@
         "Position": "MID",
         "Value": 6.0,
         "Nationality": "Serbia",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 22,
         "Selected Percentage": 2.3,
@@ -8825,7 +8825,7 @@
         "Position": "DEF",
         "Value": 4.5,
         "Nationality": "Scotland",
-        "News": null,
+        "News": "Injured",
         "Visionary": true,
         "Total Points": 0,
         "Selected Percentage": 0.9,
@@ -9380,7 +9380,7 @@
         "Position": "FOR",
         "Value": 9.9,
         "Nationality": "England",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 37,
         "Selected Percentage": 20.4,
@@ -11130,8 +11130,8 @@
         },
         "10": "-",
         "11": {
-            "points": 0,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\nYellow Card (-1pt)"
+            "points": 4,
+            "tooltip": "14 Dec (A) MCI L 6-1\nAssist (+3pts)\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -11997,7 +11997,7 @@
         "Position": "DEF",
         "Value": 6.6,
         "Nationality": "England",
-        "News": "Injured",
+        "News": null,
         "Visionary": false,
         "Total Points": 23,
         "Selected Percentage": 12.8,
@@ -14013,7 +14013,7 @@
     },
     {
         "Name": "Hannah Blundell",
-        "Club": "MUN",
+        "Club": "EVE",
         "Position": "DEF",
         "Value": 6.0,
         "Nationality": "England",
@@ -14048,84 +14048,84 @@
         "6": "-",
         "7": {
             "points": 0,
-            "tooltip": "2 Nov (A) BHA W 2-3\n1 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "2 Nov  Unknown L 2-3\n1 min (+1pt)\nConceded (-1pt)"
         },
         "8": "-",
         "9": {
             "points": 1,
-            "tooltip": "15 Nov (A) MCI L 3-0\n1 min (+1pt)"
+            "tooltip": "15 Nov  Unknown W 3-0\n1 min (+1pt)"
         },
         "10": {
             "points": 1,
-            "tooltip": "7 Dec (H) WHU W 2-1\n1 min (+1pt)"
+            "tooltip": "7 Dec  Unknown W 2-1\n1 min (+1pt)"
         },
         "11": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "10 Jan",
-                "kick_off_time": "12:30",
+                "game_date": "11 Jan",
+                "kick_off_time": "12:00",
                 "game_week": "12",
-                "home_id": "ARS",
-                "home_name": "Arsenal",
-                "home_short_name": "Arsenal",
-                "away_id": "MUN",
-                "away_name": "Manchester United",
-                "away_short_name": "Man United"
+                "home_id": "MCI",
+                "home_name": "Manchester City",
+                "home_short_name": "Man City",
+                "away_id": "EVE",
+                "away_name": "Everton",
+                "away_short_name": "Everton"
             },
             {
-                "game_date": "25 Jan",
-                "kick_off_time": "11:55",
+                "game_date": "23 Jan",
+                "kick_off_time": "19:00",
                 "game_week": "13",
-                "home_id": "AVL",
-                "home_name": "Aston Villa",
-                "home_short_name": "Aston Villa",
-                "away_id": "MUN",
-                "away_name": "Manchester United",
-                "away_short_name": "Man United"
+                "home_id": "EVE",
+                "home_name": "Everton",
+                "home_short_name": "Everton",
+                "away_id": "BHA",
+                "away_name": "Brighton & Hove Albion",
+                "away_short_name": "Brighton"
             },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "LIV",
-                "away_name": "Liverpool",
-                "away_short_name": "Liverpool"
+                "home_id": "EVE",
+                "home_name": "Everton",
+                "home_short_name": "Everton",
+                "away_id": "AVL",
+                "away_name": "Aston Villa",
+                "away_short_name": "Aston Villa"
             },
             {
-                "game_date": "7 Feb",
+                "game_date": "8 Feb",
                 "kick_off_time": "12:00",
-                "game_week": "14",
-                "home_id": "LEI",
-                "home_name": "Leicester City",
-                "home_short_name": "Leicester",
-                "away_id": "MUN",
-                "away_name": "Manchester United",
-                "away_short_name": "Man United"
+                "game_week": "15",
+                "home_id": "LCL",
+                "home_name": "London City Lionesses",
+                "home_short_name": "London City",
+                "away_id": "EVE",
+                "away_name": "Everton",
+                "away_short_name": "Everton"
             },
             {
                 "game_date": "15 Feb",
                 "kick_off_time": "12:00",
                 "game_week": "16",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "LCL",
-                "away_name": "London City Lionesses",
-                "away_short_name": "London City"
+                "home_id": "EVE",
+                "home_name": "Everton",
+                "home_short_name": "Everton",
+                "away_id": "WHU",
+                "away_name": "West Ham United",
+                "away_short_name": "West Ham"
             },
             {
                 "game_date": "15 Mar",
-                "kick_off_time": "12:00",
+                "kick_off_time": "14:00",
                 "game_week": "17",
-                "home_id": "WHU",
-                "home_name": "West Ham United",
-                "home_short_name": "West Ham",
-                "away_id": "MUN",
-                "away_name": "Manchester United",
-                "away_short_name": "Man United"
+                "home_id": "TOT",
+                "home_name": "Tottenham Hotspur",
+                "home_short_name": "Tottenham",
+                "away_id": "EVE",
+                "away_name": "Everton",
+                "away_short_name": "Everton"
             },
             {
                 "game_date": "21 Mar",
@@ -14140,47 +14140,47 @@
             },
             {
                 "game_date": "29 Mar",
-                "kick_off_time": "12:00",
+                "kick_off_time": "13:00",
                 "game_week": "19",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "MCI",
-                "away_name": "Manchester City",
-                "away_short_name": "Man City"
+                "home_id": "EVE",
+                "home_name": "Everton",
+                "home_short_name": "Everton",
+                "away_id": "LIV",
+                "away_name": "Liverpool",
+                "away_short_name": "Liverpool"
             },
             {
                 "game_date": "26 Apr",
                 "kick_off_time": "13:00",
                 "game_week": "20",
-                "home_id": "TOT",
-                "home_name": "Tottenham Hotspur",
-                "home_short_name": "Tottenham",
-                "away_id": "MUN",
-                "away_name": "Manchester United",
-                "away_short_name": "Man United"
+                "home_id": "EVE",
+                "home_name": "Everton",
+                "home_short_name": "Everton",
+                "away_id": "CHE",
+                "away_name": "Chelsea",
+                "away_short_name": "Chelsea"
             },
             {
                 "game_date": "3 May",
-                "kick_off_time": "12:00",
+                "kick_off_time": "13:00",
                 "game_week": "21",
-                "home_id": "MUN",
-                "home_name": "Manchester United",
-                "home_short_name": "Man United",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
+                "home_id": "ARS",
+                "home_name": "Arsenal",
+                "home_short_name": "Arsenal",
+                "away_id": "EVE",
+                "away_name": "Everton",
+                "away_short_name": "Everton"
             },
             {
                 "game_date": "16 May",
                 "kick_off_time": "13:00",
                 "game_week": "22",
-                "home_id": "CHE",
-                "home_name": "Chelsea",
-                "home_short_name": "Chelsea",
-                "away_id": "MUN",
-                "away_name": "Manchester United",
-                "away_short_name": "Man United"
+                "home_id": "EVE",
+                "home_name": "Everton",
+                "home_short_name": "Everton",
+                "away_id": "LEI",
+                "away_name": "Leicester City",
+                "away_short_name": "Leicester"
             }
         ]
     },
@@ -16284,7 +16284,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -18652,8 +18652,8 @@
         "9": "-",
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
+            "points": 7,
+            "tooltip": "14 Dec (A) MCI L 6-1\nGoal (+6pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -21612,8 +21612,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 4,
-            "tooltip": "11 Dec (H) LIV W 3-0\nBonus (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -27003,7 +27003,7 @@
         "Name": "Melvine Malard",
         "Club": "MUN",
         "Position": "FOR",
-        "Value": 8.4,
+        "Value": 8.5,
         "Nationality": "France",
         "News": null,
         "Visionary": false,
@@ -27013,7 +27013,7 @@
         "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 1.2,
-        "Points Per Million": 5.4,
+        "Points Per Million": 5.3,
         "Points Per Million Over 4 Gameweeks": 0.6,
         "Total Goals": 5,
         "Total Assists": 1,
@@ -27366,7 +27366,7 @@
         "Position": "DEF",
         "Value": 4.5,
         "Nationality": "Switzerland",
-        "News": null,
+        "News": "Injured",
         "Visionary": true,
         "Total Points": 0,
         "Selected Percentage": 0.4,
@@ -27530,7 +27530,7 @@
         "Position": "MID",
         "Value": 4.0,
         "Nationality": "Finland",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 16,
         "Selected Percentage": 8.9,
@@ -34200,7 +34200,7 @@
         "Position": "DEF",
         "Value": 4.0,
         "Nationality": "Netherlands",
-        "News": null,
+        "News": "Injured",
         "Visionary": true,
         "Total Points": 4,
         "Selected Percentage": 0.6,
@@ -34573,7 +34573,7 @@
         "Position": "MID",
         "Value": 4.5,
         "Nationality": "England",
-        "News": null,
+        "News": "Injured",
         "Visionary": true,
         "Total Points": 3,
         "Selected Percentage": 0.3,
@@ -37741,7 +37741,7 @@
         "Position": "MID",
         "Value": 8.2,
         "Nationality": "Japan",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 56,
         "Selected Percentage": 8.3,
@@ -38311,7 +38311,7 @@
         "Position": "FOR",
         "Value": 4.5,
         "Nationality": "France",
-        "News": "Injured",
+        "News": null,
         "Visionary": true,
         "Total Points": 15,
         "Selected Percentage": 0.7,
@@ -39959,8 +39959,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 6,
+            "tooltip": "11 Dec (H) LIV W 3-0\nAssist (+3pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": [
             {
@@ -41694,7 +41694,7 @@
         "Position": "DEF",
         "Value": 5.0,
         "Nationality": "France",
-        "News": null,
+        "News": "Injured",
         "Visionary": true,
         "Total Points": 20,
         "Selected Percentage": 1.4,
@@ -42249,7 +42249,7 @@
         "Position": "FOR",
         "Value": 6.0,
         "Nationality": "Brazil",
-        "News": null,
+        "News": "Injured",
         "Visionary": true,
         "Total Points": 0,
         "Selected Percentage": 0.4,
@@ -49297,7 +49297,7 @@
         "Position": "DEF",
         "Value": 5.0,
         "Nationality": "USA",
-        "News": null,
+        "News": "Unavailable",
         "Visionary": true,
         "Total Points": 1,
         "Selected Percentage": 0.3,
@@ -50016,7 +50016,7 @@
         "Position": "MID",
         "Value": 6.5,
         "Nationality": "England",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 35,
         "Selected Percentage": 18.4,
@@ -53748,7 +53748,7 @@
         "Position": "DEF",
         "Value": 4.0,
         "Nationality": "Japan",
-        "News": null,
+        "News": "Injured",
         "Visionary": true,
         "Total Points": 17,
         "Selected Percentage": 1.7,
@@ -53936,7 +53936,7 @@
         "Position": "DEF",
         "Value": 4.5,
         "Nationality": "Japan",
-        "News": null,
+        "News": "Hamstring injury",
         "Visionary": true,
         "Total Points": 17,
         "Selected Percentage": 1.1,
@@ -64345,7 +64345,7 @@
         "Position": "FOR",
         "Value": 6.7,
         "Nationality": "Sweden",
-        "News": null,
+        "News": "Knock",
         "Visionary": false,
         "Total Points": 39,
         "Selected Percentage": 5.2,
@@ -65079,7 +65079,7 @@
         "Position": "FOR",
         "Value": 5.8,
         "Nationality": "Norway",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 35,
         "Selected Percentage": 13.9,
@@ -70450,6 +70450,170 @@
                 "away_id": "TOT",
                 "away_name": "Tottenham Hotspur",
                 "away_short_name": "Tottenham"
+            }
+        ]
+    },
+    {
+        "Name": "Anna Jøsendal",
+        "Club": "LIV",
+        "Position": "FOR",
+        "Value": 6.0,
+        "Nationality": "Norway",
+        "News": null,
+        "Visionary": false,
+        "Total Points": 0,
+        "Selected Percentage": 0,
+        "Total Games Played": 0,
+        "Total Over 4 Gameweeks": 0,
+        "Games Played Over 4 Gameweeks": 0,
+        "Points Per Game Over 4 Gameweeks": 0.0,
+        "Points Per Million": 0.0,
+        "Points Per Million Over 4 Gameweeks": 0.0,
+        "Total Goals": 0,
+        "Total Assists": 0,
+        "Total Red Cards": 0,
+        "Total Yellow Cards": 0,
+        "Total Saves": 0,
+        "Total Own Goals": 0,
+        "Total Conceeded": 0,
+        "Total Clean Sheet": 0,
+        "Total Bonus Points": 0,
+        "Total Missed Penalties": 0,
+        "Total Clearances": 0,
+        "Total 1 min Appearances": 0,
+        "Total 60 min Appearances": 0,
+        "1": "-",
+        "2": "-",
+        "3": "-",
+        "4": "-",
+        "5": "-",
+        "6": "-",
+        "7": "-",
+        "8": "-",
+        "9": "-",
+        "10": "-",
+        "11": "-",
+        "upcoming_fixtures": [
+            {
+                "game_date": "11 Jan",
+                "kick_off_time": "14:30",
+                "game_week": "12",
+                "home_id": "LIV",
+                "home_name": "Liverpool",
+                "home_short_name": "Liverpool",
+                "away_id": "LCL",
+                "away_name": "London City Lionesses",
+                "away_short_name": "London City"
+            },
+            {
+                "game_date": "25 Jan",
+                "kick_off_time": "11:55",
+                "game_week": "13",
+                "home_id": "LIV",
+                "home_name": "Liverpool",
+                "home_short_name": "Liverpool",
+                "away_id": "TOT",
+                "away_name": "Tottenham Hotspur",
+                "away_short_name": "Tottenham"
+            },
+            {
+                "game_date": "1 Feb",
+                "kick_off_time": "11:55",
+                "game_week": "14",
+                "home_id": "MUN",
+                "home_name": "Manchester United",
+                "home_short_name": "Man United",
+                "away_id": "LIV",
+                "away_name": "Liverpool",
+                "away_short_name": "Liverpool"
+            },
+            {
+                "game_date": "8 Feb",
+                "kick_off_time": "12:00",
+                "game_week": "15",
+                "home_id": "LIV",
+                "home_name": "Liverpool",
+                "home_short_name": "Liverpool",
+                "away_id": "AVL",
+                "away_name": "Aston Villa",
+                "away_short_name": "Aston Villa"
+            },
+            {
+                "game_date": "15 Feb",
+                "kick_off_time": "12:00",
+                "game_week": "16",
+                "home_id": "CHE",
+                "home_name": "Chelsea",
+                "home_short_name": "Chelsea",
+                "away_id": "LIV",
+                "away_name": "Liverpool",
+                "away_short_name": "Liverpool"
+            },
+            {
+                "game_date": "15 Mar",
+                "kick_off_time": "14:00",
+                "game_week": "17",
+                "home_id": "LIV",
+                "home_name": "Liverpool",
+                "home_short_name": "Liverpool",
+                "away_id": "LEI",
+                "away_name": "Leicester City",
+                "away_short_name": "Leicester"
+            },
+            {
+                "game_date": "22 Mar",
+                "kick_off_time": "14:00",
+                "game_week": "18",
+                "home_id": "BHA",
+                "home_name": "Brighton & Hove Albion",
+                "home_short_name": "Brighton",
+                "away_id": "LIV",
+                "away_name": "Liverpool",
+                "away_short_name": "Liverpool"
+            },
+            {
+                "game_date": "29 Mar",
+                "kick_off_time": "13:00",
+                "game_week": "19",
+                "home_id": "EVE",
+                "home_name": "Everton",
+                "home_short_name": "Everton",
+                "away_id": "LIV",
+                "away_name": "Liverpool",
+                "away_short_name": "Liverpool"
+            },
+            {
+                "game_date": "26 Apr",
+                "kick_off_time": "13:00",
+                "game_week": "20",
+                "home_id": "LIV",
+                "home_name": "Liverpool",
+                "home_short_name": "Liverpool",
+                "away_id": "WHU",
+                "away_name": "West Ham United",
+                "away_short_name": "West Ham"
+            },
+            {
+                "game_date": "3 May",
+                "kick_off_time": "11:00",
+                "game_week": "21",
+                "home_id": "MCI",
+                "home_name": "Manchester City",
+                "home_short_name": "Man City",
+                "away_id": "LIV",
+                "away_name": "Liverpool",
+                "away_short_name": "Liverpool"
+            },
+            {
+                "game_date": "16 May",
+                "kick_off_time": "13:00",
+                "game_week": "22",
+                "home_id": "LIV",
+                "home_name": "Liverpool",
+                "home_short_name": "Liverpool",
+                "away_id": "ARS",
+                "away_name": "Arsenal",
+                "away_short_name": "Arsenal"
             }
         ]
     }
