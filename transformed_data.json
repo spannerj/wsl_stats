@@ -401,8 +401,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": -1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x3 (-3pts)"
+            "points": 6,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -3687,8 +3687,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal (+5pts)\n1 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -9884,7 +9884,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 33,
-        "Selected Percentage": 3.7,
+        "Selected Percentage": 3.8,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -16158,7 +16158,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -17569,7 +17569,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 48,
-        "Selected Percentage": 8.7,
+        "Selected Percentage": 8.8,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 24,
         "Games Played Over 4 Gameweeks": 4,
@@ -18528,8 +18528,8 @@
         "9": "-",
         "10": "-",
         "11": {
-            "points": 7,
-            "tooltip": "14 Dec (A) MCI L 6-1\nGoal (+6pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "points": 1,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -37507,7 +37507,7 @@
         "News": "Injured",
         "Visionary": false,
         "Total Points": 56,
-        "Selected Percentage": 5.5,
+        "Selected Percentage": 5.4,
         "Total Games Played": 10,
         "Total Over 4 Gameweeks": 21,
         "Games Played Over 4 Gameweeks": 4,
@@ -49811,7 +49811,7 @@
         "News": "Injured",
         "Visionary": false,
         "Total Points": 35,
-        "Selected Percentage": 15.6,
+        "Selected Percentage": 15.5,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -55036,8 +55036,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -62870,8 +62870,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -65452,7 +65452,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 39,
-        "Selected Percentage": 6.6,
+        "Selected Percentage": 6.7,
         "Total Games Played": 9,
         "Total Over 4 Gameweeks": 30,
         "Games Played Over 4 Gameweeks": 4,
