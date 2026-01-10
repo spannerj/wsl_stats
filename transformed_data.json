@@ -3140,8 +3140,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": -1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x3 (-3pts)"
+            "points": 5,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -3687,8 +3687,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal (+5pts)\n1 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -3882,8 +3882,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 13,
+            "tooltip": "11 Dec (H) LIV W 3-0\nGoal x2 (+8pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -11239,8 +11239,8 @@
         },
         "10": "-",
         "11": {
-            "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -11416,8 +11416,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -21480,8 +21480,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 4,
+            "tooltip": "11 Dec (H) LIV W 3-0\nBonus (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -21676,7 +21676,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -22219,7 +22219,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -24040,8 +24040,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "points": 3,
+            "tooltip": "14 Dec (A) WHU D 2-2\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -24211,8 +24211,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -24583,8 +24583,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 6,
+            "tooltip": "14 Dec (A) WHU D 2-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -39726,8 +39726,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nAssist (+3pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -40114,7 +40114,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -42246,8 +42246,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -51406,8 +51406,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 0,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -62870,8 +62870,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "upcoming_fixtures": [
@@ -68288,14 +68288,14 @@
         "Nationality": "Germany",
         "News": null,
         "Visionary": true,
-        "Total Points": 0,
+        "Total Points": 1,
         "Selected Percentage": 0.8,
-        "Total Games Played": 0,
-        "Total Over 4 Gameweeks": 0,
-        "Games Played Over 4 Gameweeks": 0,
-        "Points Per Game Over 4 Gameweeks": 0.0,
-        "Points Per Million": 0.0,
-        "Points Per Million Over 4 Gameweeks": 0.0,
+        "Total Games Played": 1,
+        "Total Over 4 Gameweeks": 1,
+        "Games Played Over 4 Gameweeks": 1,
+        "Points Per Game Over 4 Gameweeks": 0.2,
+        "Points Per Million": 0.1,
+        "Points Per Million Over 4 Gameweeks": 0.1,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -68307,7 +68307,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 0,
+        "Total 1 min Appearances": 1,
         "Total 60 min Appearances": 0,
         "1": "-",
         "2": "-",
@@ -68320,7 +68320,10 @@
         "9": "-",
         "10": "-",
         "11": "-",
-        "12": "-",
+        "12": {
+            "points": 1,
+            "tooltip": "10 Jan (A) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "25 Jan",
@@ -68442,14 +68445,14 @@
         "Nationality": "Sweden",
         "News": null,
         "Visionary": true,
-        "Total Points": 0,
+        "Total Points": 1,
         "Selected Percentage": 0.3,
-        "Total Games Played": 0,
-        "Total Over 4 Gameweeks": 0,
-        "Games Played Over 4 Gameweeks": 0,
-        "Points Per Game Over 4 Gameweeks": 0.0,
-        "Points Per Million": 0.0,
-        "Points Per Million Over 4 Gameweeks": 0.0,
+        "Total Games Played": 1,
+        "Total Over 4 Gameweeks": 1,
+        "Games Played Over 4 Gameweeks": 1,
+        "Points Per Game Over 4 Gameweeks": 0.2,
+        "Points Per Million": 0.2,
+        "Points Per Million Over 4 Gameweeks": 0.2,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -68461,7 +68464,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 0,
+        "Total 1 min Appearances": 1,
         "Total 60 min Appearances": 0,
         "1": "-",
         "2": "-",
@@ -68474,7 +68477,10 @@
         "9": "-",
         "10": "-",
         "11": "-",
-        "12": "-",
+        "12": {
+            "points": 1,
+            "tooltip": "10 Jan (A) ARS D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "25 Jan",
@@ -69256,14 +69262,14 @@
         "Nationality": "Sweden",
         "News": null,
         "Visionary": true,
-        "Total Points": 0,
+        "Total Points": 1,
         "Selected Percentage": 0.3,
-        "Total Games Played": 0,
-        "Total Over 4 Gameweeks": 0,
-        "Games Played Over 4 Gameweeks": 0,
-        "Points Per Game Over 4 Gameweeks": 0.0,
-        "Points Per Million": 0.0,
-        "Points Per Million Over 4 Gameweeks": 0.0,
+        "Total Games Played": 1,
+        "Total Over 4 Gameweeks": 1,
+        "Games Played Over 4 Gameweeks": 1,
+        "Points Per Game Over 4 Gameweeks": 0.2,
+        "Points Per Million": 0.2,
+        "Points Per Million Over 4 Gameweeks": 0.2,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -69275,7 +69281,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 0,
+        "Total 1 min Appearances": 1,
         "Total 60 min Appearances": 0,
         "1": "-",
         "2": "-",
@@ -69288,7 +69294,10 @@
         "9": "-",
         "10": "-",
         "11": "-",
-        "12": "-",
+        "12": {
+            "points": 1,
+            "tooltip": "10 Jan (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": [
             {
                 "game_date": "24 Jan",
@@ -70389,6 +70398,160 @@
                 "away_id": "ARS",
                 "away_name": "Arsenal",
                 "away_short_name": "Arsenal"
+            }
+        ]
+    },
+    {
+        "Name": "Layla Drury",
+        "Club": "MUN",
+        "Position": "FOR",
+        "Value": 4.0,
+        "Nationality": "Wales",
+        "News": null,
+        "Visionary": false,
+        "Total Points": 0,
+        "Selected Percentage": 0,
+        "Total Games Played": 0,
+        "Total Over 4 Gameweeks": 0,
+        "Games Played Over 4 Gameweeks": 0,
+        "Points Per Game Over 4 Gameweeks": 0.0,
+        "Points Per Million": 0.0,
+        "Points Per Million Over 4 Gameweeks": 0.0,
+        "Total Goals": 0,
+        "Total Assists": 0,
+        "Total Red Cards": 0,
+        "Total Yellow Cards": 0,
+        "Total Saves": 0,
+        "Total Own Goals": 0,
+        "Total Conceeded": 0,
+        "Total Clean Sheet": 0,
+        "Total Bonus Points": 0,
+        "Total Missed Penalties": 0,
+        "Total Clearances": 0,
+        "Total 1 min Appearances": 0,
+        "Total 60 min Appearances": 0,
+        "1": "-",
+        "2": "-",
+        "3": "-",
+        "4": "-",
+        "5": "-",
+        "6": "-",
+        "7": "-",
+        "8": "-",
+        "9": "-",
+        "10": "-",
+        "11": "-",
+        "12": "-",
+        "upcoming_fixtures": [
+            {
+                "game_date": "25 Jan",
+                "kick_off_time": "11:55",
+                "game_week": "13",
+                "home_id": "AVL",
+                "home_name": "Aston Villa",
+                "home_short_name": "Aston Villa",
+                "away_id": "MUN",
+                "away_name": "Manchester United",
+                "away_short_name": "Man United"
+            },
+            {
+                "game_date": "1 Feb",
+                "kick_off_time": "11:55",
+                "game_week": "14",
+                "home_id": "MUN",
+                "home_name": "Manchester United",
+                "home_short_name": "Man United",
+                "away_id": "LIV",
+                "away_name": "Liverpool",
+                "away_short_name": "Liverpool"
+            },
+            {
+                "game_date": "7 Feb",
+                "kick_off_time": "12:00",
+                "game_week": "14",
+                "home_id": "LEI",
+                "home_name": "Leicester City",
+                "home_short_name": "Leicester",
+                "away_id": "MUN",
+                "away_name": "Manchester United",
+                "away_short_name": "Man United"
+            },
+            {
+                "game_date": "15 Feb",
+                "kick_off_time": "12:00",
+                "game_week": "16",
+                "home_id": "MUN",
+                "home_name": "Manchester United",
+                "home_short_name": "Man United",
+                "away_id": "LCL",
+                "away_name": "London City Lionesses",
+                "away_short_name": "London City"
+            },
+            {
+                "game_date": "15 Mar",
+                "kick_off_time": "12:00",
+                "game_week": "17",
+                "home_id": "WHU",
+                "home_name": "West Ham United",
+                "home_short_name": "West Ham",
+                "away_id": "MUN",
+                "away_name": "Manchester United",
+                "away_short_name": "Man United"
+            },
+            {
+                "game_date": "21 Mar",
+                "kick_off_time": "12:30",
+                "game_week": "18",
+                "home_id": "MUN",
+                "home_name": "Manchester United",
+                "home_short_name": "Man United",
+                "away_id": "EVE",
+                "away_name": "Everton",
+                "away_short_name": "Everton"
+            },
+            {
+                "game_date": "29 Mar",
+                "kick_off_time": "12:00",
+                "game_week": "19",
+                "home_id": "MUN",
+                "home_name": "Manchester United",
+                "home_short_name": "Man United",
+                "away_id": "MCI",
+                "away_name": "Manchester City",
+                "away_short_name": "Man City"
+            },
+            {
+                "game_date": "26 Apr",
+                "kick_off_time": "13:00",
+                "game_week": "20",
+                "home_id": "TOT",
+                "home_name": "Tottenham Hotspur",
+                "home_short_name": "Tottenham",
+                "away_id": "MUN",
+                "away_name": "Manchester United",
+                "away_short_name": "Man United"
+            },
+            {
+                "game_date": "3 May",
+                "kick_off_time": "12:00",
+                "game_week": "21",
+                "home_id": "MUN",
+                "home_name": "Manchester United",
+                "home_short_name": "Man United",
+                "away_id": "BHA",
+                "away_name": "Brighton & Hove Albion",
+                "away_short_name": "Brighton"
+            },
+            {
+                "game_date": "16 May",
+                "kick_off_time": "13:00",
+                "game_week": "22",
+                "home_id": "CHE",
+                "home_name": "Chelsea",
+                "home_short_name": "Chelsea",
+                "away_id": "MUN",
+                "away_name": "Manchester United",
+                "away_short_name": "Man United"
             }
         ]
     }
