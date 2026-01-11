@@ -16786,7 +16786,7 @@
         },
         "2026-01-11": {
             "Value": 8.5,
-            "Selected Percentage": 10.7
+            "Selected Percentage": 10.8
         }
     },
     "Chloe Kelly": {
@@ -19316,7 +19316,7 @@
         },
         "2026-01-11": {
             "Value": 9.1,
-            "Selected Percentage": 27.2
+            "Selected Percentage": 27.1
         }
     },
     "Nikita Parris": {
@@ -47836,7 +47836,7 @@
         },
         "2026-01-11": {
             "Value": 4.6,
-            "Selected Percentage": 8.3
+            "Selected Percentage": 8.4
         }
     },
     "Aoba Fujino": {
@@ -48066,7 +48066,7 @@
         },
         "2026-01-11": {
             "Value": 8.2,
-            "Selected Percentage": 5.4
+            "Selected Percentage": 5.3
         }
     },
     "Chantelle Swaby": {
@@ -64166,7 +64166,7 @@
         },
         "2026-01-11": {
             "Value": 6.5,
-            "Selected Percentage": 15.5
+            "Selected Percentage": 15.4
         }
     },
     "Niamh Peacock": {
@@ -81876,7 +81876,7 @@
         },
         "2026-01-11": {
             "Value": 4.0,
-            "Selected Percentage": 5.1
+            "Selected Percentage": 5.2
         }
     },
     "Fuka Tsunoda": {
@@ -87707,6 +87707,10 @@
         "2026-01-01": {
             "Value": 4.0,
             "Selected Percentage": 0
+        },
+        "2026-01-11": {
+            "Value": 4.0,
+            "Selected Percentage": 0.1
         }
     },
     "Matilda Nildén": {
@@ -88030,6 +88034,18 @@
             "Value": 4.0,
             "Selected Percentage": 0
         },
+        "2026-01-11": {
+            "Value": 4.0,
+            "Selected Percentage": 0
+        }
+    },
+    "Melissa Lawley": {
+        "2026-01-11": {
+            "Value": 4.0,
+            "Selected Percentage": 0
+        }
+    },
+    "Lois Shooter": {
         "2026-01-11": {
             "Value": 4.0,
             "Selected Percentage": 0
