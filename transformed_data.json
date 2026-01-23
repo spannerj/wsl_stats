@@ -3574,7 +3574,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 58,
-        "Selected Percentage": 20.2,
+        "Selected Percentage": 20.3,
         "Total Games Played": 12,
         "Total Over 4 Gameweeks": 24,
         "Games Played Over 4 Gameweeks": 4,
@@ -10915,8 +10915,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -15472,7 +15472,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "13": "-",
@@ -17738,8 +17738,8 @@
         "9": "-",
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
+            "points": 7,
+            "tooltip": "14 Dec (A) MCI L 6-1\nGoal (+6pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": {
             "points": 2,
@@ -20573,8 +20573,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 4,
-            "tooltip": "11 Dec (H) LIV W 3-0\nBonus (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 6,
@@ -23170,8 +23170,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 0,
@@ -36870,7 +36870,7 @@
         "News": "Match suspension",
         "Visionary": false,
         "Total Points": 40,
-        "Selected Percentage": 9.6,
+        "Selected Percentage": 9.5,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
@@ -38226,7 +38226,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 30,
-        "Selected Percentage": 3.1,
+        "Selected Percentage": 3.2,
         "Total Games Played": 12,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
@@ -61680,7 +61680,7 @@
         "News": "Injured",
         "Visionary": false,
         "Total Points": 35,
-        "Selected Percentage": 8.0,
+        "Selected Percentage": 7.9,
         "Total Games Played": 9,
         "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
