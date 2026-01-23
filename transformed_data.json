@@ -2931,17 +2931,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -3993,17 +3982,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -4628,17 +4606,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -4821,17 +4788,6 @@
             "tooltip": "23 Jan (A) EVE D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -6460,17 +6416,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -7188,17 +7133,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -7364,17 +7298,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -7536,17 +7459,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -7873,17 +7785,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -8220,17 +8121,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -8378,17 +8268,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -8532,17 +8411,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -8720,17 +8588,6 @@
         },
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -8914,17 +8771,6 @@
             "tooltip": "23 Jan (H) BHA D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -9472,17 +9318,6 @@
         },
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -10904,8 +10739,8 @@
         },
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -11074,8 +10909,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -11805,17 +11640,6 @@
             "tooltip": "23 Jan (H) BHA D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -13375,17 +13199,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -13544,17 +13357,6 @@
             "tooltip": "23 Jan (H) BHA D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -14413,17 +14215,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -14565,7 +14356,7 @@
         "10": "-",
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
         },
         "12": {
             "points": 1,
@@ -18246,18 +18037,18 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": true,
-        "Total Points": 37,
+        "Total Points": 36,
         "Selected Percentage": 1.5,
         "Total Games Played": 13,
-        "Total Over 4 Gameweeks": 18,
+        "Total Over 4 Gameweeks": 17,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.5,
-        "Points Per Million": 5.3,
-        "Points Per Million Over 4 Gameweeks": 2.6,
+        "Points Per Game Over 4 Gameweeks": 4.2,
+        "Points Per Million": 5.1,
+        "Points Per Million Over 4 Gameweeks": 2.4,
         "Total Goals": 3,
         "Total Assists": 0,
         "Total Red Cards": 0,
-        "Total Yellow Cards": 1,
+        "Total Yellow Cards": 2,
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
@@ -18316,21 +18107,10 @@
             "tooltip": "11 Jan (A) MCI L 2-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "13": {
-            "points": 1,
-            "tooltip": "23 Jan (H) BHA D 0-0\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "23 Jan (H) BHA D 0-0\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -21492,7 +21272,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "13": "-",
@@ -21874,17 +21654,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -22052,17 +21821,6 @@
             "tooltip": "23 Jan (A) EVE D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -23761,8 +23519,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "14 Dec (A) WHU D 2-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -25476,17 +25234,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -27750,17 +27497,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -29101,17 +28837,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -29255,17 +28980,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -29417,17 +29131,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -29571,17 +29274,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -31140,17 +30832,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -32509,17 +32190,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -32703,17 +32373,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -32869,17 +32528,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -33064,17 +32712,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -33228,17 +32865,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -33382,17 +33008,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -33538,7 +33153,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -37469,17 +37084,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -37663,17 +37267,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -37818,17 +37411,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -37972,17 +37554,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -38534,17 +38105,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -38713,7 +38273,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -40051,17 +39611,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -42375,17 +41924,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -42947,17 +42485,6 @@
             "tooltip": "23 Jan (H) BHA D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -43592,17 +43119,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -43753,17 +43269,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -43907,17 +43412,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -44063,17 +43557,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -44217,17 +43700,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -44373,17 +43845,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -44527,17 +43988,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -44683,17 +44133,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -44837,17 +44276,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -45926,17 +45354,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -46460,17 +45877,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -46960,17 +46366,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -47667,17 +47062,6 @@
             "tooltip": "23 Jan (A) EVE D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -49498,8 +48882,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 0,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\nConceded (-1pt)"
         },
         "12": {
             "points": 2,
@@ -49683,8 +49067,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 3,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 7,
@@ -50036,17 +49420,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -50208,17 +49581,6 @@
             "tooltip": "23 Jan (A) EVE D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -50397,17 +49759,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -50584,17 +49935,6 @@
         },
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -51584,17 +50924,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -51768,17 +51097,6 @@
             "tooltip": "23 Jan (H) BHA D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -51963,17 +51281,6 @@
         },
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -52117,17 +51424,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -52311,17 +51607,6 @@
             "tooltip": "23 Jan (H) BHA D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -52976,8 +52261,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -61370,17 +60655,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -63494,17 +62768,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -63958,17 +63221,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -67390,17 +66642,6 @@
         "13": "-",
         "upcoming_fixtures": [
             {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
-            {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
                 "game_week": "14",
@@ -67854,17 +67095,6 @@
         "12": "-",
         "13": "-",
         "upcoming_fixtures": [
-            {
-                "game_date": "23 Jan",
-                "kick_off_time": "19:00",
-                "game_week": "13",
-                "home_id": "EVE",
-                "home_name": "Everton",
-                "home_short_name": "Everton",
-                "away_id": "BHA",
-                "away_name": "Brighton & Hove Albion",
-                "away_short_name": "Brighton"
-            },
             {
                 "game_date": "1 Feb",
                 "kick_off_time": "11:55",
@@ -69203,6 +68433,150 @@
                 "away_id": "LEI",
                 "away_name": "Leicester City",
                 "away_short_name": "Leicester"
+            }
+        ]
+    },
+    {
+        "Name": "Grace McEwen",
+        "Club": "BHA",
+        "Position": "DEF",
+        "Value": 4.0,
+        "Nationality": "England",
+        "News": null,
+        "Visionary": false,
+        "Total Points": 0,
+        "Selected Percentage": 0,
+        "Total Games Played": 0,
+        "Total Over 4 Gameweeks": 0,
+        "Games Played Over 4 Gameweeks": 0,
+        "Points Per Game Over 4 Gameweeks": 0.0,
+        "Points Per Million": 0.0,
+        "Points Per Million Over 4 Gameweeks": 0.0,
+        "Total Goals": 0,
+        "Total Assists": 0,
+        "Total Red Cards": 0,
+        "Total Yellow Cards": 0,
+        "Total Saves": 0,
+        "Total Own Goals": 0,
+        "Total Conceeded": 0,
+        "Total Clean Sheet": 0,
+        "Total Bonus Points": 0,
+        "Total Missed Penalties": 0,
+        "Total Clearances": 0,
+        "Total 1 min Appearances": 0,
+        "Total 60 min Appearances": 0,
+        "1": "-",
+        "2": "-",
+        "3": "-",
+        "4": "-",
+        "5": "-",
+        "6": "-",
+        "7": "-",
+        "8": "-",
+        "9": "-",
+        "10": "-",
+        "11": "-",
+        "12": "-",
+        "13": "-",
+        "upcoming_fixtures": [
+            {
+                "game_date": "1 Feb",
+                "kick_off_time": "11:55",
+                "game_week": "14",
+                "home_id": "BHA",
+                "home_name": "Brighton & Hove Albion",
+                "home_short_name": "Brighton",
+                "away_id": "LCL",
+                "away_name": "London City Lionesses",
+                "away_short_name": "London City"
+            },
+            {
+                "game_date": "8 Feb",
+                "kick_off_time": "12:00",
+                "game_week": "15",
+                "home_id": "WHU",
+                "home_name": "West Ham United",
+                "home_short_name": "West Ham",
+                "away_id": "BHA",
+                "away_name": "Brighton & Hove Albion",
+                "away_short_name": "Brighton"
+            },
+            {
+                "game_date": "15 Feb",
+                "kick_off_time": "14:30",
+                "game_week": "16",
+                "home_id": "BHA",
+                "home_name": "Brighton & Hove Albion",
+                "home_short_name": "Brighton",
+                "away_id": "ARS",
+                "away_name": "Arsenal",
+                "away_short_name": "Arsenal"
+            },
+            {
+                "game_date": "15 Mar",
+                "kick_off_time": "14:00",
+                "game_week": "17",
+                "home_id": "CHE",
+                "home_name": "Chelsea",
+                "home_short_name": "Chelsea",
+                "away_id": "BHA",
+                "away_name": "Brighton & Hove Albion",
+                "away_short_name": "Brighton"
+            },
+            {
+                "game_date": "22 Mar",
+                "kick_off_time": "14:00",
+                "game_week": "18",
+                "home_id": "BHA",
+                "home_name": "Brighton & Hove Albion",
+                "home_short_name": "Brighton",
+                "away_id": "LIV",
+                "away_name": "Liverpool",
+                "away_short_name": "Liverpool"
+            },
+            {
+                "game_date": "29 Mar",
+                "kick_off_time": "14:00",
+                "game_week": "19",
+                "home_id": "LEI",
+                "home_name": "Leicester City",
+                "home_short_name": "Leicester",
+                "away_id": "BHA",
+                "away_name": "Brighton & Hove Albion",
+                "away_short_name": "Brighton"
+            },
+            {
+                "game_date": "26 Apr",
+                "kick_off_time": "13:00",
+                "game_week": "20",
+                "home_id": "BHA",
+                "home_name": "Brighton & Hove Albion",
+                "home_short_name": "Brighton",
+                "away_id": "MCI",
+                "away_name": "Manchester City",
+                "away_short_name": "Man City"
+            },
+            {
+                "game_date": "3 May",
+                "kick_off_time": "12:00",
+                "game_week": "21",
+                "home_id": "MUN",
+                "home_name": "Manchester United",
+                "home_short_name": "Man United",
+                "away_id": "BHA",
+                "away_name": "Brighton & Hove Albion",
+                "away_short_name": "Brighton"
+            },
+            {
+                "game_date": "16 May",
+                "kick_off_time": "13:00",
+                "game_week": "22",
+                "home_id": "BHA",
+                "home_name": "Brighton & Hove Albion",
+                "home_short_name": "Brighton",
+                "away_id": "TOT",
+                "away_name": "Tottenham Hotspur",
+                "away_short_name": "Tottenham"
             }
         ]
     }
