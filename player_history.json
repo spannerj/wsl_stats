@@ -18846,7 +18846,7 @@
         },
         "2026-02-04": {
             "Value": 7.6,
-            "Selected Percentage": 34.6
+            "Selected Percentage": 34.5
         }
     },
     "Alex Greenwood": {
@@ -21746,7 +21746,7 @@
         },
         "2026-02-04": {
             "Value": 12.1,
-            "Selected Percentage": 34.1
+            "Selected Percentage": 34.2
         }
     },
     "Sophie Baggaley": {
@@ -56256,7 +56256,7 @@
         },
         "2026-02-04": {
             "Value": 7.9,
-            "Selected Percentage": 8.6
+            "Selected Percentage": 8.7
         }
     },
     "Lexi Potter": {
@@ -62346,7 +62346,7 @@
         },
         "2026-02-04": {
             "Value": 9.2,
-            "Selected Percentage": 8.8
+            "Selected Percentage": 8.9
         }
     },
     "Inma Gabarro": {
@@ -63796,7 +63796,7 @@
         },
         "2026-02-04": {
             "Value": 7.1,
-            "Selected Percentage": 8.1
+            "Selected Percentage": 8.2
         }
     },
     "Chasity Grant": {
@@ -106136,7 +106136,7 @@
         },
         "2026-02-04": {
             "Value": 9.6,
-            "Selected Percentage": 7.8
+            "Selected Percentage": 7.9
         }
     },
     "Georgia Mullet": {
@@ -111240,7 +111240,7 @@
         },
         "2026-02-04": {
             "Value": 5.0,
-            "Selected Percentage": 0.8
+            "Selected Percentage": 0.9
         }
     },
     "Alice Bergstrom": {
@@ -112285,6 +112285,12 @@
         "2026-02-04": {
             "Value": 4.5,
             "Selected Percentage": 0.0
+        }
+    },
+    "Zara Kramžar": {
+        "2026-02-04": {
+            "Value": 5.0,
+            "Selected Percentage": 0
         }
     }
 }
