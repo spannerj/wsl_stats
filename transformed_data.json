@@ -6,7 +6,7 @@
         "Value": 4.5,
         "Nationality": "Austria",
         "News": "ACL injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.7,
         "Total Games Played": 0,
@@ -42,6 +42,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -126,6 +127,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -198,6 +200,7 @@
             "tooltip": "25 Jan (H) MUN L 1-4\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -243,6 +246,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -294,6 +298,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -366,6 +371,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -444,6 +450,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nBonus (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -519,6 +526,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -528,7 +536,7 @@
         "Value": 6.5,
         "Nationality": "Switzerland",
         "News": "Transferred to Juventus",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.6,
         "Total Games Played": 0,
@@ -564,6 +572,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -645,6 +654,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -729,6 +739,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -813,6 +824,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -897,6 +909,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nGoal (+5pts)\nAssist (+3pts)\nBonus x3 (+3pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -984,6 +997,7 @@
             "points": 10,
             "tooltip": "1 Feb (H) CHE W 5-1\nGoal (+4pts)\nAssist (+3pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1062,6 +1076,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded x2 (-2pts)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1072,14 +1087,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 13,
+        "Total Points": 14,
         "Selected Percentage": 4.1,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 3,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 4,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 0.8,
-        "Points Per Million": 2.9,
-        "Points Per Million Over 4 Gameweeks": 0.7,
+        "Points Per Game Over 4 Gameweeks": 1.0,
+        "Points Per Million": 3.1,
+        "Points Per Million Over 4 Gameweeks": 0.9,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -1091,7 +1106,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 3,
         "1": {
             "points": 1,
@@ -1137,6 +1152,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -1215,6 +1234,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1228,11 +1248,11 @@
         "Total Points": 44,
         "Selected Percentage": 11.5,
         "Total Games Played": 13,
-        "Total Over 4 Gameweeks": 6,
+        "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.5,
+        "Points Per Game Over 4 Gameweeks": 0.0,
         "Points Per Million": 7.3,
-        "Points Per Million Over 4 Gameweeks": 1.0,
+        "Points Per Million Over 4 Gameweeks": 0.0,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -1281,8 +1301,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": -1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x3 (-3pts)"
+            "points": 5,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 1,
@@ -1296,6 +1316,7 @@
             "points": 0,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1305,7 +1326,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "Transferred to Celtic",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 1.0,
         "Total Games Played": 0,
@@ -1341,6 +1362,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1428,6 +1450,7 @@
             "points": 3,
             "tooltip": "1 Feb (H) CHE W 5-1\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1512,6 +1535,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1581,8 +1605,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 13,
+            "tooltip": "11 Dec (H) LIV W 3-0\nGoal x2 (+8pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 6,
@@ -1590,6 +1614,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1635,6 +1660,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1689,6 +1715,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1698,7 +1725,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": "On loan to Newcastle",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.5,
         "Total Games Played": 0,
@@ -1734,6 +1761,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1794,6 +1822,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1803,7 +1832,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan to Birmingham City",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 1.5,
         "Total Games Played": 0,
@@ -1839,6 +1868,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -1926,6 +1956,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2001,6 +2032,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2088,6 +2120,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) LIV W 3-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2172,6 +2205,7 @@
             "points": 0,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2181,7 +2215,7 @@
         "Value": 5.5,
         "Nationality": "Canada",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.8,
         "Total Games Played": 0,
@@ -2217,6 +2251,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2283,6 +2318,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2367,6 +2403,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2439,6 +2476,7 @@
             "tooltip": "24 Jan (H) ARS L 0-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2526,6 +2564,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2535,7 +2574,7 @@
         "Value": 6.0,
         "Nationality": "Serbia",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 34,
         "Selected Percentage": 1.9,
         "Total Games Played": 11,
@@ -2604,6 +2643,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2691,6 +2731,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2754,6 +2795,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2835,6 +2877,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2910,6 +2953,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -2979,6 +3023,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3042,6 +3087,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3114,6 +3160,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3123,7 +3170,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": "Knee injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.7,
         "Total Games Played": 0,
@@ -3159,6 +3206,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3225,6 +3273,7 @@
             "points": 0,
             "tooltip": "1 Feb (H) LIV W 3-1\n1 min (+1pt)\nYellow Card (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3288,6 +3337,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3297,7 +3347,7 @@
         "Value": 4.5,
         "Nationality": "Italy",
         "News": "Knee injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 3,
         "Selected Percentage": 1.1,
         "Total Games Played": 3,
@@ -3342,6 +3392,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3351,7 +3402,7 @@
         "Value": 4.5,
         "Nationality": "Scotland",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.7,
         "Total Games Played": 0,
@@ -3387,6 +3438,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3465,6 +3517,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3474,7 +3527,7 @@
         "Value": 5.5,
         "Nationality": "Australia",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 24,
         "Selected Percentage": 1.7,
         "Total Games Played": 14,
@@ -3552,6 +3605,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3633,6 +3687,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3643,14 +3698,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 76,
+        "Total Points": 77,
         "Selected Percentage": 31.9,
-        "Total Games Played": 14,
-        "Total Over 4 Gameweeks": 22,
+        "Total Games Played": 15,
+        "Total Over 4 Gameweeks": 21,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 5.5,
-        "Points Per Million": 8.7,
-        "Points Per Million Over 4 Gameweeks": 2.5,
+        "Points Per Game Over 4 Gameweeks": 5.2,
+        "Points Per Million": 8.9,
+        "Points Per Million Over 4 Gameweeks": 2.4,
         "Total Goals": 5,
         "Total Assists": 4,
         "Total Red Cards": 0,
@@ -3662,7 +3717,7 @@
         "Total Bonus Points": 10,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 14,
+        "Total 1 min Appearances": 15,
         "Total 60 min Appearances": 12,
         "1": {
             "points": 1,
@@ -3720,6 +3775,10 @@
             "points": 5,
             "tooltip": "1 Feb (H) LIV W 3-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -3729,7 +3788,7 @@
         "Value": 7.5,
         "Nationality": "Netherlands",
         "News": "Unavailable",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 20,
         "Selected Percentage": 1.0,
         "Total Games Played": 9,
@@ -3792,6 +3851,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3802,14 +3862,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 39,
+        "Total Points": 40,
         "Selected Percentage": 3.4,
-        "Total Games Played": 13,
-        "Total Over 4 Gameweeks": 11,
+        "Total Games Played": 14,
+        "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.8,
-        "Points Per Million": 7.0,
-        "Points Per Million Over 4 Gameweeks": 2.0,
+        "Points Per Game Over 4 Gameweeks": 2.5,
+        "Points Per Million": 7.1,
+        "Points Per Million Over 4 Gameweeks": 1.8,
         "Total Goals": 1,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -3821,7 +3881,7 @@
         "Total Bonus Points": 6,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 13,
+        "Total 1 min Appearances": 14,
         "Total 60 min Appearances": 13,
         "1": {
             "points": 2,
@@ -3876,6 +3936,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -3885,7 +3949,7 @@
         "Value": 6.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 28,
         "Selected Percentage": 1.1,
         "Total Games Played": 12,
@@ -3957,6 +4021,7 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -3966,15 +4031,15 @@
         "Value": 6.5,
         "Nationality": "Wales",
         "News": null,
-        "Visionary": true,
-        "Total Points": 26,
+        "Visionary": false,
+        "Total Points": 27,
         "Selected Percentage": 1.3,
-        "Total Games Played": 13,
-        "Total Over 4 Gameweeks": 9,
+        "Total Games Played": 14,
+        "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.2,
-        "Points Per Million": 4.0,
-        "Points Per Million Over 4 Gameweeks": 1.4,
+        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Million": 4.2,
+        "Points Per Million Over 4 Gameweeks": 1.2,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -3986,7 +4051,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 13,
+        "Total 1 min Appearances": 14,
         "Total 60 min Appearances": 12,
         "1": {
             "points": 1,
@@ -4041,6 +4106,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -4050,7 +4119,7 @@
         "Value": 5.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 3,
         "Selected Percentage": 1.2,
         "Total Games Played": 3,
@@ -4095,6 +4164,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4104,7 +4174,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "Sustained a hand injury in training",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 1.9,
         "Total Games Played": 0,
@@ -4140,6 +4210,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4215,6 +4286,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4281,8 +4353,8 @@
         },
         "10": "-",
         "11": {
-            "points": 0,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\nYellow Card (-1pt)"
+            "points": 4,
+            "tooltip": "14 Dec (A) MCI L 6-1\nAssist (+3pts)\n1 min (+1pt)"
         },
         "12": {
             "points": 1,
@@ -4290,6 +4362,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4299,15 +4372,15 @@
         "Value": 7.0,
         "Nationality": "Wales",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 35,
         "Selected Percentage": 1.6,
         "Total Games Played": 13,
-        "Total Over 4 Gameweeks": 13,
+        "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.2,
+        "Points Per Game Over 4 Gameweeks": 3.0,
         "Points Per Million": 5.0,
-        "Points Per Million Over 4 Gameweeks": 1.9,
+        "Points Per Million Over 4 Gameweeks": 1.7,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -4356,8 +4429,8 @@
         },
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -4371,6 +4444,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4380,7 +4454,7 @@
         "Value": 6.5,
         "Nationality": "Republic of Ireland",
         "News": "On loan to Nottingham Forest",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 6,
         "Selected Percentage": 1.2,
         "Total Games Played": 5,
@@ -4428,6 +4502,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4479,6 +4554,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4566,6 +4642,7 @@
             "points": 5,
             "tooltip": "1 Feb (H) CHE W 5-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4641,6 +4718,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4728,6 +4806,7 @@
             "points": 9,
             "tooltip": "1 Feb (H) AVL W 2-1\nAssist x2 (+6pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4809,6 +4888,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4818,7 +4898,7 @@
         "Value": 6.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 11,
         "Selected Percentage": 1.5,
         "Total Games Played": 6,
@@ -4872,6 +4952,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4959,6 +5040,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -4968,7 +5050,7 @@
         "Value": 5.0,
         "Nationality": "Australia",
         "News": "Transferred to Eintracht Frankfurt",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.5,
         "Total Games Played": 0,
@@ -5004,6 +5086,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5013,7 +5096,7 @@
         "Value": 8.5,
         "Nationality": "Australia",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.2,
         "Total Games Played": 1,
@@ -5052,6 +5135,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5127,6 +5211,7 @@
             "points": 7,
             "tooltip": "1 Feb (H) CHE W 5-1\nAssist (+3pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5196,6 +5281,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5283,6 +5369,7 @@
             "points": 6,
             "tooltip": "1 Feb (H) CHE W 5-1\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5334,6 +5421,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5343,7 +5431,7 @@
         "Value": 6.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 7,
         "Selected Percentage": 1.6,
         "Total Games Played": 6,
@@ -5397,6 +5485,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5407,13 +5496,13 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 58,
+        "Total Points": 59,
         "Selected Percentage": 34.2,
-        "Total Games Played": 14,
+        "Total Games Played": 15,
         "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 3.0,
-        "Points Per Million": 7.3,
+        "Points Per Million": 7.5,
         "Points Per Million Over 4 Gameweeks": 1.5,
         "Total Goals": 1,
         "Total Assists": 1,
@@ -5426,7 +5515,7 @@
         "Total Bonus Points": 7,
         "Total Missed Penalties": 0,
         "Total Clearances": 1,
-        "Total 1 min Appearances": 14,
+        "Total 1 min Appearances": 15,
         "Total 60 min Appearances": 14,
         "1": {
             "points": 7,
@@ -5484,6 +5573,10 @@
             "points": 3,
             "tooltip": "1 Feb (H) LIV W 3-1\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -5493,7 +5586,7 @@
         "Value": 6.9,
         "Nationality": "England",
         "News": "Back in the new year",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 8,
         "Selected Percentage": 1.2,
         "Total Games Played": 3,
@@ -5538,6 +5631,7 @@
             "tooltip": "25 Jan (A) AVL W 1-4\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5610,6 +5704,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5619,7 +5714,7 @@
         "Value": 8.5,
         "Nationality": "England",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 8,
         "Selected Percentage": 0.6,
         "Total Games Played": 4,
@@ -5667,6 +5762,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5727,6 +5823,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5736,7 +5833,7 @@
         "Value": 5.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 5,
         "Selected Percentage": 1.9,
         "Total Games Played": 4,
@@ -5770,7 +5867,7 @@
         "10": "-",
         "11": {
             "points": 1,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": {
             "points": 1,
@@ -5781,6 +5878,7 @@
             "tooltip": "25 Jan (H) MUN L 1-4\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5859,6 +5957,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -5943,6 +6042,7 @@
             "tooltip": "25 Jan (H) MCI L 1-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6027,6 +6127,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6105,6 +6206,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6114,14 +6216,14 @@
         "Value": 6.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
-        "Total Points": 8,
+        "Visionary": false,
+        "Total Points": 9,
         "Selected Percentage": 1.4,
-        "Total Games Played": 7,
+        "Total Games Played": 8,
         "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 1.2,
-        "Points Per Million": 1.3,
+        "Points Per Million": 1.5,
         "Points Per Million Over 4 Gameweeks": 0.8,
         "Total Goals": 0,
         "Total Assists": 0,
@@ -6134,7 +6236,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 7,
+        "Total 1 min Appearances": 8,
         "Total 60 min Appearances": 1,
         "1": "-",
         "2": "-",
@@ -6171,6 +6273,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -6235,11 +6341,12 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6249,7 +6356,7 @@
         "Value": 4.5,
         "Nationality": "Jamaica",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.5,
         "Total Games Played": 0,
@@ -6285,6 +6392,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6294,14 +6402,14 @@
         "Value": 5.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
-        "Total Points": 33,
+        "Visionary": false,
+        "Total Points": 34,
         "Selected Percentage": 1.4,
-        "Total Games Played": 13,
+        "Total Games Played": 14,
         "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 3.8,
-        "Points Per Million": 6.6,
+        "Points Per Million": 6.8,
         "Points Per Million Over 4 Gameweeks": 3.0,
         "Total Goals": 0,
         "Total Assists": 1,
@@ -6314,7 +6422,7 @@
         "Total Bonus Points": 2,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 13,
+        "Total 1 min Appearances": 14,
         "Total 60 min Appearances": 13,
         "1": {
             "points": 0,
@@ -6369,6 +6477,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -6378,7 +6490,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 1.6,
         "Total Games Played": 2,
@@ -6420,6 +6532,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6430,14 +6543,14 @@
         "Nationality": "England",
         "News": null,
         "Visionary": false,
-        "Total Points": 31,
+        "Total Points": 32,
         "Selected Percentage": 3.3,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 14,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 7,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.5,
-        "Points Per Million": 5.6,
-        "Points Per Million Over 4 Gameweeks": 2.5,
+        "Points Per Game Over 4 Gameweeks": 1.8,
+        "Points Per Million": 5.8,
+        "Points Per Million Over 4 Gameweeks": 1.3,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -6449,7 +6562,7 @@
         "Total Bonus Points": 6,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 8,
         "1": "-",
         "2": "-",
@@ -6495,6 +6608,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -6504,7 +6621,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "Taking time away from football",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -6540,6 +6657,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6549,7 +6667,7 @@
         "Value": 5.0,
         "Nationality": "Canada",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 11,
         "Selected Percentage": 0.9,
         "Total Games Played": 9,
@@ -6612,6 +6730,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6696,6 +6815,7 @@
             "points": -1,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)\n60 min (+1pt)\nRed Card (-3pts)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6783,6 +6903,7 @@
             "points": 5,
             "tooltip": "1 Feb (A) WHU W 1-2\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6792,7 +6913,7 @@
         "Value": 8.5,
         "Nationality": "Norway",
         "News": "Pregnant",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 8,
         "Selected Percentage": 1.1,
         "Total Games Played": 5,
@@ -6843,6 +6964,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6897,6 +7019,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -6906,7 +7029,7 @@
         "Value": 6.5,
         "Nationality": "England",
         "News": "ACL injury ",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 23,
         "Selected Percentage": 1.7,
         "Total Games Played": 10,
@@ -6972,6 +7095,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7050,6 +7174,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7107,6 +7232,7 @@
             "tooltip": "25 Jan (H) MUN L 1-4\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7116,7 +7242,7 @@
         "Value": 4.0,
         "Nationality": "Japan",
         "News": "Injured ",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 23,
         "Selected Percentage": 1.6,
         "Total Games Played": 9,
@@ -7179,6 +7305,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7188,7 +7315,7 @@
         "Value": 7.0,
         "Nationality": "Japan",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 39,
         "Selected Percentage": 1.5,
         "Total Games Played": 14,
@@ -7266,6 +7393,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7311,6 +7439,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7320,7 +7449,7 @@
         "Value": 4.0,
         "Nationality": "Republic of Ireland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.6,
         "Total Games Played": 0,
@@ -7356,6 +7485,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7365,7 +7495,7 @@
         "Value": 9.0,
         "Nationality": "France",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 38,
         "Selected Percentage": 1.9,
         "Total Games Played": 14,
@@ -7443,6 +7573,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7506,6 +7637,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7515,7 +7647,7 @@
         "Value": 6.5,
         "Nationality": "Netherlands",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 11,
         "Selected Percentage": 1.8,
         "Total Games Played": 9,
@@ -7578,6 +7710,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7632,6 +7765,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7710,6 +7844,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7776,6 +7911,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7785,7 +7921,7 @@
         "Value": 5.5,
         "Nationality": "Belgium",
         "News": "Transferred to FC Union Berlin",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 18,
         "Selected Percentage": 1.7,
         "Total Games Played": 8,
@@ -7845,6 +7981,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -7923,6 +8060,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8007,6 +8145,7 @@
             "points": 3,
             "tooltip": "1 Feb (H) LIV W 3-1\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8016,7 +8155,7 @@
         "Value": 5.5,
         "Nationality": "England",
         "News": "Transferred to Bay FC",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 24,
         "Selected Percentage": 1.4,
         "Total Games Played": 10,
@@ -8082,6 +8221,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8091,15 +8231,15 @@
         "Value": 6.0,
         "Nationality": "Norway",
         "News": null,
-        "Visionary": true,
-        "Total Points": 30,
+        "Visionary": false,
+        "Total Points": 31,
         "Selected Percentage": 1.3,
-        "Total Games Played": 10,
-        "Total Over 4 Gameweeks": 18,
+        "Total Games Played": 11,
+        "Total Over 4 Gameweeks": 17,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.5,
-        "Points Per Million": 5.0,
-        "Points Per Million Over 4 Gameweeks": 3.0,
+        "Points Per Game Over 4 Gameweeks": 4.2,
+        "Points Per Million": 5.2,
+        "Points Per Million Over 4 Gameweeks": 2.8,
         "Total Goals": 3,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -8111,7 +8251,7 @@
         "Total Bonus Points": 2,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 10,
+        "Total 1 min Appearances": 11,
         "Total 60 min Appearances": 3,
         "1": {
             "points": 1,
@@ -8157,6 +8297,10 @@
             "points": 14,
             "tooltip": "1 Feb (H) LIV W 3-1\nGoal x2 (+10pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -8166,7 +8310,7 @@
         "Value": 5.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 33,
         "Selected Percentage": 1.5,
         "Total Games Played": 13,
@@ -8238,6 +8382,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8247,7 +8392,7 @@
         "Value": 6.5,
         "Nationality": "Japan",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 31,
         "Selected Percentage": 1.4,
         "Total Games Played": 14,
@@ -8322,6 +8467,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8385,6 +8531,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8394,7 +8541,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan to Birmingham City",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.5,
         "Total Games Played": 3,
@@ -8439,6 +8586,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8500,11 +8648,12 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8577,6 +8726,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8664,6 +8814,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8673,7 +8824,7 @@
         "Value": 6.0,
         "Nationality": "USA",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 28,
         "Selected Percentage": 1.3,
         "Total Games Played": 9,
@@ -8736,6 +8887,7 @@
             "points": 5,
             "tooltip": "1 Feb (H) LCL L 1-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8745,15 +8897,15 @@
         "Value": 4.0,
         "Nationality": "Wales",
         "News": null,
-        "Visionary": true,
-        "Total Points": 4,
+        "Visionary": false,
+        "Total Points": 5,
         "Selected Percentage": 1.2,
-        "Total Games Played": 2,
-        "Total Over 4 Gameweeks": 4,
-        "Games Played Over 4 Gameweeks": 2,
-        "Points Per Game Over 4 Gameweeks": 1.0,
-        "Points Per Million": 1.0,
-        "Points Per Million Over 4 Gameweeks": 1.0,
+        "Total Games Played": 3,
+        "Total Over 4 Gameweeks": 5,
+        "Games Played Over 4 Gameweeks": 3,
+        "Points Per Game Over 4 Gameweeks": 1.2,
+        "Points Per Million": 1.2,
+        "Points Per Million Over 4 Gameweeks": 1.2,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -8765,7 +8917,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 2,
+        "Total 1 min Appearances": 3,
         "Total 60 min Appearances": 2,
         "1": "-",
         "2": "-",
@@ -8787,6 +8939,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -8796,7 +8952,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 3,
         "Selected Percentage": 0.4,
         "Total Games Played": 3,
@@ -8841,6 +8997,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8850,7 +9007,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan to Nottingham Forest",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.7,
         "Total Games Played": 1,
@@ -8889,6 +9046,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8898,7 +9056,7 @@
         "Value": 8.0,
         "Nationality": "Germany",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 9,
         "Selected Percentage": 1.3,
         "Total Games Played": 7,
@@ -8955,6 +9113,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -8964,7 +9123,7 @@
         "Value": 9.5,
         "Nationality": "USA",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 18,
         "Selected Percentage": 0.8,
         "Total Games Played": 9,
@@ -9027,6 +9186,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9036,7 +9196,7 @@
         "Value": 6.5,
         "Nationality": "Belgium",
         "News": "Transferred to PSV Eindhoven",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 23,
         "Selected Percentage": 0.6,
         "Total Games Played": 9,
@@ -9099,6 +9259,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9112,11 +9273,11 @@
         "Total Points": 35,
         "Selected Percentage": 2.4,
         "Total Games Played": 13,
-        "Total Over 4 Gameweeks": 20,
+        "Total Over 4 Gameweeks": 22,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 5.0,
+        "Points Per Game Over 4 Gameweeks": 5.5,
         "Points Per Million": 7.8,
-        "Points Per Million Over 4 Gameweeks": 4.4,
+        "Points Per Million Over 4 Gameweeks": 4.9,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -9165,8 +9326,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "11": {
-            "points": 3,
-            "tooltip": "14 Dec (A) WHU D 2-2\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "points": 1,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": {
             "points": 7,
@@ -9180,6 +9341,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9189,7 +9351,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "Hamstring injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 3,
         "Selected Percentage": 1.1,
         "Total Games Played": 4,
@@ -9225,8 +9387,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 0,
@@ -9234,6 +9396,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9243,7 +9406,7 @@
         "Value": 8.0,
         "Nationality": "Austria",
         "News": "ACL injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 9,
         "Selected Percentage": 0.9,
         "Total Games Played": 4,
@@ -9291,6 +9454,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9304,11 +9468,11 @@
         "Total Points": 39,
         "Selected Percentage": 5.7,
         "Total Games Played": 14,
-        "Total Over 4 Gameweeks": 18,
+        "Total Over 4 Gameweeks": 14,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.5,
+        "Points Per Game Over 4 Gameweeks": 3.5,
         "Points Per Million": 7.0,
-        "Points Per Million Over 4 Gameweeks": 3.2,
+        "Points Per Million Over 4 Gameweeks": 2.5,
         "Total Goals": 3,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -9360,8 +9524,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 6,
+            "tooltip": "14 Dec (A) WHU D 2-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -9375,6 +9539,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9384,7 +9549,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 1.0,
         "Total Games Played": 0,
@@ -9420,6 +9585,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9429,7 +9595,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": "Transferred to Gotham FC",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -9465,6 +9631,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9474,7 +9641,7 @@
         "Value": 4.5,
         "Nationality": "Scotland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.8,
         "Total Games Played": 0,
@@ -9510,6 +9677,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9519,7 +9687,7 @@
         "Value": 5.0,
         "Nationality": "Spain",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 4,
         "Selected Percentage": 0.7,
         "Total Games Played": 3,
@@ -9564,6 +9732,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9573,7 +9742,7 @@
         "Value": 5.0,
         "Nationality": "France",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 26,
         "Selected Percentage": 1.3,
         "Total Games Played": 10,
@@ -9639,6 +9808,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9649,14 +9819,14 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": false,
-        "Total Points": 41,
+        "Total Points": 42,
         "Selected Percentage": 2.3,
-        "Total Games Played": 14,
-        "Total Over 4 Gameweeks": 9,
+        "Total Games Played": 15,
+        "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.2,
-        "Points Per Million": 5.5,
-        "Points Per Million Over 4 Gameweeks": 1.2,
+        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Million": 5.6,
+        "Points Per Million Over 4 Gameweeks": 1.1,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -9668,7 +9838,7 @@
         "Total Bonus Points": 4,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 14,
+        "Total 1 min Appearances": 15,
         "Total 60 min Appearances": 14,
         "1": {
             "points": 3,
@@ -9726,6 +9896,10 @@
             "points": 2,
             "tooltip": "1 Feb (H) LIV W 3-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -9735,7 +9909,7 @@
         "Value": 7.5,
         "Nationality": "Norway",
         "News": "ACL injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 4,
         "Selected Percentage": 0.4,
         "Total Games Played": 5,
@@ -9786,6 +9960,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9795,7 +9970,7 @@
         "Value": 7.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 30,
         "Selected Percentage": 1.9,
         "Total Games Played": 13,
@@ -9870,6 +10045,7 @@
             "points": 7,
             "tooltip": "1 Feb (A) EVE L 2-1\nGoal (+4pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9879,7 +10055,7 @@
         "Value": 7.5,
         "Nationality": "Japan",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 43,
         "Selected Percentage": 1.3,
         "Total Games Played": 14,
@@ -9957,6 +10133,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -9966,7 +10143,7 @@
         "Value": 4.5,
         "Nationality": "Colombia",
         "News": "Transferred to Boston Legacy",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.5,
         "Total Games Played": 0,
@@ -10002,6 +10179,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10012,13 +10190,13 @@
         "Nationality": "USA",
         "News": null,
         "Visionary": false,
-        "Total Points": 43,
+        "Total Points": 44,
         "Selected Percentage": 27.9,
-        "Total Games Played": 13,
+        "Total Games Played": 14,
         "Total Over 4 Gameweeks": 13,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 3.2,
-        "Points Per Million": 7.2,
+        "Points Per Million": 7.3,
         "Points Per Million Over 4 Gameweeks": 2.2,
         "Total Goals": 0,
         "Total Assists": 0,
@@ -10031,7 +10209,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 13,
+        "Total 1 min Appearances": 14,
         "Total 60 min Appearances": 13,
         "1": {
             "points": 6,
@@ -10085,6 +10263,10 @@
         "14": {
             "points": 2,
             "tooltip": "1 Feb (H) LIV W 3-1\n1 min (+1pt)\n60 min (+1pt)"
+        },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -10149,6 +10331,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10159,13 +10342,13 @@
         "Nationality": "France",
         "News": null,
         "Visionary": false,
-        "Total Points": 57,
+        "Total Points": 58,
         "Selected Percentage": 14.2,
-        "Total Games Played": 14,
+        "Total Games Played": 15,
         "Total Over 4 Gameweeks": 13,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 3.2,
-        "Points Per Million": 6.6,
+        "Points Per Million": 6.7,
         "Points Per Million Over 4 Gameweeks": 1.5,
         "Total Goals": 5,
         "Total Assists": 3,
@@ -10178,7 +10361,7 @@
         "Total Bonus Points": 6,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 14,
+        "Total 1 min Appearances": 15,
         "Total 60 min Appearances": 10,
         "1": {
             "points": 13,
@@ -10236,6 +10419,10 @@
             "points": 1,
             "tooltip": "1 Feb (H) LIV W 3-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -10245,7 +10432,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -10281,6 +10468,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10290,7 +10478,7 @@
         "Value": 4.5,
         "Nationality": "Switzerland",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -10326,6 +10514,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10398,6 +10587,7 @@
             "tooltip": "25 Jan (A) LIV L 2-0\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10407,7 +10597,7 @@
         "Value": 5.0,
         "Nationality": "Finland",
         "News": "Knee injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 14,
         "Selected Percentage": 0.3,
         "Total Games Played": 9,
@@ -10470,6 +10660,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10479,7 +10670,7 @@
         "Value": 4.0,
         "Nationality": "Wales",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 1.0,
         "Total Games Played": 1,
@@ -10518,6 +10709,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10527,7 +10719,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -10563,6 +10755,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10572,7 +10765,7 @@
         "Value": 5.0,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 27,
         "Selected Percentage": 1.5,
         "Total Games Played": 11,
@@ -10641,6 +10834,7 @@
             "points": 8,
             "tooltip": "1 Feb (A) WHU W 1-2\nGoal (+5pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10701,6 +10895,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10788,6 +10983,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10797,7 +10993,7 @@
         "Value": 6.5,
         "Nationality": "Japan",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 30,
         "Selected Percentage": 1.5,
         "Total Games Played": 14,
@@ -10875,6 +11071,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -10959,6 +11156,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11046,6 +11244,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11055,7 +11254,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.3,
         "Total Games Played": 1,
@@ -11094,6 +11293,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11181,6 +11381,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11190,7 +11391,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -11226,6 +11427,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11235,7 +11437,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -11271,6 +11473,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11280,7 +11483,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -11316,6 +11519,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11325,7 +11529,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -11361,6 +11565,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11370,7 +11575,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.8,
         "Total Games Played": 0,
@@ -11406,6 +11611,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11415,7 +11621,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.5,
         "Total Games Played": 3,
@@ -11460,6 +11666,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11469,7 +11676,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.6,
         "Total Games Played": 0,
@@ -11505,6 +11712,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11514,7 +11722,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -11550,6 +11758,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11559,7 +11768,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.5,
         "Total Games Played": 0,
@@ -11595,6 +11804,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11604,7 +11814,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan to Crystal Palace",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -11640,6 +11850,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11649,7 +11860,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -11685,6 +11896,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11694,7 +11906,7 @@
         "Value": 9.9,
         "Nationality": "Colombia",
         "News": "Hamstring injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -11730,6 +11942,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11739,7 +11952,7 @@
         "Value": 4.0,
         "Nationality": "Republic of Ireland",
         "News": "On loan to Celtic FC",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -11775,6 +11988,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11784,7 +11998,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": "On loan to Celtic FC",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -11820,6 +12034,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11883,6 +12098,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11892,7 +12108,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan to Glasgow City",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -11928,6 +12144,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -11937,7 +12154,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "At Nottingham Forest on loan",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.7,
         "Total Games Played": 0,
@@ -11973,6 +12190,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12048,6 +12266,7 @@
             "points": 11,
             "tooltip": "1 Feb (A) BHA W 1-2\nGoal (+5pts)\nAssist (+3pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12057,7 +12276,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -12093,6 +12312,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12177,6 +12397,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nGoal (+5pts)\nBonus x2 (+2pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12237,6 +12458,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12246,7 +12468,7 @@
         "Value": 4.0,
         "Nationality": "Spain",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 1.0,
         "Total Games Played": 5,
@@ -12294,6 +12516,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12303,7 +12526,7 @@
         "Value": 4.4,
         "Nationality": "Netherlands",
         "News": "ACL injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 6,
         "Selected Percentage": 0.8,
         "Total Games Played": 3,
@@ -12348,6 +12571,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12357,7 +12581,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.5,
         "Total Games Played": 0,
@@ -12393,6 +12617,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12477,6 +12702,7 @@
             "points": 0,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\nYellow Card (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12564,6 +12790,7 @@
             "points": 3,
             "tooltip": "1 Feb (H) LCL L 1-2\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12573,7 +12800,7 @@
         "Value": 4.0,
         "Nationality": "Netherlands",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 4,
         "Selected Percentage": 0.5,
         "Total Games Played": 4,
@@ -12621,6 +12848,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12708,6 +12936,7 @@
             "points": 9,
             "tooltip": "1 Feb (H) LCL L 1-2\nGoal (+4pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12717,7 +12946,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 3,
         "Selected Percentage": 0.2,
         "Total Games Played": 3,
@@ -12762,6 +12991,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12771,7 +13001,7 @@
         "Value": 4.5,
         "Nationality": "Tanzania",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -12807,6 +13037,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12816,7 +13047,7 @@
         "Value": 5.5,
         "Nationality": "Spain",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 5,
         "Selected Percentage": 0.5,
         "Total Games Played": 5,
@@ -12853,7 +13084,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
         },
         "12": "-",
         "13": {
@@ -12864,6 +13095,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12930,6 +13162,7 @@
             "tooltip": "24 Jan (H) ARS L 0-2\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12939,7 +13172,7 @@
         "Value": 5.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.2,
         "Total Games Played": 1,
@@ -12978,6 +13211,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -12987,7 +13221,7 @@
         "Value": 4.5,
         "Nationality": "Spain",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -13023,6 +13257,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13032,7 +13267,7 @@
         "Value": 6.0,
         "Nationality": "France",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 10,
         "Selected Percentage": 0.3,
         "Total Games Played": 7,
@@ -13089,6 +13324,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13173,6 +13409,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13182,7 +13419,7 @@
         "Value": 5.0,
         "Nationality": "Poland",
         "News": "Neck injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 22,
         "Selected Percentage": 1.4,
         "Total Games Played": 12,
@@ -13254,6 +13491,7 @@
             "tooltip": "25 Jan (A) LEI W 1-2\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13263,7 +13501,7 @@
         "Value": 4.0,
         "Nationality": "Chile",
         "News": "On loan to Bristol City",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -13299,6 +13537,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13308,7 +13547,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "ACL",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -13344,6 +13583,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13353,7 +13593,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 4,
         "Selected Percentage": 0.6,
         "Total Games Played": 3,
@@ -13398,6 +13638,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13408,14 +13649,14 @@
         "Nationality": "Sweden",
         "News": null,
         "Visionary": false,
-        "Total Points": 55,
+        "Total Points": 56,
         "Selected Percentage": 24.8,
-        "Total Games Played": 13,
-        "Total Over 4 Gameweeks": 14,
+        "Total Games Played": 14,
+        "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.5,
-        "Points Per Million": 10.8,
-        "Points Per Million Over 4 Gameweeks": 2.7,
+        "Points Per Game Over 4 Gameweeks": 2.8,
+        "Points Per Million": 11.0,
+        "Points Per Million Over 4 Gameweeks": 2.2,
         "Total Goals": 1,
         "Total Assists": 2,
         "Total Red Cards": 0,
@@ -13427,7 +13668,7 @@
         "Total Bonus Points": 9,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 13,
+        "Total 1 min Appearances": 14,
         "Total 60 min Appearances": 12,
         "1": {
             "points": 6,
@@ -13482,6 +13723,10 @@
             "points": 2,
             "tooltip": "1 Feb (H) LIV W 3-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -13492,13 +13737,13 @@
         "Nationality": "Netherlands",
         "News": null,
         "Visionary": false,
-        "Total Points": 51,
+        "Total Points": 52,
         "Selected Percentage": 5.4,
-        "Total Games Played": 14,
+        "Total Games Played": 15,
         "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 2.8,
-        "Points Per Million": 7.3,
+        "Points Per Million": 7.4,
         "Points Per Million Over 4 Gameweeks": 1.6,
         "Total Goals": 1,
         "Total Assists": 1,
@@ -13511,7 +13756,7 @@
         "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 14,
+        "Total 1 min Appearances": 15,
         "Total 60 min Appearances": 13,
         "1": {
             "points": 9,
@@ -13569,6 +13814,10 @@
             "points": 2,
             "tooltip": "1 Feb (H) LIV W 3-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -13578,7 +13827,7 @@
         "Value": 6.0,
         "Nationality": "Canada",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 4,
         "Selected Percentage": 0.4,
         "Total Games Played": 4,
@@ -13626,6 +13875,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13635,7 +13885,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "Transferred to Bay FC",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 1.3,
         "Total Games Played": 0,
@@ -13671,6 +13921,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13680,7 +13931,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan to Crystal Palace",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -13716,6 +13967,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13797,6 +14049,7 @@
             "points": 3,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13875,6 +14128,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -13884,14 +14138,14 @@
         "Value": 4.0,
         "Nationality": "Jamaica",
         "News": null,
-        "Visionary": true,
-        "Total Points": 8,
+        "Visionary": false,
+        "Total Points": 9,
         "Selected Percentage": 0.3,
-        "Total Games Played": 9,
+        "Total Games Played": 10,
         "Total Over 4 Gameweeks": 3,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 0.8,
-        "Points Per Million": 2.0,
+        "Points Per Million": 2.2,
         "Points Per Million Over 4 Gameweeks": 0.8,
         "Total Goals": 0,
         "Total Assists": 0,
@@ -13904,7 +14158,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 9,
+        "Total 1 min Appearances": 10,
         "Total 60 min Appearances": 7,
         "1": "-",
         "2": "-",
@@ -13947,6 +14201,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -13957,14 +14215,14 @@
         "Nationality": "Belgium",
         "News": null,
         "Visionary": false,
-        "Total Points": 30,
+        "Total Points": 31,
         "Selected Percentage": 4.3,
-        "Total Games Played": 11,
-        "Total Over 4 Gameweeks": 9,
+        "Total Games Played": 12,
+        "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.2,
-        "Points Per Million": 7.5,
-        "Points Per Million Over 4 Gameweeks": 2.2,
+        "Points Per Game Over 4 Gameweeks": 2.5,
+        "Points Per Million": 7.8,
+        "Points Per Million Over 4 Gameweeks": 2.5,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -13976,7 +14234,7 @@
         "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 11,
+        "Total 1 min Appearances": 12,
         "Total 60 min Appearances": 10,
         "1": {
             "points": 0,
@@ -14025,6 +14283,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -14034,7 +14296,7 @@
         "Value": 4.5,
         "Nationality": "France",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 20,
         "Selected Percentage": 1.0,
         "Total Games Played": 8,
@@ -14094,6 +14356,7 @@
             "tooltip": "25 Jan (H) WHU L 1-2\nAssist (+3pts)\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14103,7 +14366,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.8,
         "Total Games Played": 0,
@@ -14139,6 +14402,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14148,7 +14412,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.8,
         "Total Games Played": 0,
@@ -14184,6 +14448,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14262,6 +14527,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14271,7 +14537,7 @@
         "Value": 4.5,
         "Nationality": "Spain",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.2,
         "Total Games Played": 1,
@@ -14310,6 +14576,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14319,7 +14586,7 @@
         "Value": 6.0,
         "Nationality": "Nigeria",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 26,
         "Selected Percentage": 0.7,
         "Total Games Played": 13,
@@ -14394,6 +14661,7 @@
             "tooltip": "23 Jan (H) BHA L 0-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14403,7 +14671,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -14439,6 +14707,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14448,7 +14717,7 @@
         "Value": 4.0,
         "Nationality": "Scotland",
         "News": "On loan to Ipswich Town",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.4,
         "Total Games Played": 1,
@@ -14487,6 +14756,7 @@
             "tooltip": "23 Jan (H) BHA L 0-1\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14574,6 +14844,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14649,6 +14920,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14730,6 +15002,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14800,7 +15073,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -14814,6 +15087,7 @@
             "points": 5,
             "tooltip": "1 Feb (A) MUN L 3-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14877,6 +15151,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14886,7 +15161,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan to Glasgow City",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -14922,6 +15197,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14931,7 +15207,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -14967,6 +15243,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -14976,7 +15253,7 @@
         "Value": 4.0,
         "Nationality": "Republic of Ireland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -15012,6 +15289,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15021,7 +15299,7 @@
         "Value": 5.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 1.2,
         "Total Games Played": 1,
@@ -15060,6 +15338,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15147,6 +15426,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15156,7 +15436,7 @@
         "Value": 6.0,
         "Nationality": "Colombia",
         "News": "Transferred to Deportivo Toluca F.C. Femenil",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 5,
         "Selected Percentage": 0.2,
         "Total Games Played": 5,
@@ -15207,6 +15487,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15216,7 +15497,7 @@
         "Value": 5.0,
         "Nationality": "France",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 20,
         "Selected Percentage": 0.9,
         "Total Games Played": 6,
@@ -15270,6 +15551,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15279,7 +15561,7 @@
         "Value": 4.5,
         "Nationality": "Hungary",
         "News": "On loan to AS Roma",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 9,
         "Selected Percentage": 0.5,
         "Total Games Played": 5,
@@ -15330,6 +15612,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15339,7 +15622,7 @@
         "Value": 6.0,
         "Nationality": "Finland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 25,
         "Selected Percentage": 0.8,
         "Total Games Played": 14,
@@ -15417,6 +15700,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15426,7 +15710,7 @@
         "Value": 6.0,
         "Nationality": "Brazil",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -15462,6 +15746,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15471,7 +15756,7 @@
         "Value": 5.0,
         "Nationality": "Wales",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 33,
         "Selected Percentage": 1.8,
         "Total Games Played": 11,
@@ -15537,6 +15822,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15546,7 +15832,7 @@
         "Value": 6.0,
         "Nationality": "Spain",
         "News": "ACL injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.2,
         "Total Games Played": 1,
@@ -15585,6 +15871,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15594,7 +15881,7 @@
         "Value": 5.0,
         "Nationality": "Switzerland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 11,
         "Selected Percentage": 1.7,
         "Total Games Played": 9,
@@ -15657,6 +15944,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15666,7 +15954,7 @@
         "Value": 5.5,
         "Nationality": "France",
         "News": "Joined FC Fleury 91",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -15702,6 +15990,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15711,7 +16000,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -15747,6 +16036,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15756,7 +16046,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -15792,6 +16082,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15801,7 +16092,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan to Ipswich Town",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.4,
         "Total Games Played": 4,
@@ -15849,6 +16140,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15858,7 +16150,7 @@
         "Value": 4.5,
         "Nationality": "Wales",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -15894,6 +16186,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15903,7 +16196,7 @@
         "Value": 4.0,
         "Nationality": "Wales",
         "News": "Joined Rangers on loan.",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -15939,6 +16232,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -15948,7 +16242,7 @@
         "Value": 6.5,
         "Nationality": "Germany",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 33,
         "Selected Percentage": 1.7,
         "Total Games Played": 7,
@@ -16005,6 +16299,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16014,7 +16309,7 @@
         "Value": 5.8,
         "Nationality": "France",
         "News": "Unavailable",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 26,
         "Selected Percentage": 1.5,
         "Total Games Played": 9,
@@ -16077,6 +16372,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16164,6 +16460,7 @@
             "points": 6,
             "tooltip": "1 Feb (H) TOT L 1-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16248,6 +16545,7 @@
             "points": 7,
             "tooltip": "1 Feb (A) WHU W 1-2\nGoal (+5pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16335,6 +16633,7 @@
             "points": 15,
             "tooltip": "1 Feb (H) AVL W 2-1\nGoal x2 (+10pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16344,7 +16643,7 @@
         "Value": 4.5,
         "Nationality": "France",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -16380,6 +16679,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16449,6 +16749,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16458,7 +16759,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -16494,6 +16795,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16503,7 +16805,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -16539,6 +16841,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16548,7 +16851,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.1,
         "Total Games Played": 2,
@@ -16590,6 +16893,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16599,7 +16903,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -16635,6 +16939,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16644,7 +16949,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -16680,6 +16985,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16689,7 +16995,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -16725,6 +17031,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16734,7 +17041,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -16770,6 +17077,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16779,7 +17087,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -16815,6 +17123,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16824,7 +17133,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -16860,6 +17169,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16869,7 +17179,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -16905,6 +17215,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16914,7 +17225,7 @@
         "Value": 4.0,
         "Nationality": "Scotland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.5,
         "Total Games Played": 0,
@@ -16950,6 +17261,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -16959,7 +17271,7 @@
         "Value": 4.0,
         "Nationality": "Wales",
         "News": "ACL",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -16995,6 +17307,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17004,7 +17317,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -17040,6 +17353,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17049,7 +17363,7 @@
         "Value": 4.0,
         "Nationality": "Wales",
         "News": "On loan with Sunderland",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -17085,6 +17399,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17094,7 +17409,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -17130,6 +17445,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17139,7 +17455,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -17175,6 +17491,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17184,7 +17501,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.1,
         "Total Games Played": 1,
@@ -17223,6 +17540,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17232,7 +17550,7 @@
         "Value": 5.0,
         "Nationality": "Austria",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 21,
         "Selected Percentage": 1.5,
         "Total Games Played": 10,
@@ -17298,6 +17616,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17364,6 +17683,7 @@
             "points": 17,
             "tooltip": "1 Feb (H) CHE W 5-1\nGoal x3 (+12pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17439,6 +17759,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17502,6 +17823,7 @@
             "points": 0,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17511,7 +17833,7 @@
         "Value": 4.5,
         "Nationality": "Finland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 5,
         "Selected Percentage": 0.6,
         "Total Games Played": 10,
@@ -17577,6 +17899,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17586,7 +17909,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -17622,6 +17945,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17691,6 +18015,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17700,7 +18025,7 @@
         "Value": 5.0,
         "Nationality": "USA",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.5,
         "Total Games Played": 3,
@@ -17745,6 +18070,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17754,7 +18080,7 @@
         "Value": 4.0,
         "Nationality": "Iceland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 12,
         "Selected Percentage": 1.9,
         "Total Games Played": 9,
@@ -17817,6 +18143,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17904,6 +18231,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -17913,7 +18241,7 @@
         "Value": 4.0,
         "Nationality": "Netherlands",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -17949,6 +18277,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18033,6 +18362,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18042,7 +18372,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -18078,6 +18408,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18087,7 +18418,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -18123,6 +18454,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18180,6 +18512,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18189,7 +18522,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan with FC Rosengard",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -18225,6 +18558,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18234,7 +18568,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": "On loan to Portsmouth",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -18270,6 +18604,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18324,6 +18659,7 @@
             "tooltip": "25 Jan (H) MUN L 1-4\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded x2 (-2pts)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18402,6 +18738,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18411,7 +18748,7 @@
         "Value": 6.0,
         "Nationality": "France",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 30,
         "Selected Percentage": 1.2,
         "Total Games Played": 13,
@@ -18486,6 +18823,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18561,6 +18899,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18627,8 +18966,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 3,
-            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 7,
@@ -18636,6 +18975,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18645,7 +18985,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -18681,6 +19021,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18762,6 +19103,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18771,7 +19113,7 @@
         "Value": 5.0,
         "Nationality": "Colombia",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 16,
         "Selected Percentage": 0.8,
         "Total Games Played": 7,
@@ -18828,6 +19170,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18909,6 +19252,7 @@
             "points": -1,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nOwn Goal (-2pts)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -18918,7 +19262,7 @@
         "Value": 4.5,
         "Nationality": "Spain",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 16,
         "Selected Percentage": 1.7,
         "Total Games Played": 13,
@@ -18993,6 +19337,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19047,6 +19392,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19131,6 +19477,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MCI L 5-1\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nConceded x2 (-2pts)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19140,7 +19487,7 @@
         "Value": 4.0,
         "Nationality": "Germany",
         "News": "On loan to Werder Bremen",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -19176,6 +19523,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19185,7 +19533,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": "Transferred to Newcastle United",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -19221,6 +19569,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19230,7 +19579,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.1,
         "Total Games Played": 1,
@@ -19269,6 +19618,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19278,7 +19628,7 @@
         "Value": 4.0,
         "Nationality": "Japan",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 18,
         "Selected Percentage": 1.3,
         "Total Games Played": 9,
@@ -19341,6 +19691,7 @@
             "tooltip": "23 Jan (H) BHA L 0-1\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19350,7 +19701,7 @@
         "Value": 4.5,
         "Nationality": "Japan",
         "News": "Hamstring injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 22,
         "Selected Percentage": 0.7,
         "Total Games Played": 11,
@@ -19419,6 +19770,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19428,7 +19780,7 @@
         "Value": 4.5,
         "Nationality": "Netherlands",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 20,
         "Selected Percentage": 0.6,
         "Total Games Played": 14,
@@ -19506,6 +19858,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19515,7 +19868,7 @@
         "Value": 4.0,
         "Nationality": "Poland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -19551,6 +19904,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19638,6 +19992,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) AVL W 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19647,7 +20002,7 @@
         "Value": 4.0,
         "Nationality": "Republic of Ireland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.7,
         "Total Games Played": 0,
@@ -19683,6 +20038,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19692,7 +20048,7 @@
         "Value": 4.0,
         "Nationality": "USA",
         "News": "ACL injury",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 12,
         "Selected Percentage": 0.7,
         "Total Games Played": 6,
@@ -19746,6 +20102,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19800,6 +20157,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19809,7 +20167,7 @@
         "Value": 6.6,
         "Nationality": "Scotland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 16,
         "Selected Percentage": 0.5,
         "Total Games Played": 10,
@@ -19872,6 +20230,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19959,6 +20318,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -19968,7 +20328,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan to Watford",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -20004,6 +20364,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20013,7 +20374,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 1.3,
         "Total Games Played": 0,
@@ -20049,6 +20410,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20058,7 +20420,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 2.0,
         "Total Games Played": 0,
@@ -20094,6 +20456,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20175,6 +20538,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20232,6 +20596,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20241,7 +20606,7 @@
         "Value": 4.0,
         "Nationality": "Netherlands",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.2,
         "Total Games Played": 1,
@@ -20280,6 +20645,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20289,7 +20655,7 @@
         "Value": 4.0,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 18,
         "Selected Percentage": 0.5,
         "Total Games Played": 14,
@@ -20367,6 +20733,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20376,7 +20743,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.5,
         "Total Games Played": 0,
@@ -20412,6 +20779,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20421,7 +20789,7 @@
         "Value": 4.0,
         "Nationality": "Nigeria",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 16,
         "Selected Percentage": 1.1,
         "Total Games Played": 9,
@@ -20484,6 +20852,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20532,6 +20901,7 @@
             "tooltip": "25 Jan (H) MCI L 1-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20616,6 +20986,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20625,7 +20996,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -20661,6 +21032,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20727,6 +21099,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20736,7 +21109,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.7,
         "Total Games Played": 0,
@@ -20772,6 +21145,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20781,7 +21155,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 1.1,
         "Total Games Played": 0,
@@ -20817,6 +21191,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20826,7 +21201,7 @@
         "Value": 5.0,
         "Nationality": "Finland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 13,
         "Selected Percentage": 1.3,
         "Total Games Played": 13,
@@ -20901,6 +21276,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20988,6 +21364,7 @@
             "points": 5,
             "tooltip": "1 Feb (A) BHA W 1-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -20997,7 +21374,7 @@
         "Value": 6.0,
         "Nationality": "Sweden",
         "News": "Left London City Lionesses",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.9,
         "Total Games Played": 1,
@@ -21036,6 +21413,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21045,7 +21423,7 @@
         "Value": 4.5,
         "Nationality": "Finland",
         "News": "On loan to Birmingham City",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 5,
         "Selected Percentage": 0.6,
         "Total Games Played": 5,
@@ -21096,6 +21474,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21183,6 +21562,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21192,7 +21572,7 @@
         "Value": 4.5,
         "Nationality": "USA",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -21228,6 +21608,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21237,7 +21618,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -21273,6 +21654,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21282,7 +21664,7 @@
         "Value": 5.0,
         "Nationality": "Scotland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 1.3,
         "Total Games Played": 0,
@@ -21318,6 +21700,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21399,6 +21782,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21408,7 +21792,7 @@
         "Value": 7.0,
         "Nationality": "Germany",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 10,
         "Selected Percentage": 1.4,
         "Total Games Played": 7,
@@ -21465,6 +21849,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21543,6 +21928,7 @@
             "tooltip": "25 Jan (A) LCL W 1-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21552,7 +21938,7 @@
         "Value": 4.0,
         "Nationality": "Wales",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.7,
         "Total Games Played": 0,
@@ -21588,6 +21974,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21598,14 +21985,14 @@
         "Nationality": "Sweden",
         "News": null,
         "Visionary": false,
-        "Total Points": 46,
+        "Total Points": 47,
         "Selected Percentage": 3.8,
-        "Total Games Played": 14,
-        "Total Over 4 Gameweeks": 21,
+        "Total Games Played": 15,
+        "Total Over 4 Gameweeks": 22,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 5.2,
-        "Points Per Million": 7.1,
-        "Points Per Million Over 4 Gameweeks": 3.2,
+        "Points Per Game Over 4 Gameweeks": 5.5,
+        "Points Per Million": 7.2,
+        "Points Per Million Over 4 Gameweeks": 3.4,
         "Total Goals": 1,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -21617,7 +22004,7 @@
         "Total Bonus Points": 11,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 14,
+        "Total 1 min Appearances": 15,
         "Total 60 min Appearances": 11,
         "1": {
             "points": 3,
@@ -21675,6 +22062,10 @@
             "points": 8,
             "tooltip": "1 Feb (H) LIV W 3-1\nAssist (+3pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -21684,7 +22075,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.5,
         "Total Games Played": 0,
@@ -21720,6 +22111,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21729,7 +22121,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 1.5,
         "Total Games Played": 0,
@@ -21765,6 +22157,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21849,6 +22242,7 @@
             "points": 6,
             "tooltip": "1 Feb (A) WHU W 1-2\nAssist (+3pts)\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21858,7 +22252,7 @@
         "Value": 4.5,
         "Nationality": "Algeria",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": -1,
         "Selected Percentage": 0.3,
         "Total Games Played": 6,
@@ -21912,6 +22306,7 @@
             "tooltip": "25 Jan (A) LEI W 1-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21921,7 +22316,7 @@
         "Value": 4.0,
         "Nationality": "Türkiye",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 1.1,
         "Total Games Played": 1,
@@ -21960,6 +22355,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -21969,7 +22365,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 5,
         "Selected Percentage": 0.6,
         "Total Games Played": 5,
@@ -22020,6 +22416,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22029,7 +22426,7 @@
         "Value": 4.5,
         "Nationality": "Japan",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 20,
         "Selected Percentage": 1.4,
         "Total Games Played": 12,
@@ -22101,6 +22498,7 @@
             "points": 2,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22110,7 +22508,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": "On loan at Sunderland",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -22146,6 +22544,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22224,6 +22623,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22233,7 +22633,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.6,
         "Total Games Played": 0,
@@ -22269,6 +22669,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22350,6 +22751,7 @@
             "points": 6,
             "tooltip": "1 Feb (H) LIV W 3-1\nGoal (+5pts)\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22437,6 +22839,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22446,7 +22849,7 @@
         "Value": 5.0,
         "Nationality": "Netherlands",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 20,
         "Selected Percentage": 0.9,
         "Total Games Played": 5,
@@ -22497,6 +22900,7 @@
             "points": 0,
             "tooltip": "1 Feb (A) MCI L 5-1\n1 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22506,7 +22910,7 @@
         "Value": 5.0,
         "Nationality": "Ireland",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 9,
         "Selected Percentage": 0.6,
         "Total Games Played": 6,
@@ -22560,6 +22964,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22569,15 +22974,15 @@
         "Value": 4.5,
         "Nationality": "Japan",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 10,
         "Selected Percentage": 0.6,
         "Total Games Played": 6,
-        "Total Over 4 Gameweeks": 8,
+        "Total Over 4 Gameweeks": 7,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Game Over 4 Gameweeks": 1.8,
         "Points Per Million": 2.2,
-        "Points Per Million Over 4 Gameweeks": 1.8,
+        "Points Per Million Over 4 Gameweeks": 1.6,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -22605,8 +23010,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -22620,6 +23025,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22629,7 +23035,7 @@
         "Value": 4.5,
         "Nationality": "Switzerland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 18,
         "Selected Percentage": 0.8,
         "Total Games Played": 11,
@@ -22698,6 +23104,7 @@
             "points": 7,
             "tooltip": "1 Feb (H) TOT L 1-2\nAssist (+3pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22770,6 +23177,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22845,6 +23253,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22929,6 +23338,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22938,7 +23348,7 @@
         "Value": 4.0,
         "Nationality": "Japan",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 11,
         "Selected Percentage": 2.0,
         "Total Games Played": 5,
@@ -22989,6 +23399,7 @@
             "tooltip": "23 Jan (A) EVE W 0-1\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -22999,13 +23410,13 @@
         "Nationality": "Australia",
         "News": null,
         "Visionary": false,
-        "Total Points": 33,
+        "Total Points": 34,
         "Selected Percentage": 3.9,
-        "Total Games Played": 13,
+        "Total Games Played": 14,
         "Total Over 4 Gameweeks": 7,
         "Games Played Over 4 Gameweeks": 4,
         "Points Per Game Over 4 Gameweeks": 1.8,
-        "Points Per Million": 6.0,
+        "Points Per Million": 6.2,
         "Points Per Million Over 4 Gameweeks": 1.3,
         "Total Goals": 1,
         "Total Assists": 1,
@@ -23018,7 +23429,7 @@
         "Total Bonus Points": 1,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 13,
+        "Total 1 min Appearances": 14,
         "Total 60 min Appearances": 10,
         "1": {
             "points": 2,
@@ -23073,6 +23484,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -23082,7 +23497,7 @@
         "Value": 6.6,
         "Nationality": "Sweden",
         "News": "Knock",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 40,
         "Selected Percentage": 1.6,
         "Total Games Played": 10,
@@ -23145,6 +23560,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23154,7 +23570,7 @@
         "Value": 4.5,
         "Nationality": "Spain",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 22,
         "Selected Percentage": 1.8,
         "Total Games Played": 10,
@@ -23220,6 +23636,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23229,7 +23646,7 @@
         "Value": 4.5,
         "Nationality": "Poland",
         "News": "Returned to parent club",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -23265,6 +23682,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23274,7 +23692,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 28,
         "Selected Percentage": 1.7,
         "Total Games Played": 13,
@@ -23349,6 +23767,7 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23427,6 +23846,7 @@
             "points": 0,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)\nYellow Card (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23436,7 +23856,7 @@
         "Value": 5.0,
         "Nationality": "Morocco",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 7,
         "Selected Percentage": 0.5,
         "Total Games Played": 8,
@@ -23496,6 +23916,7 @@
         },
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23505,7 +23926,7 @@
         "Value": 9.0,
         "Nationality": "France",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 23,
         "Selected Percentage": 1.0,
         "Total Games Played": 13,
@@ -23580,6 +24001,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) BHA W 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23661,6 +24083,7 @@
             "points": 7,
             "tooltip": "1 Feb (A) MCI L 5-1\nGoal (+5pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23742,6 +24165,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) EVE L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23751,7 +24175,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.4,
         "Total Games Played": 0,
@@ -23787,6 +24211,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23796,7 +24221,7 @@
         "Value": 4.5,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -23832,6 +24257,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23841,7 +24267,7 @@
         "Value": 4.5,
         "Nationality": "France",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -23877,6 +24303,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23886,7 +24313,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -23922,6 +24349,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23931,7 +24359,7 @@
         "Value": 4.0,
         "Nationality": "",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.2,
         "Total Games Played": 0,
@@ -23967,6 +24395,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -23976,7 +24405,7 @@
         "Value": 4.0,
         "Nationality": "",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -24012,6 +24441,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24021,7 +24451,7 @@
         "Value": 4.0,
         "Nationality": "",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -24057,6 +24487,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24066,7 +24497,7 @@
         "Value": 4.0,
         "Nationality": "",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -24102,6 +24533,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24111,7 +24543,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -24147,6 +24579,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24156,7 +24589,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -24192,6 +24625,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24201,7 +24635,7 @@
         "Value": 4.0,
         "Nationality": "",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -24237,6 +24671,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24246,7 +24681,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -24282,6 +24717,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24291,7 +24727,7 @@
         "Value": 4.0,
         "Nationality": "",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.7,
         "Total Games Played": 0,
@@ -24327,6 +24763,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24336,7 +24773,7 @@
         "Value": 4.0,
         "Nationality": "",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -24372,6 +24809,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24381,7 +24819,7 @@
         "Value": 4.0,
         "Nationality": "",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.5,
         "Total Games Played": 1,
@@ -24420,6 +24858,7 @@
             "tooltip": "25 Jan (H) MUN L 1-4\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24429,15 +24868,15 @@
         "Value": 9.5,
         "Nationality": "Germany",
         "News": null,
-        "Visionary": true,
-        "Total Points": 4,
+        "Visionary": false,
+        "Total Points": 5,
         "Selected Percentage": 1.0,
-        "Total Games Played": 3,
-        "Total Over 4 Gameweeks": 4,
-        "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 1.0,
-        "Points Per Million": 0.4,
-        "Points Per Million Over 4 Gameweeks": 0.4,
+        "Total Games Played": 4,
+        "Total Over 4 Gameweeks": 5,
+        "Games Played Over 4 Gameweeks": 4,
+        "Points Per Game Over 4 Gameweeks": 1.2,
+        "Points Per Million": 0.5,
+        "Points Per Million Over 4 Gameweeks": 0.5,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -24449,7 +24888,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 3,
+        "Total 1 min Appearances": 4,
         "Total 60 min Appearances": 1,
         "1": "-",
         "2": "-",
@@ -24474,6 +24913,10 @@
             "points": 1,
             "tooltip": "1 Feb (H) LIV W 3-1\n1 min (+1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -24483,15 +24926,15 @@
         "Value": 4.0,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
-        "Total Points": 12,
+        "Visionary": false,
+        "Total Points": 13,
         "Selected Percentage": 1.0,
-        "Total Games Played": 3,
-        "Total Over 4 Gameweeks": 12,
-        "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 3.0,
-        "Points Per Million": 3.0,
-        "Points Per Million Over 4 Gameweeks": 3.0,
+        "Total Games Played": 4,
+        "Total Over 4 Gameweeks": 13,
+        "Games Played Over 4 Gameweeks": 4,
+        "Points Per Game Over 4 Gameweeks": 3.2,
+        "Points Per Million": 3.2,
+        "Points Per Million Over 4 Gameweeks": 3.2,
         "Total Goals": 1,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -24503,7 +24946,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 3,
+        "Total 1 min Appearances": 4,
         "Total 60 min Appearances": 0,
         "1": "-",
         "2": "-",
@@ -24528,6 +24971,10 @@
             "points": 4,
             "tooltip": "1 Feb (H) LIV W 3-1\nAssist (+3pts)\n1 min (+1pt)"
         },
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (A) LEI D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -24537,7 +24984,7 @@
         "Value": 4.0,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -24573,6 +25020,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24582,7 +25030,7 @@
         "Value": 6.0,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.1,
         "Total Games Played": 1,
@@ -24621,6 +25069,7 @@
             "tooltip": "25 Jan (A) LIV L 2-0\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24675,6 +25124,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24684,7 +25134,7 @@
         "Value": 6.0,
         "Nationality": "Norway",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.3,
         "Total Games Played": 2,
@@ -24726,6 +25176,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) WHU W 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24735,7 +25186,7 @@
         "Value": 5.0,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.9,
         "Total Games Played": 2,
@@ -24777,6 +25228,7 @@
             "tooltip": "24 Jan (A) CHE W 0-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24786,7 +25238,7 @@
         "Value": 4.5,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 18,
         "Selected Percentage": 1.2,
         "Total Games Played": 3,
@@ -24831,6 +25283,7 @@
             "points": 6,
             "tooltip": "1 Feb (A) MUN L 3-1\nGoal (+6pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24840,7 +25293,7 @@
         "Value": 4.0,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.1,
         "Total Games Played": 2,
@@ -24882,6 +25335,7 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24891,7 +25345,7 @@
         "Value": 4.5,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 14,
         "Selected Percentage": 1.3,
         "Total Games Played": 3,
@@ -24936,6 +25390,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24945,7 +25400,7 @@
         "Value": 4.5,
         "Nationality": "France",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 3,
         "Selected Percentage": 0.2,
         "Total Games Played": 2,
@@ -24987,6 +25442,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -24996,7 +25452,7 @@
         "Value": 5.0,
         "Nationality": "Norway",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.2,
         "Total Games Played": 1,
@@ -25035,6 +25491,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25044,7 +25501,7 @@
         "Value": 6.0,
         "Nationality": "Norway",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -25080,6 +25537,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25089,7 +25547,7 @@
         "Value": 4.0,
         "Nationality": "Wales",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.1,
         "Total Games Played": 1,
@@ -25128,6 +25586,7 @@
             "tooltip": "25 Jan (A) AVL W 1-4\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25137,7 +25596,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.0,
         "Total Games Played": 1,
@@ -25176,6 +25635,7 @@
             "tooltip": "23 Jan (H) BHA L 0-1\n1 min (+1pt)"
         },
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25185,7 +25645,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.1,
         "Total Games Played": 0,
@@ -25221,6 +25681,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25230,7 +25691,7 @@
         "Value": 7.0,
         "Nationality": "USA",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 2,
         "Selected Percentage": 0.3,
         "Total Games Played": 2,
@@ -25272,6 +25733,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) CHE W 5-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25281,7 +25743,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -25317,6 +25779,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25326,7 +25789,7 @@
         "Value": 9.5,
         "Nationality": "Sweden",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 3,
         "Selected Percentage": 0.1,
         "Total Games Played": 2,
@@ -25368,6 +25831,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) LIV W 3-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25377,7 +25841,7 @@
         "Value": 6.0,
         "Nationality": "Ireland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 4,
         "Selected Percentage": 0.7,
         "Total Games Played": 2,
@@ -25419,6 +25883,7 @@
             "points": 2,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)\n60 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25428,7 +25893,7 @@
         "Value": 4.5,
         "Nationality": "Switzerland",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 3,
         "Selected Percentage": 0.3,
         "Total Games Played": 2,
@@ -25470,6 +25935,7 @@
             "points": 1,
             "tooltip": "1 Feb (A) MUN L 3-1\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25479,7 +25945,7 @@
         "Value": 7.0,
         "Nationality": "France",
         "News": "Injured",
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.3,
         "Total Games Played": 0,
@@ -25515,6 +25981,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25524,15 +25991,15 @@
         "Value": 5.0,
         "Nationality": "Switzerland",
         "News": null,
-        "Visionary": true,
-        "Total Points": 1,
+        "Visionary": false,
+        "Total Points": 2,
         "Selected Percentage": 0.4,
-        "Total Games Played": 1,
-        "Total Over 4 Gameweeks": 1,
-        "Games Played Over 4 Gameweeks": 1,
-        "Points Per Game Over 4 Gameweeks": 0.2,
-        "Points Per Million": 0.2,
-        "Points Per Million Over 4 Gameweeks": 0.2,
+        "Total Games Played": 2,
+        "Total Over 4 Gameweeks": 2,
+        "Games Played Over 4 Gameweeks": 2,
+        "Points Per Game Over 4 Gameweeks": 0.5,
+        "Points Per Million": 0.4,
+        "Points Per Million Over 4 Gameweeks": 0.4,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -25544,7 +26011,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 1,
+        "Total 1 min Appearances": 2,
         "Total 60 min Appearances": 0,
         "1": "-",
         "2": "-",
@@ -25563,6 +26030,10 @@
             "tooltip": "25 Jan (H) WHU L 1-2\n1 min (+1pt)"
         },
         "14": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "7 Feb (H) MUN D 0-0\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -25572,7 +26043,7 @@
         "Value": 4.0,
         "Nationality": "England",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 0,
         "Selected Percentage": 0.0,
         "Total Games Played": 0,
@@ -25608,6 +26079,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25617,7 +26089,7 @@
         "Value": 5.5,
         "Nationality": "Norway",
         "News": null,
-        "Visionary": true,
+        "Visionary": false,
         "Total Points": 1,
         "Selected Percentage": 0.2,
         "Total Games Played": 1,
@@ -25656,6 +26128,7 @@
             "points": 1,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)"
         },
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25701,6 +26174,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25746,6 +26220,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25791,6 +26266,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25836,6 +26312,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25881,6 +26358,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25926,6 +26404,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -25971,6 +26450,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     },
     {
@@ -26016,6 +26496,7 @@
         "12": "-",
         "13": "-",
         "14": "-",
+        "15": "-",
         "upcoming_fixtures": []
     }
 ]
