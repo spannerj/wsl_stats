@@ -4828,7 +4828,7 @@
         },
         "2026-02-07": {
             "Value": 4.5,
-            "Selected Percentage": 4.1
+            "Selected Percentage": 4.2
         }
     },
     "Maz Pacheco": {
@@ -5432,7 +5432,7 @@
         },
         "2026-02-07": {
             "Value": 6.0,
-            "Selected Percentage": 11.5
+            "Selected Percentage": 11.4
         }
     },
     "Evie Rabjohn": {
@@ -11472,7 +11472,7 @@
         },
         "2026-02-07": {
             "Value": 7.5,
-            "Selected Percentage": 8.4
+            "Selected Percentage": 8.3
         }
     },
     "Lauren James": {
@@ -12378,7 +12378,7 @@
         },
         "2026-02-07": {
             "Value": 8.0,
-            "Selected Percentage": 8.4
+            "Selected Percentage": 8.3
         }
     },
     "Courtney Brosnan": {
@@ -15700,7 +15700,7 @@
         },
         "2026-02-07": {
             "Value": 9.8,
-            "Selected Percentage": 14.4
+            "Selected Percentage": 14.3
         }
     },
     "Jessica Park": {
@@ -35632,7 +35632,7 @@
         },
         "2026-02-07": {
             "Value": 5.0,
-            "Selected Percentage": 1.5
+            "Selected Percentage": 1.6
         }
     },
     "Fuka Nagano": {
@@ -47108,7 +47108,7 @@
         },
         "2026-02-07": {
             "Value": 4.0,
-            "Selected Percentage": 6.0
+            "Selected Percentage": 5.9
         }
     },
     "Katrina Gorry": {
@@ -54356,7 +54356,7 @@
         },
         "2026-02-07": {
             "Value": 4.3,
-            "Selected Percentage": 23.7
+            "Selected Percentage": 23.8
         }
     },
     "Laila Harbert": {
@@ -57376,7 +57376,7 @@
         },
         "2026-02-07": {
             "Value": 8.1,
-            "Selected Percentage": 6.0
+            "Selected Percentage": 6.1
         }
     },
     "Bex Rayner": {
@@ -58584,7 +58584,7 @@
         },
         "2026-02-07": {
             "Value": 7.9,
-            "Selected Percentage": 8.1
+            "Selected Percentage": 8.0
         }
     },
     "Lexi Potter": {
@@ -61302,7 +61302,7 @@
         },
         "2026-02-07": {
             "Value": 5.1,
-            "Selected Percentage": 24.8
+            "Selected Percentage": 24.9
         }
     },
     "Dominique Janssen": {
@@ -64926,7 +64926,7 @@
         },
         "2026-02-07": {
             "Value": 9.2,
-            "Selected Percentage": 9.1
+            "Selected Percentage": 9.2
         }
     },
     "Inma Gabarro": {
@@ -67644,7 +67644,7 @@
         },
         "2026-02-07": {
             "Value": 4.5,
-            "Selected Percentage": 2.2
+            "Selected Percentage": 2.1
         }
     },
     "Codie Thomas": {
@@ -69154,7 +69154,7 @@
         },
         "2026-02-07": {
             "Value": 4.1,
-            "Selected Percentage": 16.5
+            "Selected Percentage": 16.6
         }
     },
     "Manuela Paví": {
@@ -74288,7 +74288,7 @@
         },
         "2026-02-07": {
             "Value": 7.8,
-            "Selected Percentage": 3.2
+            "Selected Percentage": 3.3
         }
     },
     "Olivia Holdt": {
@@ -81234,7 +81234,7 @@
         },
         "2026-02-07": {
             "Value": 7.6,
-            "Selected Percentage": 5.0
+            "Selected Percentage": 5.1
         }
     },
     "Caitlin Hayes": {
@@ -85160,7 +85160,7 @@
         },
         "2026-02-07": {
             "Value": 4.0,
-            "Selected Percentage": 2.0
+            "Selected Percentage": 1.9
         }
     },
     "Cecily Wellesley-Smith": {
@@ -103884,7 +103884,7 @@
         },
         "2026-02-07": {
             "Value": 4.5,
-            "Selected Percentage": 1.4
+            "Selected Percentage": 1.3
         }
     },
     "Keira Flannery": {
@@ -104488,7 +104488,7 @@
         },
         "2026-02-07": {
             "Value": 6.3,
-            "Selected Percentage": 5.7
+            "Selected Percentage": 5.6
         }
     },
     "Emily Brown": {
@@ -108716,7 +108716,7 @@
         },
         "2026-02-07": {
             "Value": 4.5,
-            "Selected Percentage": 1.8
+            "Selected Percentage": 1.9
         }
     },
     "Emilia Szymczak": {
@@ -115712,7 +115712,7 @@
         },
         "2026-02-07": {
             "Value": 6.5,
-            "Selected Percentage": 2.0
+            "Selected Percentage": 1.9
         }
     },
     "Julie Blakstad": {
@@ -116200,7 +116200,7 @@
         },
         "2026-02-07": {
             "Value": 4.5,
-            "Selected Percentage": 1.3
+            "Selected Percentage": 1.4
         }
     },
     "Estelle Cascarino": {
@@ -116380,7 +116380,7 @@
         },
         "2026-02-07": {
             "Value": 5.0,
-            "Selected Percentage": 0.2
+            "Selected Percentage": 0.1
         }
     },
     "Anna Jøsendal": {
@@ -117270,6 +117270,12 @@
         },
         "2026-02-07": {
             "Value": 5.0,
+            "Selected Percentage": 0
+        }
+    },
+    "Emily Walne": {
+        "2026-02-07": {
+            "Value": 4.0,
             "Selected Percentage": 0
         }
     }
