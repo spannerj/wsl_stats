@@ -1334,8 +1334,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": -1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x3 (-3pts)"
+            "points": 5,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 1,
@@ -1647,8 +1647,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 13,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal x2 (+8pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 6,
@@ -4440,8 +4440,8 @@
         },
         "10": "-",
         "11": {
-            "points": 4,
-            "tooltip": "14 Dec (A) MCI L 6-1\nAssist (+3pts)\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 1,
@@ -4586,8 +4586,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -7355,8 +7355,8 @@
         "9": "-",
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
+            "points": 7,
+            "tooltip": "14 Dec (A) MCI L 6-1\nGoal (+6pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": {
             "points": 2,
@@ -8612,7 +8612,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -9567,8 +9567,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 0,
@@ -19202,8 +19202,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 0,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\nConceded (-1pt)"
         },
         "12": {
             "points": 2,
