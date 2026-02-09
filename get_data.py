@@ -577,19 +577,23 @@ def transform_data(output_file="transformed_data.json", history_file="player_his
     update_player_history(final_output, history_file)
 
     # 6. Get fixture data for teams and combine with main data
-    fixtures = get_fixture_data()
-    print("Loaded fixtures from API.")
+    try:
+        fixtures = get_fixture_data()
+        print("Loaded fixtures from API.")
 
-    filtered_fixtures = filter_fixtures(fixtures)
-    combined_data = combine_player_and_fixture_data(final_output, filtered_fixtures)
+        filtered_fixtures = filter_fixtures(fixtures)
+        combined_data = combine_player_and_fixture_data(final_output, filtered_fixtures)
 
-    # 7. Save main output
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(combined_data, f, indent=4, ensure_ascii=False)
-    print(f"Data saved to {output_file}")
+        # 7. Save main output
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(combined_data, f, indent=4, ensure_ascii=False)
+        print(f"Data saved to {output_file}")
 
-    # 8. Commit main output to Git (history file is not committed by default)
-    commit_changes_to_git()
+        # 8. Commit main output to Git (history file is not committed by default)
+        commit_changes_to_git()
+    except Exception as e:
+        print("Unable to get fixture data")
+        fixtures = []
 
 
 def commit_changes_to_git():
@@ -636,7 +640,7 @@ def commit_changes_to_git():
 
 
 # Schedule the transformation to every 3 hours
-schedule.every(3).hours.do(transform_data)
+schedule.every(1).hour.do(transform_data)
 
 print('Started')
 
