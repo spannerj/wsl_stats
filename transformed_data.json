@@ -1334,8 +1334,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": -1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x3 (-3pts)"
+            "points": 5,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 1,
@@ -1559,8 +1559,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal (+5pts)\n1 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": {
             "points": 7,
@@ -1647,8 +1647,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 13,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal x2 (+8pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 6,
@@ -4516,8 +4516,8 @@
         },
         "10": "-",
         "11": {
-            "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -5984,7 +5984,7 @@
         "10": "-",
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
         },
         "12": {
             "points": 1,
@@ -7640,14 +7640,14 @@
         "Nationality": "France",
         "News": null,
         "Visionary": true,
-        "Total Points": 44,
+        "Total Points": 46,
         "Selected Percentage": 1.9,
         "Total Games Played": 15,
-        "Total Over 4 Gameweeks": 13,
+        "Total Over 4 Gameweeks": 15,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.2,
-        "Points Per Million": 4.9,
-        "Points Per Million Over 4 Gameweeks": 1.4,
+        "Points Per Game Over 4 Gameweeks": 3.8,
+        "Points Per Million": 5.1,
+        "Points Per Million Over 4 Gameweeks": 1.7,
         "Total Goals": 2,
         "Total Assists": 3,
         "Total Red Cards": 0,
@@ -7656,7 +7656,7 @@
         "Total Own Goals": 0,
         "Total Conceeded": 0,
         "Total Clean Sheet": 0,
-        "Total Bonus Points": 1,
+        "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 15,
@@ -7718,8 +7718,8 @@
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "15": {
-            "points": 6,
-            "tooltip": "8 Feb (H) BHA W 3-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 8,
+            "tooltip": "8 Feb (H) BHA W 3-2\nGoal (+4pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -8612,7 +8612,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -8813,7 +8813,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "13": "-",
@@ -9567,8 +9567,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 0,
@@ -9704,8 +9704,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "14 Dec (A) WHU D 2-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -13312,7 +13312,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": "-",
         "13": {
@@ -16158,14 +16158,14 @@
         "Nationality": "Switzerland",
         "News": null,
         "Visionary": true,
-        "Total Points": 11,
+        "Total Points": 12,
         "Selected Percentage": 1.7,
-        "Total Games Played": 9,
-        "Total Over 4 Gameweeks": 3,
-        "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 0.8,
-        "Points Per Million": 2.2,
-        "Points Per Million Over 4 Gameweeks": 0.6,
+        "Total Games Played": 10,
+        "Total Over 4 Gameweeks": 4,
+        "Games Played Over 4 Gameweeks": 4,
+        "Points Per Game Over 4 Gameweeks": 1.0,
+        "Points Per Million": 2.4,
+        "Points Per Million Over 4 Gameweeks": 0.8,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -16177,7 +16177,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 9,
+        "Total 1 min Appearances": 10,
         "Total 60 min Appearances": 1,
         "1": {
             "points": 3,
@@ -16220,7 +16220,10 @@
             "points": 1,
             "tooltip": "1 Feb (H) TOT L 1-2\n1 min (+1pt)"
         },
-        "15": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "8 Feb (H) BHA W 3-2\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -19435,14 +19438,14 @@
         "Nationality": "Colombia",
         "News": null,
         "Visionary": true,
-        "Total Points": 23,
+        "Total Points": 26,
         "Selected Percentage": 0.8,
         "Total Games Played": 8,
-        "Total Over 4 Gameweeks": 15,
+        "Total Over 4 Gameweeks": 18,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.8,
-        "Points Per Million": 4.6,
-        "Points Per Million Over 4 Gameweeks": 3.0,
+        "Points Per Game Over 4 Gameweeks": 4.5,
+        "Points Per Million": 5.2,
+        "Points Per Million Over 4 Gameweeks": 3.6,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -19451,7 +19454,7 @@
         "Total Own Goals": 0,
         "Total Conceeded": -4,
         "Total Clean Sheet": 2,
-        "Total Bonus Points": 0,
+        "Total Bonus Points": 3,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
         "Total 1 min Appearances": 8,
@@ -19492,8 +19495,8 @@
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "15": {
-            "points": 7,
-            "tooltip": "8 Feb (A) WHU L 3-2\nGoal (+6pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "points": 10,
+            "tooltip": "8 Feb (A) WHU L 3-2\nGoal (+6pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -19505,14 +19508,14 @@
         "Nationality": "Japan",
         "News": null,
         "Visionary": false,
-        "Total Points": 41,
+        "Total Points": 42,
         "Selected Percentage": 3.5,
         "Total Games Played": 13,
-        "Total Over 4 Gameweeks": 10,
+        "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.5,
-        "Points Per Million": 7.5,
-        "Points Per Million Over 4 Gameweeks": 1.8,
+        "Points Per Game Over 4 Gameweeks": 2.8,
+        "Points Per Million": 7.6,
+        "Points Per Million Over 4 Gameweeks": 2.0,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -19521,7 +19524,7 @@
         "Total Own Goals": 1,
         "Total Conceeded": -6,
         "Total Clean Sheet": 4,
-        "Total Bonus Points": 3,
+        "Total Bonus Points": 4,
         "Total Missed Penalties": 0,
         "Total Clearances": 1,
         "Total 1 min Appearances": 13,
@@ -19577,8 +19580,8 @@
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nOwn Goal (-2pts)"
         },
         "15": {
-            "points": 4,
-            "tooltip": "8 Feb (A) WHU L 3-2\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "points": 5,
+            "tooltip": "8 Feb (A) WHU L 3-2\nAssist (+3pts)\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -19590,14 +19593,14 @@
         "Nationality": "Spain",
         "News": null,
         "Visionary": true,
-        "Total Points": 16,
+        "Total Points": 17,
         "Selected Percentage": 1.6,
-        "Total Games Played": 13,
-        "Total Over 4 Gameweeks": 3,
-        "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 0.8,
-        "Points Per Million": 3.6,
-        "Points Per Million Over 4 Gameweeks": 0.7,
+        "Total Games Played": 14,
+        "Total Over 4 Gameweeks": 4,
+        "Games Played Over 4 Gameweeks": 4,
+        "Points Per Game Over 4 Gameweeks": 1.0,
+        "Points Per Million": 3.8,
+        "Points Per Million Over 4 Gameweeks": 0.9,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -19609,7 +19612,7 @@
         "Total Bonus Points": 0,
         "Total Missed Penalties": 0,
         "Total Clearances": 0,
-        "Total 1 min Appearances": 13,
+        "Total 1 min Appearances": 14,
         "Total 60 min Appearances": 3,
         "1": {
             "points": 1,
@@ -19664,7 +19667,10 @@
             "points": 1,
             "tooltip": "1 Feb (H) LCL L 1-2\n1 min (+1pt)"
         },
-        "15": "-",
+        "15": {
+            "points": 1,
+            "tooltip": "8 Feb (A) WHU L 3-2\n1 min (+1pt)"
+        },
         "upcoming_fixtures": []
     },
     {
@@ -23394,8 +23400,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -23423,18 +23429,18 @@
         "Nationality": "Switzerland",
         "News": null,
         "Visionary": true,
-        "Total Points": 20,
+        "Total Points": 19,
         "Selected Percentage": 0.8,
         "Total Games Played": 12,
-        "Total Over 4 Gameweeks": 12,
+        "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 3.0,
-        "Points Per Million": 4.4,
-        "Points Per Million Over 4 Gameweeks": 2.7,
+        "Points Per Game Over 4 Gameweeks": 2.8,
+        "Points Per Million": 4.2,
+        "Points Per Million Over 4 Gameweeks": 2.4,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
-        "Total Yellow Cards": 0,
+        "Total Yellow Cards": 1,
         "Total Saves": 0,
         "Total Own Goals": 0,
         "Total Conceeded": 0,
@@ -23492,8 +23498,8 @@
             "tooltip": "1 Feb (H) TOT L 1-2\nAssist (+3pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "15": {
-            "points": 2,
-            "tooltip": "8 Feb (H) BHA W 3-2\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "8 Feb (H) BHA W 3-2\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -23950,8 +23956,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 9,
-            "tooltip": "14 Dec (A) WHU D 2-2\nGoal (+4pts)\nAssist (+3pts)\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "13": "-",
