@@ -875,7 +875,7 @@
         "News": "Hairline shin fracture",
         "Visionary": false,
         "Total Points": 54,
-        "Selected Percentage": 9.5,
+        "Selected Percentage": 9.4,
         "Total Games Played": 14,
         "Total Over 4 Gameweeks": 16,
         "Games Played Over 4 Gameweeks": 2,
@@ -1542,7 +1542,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 84,
-        "Selected Percentage": 23.2,
+        "Selected Percentage": 23.3,
         "Total Games Played": 16,
         "Total Over 4 Gameweeks": 26,
         "Games Played Over 4 Gameweeks": 4,
@@ -1692,8 +1692,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 13,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal x2 (+8pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 6,
@@ -2791,7 +2791,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 53,
-        "Selected Percentage": 8.2,
+        "Selected Percentage": 8.3,
         "Total Games Played": 16,
         "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
@@ -4714,8 +4714,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -5778,7 +5778,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 72,
-        "Selected Percentage": 34.3,
+        "Selected Percentage": 34.2,
         "Total Games Played": 16,
         "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 4,
@@ -9108,7 +9108,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 36,
-        "Selected Percentage": 11.2,
+        "Selected Percentage": 11.1,
         "Total Games Played": 10,
         "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 1,
@@ -9864,8 +9864,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": {
             "points": 0,
@@ -12792,7 +12792,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 58,
-        "Selected Percentage": 24.3,
+        "Selected Percentage": 24.4,
         "Total Games Played": 12,
         "Total Over 4 Gameweeks": 26,
         "Games Played Over 4 Gameweeks": 4,
@@ -19783,8 +19783,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\nConceded (-1pt)"
+            "points": 6,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -23231,7 +23231,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 56,
-        "Selected Percentage": 13.6,
+        "Selected Percentage": 13.7,
         "Total Games Played": 15,
         "Total Over 4 Gameweeks": 9,
         "Games Played Over 4 Gameweeks": 4,
@@ -24698,8 +24698,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 9,
-            "tooltip": "14 Dec (A) WHU D 2-2\nGoal (+4pts)\nAssist (+3pts)\nClearance (+1pt)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "13": "-",
