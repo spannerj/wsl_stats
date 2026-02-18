@@ -1059,7 +1059,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 62,
-        "Selected Percentage": 34.8,
+        "Selected Percentage": 34.9,
         "Total Games Played": 13,
         "Total Over 4 Gameweeks": 20,
         "Games Played Over 4 Gameweeks": 4,
@@ -8400,7 +8400,7 @@
         "News": "Injured",
         "Visionary": false,
         "Total Points": 42,
-        "Selected Percentage": 3.8,
+        "Selected Percentage": 3.7,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 0,
@@ -14317,7 +14317,7 @@
         "News": "Meniscus injury",
         "Visionary": false,
         "Total Points": 63,
-        "Selected Percentage": 24.8,
+        "Selected Percentage": 24.7,
         "Total Games Played": 14,
         "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 3,
@@ -15811,7 +15811,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -24120,8 +24120,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
