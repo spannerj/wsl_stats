@@ -4640,8 +4640,8 @@
         },
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -4714,8 +4714,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -7613,7 +7613,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 26,
-        "Selected Percentage": 1.7,
+        "Selected Percentage": 1.8,
         "Total Games Played": 11,
         "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
@@ -8880,7 +8880,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -13113,8 +13113,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": -1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\nConceded x2 (-2pts)"
+            "points": 1,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -15666,7 +15666,7 @@
         "News": "Ineligible to face Arsenal",
         "Visionary": false,
         "Total Points": 40,
-        "Selected Percentage": 9.7,
+        "Selected Percentage": 9.6,
         "Total Games Played": 13,
         "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 3,
@@ -19869,8 +19869,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 3,
-            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 7,
