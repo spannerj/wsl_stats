@@ -1366,8 +1366,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": -1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x3 (-3pts)"
+            "points": 5,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 1,
@@ -2533,7 +2533,7 @@
         "Position": "MID",
         "Value": 9.4,
         "Nationality": "Norway",
-        "News": null,
+        "News": "Transferred to Gotham FC permanently",
         "Visionary": false,
         "Total Points": 10,
         "Selected Percentage": 2.8,
@@ -3262,7 +3262,7 @@
         "Position": "DEF",
         "Value": 6.9,
         "Nationality": "Sweden",
-        "News": "Hamstring injury",
+        "News": null,
         "Visionary": false,
         "Total Points": 36,
         "Selected Percentage": 3.3,
@@ -3800,7 +3800,7 @@
         "Position": "FOR",
         "Value": 9.7,
         "Nationality": "England",
-        "News": "Injured",
+        "News": null,
         "Visionary": false,
         "Total Points": 40,
         "Selected Percentage": 13.3,
@@ -4428,7 +4428,7 @@
         "Position": "DEF",
         "Value": 6.5,
         "Nationality": "Jamaica",
-        "News": "Foot injury",
+        "News": null,
         "Visionary": true,
         "Total Points": 15,
         "Selected Percentage": 1.9,
@@ -4505,7 +4505,7 @@
         "Position": "MID",
         "Value": 6.5,
         "Nationality": "England",
-        "News": "Injured",
+        "News": "Pregnant",
         "Visionary": false,
         "Total Points": 23,
         "Selected Percentage": 2.6,
@@ -4563,8 +4563,8 @@
         },
         "10": "-",
         "11": {
-            "points": 0,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\nYellow Card (-1pt)"
+            "points": 4,
+            "tooltip": "14 Dec (A) MCI L 6-1\nAssist (+3pts)\n1 min (+1pt)"
         },
         "12": {
             "points": 1,
@@ -4714,8 +4714,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -7582,8 +7582,8 @@
         "9": "-",
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
+            "points": 7,
+            "tooltip": "14 Dec (A) MCI L 6-1\nGoal (+6pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": {
             "points": 2,
@@ -8787,8 +8787,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 4,
-            "tooltip": "11 Dec (H) LIV W 3-0\nBonus (+1pt)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 6,
@@ -13732,7 +13732,7 @@
         "Position": "DEF",
         "Value": 7.8,
         "Nationality": "England",
-        "News": "Injured",
+        "News": null,
         "Visionary": false,
         "Total Points": 27,
         "Selected Percentage": 7.2,
@@ -15811,7 +15811,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -19341,7 +19341,7 @@
         "Position": "GK",
         "Value": 4.0,
         "Nationality": "Germany",
-        "News": "Injured",
+        "News": null,
         "Visionary": true,
         "Total Points": 16,
         "Selected Percentage": 1.3,
@@ -21185,8 +21185,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": {
             "points": 3,
