@@ -1274,7 +1274,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 20,
-        "Selected Percentage": 17.6,
+        "Selected Percentage": 17.7,
         "Total Games Played": 13,
         "Total Over 4 Gameweeks": 4,
         "Games Played Over 4 Gameweeks": 3,
@@ -10143,8 +10143,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 0,
@@ -10287,8 +10287,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "14 Dec (A) WHU D 2-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -13479,8 +13479,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": -1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\nConceded x2 (-2pts)"
+            "points": 1,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -19310,7 +19310,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 25,
-        "Selected Percentage": 2.8,
+        "Selected Percentage": 2.7,
         "Total Games Played": 9,
         "Total Over 4 Gameweeks": 3,
         "Games Played Over 4 Gameweeks": 2,
@@ -20864,7 +20864,7 @@
         "News": "Asia Cup",
         "Visionary": false,
         "Total Points": 76,
-        "Selected Percentage": 26.3,
+        "Selected Percentage": 26.2,
         "Total Games Played": 15,
         "Total Over 4 Gameweeks": 13,
         "Games Played Over 4 Gameweeks": 3,
@@ -21416,7 +21416,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 64,
-        "Selected Percentage": 30.9,
+        "Selected Percentage": 30.8,
         "Total Games Played": 17,
         "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 4,
@@ -25589,7 +25589,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 47,
-        "Selected Percentage": 7.9,
+        "Selected Percentage": 7.8,
         "Total Games Played": 14,
         "Total Over 4 Gameweeks": 11,
         "Games Played Over 4 Gameweeks": 4,
