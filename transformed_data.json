@@ -195,8 +195,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": -1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)\nConceded x3 (-3pts)"
+            "points": 6,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -275,7 +275,7 @@
         "Position": "DEF",
         "Value": 7.8,
         "Nationality": "England",
-        "News": null,
+        "News": "Managing hamstring issue",
         "Visionary": false,
         "Total Points": 19,
         "Selected Percentage": 5.9,
@@ -503,7 +503,7 @@
         "Position": "MID",
         "Value": 8.9,
         "Nationality": "Norway",
-        "News": null,
+        "News": "Illness",
         "Visionary": false,
         "Total Points": 38,
         "Selected Percentage": 3.4,
@@ -1662,8 +1662,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal (+5pts)\n1 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": {
             "points": 7,
@@ -1758,8 +1758,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 13,
+            "tooltip": "11 Dec (H) LIV W 3-0\nGoal x2 (+8pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 6,
@@ -4725,8 +4725,8 @@
         },
         "10": "-",
         "11": {
-            "points": 4,
-            "tooltip": "14 Dec (A) MCI L 6-1\nAssist (+3pts)\n1 min (+1pt)"
+            "points": 0,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "12": {
             "points": 1,
@@ -10157,7 +10157,7 @@
         "Position": "DEF",
         "Value": 4.0,
         "Nationality": "England",
-        "News": null,
+        "News": "Unavailable",
         "Visionary": true,
         "Total Points": 4,
         "Selected Percentage": 1.1,
@@ -15482,7 +15482,7 @@
         "Position": "FOR",
         "Value": 4.5,
         "Nationality": "France",
-        "News": null,
+        "News": "Injured",
         "Visionary": true,
         "Total Points": 24,
         "Selected Percentage": 1.1,
@@ -17115,8 +17115,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": {
             "points": 7,
@@ -28019,7 +28019,7 @@
         "Position": "MID",
         "Value": 6.0,
         "Nationality": "Ireland",
-        "News": "Minor injury",
+        "News": null,
         "Visionary": true,
         "Total Points": 7,
         "Selected Percentage": 0.6,
