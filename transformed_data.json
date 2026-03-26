@@ -1657,7 +1657,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 96,
-        "Selected Percentage": 24.4,
+        "Selected Percentage": 24.3,
         "Total Games Played": 18,
         "Total Over 4 Gameweeks": 29,
         "Games Played Over 4 Gameweeks": 4,
@@ -1715,8 +1715,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal (+5pts)\n1 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": {
             "points": 7,
@@ -6807,7 +6807,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 80,
-        "Selected Percentage": 41.9,
+        "Selected Percentage": 42.0,
         "Total Games Played": 16,
         "Total Over 4 Gameweeks": 13,
         "Games Played Over 4 Gameweeks": 3,
@@ -8798,8 +8798,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded x3 (-3pts)"
+            "points": 8,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -9482,7 +9482,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -12646,7 +12646,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 59,
-        "Selected Percentage": 19.3,
+        "Selected Percentage": 19.2,
         "Total Games Played": 18,
         "Total Over 4 Gameweeks": 6,
         "Games Played Over 4 Gameweeks": 4,
