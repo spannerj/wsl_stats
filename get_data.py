@@ -401,6 +401,7 @@ def update_player_history(final_player_list, history_file="player_history.json")
 def transform_data(output_file="transformed_data.json", history_file="player_history.json", recent_games_count=4):
     """
     Fetches data from API, transforms it directly, and saves to output file(s).
+    Now correctly calculates 'Last 4 Weeks' stats based on calendar weeks.
     """
 
     # 1. Fetch data from API
@@ -413,7 +414,7 @@ def transform_data(output_file="transformed_data.json", history_file="player_his
 
     print(f"Loaded {len(api_players)} players from API.")
 
-    # 2. Determine max gameweeks from all players
+    # 2. Determine max gameweeks from all players to establish the "Current Week"
     all_gameweek_numbers = set()
     for player in api_players:
         for performance in player.get("performanceV2", []):
@@ -426,9 +427,10 @@ def transform_data(output_file="transformed_data.json", history_file="player_his
 
     if not all_gameweek_numbers:
         final_gameweeks = []
+        current_max_gw = 0
     else:
-        max_gw = max(all_gameweek_numbers)
-        final_gameweeks = [str(gw) for gw in range(1, max_gw + 1)]
+        current_max_gw = max(all_gameweek_numbers)
+        final_gameweeks = [str(gw) for gw in range(1, current_max_gw + 1)]
 
     # 3. Stat accumulation mappings
     STAT_ACCUMULATORS = {
@@ -451,7 +453,6 @@ def transform_data(output_file="transformed_data.json", history_file="player_his
 
     # 4. Process each player
     for player in api_players:
-        # Extract basic info directly from API
         name = f"{player.get('firstName', '')} {player.get('lastName', '')}".strip()
         if not name:
             continue
@@ -461,53 +462,60 @@ def transform_data(output_file="transformed_data.json", history_file="player_his
         news = player.get("news", "")
         visionary = player.get("visionaryNextStage", "")
         position = get_position_code(player.get("position", ""))
-        value = player.get("price", 0) / 10.0  # API returns in tenths
-        selected_percentage = player.get("selected", 0) * 100  # Convert to percentage
+        value = player.get("price", 0) / 10.0
+        selected_percentage = player.get("selected", 0) * 100
 
-        # Initialize stats
+        # Initialize trackers
         gw_data_map = {}
-        gw_points_total_4gw = 0
-        gw_games_played_4gw = 0
         overall_stats = defaultdict(int)
         overall_games_played = 0
-        total_points = 0  # Will calculate by summing all game points
+        total_points = 0
+        
+        # New trackers for the 4-week window
+        gw_points_total_4gw = 0
+        gw_games_played_4gw = 0
 
-        # Collect all games
+        # Collect all games and create a lookup map by Gameweek ID
         all_games = []
         for performance in player.get("performanceV2", []):
             for game_data in performance.get("games", []):
                 all_games.append(game_data)
+        
+        gw_performance_map = {
+            int(g.get("game", {}).get("stage", {}).get("id", 0)): g 
+            for g in all_games
+        }
 
-        # Sort games by gameweek (most recent first)
-        sorted_games = sorted(
-            all_games,
-            key=lambda g: int(g.get("game", {}).get("stage", {}).get("id", 0)),
-            reverse=True,
-        )
+        # --- CALCULATION 1: The Strict 4-Week Window ---
+        # We look at the last N calendar weeks, regardless of if the player played.
+        recent_gw_range = range(current_max_gw, current_max_gw - recent_games_count, -1)
+        for gw_num in recent_gw_range:
+            if gw_num <= 0:
+                continue
+            
+            game_at_gw = gw_performance_map.get(gw_num)
+            if game_at_gw:
+                gw_points_total_4gw += game_at_gw.get("points", 0)
+                gw_games_played_4gw += 1
+            else:
+                # Player missed this week (like Russo GW14). 
+                # Points added is 0, games played count doesn't increase.
+                pass
 
-        # Process each game
-        for i, game_data in enumerate(sorted_games):
+        # --- CALCULATION 2: Lifetime Stats & Tooltips ---
+        for game_data in all_games:
             game = game_data.get("game", {})
-            gw = game.get("stage", {}).get("id", "")
+            gw_id = game.get("stage", {}).get("id", "")
             points = game_data.get("points", 0)
 
-            if not gw:
+            if not gw_id:
                 continue
 
-            # Create tooltip
+            # Map for the dynamic columns (1, 2, 3...)
             tooltip_str = create_gw_tooltip(game_data, club)
+            gw_data_map[str(gw_id)] = {"points": points, "tooltip": tooltip_str}
 
-            # Store gameweek data
-            gw_data_map[gw] = {"points": points, "tooltip": tooltip_str}
-
-            # Calculate total points by summing all game points
             total_points += points
-
-            # Calculate 4GW stats (last 4 games)
-            if i < recent_games_count:
-                gw_points_total_4gw += points
-                gw_games_played_4gw += 1
-
             overall_games_played += 1
 
             # Accumulate contribution stats
@@ -517,21 +525,17 @@ def transform_data(output_file="transformed_data.json", history_file="player_his
 
                 if target_stat_key:
                     if contrib_type == "ConcededGoals":
-                        # For conceded goals, accumulate total points (quantity * individualPoints)
-                        # This matches the old format: Total Conceeded stores negative points
                         quantity = contrib.get("quantity", 1)
                         individual_pts = contrib.get("individualPoints", 0)
                         overall_stats[target_stat_key] += quantity * individual_pts
                     else:
-                        # For everything else, accumulate the quantity
                         overall_stats[target_stat_key] += contrib.get("quantity", 1)
 
         # Calculate derived metrics
         ppm_total = total_points / value if value > 0 else 0.0
         ppm_4gw = gw_points_total_4gw / value if value > 0 else 0.0
-        ppg_4gw = (
-            gw_points_total_4gw / recent_games_count if recent_games_count > 0 else 0.0
-        )
+        # Average points over the FIXED 4-week period
+        ppg_4gw = (gw_points_total_4gw / recent_games_count) if recent_games_count > 0 else 0.0
 
         # Assemble final player object
         final_player = {
@@ -565,7 +569,7 @@ def transform_data(output_file="transformed_data.json", history_file="player_his
             "Total 60 min Appearances": overall_stats["Total 60 min Appearances"],
         }
 
-        # Add dynamic gameweek columns
+        # Add dynamic gameweek columns ("1": {...}, "2": "-")
         for gw in final_gameweeks:
             final_player[gw] = gw_data_map.get(gw, "-")
 
@@ -573,27 +577,16 @@ def transform_data(output_file="transformed_data.json", history_file="player_his
 
     print(f"{len(final_output)} players processed.")
 
-    # 5. Update the player history file
+    # 5. Update history, fixtures, and save (Standard boilerplate)
     update_player_history(final_output, history_file)
+    fixtures = get_fixture_data()
+    filtered_fixtures = filter_fixtures(fixtures)
+    combined_data = combine_player_and_fixture_data(final_output, filtered_fixtures)
 
-    # 6. Get fixture data for teams and combine with main data
-    try:
-        fixtures = get_fixture_data()
-        print("Loaded fixtures from API.")
-
-        filtered_fixtures = filter_fixtures(fixtures)
-        combined_data = combine_player_and_fixture_data(final_output, filtered_fixtures)
-
-        # 7. Save main output
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(combined_data, f, indent=4, ensure_ascii=False)
-        print(f"Data saved to {output_file}")
-
-        # 8. Commit main output to Git (history file is not committed by default)
-        commit_changes_to_git()
-    except Exception as e:
-        print("Unable to get fixture data")
-        fixtures = []
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(combined_data, f, indent=4, ensure_ascii=False)
+    
+    commit_changes_to_git()
 
 
 def commit_changes_to_git():
