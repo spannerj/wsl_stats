@@ -548,7 +548,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 38,
-        "Selected Percentage": 2.9,
+        "Selected Percentage": 3.0,
         "Total Games Played": 13,
         "Total Over 4 Gameweeks": 3,
         "Games Played Over 4 Gameweeks": 2,
@@ -1809,8 +1809,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 6,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal (+5pts)\n1 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": {
             "points": 7,
@@ -4397,7 +4397,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 99,
-        "Selected Percentage": 31.3,
+        "Selected Percentage": 31.2,
         "Total Games Played": 20,
         "Total Over 4 Gameweeks": 13,
         "Games Played Over 4 Gameweeks": 4,
@@ -5253,8 +5253,8 @@
         },
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -11313,8 +11313,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 6,
+            "tooltip": "14 Dec (A) WHU D 2-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -14576,7 +14576,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 90,
-        "Selected Percentage": 32.4,
+        "Selected Percentage": 32.5,
         "Total Games Played": 17,
         "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 3,
@@ -17866,7 +17866,7 @@
         },
         "11": {
             "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -22937,7 +22937,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 86,
-        "Selected Percentage": 24.1,
+        "Selected Percentage": 24.0,
         "Total Games Played": 17,
         "Total Over 4 Gameweeks": 10,
         "Games Played Over 4 Gameweeks": 2,
@@ -25376,7 +25376,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 62,
-        "Selected Percentage": 4.4,
+        "Selected Percentage": 4.5,
         "Total Games Played": 20,
         "Total Over 4 Gameweeks": 17,
         "Games Played Over 4 Gameweeks": 4,
@@ -31454,7 +31454,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 15,
-        "Selected Percentage": 0.1,
+        "Selected Percentage": 0.2,
         "Total Games Played": 5,
         "Total Over 4 Gameweeks": 13,
         "Games Played Over 4 Gameweeks": 3,
