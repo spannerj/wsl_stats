@@ -56,7 +56,7 @@
         "Position": "DEF",
         "Value": 7.0,
         "Nationality": "Australia",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 59,
         "Selected Percentage": 8.0,
@@ -698,7 +698,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 70,
-        "Selected Percentage": 6.9,
+        "Selected Percentage": 7.0,
         "Total Games Played": 16,
         "Total Over 4 Gameweeks": 28,
         "Games Played Over 4 Gameweeks": 4,
@@ -998,7 +998,7 @@
         "Position": "MID",
         "Value": 9.0,
         "Nationality": "England",
-        "News": null,
+        "News": "Personal reasons",
         "Visionary": false,
         "Total Points": 62,
         "Selected Percentage": 8.4,
@@ -1103,7 +1103,7 @@
         "News": "Family matters",
         "Visionary": false,
         "Total Points": 108,
-        "Selected Percentage": 19.6,
+        "Selected Percentage": 19.5,
         "Total Games Played": 19,
         "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 3,
@@ -1827,8 +1827,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "points": 6,
+            "tooltip": "11 Dec (H) LIV W 3-0\nGoal (+5pts)\n1 min (+1pt)"
         },
         "12": {
             "points": 7,
@@ -2441,7 +2441,7 @@
         "Position": "FOR",
         "Value": 10.7,
         "Nationality": "Norway",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 54,
         "Selected Percentage": 5.1,
@@ -3365,7 +3365,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 44,
-        "Selected Percentage": 14.5,
+        "Selected Percentage": 14.6,
         "Total Games Played": 16,
         "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 2,
@@ -4316,7 +4316,7 @@
         "Position": "FOR",
         "Value": 9.7,
         "Nationality": "England",
-        "News": "Injured",
+        "News": null,
         "Visionary": false,
         "Total Points": 49,
         "Selected Percentage": 13.0,
@@ -4612,11 +4612,11 @@
         "Total Points": 48,
         "Selected Percentage": 3.3,
         "Total Games Played": 19,
-        "Total Over 4 Gameweeks": 7,
+        "Total Over 4 Gameweeks": 6,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 1.8,
+        "Points Per Game Over 4 Gameweeks": 1.5,
         "Points Per Million": 8.6,
-        "Points Per Million Over 4 Gameweeks": 1.2,
+        "Points Per Million Over 4 Gameweeks": 1.1,
         "Total Goals": 1,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -4701,8 +4701,8 @@
             "tooltip": "29 Mar (H) BHA L 0-1\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "20": {
-            "points": 2,
-            "tooltip": "26 Apr (A) LCL L 5-1\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "29 Apr (A) ARS L 7-0\n1 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -4717,11 +4717,11 @@
         "Total Points": 44,
         "Selected Percentage": 1.5,
         "Total Games Played": 19,
-        "Total Over 4 Gameweeks": 8,
+        "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 2.0,
+        "Points Per Game Over 4 Gameweeks": 3.0,
         "Points Per Million": 7.3,
-        "Points Per Million Over 4 Gameweeks": 1.3,
+        "Points Per Million Over 4 Gameweeks": 2.0,
         "Total Goals": 4,
         "Total Assists": 0,
         "Total Red Cards": 1,
@@ -4806,8 +4806,8 @@
             "tooltip": "29 Mar (H) BHA L 0-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "20": {
-            "points": 2,
-            "tooltip": "29 Apr (A) ARS L 7-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 6,
+            "tooltip": "26 Apr (A) LCL L 5-1\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -5193,8 +5193,8 @@
         },
         "10": "-",
         "11": {
-            "points": 0,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\nYellow Card (-1pt)"
+            "points": 4,
+            "tooltip": "14 Dec (A) MCI L 6-1\nAssist (+3pts)\n1 min (+1pt)"
         },
         "12": {
             "points": 1,
@@ -5274,8 +5274,8 @@
         },
         "10": "-",
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -6251,7 +6251,7 @@
         "News": "Injured",
         "Visionary": false,
         "Total Points": 48,
-        "Selected Percentage": 15.8,
+        "Selected Percentage": 15.7,
         "Total Games Played": 12,
         "Total Over 4 Gameweeks": 27,
         "Games Played Over 4 Gameweeks": 3,
@@ -7058,7 +7058,7 @@
         "Position": "MID",
         "Value": 8.8,
         "Nationality": "England",
-        "News": "Hip Injury",
+        "News": null,
         "Visionary": false,
         "Total Points": 60,
         "Selected Percentage": 18.7,
@@ -7597,7 +7597,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "13": "-",
@@ -7675,11 +7675,11 @@
         "Total Points": 34,
         "Selected Percentage": 1.2,
         "Total Games Played": 19,
-        "Total Over 4 Gameweeks": -1,
+        "Total Over 4 Gameweeks": 1,
         "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": -0.2,
+        "Points Per Game Over 4 Gameweeks": 0.2,
         "Points Per Million": 6.8,
-        "Points Per Million Over 4 Gameweeks": -0.2,
+        "Points Per Million Over 4 Gameweeks": 0.2,
         "Total Goals": 0,
         "Total Assists": 1,
         "Total Red Cards": 0,
@@ -7764,8 +7764,8 @@
         },
         "19": "-",
         "20": {
-            "points": -2,
-            "tooltip": "29 Apr (A) ARS L 7-0\n1 min (+1pt)\nConceded x3 (-3pts)"
+            "points": 0,
+            "tooltip": "26 Apr (A) LCL L 5-1\n1 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -9548,7 +9548,7 @@
         "Position": "GK",
         "Value": 4.5,
         "Nationality": "Germany",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 48,
         "Selected Percentage": 3.6,
@@ -9926,7 +9926,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 49,
-        "Selected Percentage": 1.9,
+        "Selected Percentage": 2.0,
         "Total Games Played": 18,
         "Total Over 4 Gameweeks": 6,
         "Games Played Over 4 Gameweeks": 3,
@@ -10535,7 +10535,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 55,
-        "Selected Percentage": 2.1,
+        "Selected Percentage": 2.2,
         "Total Games Played": 14,
         "Total Over 4 Gameweeks": 23,
         "Games Played Over 4 Gameweeks": 4,
@@ -10625,7 +10625,7 @@
         "Position": "GK",
         "Value": 4.0,
         "Nationality": "Wales",
-        "News": "Injured",
+        "News": "Potential head injury",
         "Visionary": true,
         "Total Points": 7,
         "Selected Percentage": 1.1,
@@ -11193,8 +11193,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": {
             "points": 0,
@@ -12149,7 +12149,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 70,
-        "Selected Percentage": 27.4,
+        "Selected Percentage": 27.3,
         "Total Games Played": 19,
         "Total Over 4 Gameweeks": 18,
         "Games Played Over 4 Gameweeks": 4,
@@ -15496,7 +15496,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
         },
         "12": "-",
         "13": {
@@ -16217,7 +16217,7 @@
         "Position": "DEF",
         "Value": 5.2,
         "Nationality": "Sweden",
-        "News": "Meniscus injury",
+        "News": null,
         "Visionary": false,
         "Total Points": 63,
         "Selected Percentage": 10.7,
@@ -16313,7 +16313,7 @@
         "Position": "DEF",
         "Value": 7.0,
         "Nationality": "Netherlands",
-        "News": null,
+        "News": "Injured",
         "Visionary": false,
         "Total Points": 59,
         "Selected Percentage": 5.1,
@@ -17543,7 +17543,7 @@
         "Position": "MID",
         "Value": 7.0,
         "Nationality": "Netherlands",
-        "News": null,
+        "News": " ",
         "Visionary": false,
         "Total Points": 50,
         "Selected Percentage": 6.3,
@@ -18233,7 +18233,7 @@
         "News": "Knee injury",
         "Visionary": false,
         "Total Points": 46,
-        "Selected Percentage": 10.6,
+        "Selected Percentage": 10.5,
         "Total Games Played": 16,
         "Total Over 4 Gameweeks": 0,
         "Games Played Over 4 Gameweeks": 0,
@@ -21038,7 +21038,7 @@
         "Position": "DEF",
         "Value": 6.2,
         "Nationality": "USA",
-        "News": null,
+        "News": " ",
         "Visionary": false,
         "Total Points": 35,
         "Selected Percentage": 4.6,
@@ -22394,7 +22394,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 38,
-        "Selected Percentage": 1.7,
+        "Selected Percentage": 1.8,
         "Total Games Played": 15,
         "Total Over 4 Gameweeks": 7,
         "Games Played Over 4 Gameweeks": 3,
@@ -26015,7 +26015,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 64,
-        "Selected Percentage": 5.2,
+        "Selected Percentage": 5.1,
         "Total Games Played": 18,
         "Total Over 4 Gameweeks": 4,
         "Games Played Over 4 Gameweeks": 2,
@@ -27197,7 +27197,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 15,
-        "Selected Percentage": 0.5,
+        "Selected Percentage": 0.4,
         "Total Games Played": 9,
         "Total Over 4 Gameweeks": 1,
         "Games Played Over 4 Gameweeks": 1,
@@ -27231,8 +27231,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -27560,7 +27560,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 42,
-        "Selected Percentage": 7.0,
+        "Selected Percentage": 6.9,
         "Total Games Played": 17,
         "Total Over 4 Gameweeks": 4,
         "Games Played Over 4 Gameweeks": 3,
@@ -27830,7 +27830,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 57,
-        "Selected Percentage": 4.5,
+        "Selected Percentage": 4.4,
         "Total Games Played": 14,
         "Total Over 4 Gameweeks": 17,
         "Games Played Over 4 Gameweeks": 4,
@@ -28069,11 +28069,11 @@
         "Total Points": 30,
         "Selected Percentage": 1.7,
         "Total Games Played": 19,
-        "Total Over 4 Gameweeks": 2,
+        "Total Over 4 Gameweeks": 4,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 0.5,
+        "Points Per Game Over 4 Gameweeks": 1.0,
         "Points Per Million": 6.7,
-        "Points Per Million Over 4 Gameweeks": 0.4,
+        "Points Per Million Over 4 Gameweeks": 0.9,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -28158,8 +28158,8 @@
             "tooltip": "29 Mar (H) BHA L 0-1\n1 min (+1pt)"
         },
         "20": {
-            "points": -1,
-            "tooltip": "29 Apr (A) ARS L 7-0\n1 min (+1pt)\n60 min (+1pt)\nConceded x3 (-3pts)"
+            "points": 1,
+            "tooltip": "26 Apr (A) LCL L 5-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -30719,7 +30719,7 @@
         "News": null,
         "Visionary": true,
         "Total Points": 12,
-        "Selected Percentage": 0.6,
+        "Selected Percentage": 0.7,
         "Total Games Played": 7,
         "Total Over 4 Gameweeks": 5,
         "Games Played Over 4 Gameweeks": 3,
