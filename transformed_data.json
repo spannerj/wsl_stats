@@ -5350,8 +5350,8 @@
         },
         "10": "-",
         "11": {
-            "points": 2,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
         },
         "12": {
             "points": 3,
@@ -5441,8 +5441,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -7127,7 +7127,7 @@
         "10": "-",
         "11": {
             "points": 1,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
         },
         "12": {
             "points": 1,
@@ -10788,11 +10788,11 @@
         "Total Points": 7,
         "Selected Percentage": 1.1,
         "Total Games Played": 6,
-        "Total Over 4 Gameweeks": -1,
+        "Total Over 4 Gameweeks": 1,
         "Games Played Over 4 Gameweeks": 1,
-        "Points Per Game Over 4 Gameweeks": -0.2,
+        "Points Per Game Over 4 Gameweeks": 0.2,
         "Points Per Million": 1.8,
-        "Points Per Million Over 4 Gameweeks": -0.2,
+        "Points Per Million Over 4 Gameweeks": 0.2,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -10838,8 +10838,8 @@
         "18": "-",
         "19": "-",
         "20": {
-            "points": -1,
-            "tooltip": "29 Apr (A) ARS L 7-0\n1 min (+1pt)\nConceded x2 (-2pts)"
+            "points": 1,
+            "tooltip": "26 Apr (A) LCL L 5-1\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded x2 (-2pts)"
         },
         "21": "-",
         "upcoming_fixtures": []
@@ -15739,7 +15739,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": "-",
         "13": {
@@ -17324,7 +17324,7 @@
         },
         "20": {
             "points": 1,
-            "tooltip": "29 Apr (A) ARS L 7-0\n1 min (+1pt)"
+            "tooltip": "26 Apr (A) LCL L 5-1\n1 min (+1pt)"
         },
         "21": "-",
         "upcoming_fixtures": []
@@ -24307,8 +24307,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 2,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
         },
         "12": {
             "points": 3,
