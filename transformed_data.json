@@ -1853,8 +1853,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nGoal (+5pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)"
+            "points": 6,
+            "tooltip": "11 Dec (H) LIV W 3-0\nGoal (+5pts)\n1 min (+1pt)"
         },
         "12": {
             "points": 7,
@@ -1962,8 +1962,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "11": {
-            "points": 13,
-            "tooltip": "11 Dec (H) LIV W 3-0\nGoal x2 (+8pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 6,
@@ -5495,8 +5495,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "points": 2,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": "-",
         "13": "-",
@@ -7793,7 +7793,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": "-",
         "13": "-",
@@ -9599,8 +9599,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded x3 (-3pts)"
+            "points": 8,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -10908,11 +10908,11 @@
         "Total Points": 7,
         "Selected Percentage": 1.1,
         "Total Games Played": 6,
-        "Total Over 4 Gameweeks": 1,
+        "Total Over 4 Gameweeks": -1,
         "Games Played Over 4 Gameweeks": 1,
-        "Points Per Game Over 4 Gameweeks": 0.2,
+        "Points Per Game Over 4 Gameweeks": -0.2,
         "Points Per Million": 1.8,
-        "Points Per Million Over 4 Gameweeks": 0.2,
+        "Points Per Million Over 4 Gameweeks": -0.2,
         "Total Goals": 0,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -10958,8 +10958,8 @@
         "18": "-",
         "19": "-",
         "20": {
-            "points": 1,
-            "tooltip": "26 Apr (A) LCL L 5-1\n1 min (+1pt)\n60 min (+1pt)\nSaves (+1pt)\nConceded x2 (-2pts)"
+            "points": -1,
+            "tooltip": "29 Apr (A) ARS L 7-0\n1 min (+1pt)\nConceded x2 (-2pts)"
         },
         "21": "-",
         "upcoming_fixtures": []
@@ -15207,8 +15207,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\n1 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 1,
-            "tooltip": "11 Dec (H) LIV W 3-0\n1 min (+1pt)"
+            "points": -1,
+            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\nConceded x2 (-2pts)"
         },
         "12": "-",
         "13": "-",
@@ -17516,7 +17516,7 @@
         },
         "20": {
             "points": 1,
-            "tooltip": "26 Apr (A) LCL L 5-1\n1 min (+1pt)"
+            "tooltip": "29 Apr (A) ARS L 7-0\n1 min (+1pt)"
         },
         "21": {
             "points": 1,
@@ -19251,8 +19251,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
+            "points": 1,
+            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": {
             "points": 7,
@@ -31833,7 +31833,7 @@
         },
         "20": {
             "points": 1,
-            "tooltip": "26 Apr (A) LCL L 5-1\n1 min (+1pt)"
+            "tooltip": "29 Apr (A) ARS L 7-0\n1 min (+1pt)"
         },
         "21": {
             "points": 1,
