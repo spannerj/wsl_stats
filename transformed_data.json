@@ -572,11 +572,11 @@
         "Total Points": 75,
         "Selected Percentage": 4.0,
         "Total Games Played": 16,
-        "Total Over 4 Gameweeks": 30,
+        "Total Over 4 Gameweeks": 23,
         "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 7.5,
+        "Points Per Game Over 4 Gameweeks": 5.8,
         "Points Per Million": 8.4,
-        "Points Per Million Over 4 Gameweeks": 3.4,
+        "Points Per Million Over 4 Gameweeks": 2.6,
         "Total Goals": 6,
         "Total Assists": 4,
         "Total Red Cards": 0,
@@ -653,8 +653,8 @@
             "tooltip": "29 Apr (H) LEI W 7-0\nAssist x2 (+6pts)\nGoal (+5pts)\nBonus x2 (+2pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "21": {
-            "points": 14,
-            "tooltip": "9 May (A) AVL W 0-3\nGoal (+5pts)\nAssist (+3pts)\nBonus x3 (+3pts)\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 7,
+            "tooltip": "6 May (A) BHA D 1-1\nGoal (+5pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -822,13 +822,13 @@
         "News": null,
         "Visionary": false,
         "Total Points": 42,
-        "Selected Percentage": 5.1,
+        "Selected Percentage": 5.2,
         "Total Games Played": 18,
-        "Total Over 4 Gameweeks": 9,
+        "Total Over 4 Gameweeks": 8,
         "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 2.2,
+        "Points Per Game Over 4 Gameweeks": 2.0,
         "Points Per Million": 4.9,
-        "Points Per Million Over 4 Gameweeks": 1.1,
+        "Points Per Million Over 4 Gameweeks": 0.9,
         "Total Goals": 2,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -911,8 +911,8 @@
             "tooltip": "29 Apr (H) LEI W 7-0\n1 min (+1pt)"
         },
         "21": {
-            "points": 2,
-            "tooltip": "6 May (A) BHA D 1-1\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 1,
+            "tooltip": "9 May (A) AVL W 0-3\n1 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -1127,7 +1127,7 @@
         "20": "-",
         "21": {
             "points": 1,
-            "tooltip": "9 May (A) AVL W 0-3\n1 min (+1pt)"
+            "tooltip": "6 May (A) BHA D 1-1\n1 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -3572,11 +3572,11 @@
         "Total Points": 59,
         "Selected Percentage": 8.0,
         "Total Games Played": 16,
-        "Total Over 4 Gameweeks": 17,
+        "Total Over 4 Gameweeks": 19,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 4.2,
+        "Points Per Game Over 4 Gameweeks": 4.8,
         "Points Per Million": 7.5,
-        "Points Per Million Over 4 Gameweeks": 2.2,
+        "Points Per Million Over 4 Gameweeks": 2.4,
         "Total Goals": 2,
         "Total Assists": 3,
         "Total Red Cards": 0,
@@ -3653,8 +3653,8 @@
             "tooltip": "25 Apr (H) MCI W 3-2\nAssist x2 (+6pts)\n1 min (+1pt)\n60 min (+1pt)\nYellow Card (-1pt)"
         },
         "21": {
-            "points": 1,
-            "tooltip": "6 May (H) ARS D 1-1\n1 min (+1pt)"
+            "points": 3,
+            "tooltip": "2 May (A) MUN D 1-1\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -7257,7 +7257,7 @@
         "20": "-",
         "21": {
             "points": 1,
-            "tooltip": "9 May (H) ARS L 0-3\n1 min (+1pt)"
+            "tooltip": "4 May (H) WHU L 0-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -7469,11 +7469,11 @@
         "Total Points": 118,
         "Selected Percentage": 46.9,
         "Total Games Played": 20,
-        "Total Over 4 Gameweeks": 28,
+        "Total Over 4 Gameweeks": 39,
         "Games Played Over 4 Gameweeks": 4,
-        "Points Per Game Over 4 Gameweeks": 7.0,
+        "Points Per Game Over 4 Gameweeks": 9.8,
         "Points Per Million": 9.8,
-        "Points Per Million Over 4 Gameweeks": 2.3,
+        "Points Per Million Over 4 Gameweeks": 3.2,
         "Total Goals": 11,
         "Total Assists": 7,
         "Total Red Cards": 0,
@@ -7562,8 +7562,8 @@
             "tooltip": "29 Apr (H) LEI W 7-0\n1 min (+1pt)"
         },
         "21": {
-            "points": 5,
-            "tooltip": "6 May (A) BHA D 1-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 16,
+            "tooltip": "9 May (A) AVL W 0-3\nGoal x2 (+8pts)\nAssist (+3pts)\nBonus x3 (+3pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -11432,8 +11432,8 @@
             "tooltip": "6 Dec (A) ARS L 2-1\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)\nYellow Card (-1pt)"
         },
         "11": {
-            "points": 3,
-            "tooltip": "14 Dec (A) WHU D 2-2\nBonus x2 (+2pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
+            "points": 1,
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "12": {
             "points": 7,
@@ -15685,11 +15685,11 @@
         "Total Points": 79,
         "Selected Percentage": 5.1,
         "Total Games Played": 19,
-        "Total Over 4 Gameweeks": 15,
+        "Total Over 4 Gameweeks": 12,
         "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 3.8,
+        "Points Per Game Over 4 Gameweeks": 3.0,
         "Points Per Million": 9.8,
-        "Points Per Million Over 4 Gameweeks": 1.9,
+        "Points Per Million Over 4 Gameweeks": 1.5,
         "Total Goals": 8,
         "Total Assists": 2,
         "Total Red Cards": 0,
@@ -15775,8 +15775,8 @@
             "tooltip": "25 Apr (H) MCI W 3-2\nGoal (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "21": {
-            "points": 3,
-            "tooltip": "2 May (A) MUN D 1-1\nBonus (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 0,
+            "tooltip": "6 May (H) ARS D 1-1\n1 min (+1pt)\nYellow Card (-1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -15946,7 +15946,7 @@
         },
         "11": {
             "points": 1,
-            "tooltip": "14 Dec (A) WHU D 2-2\n1 min (+1pt)"
+            "tooltip": "11 Dec (A) AVL L 3-0\n1 min (+1pt)"
         },
         "12": "-",
         "13": {
@@ -16217,11 +16217,11 @@
         "Total Points": 31,
         "Selected Percentage": 0.4,
         "Total Games Played": 14,
-        "Total Over 4 Gameweeks": 7,
+        "Total Over 4 Gameweeks": 6,
         "Games Played Over 4 Gameweeks": 3,
-        "Points Per Game Over 4 Gameweeks": 1.8,
+        "Points Per Game Over 4 Gameweeks": 1.5,
         "Points Per Million": 5.2,
-        "Points Per Million Over 4 Gameweeks": 1.2,
+        "Points Per Million Over 4 Gameweeks": 1.0,
         "Total Goals": 1,
         "Total Assists": 0,
         "Total Red Cards": 0,
@@ -16292,8 +16292,8 @@
         },
         "20": "-",
         "21": {
-            "points": 3,
-            "tooltip": "4 May (H) WHU L 0-2\nClean Sheet (+1pt)\n1 min (+1pt)\n60 min (+1pt)"
+            "points": 2,
+            "tooltip": "9 May (H) ARS L 0-3\n1 min (+1pt)\n60 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -19240,7 +19240,7 @@
         "20": "-",
         "21": {
             "points": 1,
-            "tooltip": "4 May (H) WHU L 0-2\n1 min (+1pt)"
+            "tooltip": "9 May (H) ARS L 0-3\n1 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -22994,8 +22994,8 @@
             "tooltip": "7 Dec (A) TOT L 2-1\nAssist (+3pts)\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "11": {
-            "points": 0,
-            "tooltip": "14 Dec (A) MCI L 6-1\n1 min (+1pt)\nConceded (-1pt)"
+            "points": 6,
+            "tooltip": "11 Dec (H) LIV W 3-0\nClean Sheet (+4pts)\n1 min (+1pt)\n60 min (+1pt)"
         },
         "12": {
             "points": 2,
@@ -23023,7 +23023,7 @@
         "20": "-",
         "21": {
             "points": 1,
-            "tooltip": "4 May (H) WHU L 0-2\n1 min (+1pt)"
+            "tooltip": "9 May (H) ARS L 0-3\n1 min (+1pt)\n60 min (+1pt)\nConceded (-1pt)"
         },
         "upcoming_fixtures": []
     },
@@ -29278,7 +29278,7 @@
         "News": null,
         "Visionary": false,
         "Total Points": 87,
-        "Selected Percentage": 8.7,
+        "Selected Percentage": 8.6,
         "Total Games Played": 19,
         "Total Over 4 Gameweeks": 9,
         "Games Played Over 4 Gameweeks": 4,
@@ -29468,7 +29468,7 @@
         "20": "-",
         "21": {
             "points": 1,
-            "tooltip": "9 May (H) ARS L 0-3\n1 min (+1pt)"
+            "tooltip": "4 May (H) WHU L 0-2\n1 min (+1pt)"
         },
         "upcoming_fixtures": []
     },
